@@ -7,7 +7,7 @@ import json, os, re, random, requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-AMAZON_TAG = os.environ.get("AMAZON_TAG", "emporiumonl-21")
+AMAZON_TAG = os.environ.get("AMAZON_TAG", "prezzotop08-21")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",

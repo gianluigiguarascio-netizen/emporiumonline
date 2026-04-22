@@ -34,7 +34,7 @@ const amazonProducts = [
 ];
 
 // Tag affiliato Amazon — sostituisci con il tuo tag reale
-const AMAZON_TAG = "emporiumonl-21";
+const AMAZON_TAG = "prezzotop08-21";
 
 function buildAmazonLink(asin) {
   return `https://www.amazon.it/dp/${asin}?tag=${AMAZON_TAG}`;
