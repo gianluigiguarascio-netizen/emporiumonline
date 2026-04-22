@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emporium Online — Moda Colorata & Offerte Amazon</title>
+  <meta name="description" content="Scopri moda coloratissima, vestiti e scarpe vivaci. Le migliori offerte Amazon e prodotti dropshipping selezionati per te." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-emoji">🛍️</span>
+      <span class="brand-name">Emporium<strong>Online</strong></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#moda">Moda</a></li>
+      <li><a href="#scarpe">Scarpe</a></li>
+      <li><a href="#amazon">Offerte Amazon</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">✨ Nuovi arrivi ogni settimana</span>
+      <h1>Vesti i Colori<br /><span class="gradient-text">della Tua Vita</span></h1>
+      <p>Abbigliamento, scarpe e accessori coloratissimi selezionati da tutto il mondo. Spedizione diretta a casa tua.</p>
+      <div class="hero-btns">
+        <a href="#moda" class="btn btn-primary">Scopri la Moda</a>
+        <a href="#amazon" class="btn btn-outline">Offerte Amazon 🔥</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="color-blob blob-1"></div>
+      <div class="color-blob blob-2"></div>
+      <div class="color-blob blob-3"></div>
+      <div class="floating-card card-1">👗 Nuovi Vestiti</div>
+      <div class="floating-card card-2">👟 Scarpe Top</div>
+      <div class="floating-card card-3">🎨 100+ Colori</div>
+    </div>
+  </header>
+
+  <!-- CATEGORIE RAPIDE -->
+  <section class="categories">
+    <div class="container">
+      <div class="cat-grid">
+        <a href="#moda" class="cat-card" style="--c:#ff6b9d">
+          <span>👗</span><p>Vestiti</p>
+        </a>
+        <a href="#scarpe" class="cat-card" style="--c:#a78bfa">
+          <span>👟</span><p>Scarpe</p>
+        </a>
+        <a href="#accessori" class="cat-card" style="--c:#34d399">
+          <span>👜</span><p>Accessori</p>
+        </a>
+        <a href="#amazon" class="cat-card" style="--c:#fbbf24">
+          <span>⚡</span><p>Offerte</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEZIONE MODA -->
+  <section id="moda" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>👗 Moda Colorata</h2>
+        <p>Vestiti vivaci selezionati per te — spedizione dropshipping diretta</p>
+      </div>
+      <div class="products-grid" id="fashion-grid">
+        <!-- Prodotti iniettati da JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SEZIONE SCARPE -->
+  <section id="scarpe" class="products-section alt-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2>👟 Scarpe & Sneakers</h2>
+        <p>Le sneakers più coloratissime del momento</p>
+      </div>
+      <div class="products-grid" id="shoes-grid">
+        <!-- Prodotti iniettati da JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER PROMO -->
+  <section class="promo-banner">
+    <div class="container">
+      <h2>🎨 Più sei colorato, più sei tu</h2>
+      <p>Aggiorniamo il catalogo ogni settimana con le tendenze più vivaci dal mondo</p>
+      <a href="#newsletter" class="btn btn-white">Iscriviti e non perderti nulla</a>
+    </div>
+  </section>
+
+  <!-- SEZIONE AMAZON AFFILIATE -->
+  <section id="amazon" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="amazon-badge">powered by Amazon</span>
+        <h2>⚡ Offerte Amazon del Giorno</h2>
+        <p>Le migliori offerte selezionate dai nostri agenti — aggiornate quotidianamente</p>
+      </div>
+      <div class="products-grid amazon-grid" id="amazon-grid">
+        <!-- Prodotti Amazon iniettati da JS -->
+      </div>
+      <div class="amazon-disclaimer">
+        <p>🔗 I link contrassegnati con <strong>Amazon</strong> sono link affiliati. Acquistando tramite questi link supporti il nostro servizio senza costi aggiuntivi per te.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-box">
+        <h2>📬 Ricevi le Offerte in Anteprima</h2>
+        <p>Iscriviti alla newsletter e scopri i nuovi arrivi prima di tutti</p>
+        <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+          <input type="email" placeholder="La tua email..." required />
+          <button type="submit" class="btn btn-primary">Iscriviti</button>
+        </form>
+        <p class="newsletter-note">Nessuno spam. Puoi disiscriverti in qualsiasi momento.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>🛍️ EmporiumOnline</h3>
+          <p>Moda coloratissima e offerte Amazon selezionate ogni giorno per te.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sezioni</h4>
+          <ul>
+            <li><a href="#moda">Moda</a></li>
+            <li><a href="#scarpe">Scarpe</a></li>
+            <li><a href="#amazon">Offerte Amazon</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="affiliate.html">Disclaimer Affiliazioni</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 EmporiumOnline.it — Tutti i diritti riservati</p>
+        <p class="affiliate-notice">Partecipante al Programma di Affiliazione Amazon EU, EmporiumOnline guadagna commissioni sugli acquisti idonei.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
