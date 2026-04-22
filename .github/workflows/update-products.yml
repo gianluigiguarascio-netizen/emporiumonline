@@ -1,0 +1,34 @@
+name: Agente Prodotti — Aggiornamento Automatico
+
+on:
+  schedule:
+    # Ogni giorno alle 08:00 (ora italiana)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-products:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install requests beautifulsoup4
+
+      - name: Esegui agente ricerca prodotti
+        run: python scripts/agent_products.py
+        env:
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
+
+      - name: Commit aggiornamento prodotti
+        run: |
+          git config user.name "EmporiumBot"
+          git config user.email "bot@emporiumonline.it"
+          git add js/products.js
+          git diff --staged --quiet || git commit -m "🤖 Aggiornamento automatico prodotti [$(date '+%d/%m/%Y')]"
+          git push
