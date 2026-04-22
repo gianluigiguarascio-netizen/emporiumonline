@@ -1,6 +1,6 @@
 // Render product card
 function renderCard(p, isAmazon = false) {
-  const link = isAmazon ? buildAmazonLink(p.asin) : p.link;
+  const link = (isAmazon || p.asin) ? buildAmazonLink(p.asin) : p.link;
   const btnLabel = isAmazon ? "🛒 Vedi su Amazon" : "🛍️ Acquista Ora";
   const btnClass = isAmazon ? "product-btn amazon-btn" : "product-btn";
   const target = isAmazon ? 'target="_blank" rel="nofollow noopener"' : "";

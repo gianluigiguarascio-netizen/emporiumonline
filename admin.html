@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — EmporiumOnline</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --pink:#ff6b9d; --purple:#a78bfa; --green:#34d399; --yellow:#fbbf24; --dark:#0f0f1a; --card:#1a1a2e; --text:#f0f0ff; --muted:#9999bb; }
+    body { font-family: 'Poppins', sans-serif; background: var(--dark); color: var(--text); min-height: 100vh; padding: 40px 24px; }
+    h1 { font-size: 1.8rem; margin-bottom: 8px; }
+    h1 span { background: linear-gradient(90deg,var(--pink),var(--purple)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .subtitle { color: var(--muted); margin-bottom: 40px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 1100px; }
+    @media(max-width:768px) { .grid { grid-template-columns: 1fr; } }
+    .card { background: var(--card); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,.07); }
+    .card h2 { font-size: 1rem; margin-bottom: 16px; color: var(--pink); }
+    label { font-size: .85rem; color: var(--muted); display: block; margin-bottom: 6px; }
+    input, select, textarea {
+      width: 100%; padding: 10px 14px; border-radius: 10px;
+      border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.05);
+      color: var(--text); font-family: inherit; font-size: .9rem; margin-bottom: 14px;
+    }
+    textarea { resize: vertical; min-height: 80px; }
+    input:focus, select:focus, textarea:focus { outline: none; border-color: var(--purple); }
+    .btn { padding: 10px 20px; border-radius: 99px; border: none; font-weight: 600; cursor: pointer; font-family: inherit; font-size: .9rem; transition: opacity .2s; }
+    .btn:hover { opacity: .85; }
+    .btn-primary { background: linear-gradient(135deg,var(--pink),var(--purple)); color:#fff; width:100%; }
+    .btn-green  { background: var(--green); color:#000; width:100%; margin-top:8px; }
+    .btn-yellow { background: var(--yellow); color:#000; padding: 8px 18px; font-size:.85rem; }
+    .product-list { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-top: 16px; max-height: 400px; overflow-y: auto; }
+    .product-item { display: flex; align-items: center; gap: 12px; background: rgba(255,255,255,.04); border-radius: 10px; padding: 10px 14px; }
+    .product-item .emoji { font-size: 1.5rem; }
+    .product-item .info { flex: 1; min-width: 0; }
+    .product-item .name { font-size: .85rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .product-item .meta { font-size: .75rem; color: var(--muted); }
+    .product-item .remove { background: none; border: none; color: #ff4444; cursor: pointer; font-size: 1.1rem; }
+    .badge { display: inline-block; padding: 2px 10px; border-radius: 99px; font-size: .7rem; font-weight: 700; }
+    .badge-fashion { background: rgba(255,107,157,.2); color: var(--pink); }
+    .badge-shoes   { background: rgba(167,139,250,.2); color: var(--purple); }
+    .badge-access  { background: rgba(52,211,153,.2); color: var(--green); }
+    .output-box { background: rgba(0,0,0,.3); border-radius: 10px; padding: 14px; font-family: monospace; font-size:.75rem; color: var(--green); white-space: pre-wrap; max-height: 200px; overflow-y:auto; margin-top:12px; border: 1px solid rgba(52,211,153,.2); }
+    .step { display:flex; align-items:center; gap:10px; padding:10px 0; border-bottom: 1px solid rgba(255,255,255,.05); }
+    .step-num { width:28px; height:28px; border-radius:50%; background: linear-gradient(135deg,var(--pink),var(--purple)); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:.85rem; flex-shrink:0; }
+    .step-text { font-size:.85rem; color:var(--muted); }
+    .count-bar { display:flex; gap:12px; margin-bottom:16px; flex-wrap:wrap; }
+    .count-pill { padding:4px 14px; border-radius:99px; font-size:.8rem; font-weight:600; }
+    .empty-state { text-align:center; color:var(--muted); padding:32px; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <h1>🛍️ <span>EmporiumOnline Admin</span></h1>
+  <p class="subtitle">Aggiungi prodotti Amazon incollando i link — il sito si aggiorna automaticamente</p>
+
+  <div class="grid">
+
+    <!-- FORM AGGIUNGI PRODOTTO -->
+    <div class="card">
+      <h2>➕ Aggiungi Prodotto Amazon</h2>
+
+      <label>Link Amazon (incolla qui)</label>
+      <input type="url" id="amazon-url" placeholder="https://www.amazon.it/dp/B0XXXXXXXX/..." oninput="extractAsin(this.value)" />
+
+      <label>ASIN rilevato</label>
+      <input type="text" id="asin-detected" placeholder="Verrà estratto automaticamente" readonly style="background:rgba(52,211,153,.08); color:var(--green);" />
+
+      <label>Nome prodotto</label>
+      <input type="text" id="product-name" placeholder="es. Vestito Floreale Colorato Donna" />
+
+      <label>Categoria</label>
+      <select id="product-cat">
+        <option value="fashion">👗 Moda / Vestiti</option>
+        <option value="shoes">👟 Scarpe</option>
+        <option value="accessories">👜 Accessori</option>
+      </select>
+
+      <label>Prezzo attuale (€)</label>
+      <input type="number" id="product-price" placeholder="es. 29.99" step="0.01" />
+
+      <label>Prezzo originale / barrato (€)</label>
+      <input type="number" id="product-oldprice" placeholder="es. 59.99" step="0.01" />
+
+      <button class="btn btn-primary" onclick="addProduct()">➕ Aggiungi al Catalogo</button>
+    </div>
+
+    <!-- LISTA PRODOTTI -->
+    <div class="card">
+      <h2>📦 Prodotti nel Catalogo</h2>
+      <div class="count-bar" id="count-bar">
+        <span class="count-pill badge-fashion">👗 0 moda</span>
+        <span class="count-pill badge-shoes">👟 0 scarpe</span>
+        <span class="count-pill badge-access">👜 0 accessori</span>
+      </div>
+      <ul class="product-list" id="product-list">
+        <li class="empty-state">Nessun prodotto ancora — aggiungine uno a sinistra!</li>
+      </ul>
+    </div>
+
+    <!-- GENERA FILE -->
+    <div class="card">
+      <h2>⚙️ Genera & Pubblica</h2>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">Aggiungi prodotti dal form a sinistra</div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">Clicca "Genera products.js" per creare il file</div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">Sostituisci il file nella cartella <code>js/</code> del progetto</div>
+      </div>
+      <div class="step" style="border:none">
+        <div class="step-num">4</div>
+        <div class="step-text">Fai <code>git add . && git commit -m "update" && git push</code></div>
+      </div>
+
+      <button class="btn btn-green" onclick="generateJS()">⚡ Genera products.js</button>
+      <div class="output-box" id="output-box" style="display:none"></div>
+      <button class="btn btn-yellow" id="copy-btn" style="display:none; margin-top:12px;" onclick="copyJS()">📋 Copia negli Appunti</button>
+    </div>
+
+    <!-- ISTRUZIONI RAPIDE -->
+    <div class="card">
+      <h2>💡 Come trovare il link Amazon</h2>
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">Vai su <strong>amazon.it</strong> e cerca un prodotto colorato</div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">Clicca sul prodotto che ti piace</div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">Copia il link dalla barra del browser</div>
+      </div>
+      <div class="step" style="border:none">
+        <div class="step-num">4</div>
+        <div class="step-text">Incollalo nel campo "Link Amazon" a sinistra</div>
+      </div>
+      <p style="margin-top:16px; font-size:.8rem; color:var(--muted)">
+        Il tuo tag affiliato <strong style="color:var(--yellow)">prezzotop08-21</strong> verrà aggiunto automaticamente a tutti i link.
+      </p>
+    </div>
+
+  </div>
+
+  <script>
+    const AMAZON_TAG = "prezzotop08-21";
+    const COLORS = ["#ff6b9d","#a78bfa","#34d399","#fbbf24","#fb923c","#38bdf8"];
+    const EMOJIS = {
+      fashion:     ["👗","🌈","🎽","🧥","👚","🩱","🎀","🩲"],
+      shoes:       ["👟","👠","🥿","👞","🩴","🥾","👡","🌈"],
+      accessories: ["👜","🎒","💍","🧣","🕶️","💄","👒","🌂"],
+    };
+
+    let products = JSON.parse(localStorage.getItem("eo_products") || "[]");
+
+    function save() { localStorage.setItem("eo_products", JSON.stringify(products)); }
+
+    function extractAsin(url) {
+      const m = url.match(/\/dp\/([A-Z0-9]{10})/i);
+      document.getElementById("asin-detected").value = m ? m[1].toUpperCase() : "";
+    }
+
+    function randomColors() {
+      const s = [...COLORS].sort(() => Math.random() - .5);
+      return [s[0], s[1]];
+    }
+
+    function addProduct() {
+      const url      = document.getElementById("amazon-url").value.trim();
+      const asin     = document.getElementById("asin-detected").value.trim();
+      const name     = document.getElementById("product-name").value.trim();
+      const cat      = document.getElementById("product-cat").value;
+      const price    = parseFloat(document.getElementById("product-price").value);
+      const oldPrice = parseFloat(document.getElementById("product-oldprice").value);
+
+      if (!asin)     return alert("ASIN non rilevato — controlla il link Amazon");
+      if (!name)     return alert("Inserisci il nome del prodotto");
+      if (!price)    return alert("Inserisci il prezzo attuale");
+      if (!oldPrice) return alert("Inserisci il prezzo originale");
+
+      const [c1, c2] = randomColors();
+      const catEmojis = EMOJIS[cat];
+      const emoji = catEmojis[products.filter(p=>p.cat===cat).length % catEmojis.length];
+      const discount = `-${Math.round((1 - price/oldPrice)*100)}%`;
+
+      products.push({ id: Date.now(), asin, name, cat, price: price.toFixed(2), oldPrice: oldPrice.toFixed(2), clr1: c1, clr2: c2, emoji, discount });
+      save();
+      renderList();
+
+      // reset form
+      ["amazon-url","asin-detected","product-name","product-price","product-oldprice"].forEach(id => document.getElementById(id).value = "");
+    }
+
+    function removeProduct(id) {
+      products = products.filter(p => p.id !== id);
+      save();
+      renderList();
+    }
+
+    function renderList() {
+      const list = document.getElementById("product-list");
+      const counts = { fashion: 0, shoes: 0, accessories: 0 };
+      products.forEach(p => { if (counts[p.cat] !== undefined) counts[p.cat]++; });
+
+      document.getElementById("count-bar").innerHTML = `
+        <span class="count-pill badge-fashion">👗 ${counts.fashion} moda</span>
+        <span class="count-pill badge-shoes">👟 ${counts.shoes} scarpe</span>
+        <span class="count-pill badge-access">👜 ${counts.accessories} accessori</span>`;
+
+      if (!products.length) {
+        list.innerHTML = '<li class="empty-state">Nessun prodotto ancora — aggiungine uno!</li>';
+        return;
+      }
+      list.innerHTML = products.map(p => `
+        <li class="product-item">
+          <span class="emoji">${p.emoji}</span>
+          <div class="info">
+            <div class="name">${p.name}</div>
+            <div class="meta">ASIN: ${p.asin} · €${p.price} <span class="badge badge-${p.cat === 'fashion' ? 'fashion' : p.cat === 'shoes' ? 'shoes' : 'access'}">${p.cat}</span></div>
+          </div>
+          <button class="remove" onclick="removeProduct(${p.id})">✕</button>
+        </li>`).join("");
+    }
+
+    function generateJS() {
+      const fashion     = products.filter(p => p.cat === "fashion").map((p,i) => toObj(p, i+1));
+      const shoes       = products.filter(p => p.cat === "shoes").map((p,i) => toObj(p, i+10));
+      const accessories = products.filter(p => p.cat === "accessories").map((p,i) => toObj(p, i+20));
+      const amazon      = [...shoes, ...accessories].slice(0,8).map((p,i) => ({...p, id: 200+i, tag: "Amazon"}));
+
+      const now = new Date().toLocaleString("it-IT");
+      const js = `// Aggiornato il ${now}\n\nconst fashionProducts = ${JSON.stringify(fashion, null, 2)};\n\nconst shoesProducts = ${JSON.stringify(shoes, null, 2)};\n\nconst amazonProducts = ${JSON.stringify(amazon, null, 2)};\n\nconst AMAZON_TAG = "${AMAZON_TAG}";\n\nfunction buildAmazonLink(asin) {\n  return \`https://www.amazon.it/dp/\${asin}?tag=${AMAZON_TAG}\`;\n}\n`;
+
+      const box = document.getElementById("output-box");
+      box.textContent = js;
+      box.style.display = "block";
+      document.getElementById("copy-btn").style.display = "inline-block";
+      window._generatedJS = js;
+    }
+
+    function toObj(p, id) {
+      return { id, emoji: p.emoji, name: p.name, tag: p.cat.charAt(0).toUpperCase()+p.cat.slice(1), price: p.price, oldPrice: p.oldPrice, clr1: p.clr1, clr2: p.clr2, discount: p.discount, asin: p.asin };
+    }
+
+    function copyJS() {
+      navigator.clipboard.writeText(window._generatedJS || "").then(() => {
+        document.getElementById("copy-btn").textContent = "✅ Copiato!";
+        setTimeout(() => document.getElementById("copy-btn").textContent = "📋 Copia negli Appunti", 2000);
+      });
+    }
+
+    renderList();
+  </script>
+</body>
+</html>
