@@ -6,14 +6,17 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   update-products:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -21,7 +24,7 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Esegui agente ricerca prodotti
-        run: python scripts/agent_products.py
+        run: python3 scripts/agent_products.py || echo "⚠️ Feed non disponibile, mantengo catalogo corrente"
         env:
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
 
@@ -31,4 +34,4 @@ jobs:
           git config user.email "bot@emporiumonline.it"
           git add js/products.js
           git diff --staged --quiet || git commit -m "🤖 Aggiornamento automatico prodotti [$(date '+%d/%m/%Y')]"
-          git push
+          git push origin HEAD:${GITHUB_REF_NAME} || echo "::warning::Push non riuscito (permessi/branch protection)"
