@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Admin — EmporiumOnline</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
@@ -51,7 +54,8 @@
 </head>
 <body>
   <h1>🛍️ <span>EmporiumOnline Admin</span></h1>
-  <p class="subtitle">Aggiungi prodotti Amazon incollando i link — il sito si aggiorna automaticamente</p>
+  <p class="subtitle">Aggiungi prodotti Amazon incollando i link — ASIN automatico o manuale</p>
+  <p class="subtitle" style="font-size:.8rem; margin-top:-28px;">Build admin: 2026-04-23</p>
 
   <div class="grid">
 
@@ -63,7 +67,7 @@
       <input type="url" id="amazon-url" placeholder="https://www.amazon.it/dp/B0XXXXXXXX/..." oninput="extractAsin(this.value)" />
 
       <label>ASIN rilevato</label>
-      <input type="text" id="asin-detected" placeholder="Verrà estratto automaticamente" readonly style="background:rgba(52,211,153,.08); color:var(--green);" />
+      <input type="text" id="asin-detected" placeholder="ASIN automatico o inserimento manuale" oninput="normalizeAsinInput(this.value)" style="background:rgba(52,211,153,.08); color:var(--green);" />
 
       <label>Nome prodotto</label>
       <input type="text" id="product-name" placeholder="es. Vestito Floreale Colorato Donna" />
@@ -162,9 +166,55 @@
 
     function save() { localStorage.setItem("eo_products", JSON.stringify(products)); }
 
+    function extractAsinFromUrl(url) {
+      if (!url) return "";
+
+      const clean = url.trim();
+      const decoded = (() => {
+        try { return decodeURIComponent(clean); } catch { return clean; }
+      })();
+      const candidates = [clean, decoded];
+
+      // Se è un link di affiliazione con URL annidato (?url=... o &u=...)
+      const nestedMatch = clean.match(/[?&](?:url|u)=([^&]+)/i);
+      if (nestedMatch && nestedMatch[1]) {
+        try { candidates.push(decodeURIComponent(nestedMatch[1])); } catch {}
+      }
+
+      const patterns = [
+        /\/dp\/([A-Z0-9]{10})(?:[/?]|$)/i,
+        /\/gp\/product\/([A-Z0-9]{10})(?:[/?]|$)/i,
+        /\/gp\/aw\/d\/([A-Z0-9]{10})(?:[/?]|$)/i,
+        /\/exec\/obidos\/ASIN\/([A-Z0-9]{10})(?:[/?]|$)/i,
+        /\/product\/([A-Z0-9]{10})(?:[/?]|$)/i,
+        /[?&]asin=([A-Z0-9]{10})(?:[&#]|$)/i,
+        /\/dp%2F([A-Z0-9]{10})(?:%2F|%3F|$)/i,
+        /\/([A-Z0-9]{10})(?:[/?]|$)/i,
+      ];
+
+      for (const candidate of candidates) {
+        for (const pattern of patterns) {
+          const m = candidate.match(pattern);
+          if (m && m[1]) return m[1].toUpperCase();
+        }
+      }
+
+      // supporta anche input diretto ASIN nel campo URL
+      if (/^[A-Z0-9]{10}$/i.test(clean)) return clean.toUpperCase();
+
+      // ultima risorsa: trova token ASIN in stringhe lunghe affiliate
+      const generic = decoded.match(/\b([A-Z0-9]{10})\b/i);
+      if (generic && generic[1]) return generic[1].toUpperCase();
+      return "";
+    }
+
     function extractAsin(url) {
-      const m = url.match(/\/dp\/([A-Z0-9]{10})/i);
-      document.getElementById("asin-detected").value = m ? m[1].toUpperCase() : "";
+      document.getElementById("asin-detected").value = extractAsinFromUrl(url);
+    }
+
+    function normalizeAsinInput(value) {
+      const cleaned = (value || "").toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 10);
+      document.getElementById("asin-detected").value = cleaned;
     }
 
     function randomColors() {
@@ -174,13 +224,18 @@
 
     function addProduct() {
       const url      = document.getElementById("amazon-url").value.trim();
-      const asin     = document.getElementById("asin-detected").value.trim();
+      const asinInput = document.getElementById("asin-detected").value.trim();
+      const asinFromUrl = extractAsinFromUrl(url);
+      const asin = (asinInput || asinFromUrl).toUpperCase();
+      document.getElementById("asin-detected").value = asin;
       const name     = document.getElementById("product-name").value.trim();
       const cat      = document.getElementById("product-cat").value;
       const price    = parseFloat(document.getElementById("product-price").value);
       const oldPrice = parseFloat(document.getElementById("product-oldprice").value);
 
-      if (!asin)     return alert("ASIN non rilevato — controlla il link Amazon");
+      if (!asin || !/^[A-Z0-9]{10}$/.test(asin)) {
+        return alert("ASIN non valido — usa un link Amazon completo (es. /dp/XXXXXXXXXX)");
+      }
       if (!name)     return alert("Inserisci il nome del prodotto");
       if (!price)    return alert("Inserisci il prezzo attuale");
       if (!oldPrice) return alert("Inserisci il prezzo originale");
