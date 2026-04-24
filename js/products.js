@@ -242,6 +242,23 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-25"
+  },
+  {
+    "id": 115,
+    "asin": "B09X6RKRPW",
+    "name": "Scultura Elefante Graffiti in Resina - Decorazione",
+    "category": "casa",
+    "emoji": "\ud83d\udc18",
+    "clr1": "#fb923c",
+    "clr2": "#a78bfa",
+    "image": "https://m.media-amazon.com/images/I/61yrcNkV-KL._AC_SL300_.jpg",
+    "price": 36.88,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B09X6RKRPW?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
   }
 ];
 
