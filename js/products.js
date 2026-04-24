@@ -74,6 +74,23 @@ window.products = [
   {"id":130,"asin":"B0GWVG91Y2","name":"LUNULE Vestito Estivo Donna - Beige L","category":"abbigliamento","emoji":"\ud83d\udc57","clr1":"#e5d0b8","clr2":"#d4b896","image":"https://m.media-amazon.com/images/I/61pUhKzb5tL._AC_SL300_.jpg","price":13.99,"oldPrice":null,"discount":null,"currency":"EUR","amazonLink":"https://www.amazon.it/dp/B0GWVG91Y2?tag=prezzotop08-21","offerBadge":true,"importedAt":"2026-04-25"},
   {"id":131,"asin":"B0GWVHYTKK","name":"LUNULE Vestito Estivo Donna - Verde","category":"abbigliamento","emoji":"\ud83d\udc57","clr1":"#34d399","clr2":"#10b981","image":"https://m.media-amazon.com/images/I/61jjfrwcerL._AC_SL300_.jpg","price":13.99,"oldPrice":null,"discount":null,"currency":"EUR","amazonLink":"https://www.amazon.it/dp/B0GWVHYTKK?tag=prezzotop08-21","offerBadge":true,"importedAt":"2026-04-25"},
   {"id":132,"asin":"B0GWVGTLCR","name":"LUNULE Vestito Estivo Donna - Viola Scuro","category":"abbigliamento","emoji":"\ud83d\udc57","clr1":"#7c3aed","clr2":"#6d28d9","image":"https://m.media-amazon.com/images/I/611lRT3L5xL._AC_SL300_.jpg","price":13.99,"oldPrice":null,"discount":null,"currency":"EUR","amazonLink":"https://www.amazon.it/dp/B0GWVGTLCR?tag=prezzotop08-21","offerBadge":true,"importedAt":"2026-04-25"},
+  {
+    "id": 133,
+    "asin": "B0GXFLV52H",
+    "name": "Gonna Donna Corta Fantasie Colorate Farfalle e Fiori",
+    "category": "abbigliamento",
+    "emoji": "\ud83d\udc57",
+    "clr1": "#f472b6",
+    "clr2": "#38bdf8",
+    "image": "https://m.media-amazon.com/images/I/71KFQAY44EL._AC_SL300_.jpg",
+    "price": 22.95,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0GXFLV52H?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
 
   // ── SCARPE ────────────────────────────────────────────────
   {
