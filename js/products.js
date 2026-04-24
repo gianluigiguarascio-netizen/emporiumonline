@@ -259,6 +259,23 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B09X6RKRPW?tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-25"
+  },
+  {
+    "id": 116,
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca Donna Stampata Volant Maniche 3/4",
+    "category": "abbigliamento",
+    "emoji": "\ud83d\udc57",
+    "clr1": "#ff6b9d",
+    "clr2": "#38bdf8",
+    "image": "https://m.media-amazon.com/images/I/71piWfHl4dL._AC_SL300_.jpg",
+    "price": 6.78,
+    "oldPrice": 12.99,
+    "discount": "-48%",
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
   }
 ];
 
