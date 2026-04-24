@@ -1,180 +1,30 @@
-// EmporiumOnline - Catalogo Prodotti
-// Immagini: Unsplash CDN (sempre disponibili)
-// Link affiliati: Amazon.it con tag prezzotop08-21
+// EmporiumOnline - Prodotti reali con immagini e link Amazon verificati
+// Tag affiliato: prezzotop08-21
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+
+  // ── ABBIGLIAMENTO ──────────────────────────────────────────
   {
-    "id": 101,
-    "asin": "B09V3KL8YS",
-    "name": "Sneakers Donna Running Leggere",
-    "category": "scarpe",
-    "emoji": "\ud83d\udc5f",
-    "clr1": "#ff6b9d",
-    "clr2": "#a78bfa",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop&q=80",
-    "price": 35.99,
-    "oldPrice": 55.99,
-    "discount": "-36%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=sneakers+donna+running&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-24"
-  },
-  {
-    "id": 102,
-    "asin": "B0CPWVMYB8",
-    "name": "Vestito Estivo Donna Floreale Elegante",
+    "id": 116,
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca Donna Stampata Volant Maniche 3/4",
     "category": "abbigliamento",
     "emoji": "\ud83d\udc57",
-    "clr1": "#a78bfa",
-    "clr2": "#ff6b9d",
-    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=300&h=300&fit=crop&q=80",
-    "price": 25.99,
-    "oldPrice": 42.99,
-    "discount": "-40%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=vestito+estivo+donna+floreale&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-24"
-  },
-  {
-    "id": 103,
-    "asin": "B0BN1HP5YN",
-    "name": "Zaino Scuola Impermeabile Colorato",
-    "category": "borse",
-    "emoji": "\ud83c\udf92",
-    "clr1": "#34d399",
-    "clr2": "#fbbf24",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=300&fit=crop&q=80",
-    "price": 22.99,
-    "oldPrice": 39.99,
-    "discount": "-43%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=zaino+scuola+impermeabile&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-24"
-  },
-  {
-    "id": 104,
-    "asin": "B09FJ63YKG",
-    "name": "Striscia LED RGB WiFi 10m",
-    "category": "casa",
-    "emoji": "\ud83c\udfe0",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=300&h=300&fit=crop&q=80",
-    "price": 15.99,
-    "oldPrice": 29.99,
-    "discount": "-47%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=striscia+led+rgb+wifi+10m&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-24"
-  },
-  {
-    "id": 105,
-    "asin": "B0BHY39TDQ",
-    "name": "Cuffie Bluetooth Wireless Over-Ear",
-    "category": "tech",
-    "emoji": "\ud83c\udfa7",
-    "clr1": "#38bdf8",
-    "clr2": "#a78bfa",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop&q=80",
-    "price": 29.99,
-    "oldPrice": 49.99,
-    "discount": "-40%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=cuffie+bluetooth+wireless+over+ear&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-24"
-  },
-  {
-    "id": 106,
-    "asin": "B0C1H3YGKN",
-    "name": "Occhiali da Sole Donna Vintage",
-    "category": "accessori",
-    "emoji": "\ud83d\udc53",
-    "clr1": "#34d399",
-    "clr2": "#fbbf24",
-    "image": "https://images.unsplash.com/photo-1473496169904-658ba7574b0d?w=300&h=300&fit=crop&q=80",
-    "price": 12.99,
-    "oldPrice": 24.99,
+    "clr1": "#ff6b9d",
+    "clr2": "#38bdf8",
+    "image": "https://m.media-amazon.com/images/I/71piWfHl4dL._AC_SL300_.jpg",
+    "price": 6.78,
+    "oldPrice": 12.99,
     "discount": "-48%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=occhiali+da+sole+donna+vintage&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
     "offerBadge": true,
-    "importedAt": "2026-04-23"
+    "importedAt": "2026-04-25"
   },
-  {
-    "id": 107,
-    "asin": "B0BGQYFS1D",
-    "name": "Set Tazze Mug in Ceramica 6 Pezzi",
-    "category": "casa",
-    "emoji": "\u2615",
-    "clr1": "#ff6b9d",
-    "clr2": "#fb923c",
-    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=300&h=300&fit=crop&q=80",
-    "price": 26.99,
-    "oldPrice": 39.99,
-    "discount": "-33%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=set+tazze+mug+ceramica&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-23"
-  },
-  {
-    "id": 108,
-    "asin": "B0BTGFCQ1H",
-    "name": "Palette Ombretti 60 Colori Shimmer",
-    "category": "beauty",
-    "emoji": "\ud83d\udc84",
-    "clr1": "#ff6b9d",
-    "clr2": "#a78bfa",
-    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=300&fit=crop&q=80",
-    "price": 9.99,
-    "oldPrice": 19.99,
-    "discount": "-50%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=palette+ombretti+60+colori&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-23"
-  },
-  {
-    "id": 109,
-    "asin": "B0BTFBB5YS",
-    "name": "Felpa Donna Oversize Hoodie Unisex",
-    "category": "abbigliamento",
-    "emoji": "\ud83d\udc57",
-    "clr1": "#fbbf24",
-    "clr2": "#34d399",
-    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=300&h=300&fit=crop&q=80",
-    "price": 19.99,
-    "oldPrice": 35.99,
-    "discount": "-44%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=felpa+donna+oversize+hoodie&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-22"
-  },
-  {
-    "id": 110,
-    "asin": "B09WDQCLKF",
-    "name": "Cover Smartphone Silicone Antiurto",
-    "category": "tech",
-    "emoji": "\ud83d\udcf1",
-    "clr1": "#a78bfa",
-    "clr2": "#38bdf8",
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=300&fit=crop&q=80",
-    "price": 8.99,
-    "oldPrice": 16.99,
-    "discount": "-47%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/s?k=cover+smartphone+silicone+antiurto&tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-22"
-  },
+
+  // ── SCARPE ────────────────────────────────────────────────
   {
     "id": 111,
     "asin": "B0D48KJW57",
@@ -226,6 +76,8 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
+
+  // ── CASA ──────────────────────────────────────────────────
   {
     "id": 114,
     "asin": "B0DBQMZZRH",
@@ -259,24 +111,8 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B09X6RKRPW?tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-25"
-  },
-  {
-    "id": 116,
-    "asin": "B0FLCS5FB2",
-    "name": "Giacca Donna Stampata Volant Maniche 3/4",
-    "category": "abbigliamento",
-    "emoji": "\ud83d\udc57",
-    "clr1": "#ff6b9d",
-    "clr2": "#38bdf8",
-    "image": "https://m.media-amazon.com/images/I/71piWfHl4dL._AC_SL300_.jpg",
-    "price": 6.78,
-    "oldPrice": 12.99,
-    "discount": "-48%",
-    "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
-    "offerBadge": true,
-    "importedAt": "2026-04-25"
   }
+
 ];
 
 function buildAmazonLink(asin) {
