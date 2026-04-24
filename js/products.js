@@ -191,6 +191,40 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0D48KJW57?tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-24"
+  },
+  {
+    "id": 112,
+    "asin": "B0B3WRBQB7",
+    "name": "Scarpe Colorate Donna - Modello 2",
+    "category": "scarpe",
+    "emoji": "\ud83d\udc5f",
+    "clr1": "#34d399",
+    "clr2": "#38bdf8",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300&h=300&fit=crop&q=80",
+    "price": null,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
+  {
+    "id": 113,
+    "asin": "B0D411DMR1",
+    "name": "Scarpe Colorate Donna - Modello 3",
+    "category": "scarpe",
+    "emoji": "\ud83d\udc5f",
+    "clr1": "#a78bfa",
+    "clr2": "#fb923c",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop&q=80",
+    "price": null,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
   }
 ];
 
