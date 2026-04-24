@@ -225,6 +225,23 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-25"
+  },
+  {
+    "id": 114,
+    "asin": "B0DBQMZZRH",
+    "name": "Fioriere Colorate Astratte - Vaso Viso in Resina",
+    "category": "casa",
+    "emoji": "\ud83c\udf3f",
+    "clr1": "#34d399",
+    "clr2": "#fbbf24",
+    "image": "https://m.media-amazon.com/images/I/718f4rqY5eL._AC_SL300_.jpg",
+    "price": 42.99,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
   }
 ];
 
