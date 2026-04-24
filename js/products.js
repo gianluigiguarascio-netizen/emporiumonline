@@ -24,6 +24,41 @@ window.products = [
     "importedAt": "2026-04-25"
   },
 
+  {
+    "id": 117,
+    "asin": "B0GQH3VZ8B",
+    "name": "T-Shirt Donna Mosaico Colorato Oversize",
+    "category": "abbigliamento",
+    "emoji": "\ud83d\udc55",
+    "clr1": "#fbbf24",
+    "clr2": "#34d399",
+    "image": "https://m.media-amazon.com/images/I/71MeKZHhgGL._AC_SL300_.jpg",
+    "price": 23.99,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0GQH3VZ8B?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
+  {
+    "id": 118,
+    "asin": "B09TTDGBMK",
+    "name": "Xmiral Abito Lungo Donna Floreale Multicolore",
+    "category": "abbigliamento",
+    "emoji": "\ud83d\udc57",
+    "clr1": "#a78bfa",
+    "clr2": "#ff6b9d",
+    "image": "https://m.media-amazon.com/images/I/61ZxTlo+YTS._AC_SL300_.jpg",
+    "price": 26.99,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B09TTDGBMK?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
+
   // ── SCARPE ────────────────────────────────────────────────
   {
     "id": 111,
