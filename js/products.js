@@ -91,6 +91,23 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
+  {
+    "id": 134,
+    "asin": "B0CC5WH3LN",
+    "name": "Ronronner Costume Hippie Donna 5 Pezzi Anni '70",
+    "category": "abbigliamento",
+    "emoji": "\ud83d\udc57",
+    "clr1": "#f97316",
+    "clr2": "#22c55e",
+    "image": "https://m.media-amazon.com/images/I/81+QA6NDAUL._AC_SL300_.jpg",
+    "price": 25.88,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0CC5WH3LN?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
 
   // ── SCARPE ────────────────────────────────────────────────
   {
