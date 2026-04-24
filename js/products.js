@@ -217,7 +217,7 @@ window.products = [
     "emoji": "\ud83d\udc5f",
     "clr1": "#a78bfa",
     "clr2": "#fb923c",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop&q=80",
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
     "price": null,
     "oldPrice": null,
     "discount": null,
