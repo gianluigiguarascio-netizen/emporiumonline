@@ -18,7 +18,7 @@ window.products = [
     "oldPrice": 55.99,
     "discount": "-36%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B09V3KL8YS?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=sneakers+donna+running&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-24"
   },
@@ -35,7 +35,7 @@ window.products = [
     "oldPrice": 42.99,
     "discount": "-40%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0CPWVMYB8?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=vestito+estivo+donna+floreale&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-24"
   },
@@ -52,7 +52,7 @@ window.products = [
     "oldPrice": 39.99,
     "discount": "-43%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0BN1HP5YN?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=zaino+scuola+impermeabile&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-24"
   },
@@ -69,7 +69,7 @@ window.products = [
     "oldPrice": 29.99,
     "discount": "-47%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B09FJ63YKG?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=striscia+led+rgb+wifi+10m&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-24"
   },
@@ -86,7 +86,7 @@ window.products = [
     "oldPrice": 49.99,
     "discount": "-40%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0BHY39TDQ?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=cuffie+bluetooth+wireless+over+ear&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-24"
   },
@@ -103,7 +103,7 @@ window.products = [
     "oldPrice": 24.99,
     "discount": "-48%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0C1H3YGKN?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=occhiali+da+sole+donna+vintage&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-23"
   },
@@ -120,7 +120,7 @@ window.products = [
     "oldPrice": 39.99,
     "discount": "-33%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0BGQYFS1D?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=set+tazze+mug+ceramica&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-23"
   },
@@ -137,7 +137,7 @@ window.products = [
     "oldPrice": 19.99,
     "discount": "-50%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0BTGFCQ1H?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=palette+ombretti+60+colori&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-23"
   },
@@ -154,7 +154,7 @@ window.products = [
     "oldPrice": 35.99,
     "discount": "-44%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B0BTFBB5YS?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=felpa+donna+oversize+hoodie&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-22"
   },
@@ -171,7 +171,7 @@ window.products = [
     "oldPrice": 16.99,
     "discount": "-47%",
     "currency": "EUR",
-    "amazonLink": "https://www.amazon.it/dp/B09WDQCLKF?tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/s?k=cover+smartphone+silicone+antiurto&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-22"
   }
