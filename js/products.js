@@ -174,6 +174,23 @@ window.products = [
     "amazonLink": "https://www.amazon.it/s?k=cover+smartphone+silicone+antiurto&tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-22"
+  },
+  {
+    "id": 111,
+    "asin": "B0D48KJW57",
+    "name": "Scarpe Colorate Donna",
+    "category": "scarpe",
+    "emoji": "\ud83d\udc5f",
+    "clr1": "#ff6b9d",
+    "clr2": "#fbbf24",
+    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=300&h=300&fit=crop&q=80",
+    "price": null,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0D48KJW57?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-24"
   }
 ];
 
