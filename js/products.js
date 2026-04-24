@@ -466,6 +466,24 @@ window.products = [
     "importedAt": "2026-04-25"
   },
 
+  {
+    "id": 159,
+    "asin": "B0FSXG5CGC",
+    "name": "Manicotti Lunghi Donna Arcobaleno Patchwork",
+    "category": "accessori",
+    "emoji": "👜",
+    "clr1": "#ec4899",
+    "clr2": "#22c55e",
+    "image": "https://m.media-amazon.com/images/I/51H5Hc0PqrL._AC_SL300_.jpg",
+    "price": null,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0FSXG5CGC?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
+
   // ── CASA ──────────────────────────────────────────────────
   {
     "id": 114,
