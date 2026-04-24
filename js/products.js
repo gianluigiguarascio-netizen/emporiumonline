@@ -177,6 +177,24 @@ window.products = [
     "importedAt": "2026-04-25"
   },
 
+  {
+    "id": 158,
+    "asin": "B09CYBTWPM",
+    "name": "AKH Vestito Donna Righe Arcobaleno",
+    "category": "abbigliamento",
+    "emoji": "\ud83d\udc57",
+    "clr1": "#f43f5e",
+    "clr2": "#22c55e",
+    "image": "https://m.media-amazon.com/images/I/51+VyS49j+L._AC_SL300_.jpg",
+    "price": null,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B09CYBTWPM?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
+
   // ── SCARPE ────────────────────────────────────────────────
   {
     "id": 111,
@@ -430,7 +448,25 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0D411HHC9?tag=prezzotop08-21",
     "offerBadge": true,
     "importedAt": "2026-04-25"
-  },  // ── CASA ──────────────────────────────────────────────────
+  },  {
+    "id": 157,
+    "asin": "B0CW1T2ZVR",
+    "name": "Set 5 Cinture Donna Sottili Multicolor",
+    "category": "accessori",
+    "emoji": "\ud83d\udc5c",
+    "clr1": "#f43f5e",
+    "clr2": "#06b6d4",
+    "image": "https://m.media-amazon.com/images/I/61pOM2Z-elL._AC_SL300_.jpg",
+    "price": null,
+    "oldPrice": null,
+    "discount": null,
+    "currency": "EUR",
+    "amazonLink": "https://www.amazon.it/dp/B0CW1T2ZVR?tag=prezzotop08-21",
+    "offerBadge": true,
+    "importedAt": "2026-04-25"
+  },
+
+  // ── CASA ──────────────────────────────────────────────────
   {
     "id": 114,
     "asin": "B0DBQMZZRH",
