@@ -1,0 +1,46 @@
+name: Agente Prodotti — Aggiornamento Automatico
+
+on:
+  schedule:
+    # Ogni giorno alle 08:00 UTC (10:00 ora italiana)
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Numero di prodotti da importare'
+        required: false
+        default: '5'
+
+jobs:
+  update-products:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Esegui agente importazione prodotti (RSS, no API needed)
+        env:
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG || 'prezzotop08-21' }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG || 'prezzotop08-21' }}
+        run: |
+          COUNT=${{ github.event.inputs.count || '5' }}
+          python scripts/agent_products.py --count $COUNT
+
+      - name: Commit aggiornamento prodotti
+        run: |
+          git config user.name "EmporiumBot"
+          git config user.email "bot@emporiumonline.it"
+          git add data/products.json data/import_log.json js/products.js
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica da committare"
+          else
+            git commit -m "chore: aggiornamento automatico prodotti $(date '+%Y-%m-%d')"
+            git push
+          fi

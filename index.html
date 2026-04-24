@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmporiumOnline — Le Offerte Pi&ugrave; Colorate del Giorno</title>
+  <meta name="description" content="Ogni giorno 5 nuove offerte colorate da Amazon: moda, scarpe, casa, gadget e accessori selezionati per te." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://emporiumonline.it/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EmporiumOnline — Offerte Colorate da Amazon" />
+  <meta property="og:description" content="Ogni giorno 5 nuove offerte colorate da Amazon: moda, scarpe, casa, gadget e accessori." />
+  <meta property="og:url" content="https://emporiumonline.it/" />
+  <meta property="og:site_name" content="EmporiumOnline" />
+  <meta property="og:locale" content="it_IT" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EmporiumOnline — Offerte Colorate da Amazon" />
+  <meta name="twitter:description" content="Ogni giorno 5 nuove offerte colorate da Amazon." />
+
+  <!-- Schema.org WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "EmporiumOnline",
+    "url": "https://emporiumonline.it/",
+    "description": "Portale di offerte colorate da Amazon: moda, scarpe, casa, gadget e accessori selezionati ogni giorno.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://emporiumonline.it/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="/" class="nav-brand">
+      <span class="brand-emoji">&#x1F6CD;&#xFE0F;</span>
+      <span class="brand-name">Emporium<strong>Online</strong></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#oggi">Offerte di Oggi</a></li>
+      <li><a href="#categorie">Categorie</a></li>
+      <li><a href="#offerte">Tutte le Offerte</a></li>
+      <li><a href="admin.html" class="nav-admin">Admin</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">&#x2728; Aggiornate ogni giorno</div>
+      <h1>Le Offerte Pi&ugrave; <span class="gradient-text">Colorate</span> del Giorno</h1>
+      <p>Ogni giorno 5 nuove idee da Amazon: moda, scarpe, casa, gadget e accessori. Selezionate per te, colorate per natura.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" id="product-count" data-count="5">5</span>
+          <span class="stat-label">Offerte Attive</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="9">9</span>
+          <span class="stat-label">Categorie</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="100">100</span>
+          <span class="stat-label">% Affidabile</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#oggi" class="btn btn-primary btn-lg">Scopri le Offerte</a>
+        <a href="#categorie" class="btn btn-glass">Esplora Categorie</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- OFFERTE DEL GIORNO -->
+  <section id="oggi" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">&#x1F525; Oggi</span>
+        <h2>Le Offerte del Giorno</h2>
+        <p>Selezionate ogni giorno dal nostro agente automatico tra le migliori proposte Amazon</p>
+      </div>
+      <div class="products-grid" id="today-grid">
+        <!-- Prodotti iniettati da JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIE COLORATE -->
+  <section id="categorie" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge badge-rainbow">&#x1F308; Esplora</span>
+        <h2>Categorie Colorate</h2>
+        <p>Naviga per categoria e trova l'offerta perfetta per te</p>
+      </div>
+      <div class="categories-grid" id="color-categories">
+        <!-- Categorie iniettate da JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER PROMO -->
+  <section class="promo-banner">
+    <div class="container">
+      <h2>&#x1F381; Ogni giorno 5 nuove sorprese colorate</h2>
+      <p>Non perderti le offerte: torna domani per scoprire le novit&agrave;!</p>
+    </div>
+  </section>
+
+  <!-- TUTTE LE OFFERTE -->
+  <section id="offerte" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge badge-yellow">&#x26A1; Catalogo</span>
+        <h2>Tutte le Offerte</h2>
+        <p>Filtra per categoria e trova quello che cerchi</p>
+      </div>
+      <div class="filter-bar" id="category-filters">
+        <!-- Filtri iniettati da JS -->
+      </div>
+      <div class="products-grid" id="offers-grid">
+        <!-- Prodotti iniettati da JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- COME FUNZIONA -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2>Come Funziona</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-card">
+          <span class="how-icon">&#x1F50D;</span>
+          <h3>Selezioniamo</h3>
+          <p>Ogni giorno il nostro sistema seleziona le offerte pi&ugrave; colorate e interessanti da Amazon</p>
+        </div>
+        <div class="how-card">
+          <span class="how-icon">&#x1F6CD;&#xFE0F;</span>
+          <h3>Scopri</h3>
+          <p>Sfoglia le card, leggi i dettagli e trova il prodotto che fa per te</p>
+        </div>
+        <div class="how-card">
+          <span class="how-icon">&#x1F6D2;</span>
+          <h3>Acquista su Amazon</h3>
+          <p>Clicca il pulsante e completa l'acquisto in sicurezza direttamente su Amazon</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="section">
+    <div class="container">
+      <div class="newsletter-box">
+        <h2>&#x1F4EC; Ricevi le Offerte in Anteprima</h2>
+        <p>Iscriviti e scopri i nuovi arrivi prima di tutti</p>
+        <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+          <input type="email" placeholder="La tua email..." required aria-label="Email" />
+          <button type="submit" class="btn btn-primary">Iscriviti</button>
+        </form>
+        <p class="newsletter-note">Nessuno spam. Puoi disiscriverti in qualsiasi momento.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>&#x1F6CD;&#xFE0F; EmporiumOnline</h3>
+          <p>Offerte colorate da Amazon selezionate ogni giorno per te. Moda, casa, tech e tanto altro.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sezioni</h4>
+          <ul>
+            <li><a href="#oggi">Offerte di Oggi</a></li>
+            <li><a href="#categorie">Categorie</a></li>
+            <li><a href="#offerte">Tutte le Offerte</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="affiliate.html">Disclaimer Affiliazioni</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p>EmporiumOnline.it partecipa al Programma Affiliazione Amazon EU. In qualit&agrave; di Affiliato Amazon, ricevo un guadagno per ciascun acquisto idoneo. I prezzi e la disponibilit&agrave; dei prodotti sono soggetti a variazione. Verifica sempre su Amazon prima dell'acquisto.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 EmporiumOnline.it &mdash; Tutti i diritti riservati</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

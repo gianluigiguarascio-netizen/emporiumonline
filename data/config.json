@@ -1,0 +1,33 @@
+{
+  "partner_tag": "prezzotop08-21",
+  "marketplace": "IT",
+  "daily_limit": 5,
+  "categories_enabled": [
+    "scarpe",
+    "abbigliamento",
+    "accessori",
+    "borse",
+    "casa",
+    "gadget",
+    "idee-regalo",
+    "beauty",
+    "tech"
+  ],
+  "keywords_preferred": [
+    "colorato",
+    "multicolor",
+    "vivace",
+    "offerta",
+    "regalo",
+    "trend"
+  ],
+  "keywords_excluded": [
+    "adulti",
+    "erotico",
+    "arma",
+    "coltello",
+    "sigaretta"
+  ],
+  "auto_publish": true,
+  "require_approval": false
+}

@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>EmporiumOnline — Pannello Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --pink: #ff6b9d; --purple: #a78bfa; --green: #34d399;
+      --yellow: #fbbf24; --orange: #fb923c; --blue: #38bdf8;
+      --dark: #0f0f1a; --darker: #080812; --card: #16162a;
+      --text: #f0f0ff; --muted: #9999bb; --red: #f87171;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--dark); color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* Layout */
+    .admin-layout {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: var(--darker);
+      padding: 24px 0;
+      border-right: 1px solid rgba(255,255,255,.06);
+    }
+    .sidebar-brand {
+      padding: 0 20px 24px;
+      font-size: 1.1rem; font-weight: 700;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      margin-bottom: 16px;
+    }
+    .sidebar-brand strong { color: var(--pink); }
+    .sidebar-nav { display: flex; flex-direction: column; gap: 2px; }
+    .sidebar-nav a {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 20px;
+      color: var(--muted); font-size: .85rem; font-weight: 500;
+      transition: all .2s;
+      border-left: 3px solid transparent;
+    }
+    .sidebar-nav a:hover, .sidebar-nav a.active {
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      border-left-color: var(--pink);
+    }
+    .sidebar-nav a .icon { font-size: 1.1rem; }
+
+    /* Main */
+    .admin-main {
+      padding: 32px;
+      overflow-y: auto; max-height: 100vh;
+    }
+
+    .admin-header {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 32px;
+    }
+    .admin-header h1 { font-size: 1.5rem; font-weight: 700; }
+    .admin-header a {
+      color: var(--muted); font-size: .85rem;
+      display: flex; align-items: center; gap: 6px;
+    }
+
+    /* Cards Info */
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px; margin-bottom: 32px;
+    }
+    .info-card {
+      background: var(--card);
+      border-radius: 12px; padding: 20px;
+      border: 1px solid rgba(255,255,255,.05);
+    }
+    .info-card .label { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+    .info-card .value { font-size: 1.4rem; font-weight: 800; }
+    .info-card .value.ok { color: var(--green); }
+    .info-card .value.warn { color: var(--orange); }
+    .info-card .value.err { color: var(--red); }
+
+    /* Panels */
+    .panel {
+      background: var(--card);
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.05);
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+    .panel-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 16px 20px;
+      border-bottom: 1px solid rgba(255,255,255,.05);
+      cursor: pointer;
+    }
+    .panel-header h2 { font-size: 1rem; font-weight: 700; }
+    .panel-body { padding: 20px; }
+    .panel-body.hidden { display: none; }
+
+    /* Form */
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+    .form-row.full { grid-template-columns: 1fr; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label { font-size: .75rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .form-group input, .form-group select, .form-group textarea {
+      padding: 10px 14px; border-radius: 8px;
+      border: 1px solid rgba(255,255,255,.1);
+      background: rgba(255,255,255,.04); color: var(--text);
+      font-family: inherit; font-size: .9rem;
+      transition: border-color .2s;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none; border-color: var(--purple);
+    }
+    .form-group .hint { font-size: .65rem; color: var(--muted); }
+
+    /* Buttons */
+    .btn {
+      padding: 10px 20px; border-radius: 99px;
+      font-size: .85rem; font-weight: 600;
+      cursor: pointer; border: none;
+      transition: all .2s; font-family: inherit;
+      display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: linear-gradient(135deg, var(--pink), var(--purple)); color: #fff; }
+    .btn-success { background: var(--green); color: #000; }
+    .btn-warning { background: var(--orange); color: #000; }
+    .btn-danger { background: var(--red); color: #fff; }
+    .btn-ghost {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.1);
+      color: var(--text);
+    }
+    .btn-sm { padding: 6px 14px; font-size: .75rem; }
+
+    .btn-group { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+
+    /* Table */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      padding: 10px 14px; text-align: left;
+      border-bottom: 1px solid rgba(255,255,255,.04);
+      font-size: .8rem;
+    }
+    th { color: var(--muted); font-weight: 600; text-transform: uppercase; font-size: .65rem; letter-spacing: .06em; }
+    td img { width: 40px; height: 40px; object-fit: cover; border-radius: 6px; }
+
+    .status-badge {
+      display: inline-block; padding: 3px 10px;
+      border-radius: 99px; font-size: .65rem; font-weight: 700;
+    }
+    .status-published { background: rgba(52,211,153,.15); color: var(--green); }
+    .status-draft { background: rgba(251,191,36,.15); color: var(--yellow); }
+    .status-error { background: rgba(248,113,113,.15); color: var(--red); }
+
+    /* Log */
+    .log-entry {
+      padding: 10px 14px;
+      border-bottom: 1px solid rgba(255,255,255,.04);
+      font-size: .75rem;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .log-entry .log-time { color: var(--muted); }
+    .log-entry .log-msg { flex: 1; margin-left: 12px; }
+
+    /* Toast */
+    .toast {
+      position: fixed; bottom: 24px; right: 24px; z-index: 999;
+      background: var(--green); color: #000;
+      padding: 12px 20px; border-radius: 10px;
+      font-weight: 600; font-size: .85rem;
+      transform: translateY(100px); opacity: 0;
+      transition: all .3s;
+    }
+    .toast.show { transform: translateY(0); opacity: 1; }
+    .toast.error { background: var(--red); color: #fff; }
+
+    @media(max-width: 768px) {
+      .admin-layout { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+      .admin-main { padding: 16px; }
+      .form-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="admin-layout">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">&#x1F6CD;&#xFE0F; Emporium<strong>Online</strong></div>
+      <nav class="sidebar-nav">
+        <a href="#" class="active" onclick="showSection('dashboard')"><span class="icon">&#x1F4CA;</span> Dashboard</a>
+        <a href="#" onclick="showSection('api')"><span class="icon">&#x1F511;</span> API Amazon</a>
+        <a href="#" onclick="showSection('import')"><span class="icon">&#x1F4E5;</span> Importa Offerte</a>
+        <a href="#" onclick="showSection('products')"><span class="icon">&#x1F6CD;</span> Prodotti</a>
+        <a href="#" onclick="showSection('add')"><span class="icon">&#x2795;</span> Aggiungi Manuale</a>
+        <a href="#" onclick="showSection('config')"><span class="icon">&#x2699;&#xFE0F;</span> Configurazione</a>
+        <a href="#" onclick="showSection('logs')"><span class="icon">&#x1F4CB;</span> Log</a>
+        <a href="index.html"><span class="icon">&#x1F30D;</span> Vai al Sito</a>
+      </nav>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="admin-main">
+      <div class="admin-header">
+        <h1 id="sectionTitle">Dashboard</h1>
+        <a href="index.html">&#x2190; Torna al sito</a>
+      </div>
+
+      <!-- DASHBOARD -->
+      <div id="sec-dashboard" class="admin-section">
+        <div class="info-grid">
+          <div class="info-card">
+            <div class="label">Prodotti Totali</div>
+            <div class="value" id="stat-total">0</div>
+          </div>
+          <div class="info-card">
+            <div class="label">Pubblicati</div>
+            <div class="value ok" id="stat-published">0</div>
+          </div>
+          <div class="info-card">
+            <div class="label">Bozze</div>
+            <div class="value warn" id="stat-drafts">0</div>
+          </div>
+          <div class="info-card">
+            <div class="label">Stato API</div>
+            <div class="value" id="stat-api">Non configurata</div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header"><h2>Ultimi Prodotti Importati</h2></div>
+          <div class="panel-body">
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Img</th><th>Titolo</th><th>Categoria</th><th>Prezzo</th><th>Stato</th><th>Data</th></tr></thead>
+                <tbody id="recent-products"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- API CONFIG -->
+      <div id="sec-api" class="admin-section" style="display:none">
+        <div class="panel">
+          <div class="panel-header"><h2>&#x1F511; Configurazione Amazon PA-API</h2></div>
+          <div class="panel-body">
+            <p style="font-size:.8rem;color:var(--muted);margin-bottom:20px">
+              Le credenziali vengono salvate nel file <code>.env</code> sul server. Non vengono mai esposte nel frontend.<br>
+              Per configurare l'API, modifica il file <code>.env</code> nella root del progetto.
+            </p>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Access Key</label>
+                <input type="password" id="api-access" placeholder="Configurata nel file .env" disabled>
+                <span class="hint">AMAZON_ACCESS_KEY nel file .env</span>
+              </div>
+              <div class="form-group">
+                <label>Secret Key</label>
+                <input type="password" id="api-secret" placeholder="Configurata nel file .env" disabled>
+                <span class="hint">AMAZON_SECRET_KEY nel file .env</span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Partner Tag</label>
+                <input type="text" id="api-tag" value="prezzotop08-21">
+                <span class="hint">Il tuo Tracking ID Amazon Associates</span>
+              </div>
+              <div class="form-group">
+                <label>Marketplace</label>
+                <select id="api-marketplace">
+                  <option value="IT" selected>Amazon.it (Italia)</option>
+                  <option value="DE">Amazon.de (Germania)</option>
+                  <option value="FR">Amazon.fr (Francia)</option>
+                  <option value="ES">Amazon.es (Spagna)</option>
+                </select>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-primary" onclick="saveApiConfig()">Salva Configurazione</button>
+              <button class="btn btn-ghost" onclick="testApi()">Test Connessione API</button>
+            </div>
+            <div id="api-test-result" style="margin-top:16px;font-size:.8rem"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- IMPORTA -->
+      <div id="sec-import" class="admin-section" style="display:none">
+        <div class="panel">
+          <div class="panel-header"><h2>&#x1F4E5; Importa Offerte</h2></div>
+          <div class="panel-body">
+            <p style="font-size:.85rem;color:var(--muted);margin-bottom:20px">
+              Importa nuovi prodotti dal sistema. Se l'API Amazon non &egrave; configurata, verranno creati prodotti placeholder come bozze.
+            </p>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Numero Prodotti</label>
+                <select id="import-count">
+                  <option value="1">1 prodotto</option>
+                  <option value="3">3 prodotti</option>
+                  <option value="5" selected>5 prodotti (consigliato)</option>
+                  <option value="10">10 prodotti</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Categoria (opzionale)</label>
+                <select id="import-cat">
+                  <option value="">Tutte le categorie</option>
+                  <option value="scarpe">Scarpe</option>
+                  <option value="abbigliamento">Abbigliamento</option>
+                  <option value="accessori">Accessori</option>
+                  <option value="borse">Borse & Zaini</option>
+                  <option value="casa">Casa</option>
+                  <option value="gadget">Gadget</option>
+                  <option value="idee-regalo">Idee Regalo</option>
+                  <option value="beauty">Beauty</option>
+                  <option value="tech">Tech</option>
+                </select>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-success" onclick="importProducts()">Importa Offerte Ora</button>
+            </div>
+            <div id="import-result" style="margin-top:16px;font-size:.8rem"></div>
+
+            <hr style="border:none;border-top:1px solid rgba(255,255,255,.05);margin:24px 0">
+
+            <h3 style="font-size:.9rem;margin-bottom:12px">Importa da Lista ASIN</h3>
+            <div class="form-row full">
+              <div class="form-group">
+                <label>ASIN (uno per riga)</label>
+                <textarea id="import-asins" rows="4" placeholder="B07ZPKBL9V&#10;B0B2P4BLGW&#10;B09V3HN1KC"></textarea>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-warning" onclick="importAsins()">Importa ASIN</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODOTTI -->
+      <div id="sec-products" class="admin-section" style="display:none">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>&#x1F6CD; Tutti i Prodotti</h2>
+            <button class="btn btn-sm btn-ghost" onclick="refreshProducts()">Aggiorna</button>
+          </div>
+          <div class="panel-body">
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Img</th><th>Titolo</th><th>ASIN</th><th>Cat.</th><th>Prezzo</th><th>Stato</th><th>Azioni</th></tr></thead>
+                <tbody id="all-products"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AGGIUNGI MANUALE -->
+      <div id="sec-add" class="admin-section" style="display:none">
+        <div class="panel">
+          <div class="panel-header"><h2>&#x2795; Aggiungi Prodotto Manuale</h2></div>
+          <div class="panel-body">
+            <form id="addProductForm" onsubmit="addManualProduct(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Titolo Prodotto *</label>
+                  <input type="text" id="add-title" required minlength="5" maxlength="80">
+                </div>
+                <div class="form-group">
+                  <label>ASIN Amazon *</label>
+                  <input type="text" id="add-asin" required pattern="[A-Z0-9]{10}" placeholder="es. B07ZPKBL9V">
+                  <span class="hint">10 caratteri alfanumerici maiuscoli</span>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Categoria *</label>
+                  <select id="add-category" required>
+                    <option value="">Seleziona...</option>
+                    <option value="scarpe">Scarpe</option>
+                    <option value="abbigliamento">Abbigliamento</option>
+                    <option value="accessori">Accessori</option>
+                    <option value="borse">Borse & Zaini</option>
+                    <option value="casa">Casa</option>
+                    <option value="gadget">Gadget</option>
+                    <option value="idee-regalo">Idee Regalo</option>
+                    <option value="beauty">Beauty</option>
+                    <option value="tech">Tech</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>URL Immagine (opzionale)</label>
+                  <input type="url" id="add-image" placeholder="https://...">
+                  <span class="hint">Lascia vuoto per placeholder colorato</span>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Prezzo (opzionale)</label>
+                  <input type="number" id="add-price" step="0.01" min="0" placeholder="es. 29.99">
+                </div>
+                <div class="form-group">
+                  <label>Prezzo Originale (opzionale)</label>
+                  <input type="number" id="add-oldprice" step="0.01" min="0" placeholder="es. 49.99">
+                </div>
+              </div>
+              <div class="form-row full">
+                <div class="form-group">
+                  <label>Stato</label>
+                  <select id="add-status">
+                    <option value="published">Pubblicato</option>
+                    <option value="draft">Bozza</option>
+                  </select>
+                </div>
+              </div>
+              <div class="btn-group">
+                <button type="submit" class="btn btn-primary">Aggiungi Prodotto</button>
+                <button type="reset" class="btn btn-ghost">Svuota</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONFIGURAZIONE -->
+      <div id="sec-config" class="admin-section" style="display:none">
+        <div class="panel">
+          <div class="panel-header"><h2>&#x2699;&#xFE0F; Configurazione Generale</h2></div>
+          <div class="panel-body">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Prodotti Giornalieri</label>
+                <select id="cfg-daily">
+                  <option value="3">3</option>
+                  <option value="5" selected>5 (consigliato)</option>
+                  <option value="8">8</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Approvazione Manuale</label>
+                <select id="cfg-approval">
+                  <option value="false" selected>No - Pubblica automaticamente</option>
+                  <option value="true">Si - Richiedi approvazione</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row full">
+              <div class="form-group">
+                <label>Parole Chiave Preferite (separate da virgola)</label>
+                <input type="text" id="cfg-keywords" value="colorato, multicolor, vivace, offerta, regalo, trend">
+              </div>
+            </div>
+            <div class="form-row full">
+              <div class="form-group">
+                <label>Parole Chiave Escluse (separate da virgola)</label>
+                <input type="text" id="cfg-excluded" value="adulti, erotico, arma, coltello, sigaretta">
+              </div>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-primary" onclick="saveConfig()">Salva Configurazione</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LOG -->
+      <div id="sec-logs" class="admin-section" style="display:none">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>&#x1F4CB; Log Importazioni</h2>
+            <button class="btn btn-sm btn-ghost" onclick="refreshLogs()">Aggiorna</button>
+          </div>
+          <div class="panel-body">
+            <div id="log-list">
+              <p style="color:var(--muted);font-size:.85rem">Caricamento log...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // === ADMIN APP ===
+
+    var DB_KEY = "eo_products_db";
+    var CONFIG_KEY = "eo_config";
+    var LOG_KEY = "eo_logs";
+
+    // --- Database ---
+    function getDB() {
+      try {
+        var raw = localStorage.getItem(DB_KEY);
+        if (raw) return JSON.parse(raw);
+      } catch(e) {}
+      return { last_updated: "", products: [] };
+    }
+
+    function saveDB(db) {
+      db.last_updated = new Date().toISOString();
+      localStorage.setItem(DB_KEY, JSON.stringify(db));
+      syncProductsJS(db);
+    }
+
+    function getConfig() {
+      try {
+        var raw = localStorage.getItem(CONFIG_KEY);
+        if (raw) return JSON.parse(raw);
+      } catch(e) {}
+      return {
+        partner_tag: "prezzotop08-21",
+        daily_limit: 5,
+        auto_publish: true,
+        require_approval: false,
+        keywords_preferred: "colorato, multicolor, vivace, offerta, regalo, trend",
+        keywords_excluded: "adulti, erotico, arma, coltello, sigaretta"
+      };
+    }
+
+    function saveConfigData(cfg) {
+      localStorage.setItem(CONFIG_KEY, JSON.stringify(cfg));
+    }
+
+    function getLogs() {
+      try {
+        var raw = localStorage.getItem(LOG_KEY);
+        if (raw) return JSON.parse(raw);
+      } catch(e) {}
+      return [];
+    }
+
+    function addLog(entry) {
+      var logs = getLogs();
+      logs.unshift(entry);
+      if (logs.length > 50) logs = logs.slice(0, 50);
+      localStorage.setItem(LOG_KEY, JSON.stringify(logs));
+    }
+
+    // --- Sync products.js via data URI ---
+    function syncProductsJS(db) {
+      // Questa funzione genera l'array window.products per il sito
+      // In un setup con backend, questo scriverebbe il file products.js
+      // Su GitHub Pages, i prodotti vengono gestiti tramite l'agent Python
+      var published = db.products.filter(function(p) { return p.status === "published"; });
+      var tag = getConfig().partner_tag || "prezzotop08-21";
+
+      // Salva anche in un formato leggibile dal sito
+      localStorage.setItem("eo_published", JSON.stringify({
+        tag: tag,
+        products: published.map(function(p) {
+          return {
+            id: p.id,
+            asin: p.asin,
+            name: p.title,
+            category: p.category,
+            emoji: p.emoji || "🛍️",
+            clr1: p.clr1 || "#ff6b9d",
+            clr2: p.clr2 || "#a78bfa",
+            image: p.image_url || "",
+            price: p.price,
+            oldPrice: p.old_price,
+            discount: p.discount,
+            currency: p.currency || "EUR",
+            amazonLink: p.amazon_url || ("https://www.amazon.it/dp/" + p.asin + "?tag=" + tag),
+            offerBadge: p.offer_badge || false,
+            importedAt: p.imported_at || ""
+          };
+        })
+      }));
+    }
+
+    // --- Sections ---
+    function showSection(name) {
+      var sections = document.querySelectorAll(".admin-section");
+      sections.forEach(function(s) { s.style.display = "none"; });
+      var target = document.getElementById("sec-" + name);
+      if (target) target.style.display = "block";
+
+      var links = document.querySelectorAll(".sidebar-nav a");
+      links.forEach(function(a) { a.classList.remove("active"); });
+      event.target.closest("a").classList.add("active");
+
+      var titles = {
+        dashboard: "Dashboard",
+        api: "API Amazon",
+        import: "Importa Offerte",
+        products: "Prodotti",
+        add: "Aggiungi Prodotto",
+        config: "Configurazione",
+        logs: "Log"
+      };
+      document.getElementById("sectionTitle").textContent = titles[name] || "Admin";
+
+      if (name === "dashboard") refreshDashboard();
+      if (name === "products") refreshProducts();
+      if (name === "logs") refreshLogs();
+      if (name === "config") loadConfigUI();
+    }
+
+    // --- Dashboard ---
+    function refreshDashboard() {
+      var db = getDB();
+      var published = db.products.filter(function(p) { return p.status === "published"; });
+      var drafts = db.products.filter(function(p) { return p.status === "draft"; });
+
+      document.getElementById("stat-total").textContent = db.products.length;
+      document.getElementById("stat-published").textContent = published.length;
+      document.getElementById("stat-drafts").textContent = drafts.length;
+
+      // Recent products
+      var tbody = document.getElementById("recent-products");
+      tbody.innerHTML = "";
+      var recent = db.products.slice(-10).reverse();
+      recent.forEach(function(p) {
+        var imgSrc = p.image_url || "";
+        var imgHtml = imgSrc
+          ? '<img src="' + escHtml(imgSrc) + '" alt="" onerror="this.style.display=\'none\'">'
+          : '<div style="width:40px;height:40px;border-radius:6px;background:linear-gradient(135deg,' + (p.clr1||'#ff6b9d') + ',' + (p.clr2||'#a78bfa') + ');display:flex;align-items:center;justify-content:center;font-size:1.2rem">' + (p.emoji||'🛍️') + '</div>';
+
+        var tr = document.createElement("tr");
+        tr.innerHTML =
+          '<td>' + imgHtml + '</td>' +
+          '<td>' + escHtml(p.title || '') + '</td>' +
+          '<td>' + escHtml(p.category || '') + '</td>' +
+          '<td>' + (p.price ? '&euro;' + parseFloat(p.price).toFixed(2) : '-') + '</td>' +
+          '<td><span class="status-badge status-' + (p.status || 'draft') + '">' + (p.status || 'draft') + '</span></td>' +
+          '<td style="font-size:.7rem;color:var(--muted)">' + formatDate(p.imported_at) + '</td>';
+        tbody.appendChild(tr);
+      });
+
+      if (!recent.length) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:24px">Nessun prodotto ancora. Importa le prime offerte!</td></tr>';
+      }
+    }
+
+    // --- Products ---
+    function refreshProducts() {
+      var db = getDB();
+      var tbody = document.getElementById("all-products");
+      tbody.innerHTML = "";
+
+      db.products.forEach(function(p, idx) {
+        var imgSrc = p.image_url || "";
+        var imgHtml = imgSrc
+          ? '<img src="' + escHtml(imgSrc) + '" alt="" onerror="this.style.display=\'none\'">'
+          : '<div style="width:40px;height:40px;border-radius:6px;background:linear-gradient(135deg,' + (p.clr1||'#ff6b9d') + ',' + (p.clr2||'#a78bfa') + ');display:flex;align-items:center;justify-content:center">' + (p.emoji||'🛍️') + '</div>';
+
+        var tr = document.createElement("tr");
+        tr.innerHTML =
+          '<td>' + imgHtml + '</td>' +
+          '<td>' + escHtml(p.title || '') + '</td>' +
+          '<td style="font-size:.7rem;font-family:monospace">' + escHtml(p.asin || '') + '</td>' +
+          '<td>' + escHtml(p.category || '') + '</td>' +
+          '<td>' + (p.price ? '&euro;' + parseFloat(p.price).toFixed(2) : '-') + '</td>' +
+          '<td><span class="status-badge status-' + (p.status || 'draft') + '">' + (p.status || 'draft') + '</span></td>' +
+          '<td>' +
+            (p.status === 'draft' ? '<button class="btn btn-sm btn-success" onclick="publishProduct(' + idx + ')">Pubblica</button> ' : '') +
+            (p.status === 'published' ? '<button class="btn btn-sm btn-warning" onclick="unpublishProduct(' + idx + ')">Bozza</button> ' : '') +
+            '<button class="btn btn-sm btn-danger" onclick="deleteProduct(' + idx + ')">Elimina</button>' +
+          '</td>';
+        tbody.appendChild(tr);
+      });
+
+      if (!db.products.length) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:24px">Nessun prodotto</td></tr>';
+      }
+    }
+
+    function publishProduct(idx) {
+      var db = getDB();
+      if (db.products[idx]) {
+        db.products[idx].status = "published";
+        db.products[idx].published_at = new Date().toISOString();
+        saveDB(db);
+        refreshProducts();
+        toast("Prodotto pubblicato!");
+      }
+    }
+
+    function unpublishProduct(idx) {
+      var db = getDB();
+      if (db.products[idx]) {
+        db.products[idx].status = "draft";
+        saveDB(db);
+        refreshProducts();
+        toast("Prodotto messo in bozza");
+      }
+    }
+
+    function deleteProduct(idx) {
+      if (!confirm("Eliminare questo prodotto?")) return;
+      var db = getDB();
+      db.products.splice(idx, 1);
+      saveDB(db);
+      refreshProducts();
+      toast("Prodotto eliminato");
+    }
+
+    // --- Add Manual ---
+    function addManualProduct(e) {
+      e.preventDefault();
+      var title = document.getElementById("add-title").value.trim();
+      var asin = document.getElementById("add-asin").value.trim().toUpperCase();
+      var cat = document.getElementById("add-category").value;
+      var img = document.getElementById("add-image").value.trim();
+      var price = document.getElementById("add-price").value;
+      var oldPrice = document.getElementById("add-oldprice").value;
+      var status = document.getElementById("add-status").value;
+
+      if (!title || !asin || !cat) { toast("Compila tutti i campi obbligatori", true); return; }
+      if (!/^[A-Z0-9]{10}$/.test(asin)) { toast("ASIN non valido (10 caratteri)", true); return; }
+
+      var db = getDB();
+      if (db.products.some(function(p) { return p.asin === asin; })) {
+        toast("ASIN gia presente!", true); return;
+      }
+
+      var cfg = getConfig();
+      var tag = cfg.partner_tag || "prezzotop08-21";
+
+      var emojis = {
+        scarpe: "👟", abbigliamento: "👗", accessori: "👜", borse: "🎒",
+        casa: "🏠", gadget: "🎮", "idee-regalo": "🎁", beauty: "💄", tech: "📱"
+      };
+      var colorSets = [
+        ["#ff6b9d","#a78bfa"], ["#34d399","#fbbf24"], ["#fb923c","#38bdf8"],
+        ["#a78bfa","#ff6b9d"], ["#fbbf24","#34d399"], ["#38bdf8","#fb923c"]
+      ];
+      var colors = colorSets[Math.floor(Math.random() * colorSets.length)];
+
+      var discount = null;
+      if (price && oldPrice && parseFloat(oldPrice) > parseFloat(price)) {
+        discount = "-" + Math.round((1 - parseFloat(price) / parseFloat(oldPrice)) * 100) + "%";
+      }
+
+      var product = {
+        id: Date.now(),
+        asin: asin,
+        title: title,
+        category: cat,
+        emoji: emojis[cat] || "🛍️",
+        clr1: colors[0],
+        clr2: colors[1],
+        image_url: img,
+        images_secondary: [],
+        price: price ? parseFloat(price) : null,
+        old_price: oldPrice ? parseFloat(oldPrice) : null,
+        currency: "EUR",
+        discount: discount,
+        amazon_url: "https://www.amazon.it/dp/" + asin + "?tag=" + tag,
+        source: "manual",
+        imported_at: new Date().toISOString(),
+        published_at: status === "published" ? new Date().toISOString() : null,
+        status: status,
+        offer_badge: !!discount,
+        color_tag: ""
+      };
+
+      db.products.push(product);
+      saveDB(db);
+
+      addLog({
+        timestamp: new Date().toISOString(),
+        mode: "manual",
+        message: "Aggiunto: " + title + " (" + asin + ")"
+      });
+
+      document.getElementById("addProductForm").reset();
+      toast("Prodotto aggiunto!");
+    }
+
+    // --- Import (simulazione frontend) ---
+    function importProducts() {
+      var count = parseInt(document.getElementById("import-count").value);
+      var result = document.getElementById("import-result");
+      result.innerHTML = '<span style="color:var(--yellow)">Per importare prodotti tramite API, esegui il comando:</span><br><br>' +
+        '<code style="background:rgba(255,255,255,.06);padding:8px 14px;border-radius:8px;display:block;margin:8px 0">' +
+        'python scripts/agent_products.py --count ' + count +
+        '</code><br>' +
+        '<span style="color:var(--muted);font-size:.75rem">L\'agente si connette all\'API Amazon, cerca prodotti e aggiorna il sito automaticamente.<br>' +
+        'Se l\'API non &egrave; configurata, verranno creati prodotti placeholder.</span>';
+    }
+
+    function importAsins() {
+      var text = document.getElementById("import-asins").value.trim();
+      if (!text) { toast("Inserisci almeno un ASIN", true); return; }
+      var asins = text.split(/[\n,;]+/).map(function(s) { return s.trim().toUpperCase(); }).filter(function(s) { return /^[A-Z0-9]{10}$/.test(s); });
+      if (!asins.length) { toast("Nessun ASIN valido trovato", true); return; }
+
+      var result = document.getElementById("import-result");
+      result.innerHTML = '<span style="color:var(--yellow)">Per importare questi ASIN, esegui:</span><br><br>' +
+        '<code style="background:rgba(255,255,255,.06);padding:8px 14px;border-radius:8px;display:block;margin:8px 0">' +
+        'python scripts/agent_products.py --manual ' + asins.join(' ') +
+        '</code>';
+    }
+
+    // --- API Test ---
+    function saveApiConfig() {
+      var cfg = getConfig();
+      cfg.partner_tag = document.getElementById("api-tag").value.trim();
+      cfg.marketplace = document.getElementById("api-marketplace").value;
+      saveConfigData(cfg);
+      toast("Configurazione API salvata!");
+    }
+
+    function testApi() {
+      var result = document.getElementById("api-test-result");
+      result.innerHTML = '<span style="color:var(--yellow)">Per testare l\'API, esegui:</span><br>' +
+        '<code style="background:rgba(255,255,255,.06);padding:6px 12px;border-radius:6px;display:inline-block;margin:6px 0">' +
+        'python scripts/agent_products.py --test</code>';
+    }
+
+    // --- Config ---
+    function loadConfigUI() {
+      var cfg = getConfig();
+      document.getElementById("cfg-daily").value = cfg.daily_limit || 5;
+      document.getElementById("cfg-approval").value = cfg.require_approval ? "true" : "false";
+      document.getElementById("cfg-keywords").value = cfg.keywords_preferred || "";
+      document.getElementById("cfg-excluded").value = cfg.keywords_excluded || "";
+    }
+
+    function saveConfig() {
+      var cfg = getConfig();
+      cfg.daily_limit = parseInt(document.getElementById("cfg-daily").value);
+      cfg.require_approval = document.getElementById("cfg-approval").value === "true";
+      cfg.auto_publish = !cfg.require_approval;
+      cfg.keywords_preferred = document.getElementById("cfg-keywords").value;
+      cfg.keywords_excluded = document.getElementById("cfg-excluded").value;
+      saveConfigData(cfg);
+      toast("Configurazione salvata!");
+    }
+
+    // --- Logs ---
+    function refreshLogs() {
+      var logs = getLogs();
+      var container = document.getElementById("log-list");
+      container.innerHTML = "";
+
+      if (!logs.length) {
+        container.innerHTML = '<p style="color:var(--muted);font-size:.85rem">Nessun log disponibile</p>';
+        return;
+      }
+
+      logs.forEach(function(log) {
+        var div = document.createElement("div");
+        div.className = "log-entry";
+        div.innerHTML =
+          '<span class="log-time">' + formatDate(log.timestamp) + '</span>' +
+          '<span class="log-msg">' + escHtml(log.message || JSON.stringify(log).substring(0, 100)) + '</span>';
+        container.appendChild(div);
+      });
+    }
+
+    // --- Helpers ---
+    function escHtml(str) {
+      var div = document.createElement("div");
+      div.appendChild(document.createTextNode(str || ""));
+      return div.innerHTML;
+    }
+
+    function formatDate(dateStr) {
+      if (!dateStr) return "-";
+      var d = new Date(dateStr);
+      return d.toLocaleDateString("it-IT") + " " + d.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" });
+    }
+
+    function toast(msg, isError) {
+      var existing = document.querySelector(".toast");
+      if (existing) existing.remove();
+      var t = document.createElement("div");
+      t.className = "toast show" + (isError ? " error" : "");
+      t.textContent = msg;
+      document.body.appendChild(t);
+      setTimeout(function() { t.classList.remove("show"); setTimeout(function() { t.remove(); }, 400); }, 3000);
+    }
+
+    // --- Init ---
+    refreshDashboard();
+
+    // Carica stat API
+    var apiEl = document.getElementById("stat-api");
+    // Su GitHub Pages non abbiamo modo di verificare il .env, quindi mostriamo un hint
+    apiEl.textContent = "Vedi .env";
+    apiEl.className = "value warn";
+  </script>
+</body>
+</html>
