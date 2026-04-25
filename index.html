@@ -51,9 +51,9 @@
       <span class="brand-name">Emporium<strong>Online</strong></span>
     </a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#oggi">Offerte di Oggi</a></li>
+      <li><a href="#offerte">Prodotti</a></li>
       <li><a href="#categorie">Categorie</a></li>
-      <li><a href="#offerte">Tutte le Offerte</a></li>
+      <li><a href="#oggi">Offerte di Oggi</a></li>
       <li><a href="admin.html" class="nav-admin">Admin</a></li>
     </ul>
     <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
@@ -86,21 +86,24 @@
         </div>
       </div>
       <div class="hero-cta">
-        <a href="#oggi" class="btn btn-primary btn-lg">Scopri le Offerte</a>
+        <a href="#offerte" class="btn btn-primary btn-lg">Scopri le Offerte</a>
         <a href="#categorie" class="btn btn-glass">Esplora Categorie</a>
       </div>
     </div>
   </header>
 
-  <!-- OFFERTE DEL GIORNO -->
-  <section id="oggi" class="section">
+  <!-- TUTTE LE OFFERTE — carrellata immediata dopo l'hero -->
+  <section id="offerte" class="section">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">&#x1F525; Oggi</span>
-        <h2>Le Offerte del Giorno</h2>
-        <p>Selezionate ogni giorno dal nostro agente automatico tra le migliori proposte Amazon</p>
+        <span class="section-badge badge-yellow">&#x1F308; Catalogo Colorato</span>
+        <h2>Tutti i Prodotti</h2>
+        <p>Filtra per categoria e trova quello che cerchi tra le offerte pi&ugrave; vivaci di Amazon</p>
       </div>
-      <div class="products-grid" id="today-grid">
+      <div class="filter-bar" id="category-filters">
+        <!-- Filtri iniettati da JS -->
+      </div>
+      <div class="products-grid" id="offers-grid">
         <!-- Prodotti iniettati da JS -->
       </div>
     </div>
@@ -128,23 +131,6 @@
     </div>
   </section>
 
-  <!-- TUTTE LE OFFERTE -->
-  <section id="offerte" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-badge badge-yellow">&#x26A1; Catalogo</span>
-        <h2>Tutte le Offerte</h2>
-        <p>Filtra per categoria e trova quello che cerchi</p>
-      </div>
-      <div class="filter-bar" id="category-filters">
-        <!-- Filtri iniettati da JS -->
-      </div>
-      <div class="products-grid" id="offers-grid">
-        <!-- Prodotti iniettati da JS -->
-      </div>
-    </div>
-  </section>
-
   <!-- COME FUNZIONA -->
   <section class="section section-dark">
     <div class="container">
@@ -167,6 +153,20 @@
           <h3>Acquista su Amazon</h3>
           <p>Clicca il pulsante e completa l'acquisto in sicurezza direttamente su Amazon</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERTE DEL GIORNO — in fondo prima della newsletter -->
+  <section id="oggi" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">&#x1F525; Selezione del Giorno</span>
+        <h2>Le 5 Offerte del Giorno</h2>
+        <p>Selezionate ogni giorno dal nostro agente automatico tra le migliori proposte Amazon</p>
+      </div>
+      <div class="products-grid" id="today-grid">
+        <!-- Prodotti iniettati da JS -->
       </div>
     </div>
   </section>

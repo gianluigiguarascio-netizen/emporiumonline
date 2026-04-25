@@ -1,6 +1,17 @@
 {
   "logs": [
     {
+      "timestamp": "2026-04-25T17:29:54.226609",
+      "mode": "rss",
+      "products_found": 0,
+      "products_published": 0,
+      "products_draft": 0,
+      "skipped_duplicate": 0,
+      "skipped_blocked": 0,
+      "errors": 9,
+      "total_in_db": 0
+    },
+    {
       "timestamp": "2026-04-25T09:04:03.288525",
       "mode": "rss",
       "products_found": 0,

@@ -335,7 +335,7 @@
 
     // Aggiorna contatori
     var countEl = document.getElementById("product-count");
-    if (countEl) countEl.textContent = count;
+    if (countEl) { countEl.textContent = count; countEl.dataset.count = count; }
 
     // Meta description dinamica
     var metaDesc = document.querySelector('meta[name="description"]');
@@ -377,7 +377,7 @@
     renderColorCategories();
     renderCategoryFilters();
     renderLatestOffers();
-    updateSEO();
+    updateSEO();       // aggiorna data-count prima dell'animazione
     animateCounters();
   }
 

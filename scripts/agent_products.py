@@ -1,532 +1,449 @@
 #!/usr/bin/env python3
 """
-Agente automatico giornaliero per EmporiumOnline.
-Pubblica ogni giorno fino a 5 prodotti Amazon reali, colorati e attraenti.
-
-FUNZIONA SENZA API AMAZON!
-Usa i feed RSS pubblici dei bestseller Amazon.it per ottenere:
-- Titolo prodotto reale
-- ASIN reale
-- Immagine reale dal feed
-- Prezzo se disponibile
-
-I link affiliati vengono costruiti con: amazon.it/dp/{ASIN}?tag={TAG}
-Questo funziona subito, senza PA-API, senza vendite pregresse.
-
-Modalita:
-  1) RSS Feed Amazon.it (default, funziona SUBITO)
-  2) PA-API v5 (opzionale, se hai le credenziali)
-  3) Inserimento manuale ASIN
-
-Uso:
-  python agent_products.py                    # Importa 5 prodotti da RSS
-  python agent_products.py --count 3          # Importa 3 prodotti
-  python agent_products.py --manual ASIN1 ASIN2  # Importa ASIN specifici
-  python agent_products.py --regenerate       # Rigenera products.js dal DB
-  python agent_products.py --test             # Testa connessione API (opzionale)
+EmporiumOnline - Agente v2
+Trova prodotti colorati su Amazon.it tramite DuckDuckGo.
+Non richiede API keys. Funziona in GitHub Actions.
 """
 import json
 import os
-import random
 import re
 import sys
-import xml.etree.ElementTree as ET
+import time
+import random
+import gzip
 from datetime import datetime
 from urllib.request import Request, urlopen
-from urllib.error import URLError
+from urllib.parse import quote_plus, urlencode, unquote
+from urllib.error import URLError, HTTPError
 
 BASE_DIR = os.path.join(os.path.dirname(__file__), "..")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 PRODUCTS_FILE = os.path.join(DATA_DIR, "products.json")
-CONFIG_FILE = os.path.join(DATA_DIR, "config.json")
-LOG_FILE = os.path.join(DATA_DIR, "import_log.json")
+JS_FILE = os.path.join(BASE_DIR, "js", "products.js")
 
-# --- Configurazione ---
-def load_env():
-    env_path = os.path.join(BASE_DIR, ".env")
-    if os.path.exists(env_path):
-        with open(env_path, "r") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#") and "=" in line:
-                    key, _, val = line.partition("=")
-                    os.environ.setdefault(key.strip(), val.strip())
+AMAZON_TAG = os.environ.get("AMAZON_TAG", "prezzotop08-21")
 
-load_env()
-
-PARTNER_TAG = os.environ.get("AMAZON_PARTNER_TAG",
-              os.environ.get("AMAZON_TAG", "prezzotop08-21"))
-
-# --- Feed RSS Amazon.it Bestseller (PUBBLICI, nessuna API necessaria) ---
-RSS_FEEDS = {
-    "abbigliamento": [
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/2892904031",   # Vestiti donna
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/2892859031",   # Abbigliamento donna
-    ],
+# Keyword di ricerca per categoria — prodotti colorati e vivaci
+CATEGORY_QUERIES = {
     "scarpe": [
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/700832031",    # Sneakers donna
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/700766031",    # Scarpe donna
+        "scarpe donna colorate arcobaleno",
+        "sneakers multicolor vivaci donna",
+        "sandali colorati estate donna",
+        "stivaletti colorati donna",
+        "ballerine colorate donna",
     ],
-    "borse": [
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/2004757031",   # Borse donna
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/2646560031",   # Zaini casual
+    "abbigliamento": [
+        "vestito colorato floreale donna",
+        "abito multicolore donna estate",
+        "maglietta tie dye colorata",
+        "gonna colorata fantasia donna",
+        "kimono colorato donna",
     ],
     "accessori": [
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/524012031",    # Orologi donna
-        "https://www.amazon.it/gp/rss/bestsellers/fashion/524016031",    # Occhiali sole
+        "collana colorata donna moda",
+        "orecchini colorati vivaci",
+        "bracciale colorato resina",
+        "fascia capelli colorata",
+    ],
+    "borse": [
+        "borsa colorata donna estate",
+        "zaino colorato scuola",
+        "pochette colorata glitter",
+        "borsa tessuto colorata",
     ],
     "casa": [
-        "https://www.amazon.it/gp/rss/bestsellers/kitchen/3442161031",   # Decorazioni casa
-        "https://www.amazon.it/gp/rss/bestsellers/kitchen/731861031",    # Illuminazione
-    ],
-    "tech": [
-        "https://www.amazon.it/gp/rss/bestsellers/electronics/473535031", # Cuffie
-        "https://www.amazon.it/gp/rss/bestsellers/electronics/460200031", # Accessori telefono
-    ],
-    "beauty": [
-        "https://www.amazon.it/gp/rss/bestsellers/beauty/6198081031",    # Trucco viso
-        "https://www.amazon.it/gp/rss/bestsellers/beauty/6198085031",    # Trucco occhi
+        "cuscino colorato divano decorativo",
+        "vaso colorato ceramica design",
+        "tappeto colorato camera",
+        "lampada colorata led design",
+        "statuetta colorata decorazione",
     ],
     "gadget": [
-        "https://www.amazon.it/gp/rss/bestsellers/toys/1398017031",     # Giochi creativi
+        "cover colorata telefono arcobaleno",
+        "cuffie colorate wireless",
+        "mouse colorato pc arcobaleno",
+        "fidget toy colorato",
+    ],
+    "beauty": [
+        "palette ombretti colorati glitter",
+        "rossetto colorato brillante",
+        "smalto colorato nail art",
+        "matita occhi colorata",
     ],
     "idee-regalo": [
-        "https://www.amazon.it/gp/rss/bestsellers/gift-cards",           # Buoni regalo
+        "regalo colorato originale donna",
+        "idea regalo arcobaleno divertente",
+        "kit regalo colorato",
     ],
 }
 
-# Colori e emoji per categorie
-CATEGORY_META = {
-    "scarpe":        {"emoji": "\U0001f45f", "colors": [["#ff6b9d","#a78bfa"], ["#fb923c","#fbbf24"], ["#34d399","#38bdf8"]]},
-    "abbigliamento": {"emoji": "\U0001f457", "colors": [["#a78bfa","#ff6b9d"], ["#fbbf24","#fb923c"], ["#38bdf8","#34d399"]]},
-    "accessori":     {"emoji": "\U0001f45c", "colors": [["#34d399","#fbbf24"], ["#ff6b9d","#38bdf8"], ["#a78bfa","#fb923c"]]},
-    "borse":         {"emoji": "\U0001f392", "colors": [["#fb923c","#ff6b9d"], ["#38bdf8","#a78bfa"], ["#fbbf24","#34d399"]]},
-    "casa":          {"emoji": "\U0001f3e0", "colors": [["#fbbf24","#34d399"], ["#a78bfa","#38bdf8"], ["#ff6b9d","#fb923c"]]},
-    "gadget":        {"emoji": "\U0001f3ae", "colors": [["#38bdf8","#a78bfa"], ["#34d399","#ff6b9d"], ["#fb923c","#fbbf24"]]},
-    "idee-regalo":   {"emoji": "\U0001f381", "colors": [["#ff6b9d","#fbbf24"], ["#a78bfa","#34d399"], ["#38bdf8","#fb923c"]]},
-    "beauty":        {"emoji": "\U0001f484", "colors": [["#ff6b9d","#a78bfa"], ["#fbbf24","#ff6b9d"], ["#fb923c","#a78bfa"]]},
-    "tech":          {"emoji": "\U0001f4f1", "colors": [["#38bdf8","#34d399"], ["#a78bfa","#38bdf8"], ["#34d399","#fbbf24"]]},
+# Colori CSS per ogni categoria
+COLORS_BY_CATEGORY = {
+    "scarpe":        ("#ff6b9d", "#f472b6"),
+    "abbigliamento": ("#a78bfa", "#818cf8"),
+    "accessori":     ("#34d399", "#2dd4bf"),
+    "borse":         ("#fbbf24", "#fb923c"),
+    "casa":          ("#38bdf8", "#06b6d4"),
+    "gadget":        ("#fb923c", "#f97316"),
+    "beauty":        ("#f472b6", "#ec4899"),
+    "idee-regalo":   ("#34d399", "#a78bfa"),
+    "tech":          ("#818cf8", "#6366f1"),
 }
 
-BLOCKED_WORDS = [
-    "adulti", "erotico", "sexy", "arma", "coltello", "pistola",
-    "sigaretta", "alcol", "droga", "scommesse", "gambling",
+KEYWORDS_EXCLUDED = [
+    "adulti", "erotico", "arma", "coltello", "sigarett",
+    "tabacco", "sexy", "porn", "escort", "pistola",
 ]
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Accept": "application/rss+xml, application/xml, text/xml, */*",
-}
+# Pool di seed — prodotti verificati, usati come fallback
+SEED_POOL = [
+    {"asin": "B0FLCS5FB2", "name": "Giacca Donna Stampata Colorata con Bottoni",     "category": "abbigliamento", "price": 6.78},
+    {"asin": "B0D48KJW57", "name": "Scarpe Mary Jane Donna Colorata Tacco Basso",    "category": "scarpe",        "price": 22.99},
+    {"asin": "B0B3WRBQB7", "name": "Sandali Tacco Donna Castamere Colorati",         "category": "scarpe",        "price": 35.99},
+    {"asin": "B0D411DMR1", "name": "Stivaletti Donna Colorati Tacco Basso Comodi",   "category": "scarpe",        "price": 28.99},
+    {"asin": "B0DBQMZZRH", "name": "Fioriera Viso Colorata Decorazione Giardino",    "category": "casa",          "price": 19.99},
+    {"asin": "B09X6RKRPW", "name": "Elefante Graffiti Colorato Decorazione Casa",    "category": "casa",          "price": 24.99},
+    {"asin": "B09NVD51JY", "name": "Orecchini Colorati Arcobaleno Donna Resina",     "category": "accessori",     "price": 9.99},
+    {"asin": "B0C5K7X2BL", "name": "Borsa Donna Colorata Tessuto Estate",            "category": "borse",         "price": 18.99},
+    {"asin": "B0B8VK3LHF", "name": "Cuscino Colorato Arcobaleno Divano Decorativo",  "category": "casa",          "price": 14.99},
+    {"asin": "B0BHGXK1FZ", "name": "Cover Colorata iPhone Arcobaleno Antiurto",      "category": "gadget",        "price": 8.99},
+    {"asin": "B0C7S2H8KN", "name": "Palette Ombretti Colorati 12 Colori Glitter",    "category": "beauty",        "price": 12.99},
+    {"asin": "B0D3MKQX7P", "name": "Vestito Donna Floreale Colorato Maniche Lunghe", "category": "abbigliamento", "price": 25.99},
+    {"asin": "B0BZQ7XMRK", "name": "Smalto Colorato Set 24 Pezzi Nail Art",          "category": "beauty",        "price": 11.99},
+    {"asin": "B0C3HM5P7Y", "name": "Zaino Colorato Scuola Ragazze Arcobaleno",       "category": "borse",         "price": 22.99},
+    {"asin": "B0BNYY6CZP", "name": "Lampada LED Colorata RGB Design Moderno",        "category": "casa",          "price": 29.99},
+    {"asin": "B0CF9BSLWX", "name": "Collana Colorata Perline Donna Arcobaleno",      "category": "accessori",     "price": 8.99},
+    {"asin": "B0B2WK8LNX", "name": "Gonna Colorata Midi Donna Fantasia Floreale",    "category": "abbigliamento", "price": 19.99},
+    {"asin": "B0C1QKHMFG", "name": "Rossetto Colorato Set 12 Toni Brillanti",        "category": "beauty",        "price": 14.99},
+    {"asin": "B0CN5RQF8P", "name": "Borsa Zaino Colorato Donna Glitter",             "category": "borse",         "price": 24.99},
+    {"asin": "B0CL2DKYQM", "name": "Vaso Colorato Ceramica Fantasia Fiori",          "category": "casa",          "price": 17.99},
+]
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+]
 
 
-# === FUNZIONI DATABASE ===
-
-def load_products():
-    if os.path.exists(PRODUCTS_FILE):
-        with open(PRODUCTS_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"last_updated": "", "products": []}
+def get_ua():
+    return random.choice(USER_AGENTS)
 
 
-def save_products(data):
-    data["last_updated"] = datetime.now().isoformat()
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(PRODUCTS_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-
-def load_config():
-    if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"daily_limit": 5, "categories_enabled": list(CATEGORY_META.keys()),
-            "keywords_excluded": [], "auto_publish": True}
-
-
-def add_log_entry(entry):
-    logs = {"logs": []}
-    if os.path.exists(LOG_FILE):
-        try:
-            with open(LOG_FILE, "r", encoding="utf-8") as f:
-                logs = json.load(f)
-        except Exception:
-            pass
-    logs["logs"].insert(0, entry)
-    logs["logs"] = logs["logs"][:100]
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(LOG_FILE, "w", encoding="utf-8") as f:
-        json.dump(logs, f, ensure_ascii=False, indent=2)
-
-
-def is_blocked(title):
-    t = title.lower()
-    return any(w in t for w in BLOCKED_WORDS)
-
-
-# === FUNZIONI RSS ===
-
-def fetch_rss(url):
-    """Scarica un feed RSS. Ritorna il contenuto XML o None."""
+def fetch_url(url, timeout=20, extra_headers=None):
+    headers = {
+        "User-Agent": get_ua(),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "it-IT,it;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Connection": "keep-alive",
+        "Cache-Control": "no-cache",
+    }
+    if extra_headers:
+        headers.update(extra_headers)
+    req = Request(url, headers=headers)
     try:
-        req = Request(url, headers=HEADERS)
-        with urlopen(req, timeout=15) as r:
-            return r.read()
-    except Exception as e:
-        print(f"    [WARN] Feed non raggiungibile: {url}")
-        print(f"           {e}")
+        resp = urlopen(req, timeout=timeout)
+        raw = resp.read()
+        enc = resp.info().get("Content-Encoding", "")
+        if "gzip" in enc:
+            raw = gzip.decompress(raw)
+        return raw.decode("utf-8", errors="replace")
+    except Exception:
         return None
+
+
+def search_duckduckgo(query, max_results=20):
+    """Cerca su DuckDuckGo HTML e restituisce lista di (url, title)."""
+    url = "https://html.duckduckgo.com/html/?" + urlencode({"q": "site:amazon.it " + query, "kl": "it-it"})
+    html = fetch_url(url)
+    if not html:
+        return []
+
+    results = []
+
+    # Pattern principale: blocchi risultato
+    blocks = re.findall(
+        r'result__title[^>]*>.*?href="([^"]+)"[^>]*>(.*?)</a>',
+        html, re.DOTALL
+    )
+    for href, title_raw in blocks:
+        real_url = href
+        uddg = re.search(r'uddg=([^&"]+)', href)
+        if uddg:
+            real_url = unquote(uddg.group(1))
+        title = re.sub(r'<[^>]+>', '', title_raw).strip()
+        if "amazon.it" in real_url:
+            results.append((real_url, title))
+        if len(results) >= max_results:
+            break
+
+    # Fallback: tutti gli href amazon.it
+    if not results:
+        all_links = re.findall(r'href="(https?://(?:www\.)?amazon\.it/[^"]+)"', html)
+        for link in all_links:
+            results.append((link, ""))
+            if len(results) >= max_results:
+                break
+
+    return results
 
 
 def extract_asin(url):
-    """Estrae l'ASIN da un URL Amazon."""
-    m = re.search(r'/dp/([A-Z0-9]{10})', url)
-    return m.group(1) if m else None
-
-
-def extract_price(text):
-    """Estrae il prezzo dal testo (description RSS)."""
-    if not text:
-        return None
-    # Cerca pattern tipo "29,99 EUR" o "EUR 29,99" o "29.99"
-    m = re.search(r'(\d+[.,]\d{2})\s*(?:EUR|€)', text)
-    if not m:
-        m = re.search(r'(?:EUR|€)\s*(\d+[.,]\d{2})', text)
-    if m:
-        raw = m.group(1).replace(",", ".")
-        try:
-            return float(raw)
-        except ValueError:
-            pass
+    for pat in [r'/dp/([A-Z0-9]{10})', r'/gp/product/([A-Z0-9]{10})', r'ASIN=([A-Z0-9]{10})']:
+        m = re.search(pat, url)
+        if m:
+            return m.group(1)
     return None
 
 
-def extract_image_from_description(desc):
-    """Estrae l'URL dell'immagine dal campo description del RSS."""
-    if not desc:
-        return ""
-    # L'RSS Amazon mette un <img src="..."> nella description
-    m = re.search(r'<img\s+[^>]*src=["\']([^"\']+)["\']', desc, re.IGNORECASE)
-    if m:
-        img_url = m.group(1)
-        # Migliora qualita: sostituisci _SL... o _SS... con _SL500_
-        img_url = re.sub(r'\._[A-Z]{2}\d+_', '._SL500_', img_url)
-        return img_url
-    return ""
+def scrape_amazon_product(asin):
+    """Scrape pagina Amazon.it per titolo, prezzo, immagine."""
+    url = f"https://www.amazon.it/dp/{asin}?tag={AMAZON_TAG}&language=it_IT"
+    html = fetch_url(url, timeout=25, extra_headers={"Referer": "https://www.google.it/"})
+    if not html or len(html) < 1000:
+        return None
 
-
-def parse_rss_feed(xml_data, category):
-    """Parsa un feed RSS e ritorna lista di prodotti grezzi."""
-    items = []
-    try:
-        root = ET.fromstring(xml_data)
-        for item in root.iter("item"):
-            title_el = item.find("title")
-            link_el = item.find("link")
-            desc_el = item.find("description")
-
-            title = title_el.text.strip() if title_el is not None and title_el.text else None
-            link = link_el.text.strip() if link_el is not None and link_el.text else None
-            desc = desc_el.text if desc_el is not None else ""
-
-            if not title or not link:
-                continue
-
-            # Pulisci titolo (rimuovi numeri di classifica tipo "#1: ")
-            title = re.sub(r'^#?\d+[.:]\s*', '', title).strip()
-            if len(title) < 8:
-                continue
-
-            asin = extract_asin(link)
-            if not asin:
-                continue
-
-            price = extract_price(desc)
-            image = extract_image_from_description(desc)
-
-            items.append({
-                "asin": asin,
-                "title": title[:80],
-                "price": price,
-                "image_url": image,
-                "category": category,
-            })
-    except ET.ParseError as e:
-        print(f"    [WARN] Errore parsing XML: {e}")
-    return items
-
-
-# === IMPORTAZIONE DA RSS ===
-
-def import_via_rss(config, existing_asins, max_count=5):
-    """Importa prodotti REALI dai feed RSS pubblici di Amazon.it."""
-    print("  Modalita: Feed RSS Amazon.it (nessuna API necessaria)")
-    print(f"  Tag affiliato: {PARTNER_TAG}")
-
-    products = []
-    found = 0
-    skipped_dup = 0
-    skipped_blocked = 0
-    errors = 0
-
-    categories = config.get("categories_enabled", list(RSS_FEEDS.keys()))
-    random.shuffle(categories)
-
-    for cat in categories:
-        if found >= max_count:
+    # Titolo
+    title = None
+    for pat in [
+        r'id="productTitle"[^>]*>\s*([^<]{5,200}?)\s*<',
+        r'"name"\s*:\s*"([^"]{5,200})"',
+        r'<title>([^|<]{10,150}?)(?:\s*[|\-])',
+    ]:
+        m = re.search(pat, html, re.DOTALL)
+        if m:
+            title = m.group(1).strip()
             break
 
-        feeds = RSS_FEEDS.get(cat, [])
-        if not feeds:
-            continue
+    if not title:
+        return None
 
-        # Prova un feed random per categoria
-        feed_url = random.choice(feeds)
-        print(f"\n    [{cat.upper()}] Scarico feed...")
+    # Filtra titoli invalidi / errori Amazon
+    INVALID_TITLES = ["flyouterror", "robot check", "page not found", "404", "access denied", "sorry"]
+    if any(kw in title.lower() for kw in INVALID_TITLES):
+        return None
 
-        xml_data = fetch_rss(feed_url)
-        if not xml_data:
-            errors += 1
-            continue
+    if any(kw in title.lower() for kw in KEYWORDS_EXCLUDED):
+        return None
 
-        items = parse_rss_feed(xml_data, cat)
-        random.shuffle(items)  # Mescola per varieta
+    # Prezzo
+    price = None
+    for pat in [
+        r'"priceAmount"\s*:\s*([0-9]+(?:\.[0-9]+)?)',
+        r'<span[^>]*class="[^"]*a-offscreen[^"]*">\s*€?\s*([0-9]+[.,][0-9]+)',
+        r'"price"\s*:\s*"([0-9]+[.,][0-9]+)"',
+    ]:
+        m = re.search(pat, html)
+        if m:
+            try:
+                raw = m.group(1).strip()
+                # Formato IT: 1.234,56 → rimuove sep-migliaia, converte virgola
+                if re.match(r'^\d{1,3}(\.\d{3})*(,\d{1,2})?$', raw):
+                    raw = raw.replace(".", "").replace(",", ".")
+                else:
+                    raw = raw.replace(",", ".")
+                v = float(raw)
+                if 0.50 < v < 500:   # sopra 500€ quasi certamente errore di parsing
+                    price = v
+                    break
+            except Exception:
+                pass
 
-        for raw in items:
-            if found >= max_count:
-                break
+    # Immagine
+    image = None
+    m = re.search(r'"large"\s*:\s*"(https://m\.media-amazon\.com/images/I/[^"]+)"', html)
+    if m:
+        image = m.group(1)
 
-            if raw["asin"] in existing_asins:
-                skipped_dup += 1
-                continue
+    if not image:
+        m = re.search(r'data-a-dynamic-image="([^"]+)"', html)
+        if m:
+            val = m.group(1).replace("&quot;", '"').replace("&#34;", '"')
+            imgs = re.findall(r'"(https://m\.media-amazon\.com/images/I/[^"]+)"', val)
+            if imgs:
+                image = imgs[0]
 
-            if is_blocked(raw["title"]):
-                skipped_blocked += 1
-                continue
+    if not image:
+        m = re.search(r'<img[^>]+id="landingImage"[^>]+src="(https://[^"]+)"', html)
+        if m:
+            image = m.group(1)
 
-            product = enrich_product(raw, cat)
-            products.append(product)
-            existing_asins.add(raw["asin"])
-            found += 1
-            price_str = f" - EUR {raw['price']:.2f}" if raw['price'] else ""
-            img_str = " [con immagine]" if raw['image_url'] else " [placeholder]"
-            print(f"    + {raw['title'][:55]}...{price_str}{img_str}")
+    # Normalizza dimensione immagine
+    if image and "media-amazon.com" in image:
+        image = re.sub(r'\._[A-Z]{2}[^\.]*\.jpg', '._AC_SX500_.jpg', image)
+        if "._AC_" not in image:
+            base = image.split("._")[0] if "._" in image else image.replace(".jpg", "")
+            image = base + "._AC_SX500_.jpg"
 
-    return products, {
-        "found": len(products),
-        "skipped_duplicate": skipped_dup,
-        "skipped_blocked": skipped_blocked,
-        "errors": errors,
-    }
+    if not image:
+        image = get_affiliate_image(asin)
 
-
-# === IMPORTAZIONE MANUALE ASIN ===
-
-def import_manual_asins(asin_list, existing_asins):
-    """Crea prodotti da ASIN inseriti manualmente (senza API)."""
-    print(f"  Modalita: ASIN manuali ({len(asin_list)} ASIN)")
-    products = []
-    stats = {"found": 0, "skipped_duplicate": 0, "skipped_blocked": 0, "errors": 0}
-
-    cats = list(CATEGORY_META.keys())
-
-    for asin in asin_list:
-        asin = asin.strip().upper()
-        if not re.match(r'^[A-Z0-9]{10}$', asin):
-            print(f"    [SKIP] ASIN non valido: {asin}")
-            stats["errors"] += 1
-            continue
-        if asin in existing_asins:
-            print(f"    [SKIP] Gia presente: {asin}")
-            stats["skipped_duplicate"] += 1
-            continue
-
-        cat = random.choice(cats)
-        raw = {
-            "asin": asin,
-            "title": f"Prodotto Amazon {asin}",
-            "price": None,
-            "image_url": "",
-            "category": cat,
-        }
-        product = enrich_product(raw, cat)
-        # I prodotti manuali senza dettagli vanno in bozza
-        product["status"] = "draft"
-        product["source"] = "manual_asin"
-        products.append(product)
-        existing_asins.add(asin)
-        stats["found"] += 1
-        print(f"    + [Bozza] {asin} — Modifica titolo e categoria dall'admin")
-
-    return products, stats
+    return {"title": title, "price": price, "image": image, "asin": asin}
 
 
-# === ARRICCHIMENTO PRODOTTO ===
+def get_affiliate_image(asin):
+    return (
+        f"https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8"
+        f"&ASIN={asin}&Format=_SL300_&ID=AsinImage&MarketPlace=IT"
+        f"&ServiceVersion=20070822&WS=1&tag={AMAZON_TAG}"
+    )
 
-def enrich_product(raw, category):
-    """Trasforma dati grezzi in prodotto completo per il sito."""
-    meta = CATEGORY_META.get(category, CATEGORY_META.get("gadget"))
-    colors = random.choice(meta["colors"])
 
-    price = raw.get("price")
-    old_price = None
-    discount = None
-
-    if price and price > 5:
-        # Stima prezzo originale per mostrare sconto indicativo
-        multiplier = random.uniform(1.25, 1.6)
-        old_price = round(price * multiplier, 2)
-        pct = int((1 - price / old_price) * 100)
-        discount = f"-{pct}%"
-
+def build_product(asin, name, category, price, image):
+    clr1, clr2 = COLORS_BY_CATEGORY.get(category, ("#ff6b9d", "#a78bfa"))
     return {
-        "id": int(datetime.now().timestamp() * 1000) + random.randint(0, 999),
-        "asin": raw["asin"],
-        "title": raw["title"],
+        "id": f"{category}-{asin}",
+        "asin": asin,
+        "name": name[:120],
         "category": category,
-        "emoji": meta["emoji"],
-        "clr1": colors[0],
-        "clr2": colors[1],
-        "image_url": raw.get("image_url", ""),
-        "images_secondary": [],
         "price": price,
-        "old_price": old_price,
-        "currency": "EUR",
-        "discount": discount,
-        "amazon_url": f"https://www.amazon.it/dp/{raw['asin']}?tag={PARTNER_TAG}",
-        "source": "rss",
-        "imported_at": datetime.now().isoformat(),
-        "published_at": datetime.now().isoformat(),
+        "image": image or get_affiliate_image(asin),
+        "amazonLink": f"https://www.amazon.it/dp/{asin}?tag={AMAZON_TAG}",
+        "clr1": clr1,
+        "clr2": clr2,
+        "offerBadge": True,
+        "importedAt": datetime.now().isoformat(),
         "status": "published",
-        "offer_badge": bool(discount),
-        "color_tag": "",
     }
 
 
-# === GENERAZIONE products.js ===
-
-def generate_products_js(products_data):
-    """Genera js/products.js dal database JSON."""
-    published = [p for p in products_data["products"] if p.get("status") == "published"]
-    published.sort(key=lambda p: p.get("published_at", ""), reverse=True)
-
-    js_products = []
-    for p in published:
-        js_products.append({
-            "id": p["id"],
-            "asin": p["asin"],
-            "name": p["title"],
-            "category": p["category"],
-            "emoji": p.get("emoji", "\U0001f6cd"),
-            "clr1": p.get("clr1", "#ff6b9d"),
-            "clr2": p.get("clr2", "#a78bfa"),
-            "image": p.get("image_url", ""),
-            "price": p.get("price"),
-            "oldPrice": p.get("old_price"),
-            "discount": p.get("discount"),
-            "currency": p.get("currency", "EUR"),
-            "amazonLink": p.get("amazon_url", ""),
-            "offerBadge": p.get("offer_badge", False),
-            "importedAt": p.get("imported_at", ""),
-        })
-
-    now = datetime.now().strftime("%d/%m/%Y %H:%M")
-
-    js_content = f"""// EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il {now}
-// NON modificare manualmente - generato da agent_products.py
-
-window.AMAZON_TAG = "{PARTNER_TAG}";
-window.products = {json.dumps(js_products, ensure_ascii=False, indent=2)};
-
-function buildAmazonLink(asin) {{
-  return "https://www.amazon.it/dp/" + asin + "?tag=" + window.AMAZON_TAG;
-}}
-"""
-
-    js_path = os.path.join(BASE_DIR, "js", "products.js")
-    with open(js_path, "w", encoding="utf-8") as f:
-        f.write(js_content)
-    print(f"\n  products.js generato con {len(js_products)} prodotti pubblicati")
+def load_products():
+    if not os.path.exists(PRODUCTS_FILE):
+        return []
+    try:
+        with open(PRODUCTS_FILE) as f:
+            data = json.load(f)
+        return data.get("products", [])
+    except Exception:
+        return []
 
 
-# === ESECUZIONE PRINCIPALE ===
+def save_products(products):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(PRODUCTS_FILE, "w", encoding="utf-8") as f:
+        json.dump({"last_updated": datetime.now().isoformat(), "products": products}, f, ensure_ascii=False, indent=2)
 
-def run_import(max_count=None, asin_list=None):
-    """Esegue l'importazione completa."""
-    config = load_config()
-    data = load_products()
-    if max_count is None:
-        max_count = config.get("daily_limit", 5)
 
-    existing_asins = {p["asin"] for p in data["products"]}
+def generate_products_js(products):
+    ts = datetime.now().strftime("%d/%m/%Y %H:%M")
+    content = (
+        "// EmporiumOnline - Catalogo Prodotti\n"
+        f"// Aggiornato automaticamente il {ts}\n"
+        "// NON modificare manualmente - generato da agent_products.py\n\n"
+        f'window.AMAZON_TAG = "{AMAZON_TAG}";\n\n'
+        f"window.products = {json.dumps(products, ensure_ascii=False, indent=2)};\n"
+    )
+    with open(JS_FILE, "w", encoding="utf-8") as f:
+        f.write(content)
 
-    print(f"\n{'='*60}")
-    print(f"  EMPORIUM ONLINE - Importazione Prodotti")
+
+def main(count=5):
+    print("=" * 60)
+    print("  EMPORIUM ONLINE — Importazione Prodotti v2")
     print(f"  {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
-    print(f"  Tag affiliato: {PARTNER_TAG}")
-    print(f"  Prodotti esistenti: {len(data['products'])}")
-    print(f"  Da importare: {max_count}")
-    print(f"{'='*60}")
+    print(f"  Tag affiliato: {AMAZON_TAG}")
+    existing = load_products()
+    existing_asins = {p["asin"] for p in existing}
+    print(f"  Prodotti esistenti: {len(existing)}")
+    print(f"  Da trovare: {count}")
+    print("=" * 60)
 
-    if asin_list:
-        products, stats = import_manual_asins(asin_list, existing_asins)
-    else:
-        products, stats = import_via_rss(config, existing_asins, max_count)
+    new_products = []
+    categories = list(CATEGORY_QUERIES.keys())
+    random.shuffle(categories)
 
-    # Salva prodotti nel database
-    if products:
-        data["products"].extend(products)
-        save_products(data)
+    # Fase 1: DuckDuckGo → scrape Amazon
+    for cat in categories:
+        if len(new_products) >= count:
+            break
+        queries = CATEGORY_QUERIES[cat]
+        random.shuffle(queries)
+        print(f"\n  [{cat.upper()}] Ricerca DuckDuckGo...")
 
-    # Rigenera products.js
-    generate_products_js(data)
+        for query in queries[:2]:
+            if len(new_products) >= count:
+                break
+            results = search_duckduckgo(query, max_results=15)
+            time.sleep(random.uniform(1.5, 2.5))
 
-    # Log
-    log_entry = {
-        "timestamp": datetime.now().isoformat(),
-        "mode": "manual_asin" if asin_list else "rss",
-        "products_found": stats["found"],
-        "products_published": len([p for p in products if p["status"] == "published"]),
-        "products_draft": len([p for p in products if p["status"] == "draft"]),
-        "skipped_duplicate": stats["skipped_duplicate"],
-        "skipped_blocked": stats["skipped_blocked"],
-        "errors": stats["errors"],
-        "total_in_db": len(data["products"]),
-    }
-    add_log_entry(log_entry)
+            for url, ddg_title in results:
+                if len(new_products) >= count:
+                    break
+                asin = extract_asin(url)
+                if not asin or asin in existing_asins:
+                    continue
 
-    # Riepilogo
-    pub = len([p for p in products if p["status"] == "published"])
-    dra = len([p for p in products if p["status"] == "draft"])
-    print(f"\n{'='*60}")
-    print(f"  RIEPILOGO IMPORTAZIONE")
-    print(f"  Trovati:    {stats['found']}")
-    print(f"  Pubblicati: {pub}")
-    print(f"  Bozze:      {dra}")
-    print(f"  Duplicati:  {stats['skipped_duplicate']}")
-    print(f"  Bloccati:   {stats['skipped_blocked']}")
-    print(f"  Errori:     {stats['errors']}")
-    print(f"  Totale DB:  {len(data['products'])}")
-    print(f"{'='*60}\n")
+                print(f"    ASIN {asin} — scraping...")
+                time.sleep(random.uniform(2.0, 4.0))
+                data = scrape_amazon_product(asin)
 
-    return products
+                if data and data.get("title"):
+                    p = build_product(asin, data["title"], cat, data.get("price"), data.get("image"))
+                    new_products.append(p)
+                    existing_asins.add(asin)
+                    print(f"    [OK] {p['name'][:65]}")
+                else:
+                    # Fallback: usa titolo DuckDuckGo
+                    title = re.sub(r'\s*[-|:]\s*Amazon\.it.*$', '', ddg_title, flags=re.IGNORECASE).strip()
+                    if len(title) > 10 and not any(kw in title.lower() for kw in KEYWORDS_EXCLUDED):
+                        p = build_product(asin, title, cat, None, get_affiliate_image(asin))
+                        new_products.append(p)
+                        existing_asins.add(asin)
+                        print(f"    [OK-DDG] {p['name'][:65]}")
+                    else:
+                        print(f"    [SKIP] Dati insufficienti")
+
+    # Fase 2: seed pool come fallback
+    if len(new_products) < count:
+        needed = count - len(new_products)
+        print(f"\n  [SEED] Integro con {needed} prodotti dal pool verificato...")
+        seed_shuffled = SEED_POOL.copy()
+        random.shuffle(seed_shuffled)
+        for seed in seed_shuffled:
+            if len(new_products) >= count:
+                break
+            asin = seed["asin"]
+            if asin in existing_asins:
+                continue
+            print(f"    Seed {asin} — verifica immagine...")
+            time.sleep(random.uniform(1.0, 2.0))
+            data = scrape_amazon_product(asin)
+            name  = data["title"] if data and data.get("title") else seed["name"]
+            price = data["price"]  if data and data.get("price")  else seed.get("price")
+            image = data["image"]  if data and data.get("image")  else get_affiliate_image(asin)
+            p = build_product(asin, name, seed["category"], price, image)
+            new_products.append(p)
+            existing_asins.add(asin)
+            print(f"    [SEED-OK] {p['name'][:65]}")
+
+    if not new_products:
+        print("\n  [WARN] Nessun prodotto trovato. JS rigenerato con dati esistenti.")
+        generate_products_js(existing)
+        return
+
+    # Nuovi in cima, max 40 totali
+    all_products = (new_products + existing)[:40]
+    save_products(all_products)
+    generate_products_js(all_products)
+
+    print("\n" + "=" * 60)
+    print(f"  Nuovi trovati:  {len(new_products)}")
+    print(f"  Totale nel DB:  {len(all_products)}")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
     import argparse
-
-    parser = argparse.ArgumentParser(description="EmporiumOnline - Agente Importazione Prodotti")
-    parser.add_argument("--count", type=int, default=None, help="Numero prodotti da importare (default: 5)")
-    parser.add_argument("--manual", nargs="+", metavar="ASIN", help="Importa ASIN specifici")
-    parser.add_argument("--regenerate", action="store_true", help="Rigenera solo products.js dal database")
-
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--count", type=int, default=5)
+    parser.add_argument("--regenerate", action="store_true")
     args = parser.parse_args()
 
     if args.regenerate:
-        data = load_products()
-        generate_products_js(data)
-        print("products.js rigenerato dal database esistente.")
-    elif args.manual:
-        run_import(asin_list=args.manual)
+        prods = load_products()
+        generate_products_js(prods)
+        print(f"JS rigenerato con {len(prods)} prodotti.")
     else:
-        run_import(max_count=args.count)
+        main(args.count)
