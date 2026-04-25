@@ -1,10 +1,27 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 25/04/2026 21:15
+// Aggiornato automaticamente il 25/04/2026 21:22
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0G916N6VP",
+    "asin": "B0G916N6VP",
+    "name": "Arcobaleno Sculture Sculture Gatto Ornamenti Carino Colorato Gatto Desktop Accessori Ufficio Decorazione Casa Regalo Sou",
+    "category": "casa",
+    "emoji": "🏠",
+    "price": 2.09,
+    "oldPrice": null,
+    "discount": null,
+    "image": "https://m.media-amazon.com/images/I/31nZpd9hL+L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0G916N6VP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-04-25T21:22:44.267143",
+    "status": "published"
+  },
   {
     "id": "casa-B0GQG79TG4",
     "asin": "B0GQG79TG4",
