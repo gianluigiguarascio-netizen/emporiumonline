@@ -1,6 +1,23 @@
 {
-  "last_updated": "2026-04-25T21:22:44.269721",
+  "last_updated": "2026-04-25T21:25:49.308316",
   "products": [
+    {
+      "id": "accessori-B0F8Q4F1TW",
+      "asin": "B0F8Q4F1TW",
+      "name": "Canottiera estiva da donna, senza maniche, con scollo all&#39;americana, colore sfumato",
+      "category": "accessori",
+      "emoji": "👜",
+      "price": 5.23,
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://m.media-amazon.com/images/I/619Xuywg+EL._AC_SX500_.jpg",
+      "amazonLink": "https://www.amazon.it/dp/B0F8Q4F1TW?tag=prezzotop08-21",
+      "clr1": "#34d399",
+      "clr2": "#2dd4bf",
+      "offerBadge": true,
+      "importedAt": "2026-04-25T21:25:49.306162",
+      "status": "published"
+    },
     {
       "id": "casa-B0G916N6VP",
       "asin": "B0G916N6VP",
