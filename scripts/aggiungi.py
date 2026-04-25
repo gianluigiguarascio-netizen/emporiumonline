@@ -97,11 +97,8 @@ def aggiungi_prodotto(asin, categoria=None):
 
     # Determina categoria
     if not categoria:
-        cat_suggerita = chiedi_categoria(titolo)
-        print(f"\n  📂 Categoria suggerita: {cat_suggerita}")
-        print(f"     Categorie disponibili: {', '.join(CATEGORIES)}")
-        risposta = input(f"  Premi INVIO per confermare '{cat_suggerita}' o scrivi un'altra: ").strip().lower()
-        categoria = risposta if risposta in CATEGORIES else cat_suggerita
+        categoria = chiedi_categoria(titolo)
+        print(f"  📂 Categoria: {categoria}")
 
     clr1, clr2 = CATEGORY_COLORS.get(categoria, ("#a78bfa", "#818cf8"))
     emoji = CATEGORY_EMOJI.get(categoria, "🛍️")
