@@ -1,11 +1,26 @@
-// EmporiumOnline - Prodotti reali con immagini e link Amazon verificati
-// Tag affiliato: prezzotop08-21
+// EmporiumOnline - Catalogo Prodotti
+// Aggiornato il 25/04/2026
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
-
-  // ── ABBIGLIAMENTO ──────────────────────────────────────────
+  {
+    "id": "tech-B0DBHRD535",
+    "asin": "B0DBHRD535",
+    "name": "Cavo USB-C 3 Metri 60W Ricarica Rapida — iPhone 15/16/17, Samsung, iPad",
+    "category": "tech",
+    "price": 7.21,
+    "oldPrice": null,
+    "discount": null,
+    "emoji": "📱",
+    "image": "https://m.media-amazon.com/images/I/41OMkaBVTrL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DBHRD535?tag=prezzotop08-21",
+    "clr1": "#818cf8",
+    "clr2": "#6366f1",
+    "offerBadge": true,
+    "importedAt": "2026-04-25T19:00:34.231Z",
+    "status": "published"
+  },
   {
     "id": 116,
     "asin": "B0FLCS5FB2",
@@ -23,7 +38,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 117,
     "asin": "B0GQH3VZ8B",
@@ -41,7 +55,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 118,
     "asin": "B09TTDGBMK",
@@ -59,7 +72,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 119,
     "asin": "B0GWVC5DFB",
@@ -77,7 +89,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 120,
     "asin": "B0GWVL4VV5",
@@ -95,7 +106,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 121,
     "asin": "B0GWVGG8NB",
@@ -113,7 +123,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 122,
     "asin": "B0GWVGR8MN",
@@ -131,7 +140,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 123,
     "asin": "B0GWVDGMYP",
@@ -149,7 +157,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 124,
     "asin": "B0GWVJ5Z9N",
@@ -167,7 +174,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 125,
     "asin": "B0GWVHC4PT",
@@ -185,7 +191,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 126,
     "asin": "B0GWVJBJD3",
@@ -203,7 +208,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 127,
     "asin": "B0GWVG3C2P",
@@ -221,7 +225,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 128,
     "asin": "B0GWVF8BTP",
@@ -239,7 +242,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 129,
     "asin": "B0GWVCG8C7",
@@ -257,7 +259,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 130,
     "asin": "B0GWVG91Y2",
@@ -275,7 +276,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 131,
     "asin": "B0GWVHYTKK",
@@ -293,7 +293,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 132,
     "asin": "B0GWVGTLCR",
@@ -311,7 +310,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 133,
     "asin": "B0GXFLV52H",
@@ -329,7 +327,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 134,
     "asin": "B0CC5WH3LN",
@@ -347,7 +344,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0FCMQ76TW",
     "name": "Abito Estivo Donna Floreale Boho Scollo U Stampa Fantasia Casual Spiaggia",
@@ -365,7 +361,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0FCMQ76TW?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0GWLYGTQQ",
     "name": "Abito Elegante Donna Monospalla Stampa Fantasia Gonna Ampia",
@@ -383,7 +378,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0GWLYGTQQ?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0C3ZN76M5",
     "name": "Abiti Lunghi Donna Eleganti Estivi Fantasia Floreale Vestito Casual Spiaggia",
@@ -401,7 +395,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0C3ZN76M5?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0B8RGXTNW",
     "name": "ORANDESIGNE Abito Lungo Donna Senza Maniche Stampa Floreale Estivo",
@@ -419,7 +412,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0B8RGXTNW?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0CB8F23T3",
     "name": "Onsoyours Vestito Estivo Donna Boho Stampa Fantasia Spiaggia Corto",
@@ -437,7 +429,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0CB8F23T3?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0GK8ZN7W7",
     "name": "GISELA Abito Copricostume Donna Stampa Etnica Boho Multicolor Viscosa 100%",
@@ -455,7 +446,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0GK8ZN7W7?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0B31R9V6K",
     "name": "Onsoyours Abito Estivo Donna T-Shirt Casual Stampa Floreale Fantasia con Tasche",
@@ -473,7 +463,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0B31R9V6K?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0GM53W8FK",
     "name": "Abiti Estivi Casual Donna Stampa Uccelli Colorati con Tasche Scollo V",
@@ -491,9 +480,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0GM53W8FK?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
-
-  // ── SCARPE ────────────────────────────────────────────────
   {
     "id": 111,
     "asin": "B0D48KJW57",
@@ -511,7 +497,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-24"
   },
-
   {
     "id": 112,
     "asin": "B0B3WRBQB7",
@@ -529,7 +514,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 113,
     "asin": "B0D411DMR1",
@@ -547,7 +531,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B09WMSDY73",
     "name": "inblu Ciabatte Donna Fascia Fantasia Jungle con Plantare Sughero Naturale",
@@ -565,7 +548,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B09WMSDY73?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0D9WHXNMN",
     "name": "Reebok Sneakers Multicolore Donna Shaq Victory Pump in Pelle",
@@ -583,7 +565,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0D9WHXNMN?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0BZLRH8X3",
     "name": "Sneakers Arcobaleno Donna Leggere Sportive Colorate Suola Spessa Moda Strada",
@@ -601,7 +582,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0BZLRH8X3?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0BZLSZHKP",
     "name": "Scarpe Arcobaleno Donna Sneakers Colorate Sportive Moda di Strada Suola Spessa",
@@ -619,7 +599,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0BZLSZHKP?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B083NDY23J",
     "name": "Hitmars Scarpe Running Donna Ginnastica Sneaker Leggere Traspiranti Multicolore",
@@ -637,9 +616,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B083NDY23J?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
-
-  // ── CASA ──────────────────────────────────────────────────
   {
     "id": 114,
     "asin": "B0DBQMZZRH",
@@ -657,7 +633,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "id": 115,
     "asin": "B09X6RKRPW",
@@ -675,7 +650,6 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0FBRRHCG5",
     "name": "Vaso Libro Colorato Impilabile Decorativo Casa Mensola Ufficio Regalo",
@@ -693,7 +667,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0FBRRHCG5?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0FRSPZ5ZZ",
     "name": "Vaso in Vetro Cristallo Colorato Dipinto a Mano Alto 17.5 cm Centrotavola Decorativo",
@@ -711,7 +684,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0FRSPZ5ZZ?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0B9JYS6GB",
     "name": "Arte Astratta Donna Scultura Colorata Figura Yoga Decorazione Moderna Casa",
@@ -729,7 +701,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0B9JYS6GB?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0BK3HZW2L",
     "name": "Elefante Astratto Resina Graffiti Colorato Statua Decorazione Casa Arte",
@@ -747,7 +718,6 @@ window.products = [
     "amazonLink": "https://www.amazon.it/dp/B0BK3HZW2L?tag=prezzotop08-21",
     "importedAt": "2026-04-25"
   },
-
   {
     "asin": "B0FD77ZGMB",
     "name": "Decorazioni Murali Metallo Multicolore Fiori 2 Pezzi Soggiorno Camera da Letto",
@@ -766,7 +736,3 @@ window.products = [
     "importedAt": "2026-04-25"
   }
 ];
-
-function buildAmazonLink(asin) {
-  return "https://www.amazon.it/dp/" + asin + "?tag=" + window.AMAZON_TAG;
-}
