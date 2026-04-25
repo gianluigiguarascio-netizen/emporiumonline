@@ -10,6 +10,10 @@ on:
         description: 'Numero di prodotti da importare'
         required: false
         default: '5'
+      use_api:
+        description: 'Forza uso PA API (true/false)'
+        required: false
+        default: 'auto'
 
 jobs:
   update-products:
@@ -25,12 +29,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Esegui agente importazione prodotti (RSS, no API needed)
+      - name: Esegui agente importazione prodotti
         env:
-          AMAZON_TAG: ${{ secrets.AMAZON_TAG || 'prezzotop08-21' }}
+          # Tag affiliato — cambia in GitHub Secrets se diverso
           AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG || 'prezzotop08-21' }}
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG || 'prezzotop08-21' }}
+          # PA API — configura in GitHub Secrets > Settings > Secrets
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AMAZON_MARKETPLACE: ${{ secrets.AMAZON_MARKETPLACE || 'IT' }}
+          AMAZON_HOST: ${{ secrets.AMAZON_HOST || 'webservices.amazon.it' }}
+          AMAZON_REGION: ${{ secrets.AMAZON_REGION || 'eu-west-1' }}
         run: |
           COUNT=${{ github.event.inputs.count || '5' }}
+          echo "Importazione $COUNT prodotti..."
           python scripts/agent_products.py --count $COUNT
 
       - name: Commit aggiornamento prodotti

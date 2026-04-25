@@ -652,6 +652,69 @@ img { max-width: 100%; display: block; }
 }
 .toast.show { transform: translateY(0); opacity: 1; }
 
+/* ===== TICKER BAR ===== */
+.ticker-bar {
+  background: var(--gradient-rainbow);
+  background-size: 300% auto;
+  animation: gradientShift 6s linear infinite;
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+}
+.ticker-track {
+  display: flex;
+  white-space: nowrap;
+  animation: tickerScroll 40s linear infinite;
+  will-change: transform;
+}
+.ticker-track:hover { animation-play-state: paused; }
+.ticker-item {
+  display: inline-block;
+  padding: 0 40px;
+  font-size: .82rem; font-weight: 600; color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.2);
+  letter-spacing: .01em;
+}
+@keyframes tickerScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ===== CARD TOP BAR (accento categoria) ===== */
+.card-top-bar {
+  height: 4px;
+  width: 100%;
+  opacity: .9;
+}
+
+/* ===== NEW BADGE ===== */
+.new-badge {
+  position: absolute; top: 12px; left: 12px; z-index: 3;
+  background: linear-gradient(135deg, #34d399, #38bdf8);
+  color: #fff;
+  padding: 5px 12px; border-radius: 99px;
+  font-size: .7rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .04em;
+  box-shadow: 0 4px 12px rgba(52,211,153,.35);
+  animation: badgePulse 2s ease-in-out infinite;
+}
+
+/* ===== FILTER BTN colori categoria ===== */
+.filter-btn.active[data-cat="scarpe"]        { background: #ff6b9d; }
+.filter-btn.active[data-cat="abbigliamento"] { background: #a78bfa; }
+.filter-btn.active[data-cat="accessori"]     { background: #34d399; }
+.filter-btn.active[data-cat="borse"]         { background: #fbbf24; color: #000; }
+.filter-btn.active[data-cat="casa"]          { background: #38bdf8; color: #000; }
+.filter-btn.active[data-cat="gadget"]        { background: #fb923c; }
+.filter-btn.active[data-cat="idee-regalo"]   { background: #34d399; }
+.filter-btn.active[data-cat="beauty"]        { background: #f472b6; }
+.filter-btn.active[data-cat="tech"]          { background: #818cf8; }
+
+/* ===== CARD IMMAGINE — aspect ratio 4:3 per prodotti verticali ===== */
+.card-image { aspect-ratio: 4/3 !important; }
+.card-image img { object-fit: contain; background: rgba(255,255,255,.06); padding: 8px; }
+
 /* ===== SCROLLBAR ===== */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--darker); }

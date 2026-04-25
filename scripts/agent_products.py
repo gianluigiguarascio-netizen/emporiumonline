@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-EmporiumOnline - Agente v2
-Trova prodotti colorati su Amazon.it tramite DuckDuckGo.
-Non richiede API keys. Funziona in GitHub Actions.
+EmporiumOnline - Agente v3
+Modalità A) PA API ufficiale Amazon (se credenziali configurate)
+Modalità B) DuckDuckGo + scraping Amazon (fallback senza credenziali)
+Modalità C) Seed pool verificato (fallback finale)
 """
 import json
 import os
@@ -21,7 +22,19 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 PRODUCTS_FILE = os.path.join(DATA_DIR, "products.json")
 JS_FILE = os.path.join(BASE_DIR, "js", "products.js")
 
-AMAZON_TAG = os.environ.get("AMAZON_TAG", "prezzotop08-21")
+# Carica .env se presente (sviluppo locale)
+def _load_env():
+    env_path = os.path.join(BASE_DIR, ".env")
+    if os.path.exists(env_path):
+        with open(env_path) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, _, v = line.partition("=")
+                    os.environ.setdefault(k.strip(), v.strip())
+_load_env()
+
+AMAZON_TAG = os.environ.get("AMAZON_PARTNER_TAG") or os.environ.get("AMAZON_TAG", "prezzotop08-21")
 
 # Keyword di ricerca per categoria — prodotti colorati e vivaci
 CATEGORY_QUERIES = {
@@ -339,9 +352,87 @@ def generate_products_js(products):
         f.write(content)
 
 
+def try_paapi(count, existing_asins):
+    """Fase A: tenta importazione tramite PA API ufficiale Amazon."""
+    try:
+        sys.path.insert(0, os.path.dirname(__file__))
+        from amazon_api import has_api_credentials, search_items, parse_api_item
+    except ImportError:
+        return []
+
+    if not has_api_credentials():
+        print("  [PA-API] Credenziali non configurate — salto.")
+        return []
+
+    print("  [PA-API] Credenziali trovate — uso PA API ufficiale.")
+    new_products = []
+    categories = list(CATEGORY_QUERIES.keys())
+    random.shuffle(categories)
+
+    SEARCH_INDEX_MAP = {
+        "scarpe": "Shoes", "abbigliamento": "Apparel", "accessori": "Apparel",
+        "borse": "Shoes", "casa": "HomeAndKitchen", "gadget": "Electronics",
+        "idee-regalo": "All", "beauty": "Beauty", "tech": "Electronics",
+    }
+
+    for cat in categories:
+        if len(new_products) >= count:
+            break
+        queries = CATEGORY_QUERIES.get(cat, [])
+        if not queries:
+            continue
+        query = random.choice(queries)
+        print(f"  [PA-API] {cat}: '{query}'")
+        try:
+            result = search_items(query, category=cat, max_results=5)
+            if not result or "SearchResult" not in result:
+                continue
+            items = result["SearchResult"].get("Items", [])
+            for item in items:
+                if len(new_products) >= count:
+                    break
+                parsed = parse_api_item(item)
+                asin = parsed.get("asin", "")
+                if not asin or asin in existing_asins:
+                    continue
+                title = parsed.get("title", "")
+                if not title or any(kw in title.lower() for kw in KEYWORDS_EXCLUDED):
+                    continue
+                image = parsed.get("image_url", "") or get_affiliate_image(asin)
+                clr1, clr2 = COLORS_BY_CATEGORY.get(cat, ("#ff6b9d", "#a78bfa"))
+                p = {
+                    "id": f"{cat}-{asin}",
+                    "asin": asin,
+                    "name": title[:120],
+                    "category": cat,
+                    "price": parsed.get("price"),
+                    "oldPrice": parsed.get("old_price"),
+                    "discount": None,
+                    "image": image,
+                    "amazonLink": f"https://www.amazon.it/dp/{asin}?tag={AMAZON_TAG}",
+                    "clr1": clr1, "clr2": clr2,
+                    "offerBadge": bool(parsed.get("old_price")),
+                    "importedAt": datetime.now().isoformat(),
+                    "status": "published",
+                    "source": "paapi",
+                }
+                if p["price"] and p["oldPrice"] and p["oldPrice"] > p["price"]:
+                    pct = round((p["oldPrice"] - p["price"]) / p["oldPrice"] * 100)
+                    p["discount"] = f"-{pct}%"
+                new_products.append(p)
+                existing_asins.add(asin)
+                print(f"    [PA-API OK] {title[:65]}")
+            time.sleep(1)
+        except Exception as e:
+            print(f"  [PA-API ERROR] {e}")
+            continue
+
+    return new_products
+
+
 def main(count=5):
     print("=" * 60)
-    print("  EMPORIUM ONLINE — Importazione Prodotti v2")
+    print("  EMPORIUM ONLINE — Importazione Prodotti v3")
     print(f"  {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
     print(f"  Tag affiliato: {AMAZON_TAG}")
     existing = load_products()
@@ -351,10 +442,15 @@ def main(count=5):
     print("=" * 60)
 
     new_products = []
+
+    # ── Fase A: PA API ufficiale (se credenziali configurate) ──
+    pa_products = try_paapi(count, existing_asins)
+    new_products.extend(pa_products)
+
     categories = list(CATEGORY_QUERIES.keys())
     random.shuffle(categories)
 
-    # Fase 1: DuckDuckGo → scrape Amazon
+    # ── Fase B: DuckDuckGo → scrape Amazon ──
     for cat in categories:
         if len(new_products) >= count:
             break
@@ -395,7 +491,7 @@ def main(count=5):
                     else:
                         print(f"    [SKIP] Dati insufficienti")
 
-    # Fase 2: seed pool come fallback
+    # ── Fase C: seed pool verificato ──
     if len(new_products) < count:
         needed = count - len(new_products)
         print(f"\n  [SEED] Integro con {needed} prodotti dal pool verificato...")
