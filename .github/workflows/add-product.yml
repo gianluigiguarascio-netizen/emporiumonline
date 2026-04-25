@@ -1,0 +1,44 @@
+name: Aggiungi Prodotto
+
+on:
+  workflow_dispatch:
+    inputs:
+      asin:
+        description: 'ASIN del prodotto Amazon'
+        required: true
+
+jobs:
+  add-product:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install requests beautifulsoup4
+
+      - name: Aggiungi prodotto
+        env:
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG || 'prezzotop08-21' }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG || 'prezzotop08-21' }}
+        run: |
+          python3 scripts/aggiungi.py ${{ github.event.inputs.asin }}
+
+      - name: Commit e push
+        run: |
+          git config user.name "EmporiumBot"
+          git config user.email "bot@emporiumonline.it"
+          git add data/products.json js/products.js
+          if git diff --staged --quiet; then
+            echo "Prodotto già presente"
+          else
+            git commit -m "feat: aggiungi prodotto ${{ github.event.inputs.asin }}"
+            git push
+          fi
