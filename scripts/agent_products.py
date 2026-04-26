@@ -188,6 +188,72 @@ SEED_POOL = [
     {"asin": "B0CFWKLNQX", "name": "Portafoto Colorato Polaroid Galleria Parete",         "category": "idee-regalo",   "price": 9.99},
     {"asin": "B0CL7XKQNP", "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",        "category": "idee-regalo",   "price": 16.99},
     {"asin": "B0BQX4WKLP", "name": "Libro da Colorare Adulti Antistress Mandala",         "category": "idee-regalo",   "price": 8.99},
+
+    # ── BATCH 2 — SCARPE ──
+    {"asin": "B0CVXK8PLN", "name": "Sneakers Donna Chunky Colorata Platform Rainbow",      "category": "scarpe",        "price": 39.99},
+    {"asin": "B0D2KXQPFN", "name": "Scarpe Ginnastica Donna Arcobaleno Traspiranti",       "category": "scarpe",        "price": 31.99},
+    {"asin": "B0CN7XQKPL", "name": "Sandali Donna Colorati Fiocco Estate Flat",            "category": "scarpe",        "price": 20.99},
+    {"asin": "B0CQ5WXNKP", "name": "Mules Colorati Donna Tacco Basso Comfort",             "category": "scarpe",        "price": 26.99},
+    {"asin": "B0D5XKNQPL", "name": "Stivaletti Donna Colorati Chelsea Elastici",           "category": "scarpe",        "price": 34.99},
+    {"asin": "B0BXQ7NKLP", "name": "Slip On Donna Colorate Stampa Leopardata",             "category": "scarpe",        "price": 19.99},
+    {"asin": "B0CF4XWKNQ", "name": "Espadrillas Donna Colorate Corda Estate",              "category": "scarpe",        "price": 23.99},
+    {"asin": "B0CXNQ7KPL", "name": "Mocassini Donna Colorati Comfort Loafer",              "category": "scarpe",        "price": 28.99},
+
+    # ── BATCH 2 — ABBIGLIAMENTO ──
+    {"asin": "B0D3NQXKPL", "name": "Maxi Dress Donna Colorato Fantasia Tropicale",         "category": "abbigliamento", "price": 29.99},
+    {"asin": "B0CWX8NKQP", "name": "Camicia Donna Colorata Fantasia Boho Stampa",          "category": "abbigliamento", "price": 18.99},
+    {"asin": "B0D1KQXNPL", "name": "Short Donna Colorati Fantasia Estivi Casual",          "category": "abbigliamento", "price": 14.99},
+    {"asin": "B0CN4XKQPW", "name": "Tuta Donna Colorata Floreale Jumpsuit Estiva",         "category": "abbigliamento", "price": 27.99},
+    {"asin": "B0CQX7NKPL", "name": "Canotta Donna Colorata Tie Dye Arcobaleno",            "category": "abbigliamento", "price": 11.99},
+    {"asin": "B0D8NXKQPL", "name": "Maglione Donna Colorato Strisce Oversize",             "category": "abbigliamento", "price": 32.99},
+    {"asin": "B0CX4QNKLP", "name": "Blazer Donna Colorato Fantasia Primavera",             "category": "abbigliamento", "price": 39.99},
+    {"asin": "B0B9XKQPNL", "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",  "category": "abbigliamento", "price": 16.99},
+
+    # ── BATCH 2 — ACCESSORI ──
+    {"asin": "B0D2XNKQPL", "name": "Collana Choker Colorata Perle Arcobaleno",             "category": "accessori",     "price": 6.99},
+    {"asin": "B0CN8QXKLP", "name": "Set Bracciali Colorati Bohemian Donna 12 Pz",          "category": "accessori",     "price": 9.99},
+    {"asin": "B0CWQ4NKLX", "name": "Orecchini a Cerchio Colorati Resina Grande",           "category": "accessori",     "price": 7.49},
+    {"asin": "B0D5KQXNLP", "name": "Cappello Colorato Estivo Paglia Fiori",                "category": "accessori",     "price": 13.99},
+    {"asin": "B0CX7QNKLP", "name": "Occhiali da Sole Colorati Donna Cat Eye",              "category": "accessori",     "price": 10.99},
+    {"asin": "B0BNXK4QPL", "name": "Sciarpa Colorata Donna Fantasia Floreale Seta",        "category": "accessori",     "price": 8.99},
+
+    # ── BATCH 2 — BORSE ──
+    {"asin": "B0D4XKNQPL", "name": "Borsa Paglia Colorata Estate Donna Spiaggia",          "category": "borse",         "price": 17.99},
+    {"asin": "B0CW5XNKQL", "name": "Zaino Donna Colorato Glitter Casual Scuola",           "category": "borse",         "price": 26.99},
+    {"asin": "B0CN7XQKPL", "name": "Tracolla Colorata Donna Fantasia Tapestry",            "category": "borse",         "price": 22.99},
+    {"asin": "B0D3NXKQPL", "name": "Borsa a Mano Donna Colorata Intreccio",                "category": "borse",         "price": 21.99},
+    {"asin": "B0CXQ8NKLP", "name": "Pochette Trasparente Colorata Donna",                  "category": "borse",         "price": 14.99},
+
+    # ── BATCH 2 — CASA ──
+    {"asin": "B0D7XKNQPL", "name": "Set Bicchieri Colorati Vetro Borosilicato 6 Pz",       "category": "casa",          "price": 24.99},
+    {"asin": "B0CQ4XNKPL", "name": "Tovagliette Colorate Set 6 Fantasia Cotone",           "category": "casa",          "price": 16.99},
+    {"asin": "B0CN8XQKPL", "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",     "category": "casa",          "price": 18.99},
+    {"asin": "B0D5QXNKLP", "name": "Cornice Foto Colorata Arcobaleno Design",              "category": "casa",          "price": 12.99},
+    {"asin": "B0CXNK4QPL", "name": "Ombrello Colorato Arcobaleno Antivento Donna",         "category": "casa",          "price": 15.99},
+    {"asin": "B0BX7QNKLP", "name": "Piatto Piano Colorato Ceramica Set 4 Pezzi",           "category": "casa",          "price": 29.99},
+
+    # ── BATCH 2 — GADGET ──
+    {"asin": "B0D2NXKQPL", "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",   "category": "gadget",        "price": 32.99},
+    {"asin": "B0CW7XNKQL", "name": "Altoparlante Bluetooth Colorato Waterproof",           "category": "gadget",        "price": 22.99},
+    {"asin": "B0CN5XQKPL", "name": "Hub USB Colorato 7 Porte Arcobaleno",                  "category": "gadget",        "price": 17.99},
+    {"asin": "B0D4KXNQPL", "name": "Supporto Telefono Colorato Scrivania Flessibile",      "category": "gadget",        "price": 9.99},
+    {"asin": "B0CX3QNKLP", "name": "Penna Stilografica Colorata Set Scrittura",            "category": "gadget",        "price": 11.99},
+
+    # ── BATCH 2 — BEAUTY ──
+    {"asin": "B0D3KXNQPL", "name": "Foundation Colorata BB Cream SPF30 Vari Toni",         "category": "beauty",        "price": 13.99},
+    {"asin": "B0CW8XNKQL", "name": "Mascara Colorato Blu Verde Viola Waterproof",          "category": "beauty",        "price": 9.99},
+    {"asin": "B0CN6XQKPL", "name": "Eyeliner Colorato Glitter Set 8 Colori",              "category": "beauty",        "price": 8.49},
+    {"asin": "B0D5XKNQPL", "name": "Balsamo Labbra Colorato SPF Set 12 Colori",            "category": "beauty",        "price": 7.99},
+    {"asin": "B0CXQ3NKLP", "name": "Highlighter Colorato Illuminante Glitter Viso",        "category": "beauty",        "price": 10.99},
+    {"asin": "B0BN7XKQPL", "name": "Detergente Viso Colorato Arcobaleno Vitamina C",       "category": "beauty",        "price": 12.99},
+
+    # ── BATCH 2 — IDEE REGALO ──
+    {"asin": "B0D2XNKQPL", "name": "Box Regalo Donna Colorato Wellness SPA Premium",       "category": "idee-regalo",   "price": 24.99},
+    {"asin": "B0CW5XNKPL", "name": "Calendario Avvento Colorato Adulti Beauty",            "category": "idee-regalo",   "price": 29.99},
+    {"asin": "B0CN3XQKPL", "name": "Gioco da Tavolo Colorato Famiglia Divertente",         "category": "idee-regalo",   "price": 19.99},
+    {"asin": "B0D8XKNQPL", "name": "Set Matite Acquerellabili Colorate 48 Pz Artisti",     "category": "idee-regalo",   "price": 16.99},
+    {"asin": "B0CXQ5NKLP", "name": "Lampada Neon Colorata LED Personalizzabile",            "category": "idee-regalo",   "price": 27.99},
+    {"asin": "B0BN5XKQPL", "name": "Kit Macramè Colorato Principianti Decorazione",        "category": "idee-regalo",   "price": 18.99},
 ]
 
 USER_AGENTS = [
