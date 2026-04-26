@@ -299,6 +299,19 @@
     });
   }
 
+  // ---- OFFERTISSIME LAST MINUTE ----
+
+  function renderLastMinuteOffers() {
+    var products = window.products || [];
+    var lowCost = products.filter(function (p) {
+      var n = parseFloat(p.price);
+      return !isNaN(n) && n > 0 && n <= 15;
+    }).sort(function (a, b) {
+      return parseFloat(a.price) - parseFloat(b.price);
+    }).slice(0, 8);
+    renderGrid("lastminute-grid", lowCost);
+  }
+
   // ---- OFFERTE DEL GIORNO ----
 
   function renderTodayOffers() {
@@ -435,6 +448,7 @@
     mergeAdminProducts();
     renderTickerBar();
     renderCategoryFilters();
+    renderLastMinuteOffers();
     renderGrid("offers-grid", window.products || []);
     renderColorCategories();
     renderTodayOffers();
