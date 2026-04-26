@@ -110,26 +110,84 @@ KEYWORDS_EXCLUDED = [
 
 # Pool di seed — prodotti verificati, usati come fallback
 SEED_POOL = [
-    {"asin": "B0FLCS5FB2", "name": "Giacca Donna Stampata Colorata con Bottoni",     "category": "abbigliamento", "price": 6.78},
-    {"asin": "B0D48KJW57", "name": "Scarpe Mary Jane Donna Colorata Tacco Basso",    "category": "scarpe",        "price": 22.99},
-    {"asin": "B0B3WRBQB7", "name": "Sandali Tacco Donna Castamere Colorati",         "category": "scarpe",        "price": 35.99},
-    {"asin": "B0D411DMR1", "name": "Stivaletti Donna Colorati Tacco Basso Comodi",   "category": "scarpe",        "price": 28.99},
-    {"asin": "B0DBQMZZRH", "name": "Fioriera Viso Colorata Decorazione Giardino",    "category": "casa",          "price": 19.99},
-    {"asin": "B09X6RKRPW", "name": "Elefante Graffiti Colorato Decorazione Casa",    "category": "casa",          "price": 24.99},
-    {"asin": "B09NVD51JY", "name": "Orecchini Colorati Arcobaleno Donna Resina",     "category": "accessori",     "price": 9.99},
-    {"asin": "B0C5K7X2BL", "name": "Borsa Donna Colorata Tessuto Estate",            "category": "borse",         "price": 18.99},
-    {"asin": "B0B8VK3LHF", "name": "Cuscino Colorato Arcobaleno Divano Decorativo",  "category": "casa",          "price": 14.99},
-    {"asin": "B0BHGXK1FZ", "name": "Cover Colorata iPhone Arcobaleno Antiurto",      "category": "gadget",        "price": 8.99},
-    {"asin": "B0C7S2H8KN", "name": "Palette Ombretti Colorati 12 Colori Glitter",    "category": "beauty",        "price": 12.99},
-    {"asin": "B0D3MKQX7P", "name": "Vestito Donna Floreale Colorato Maniche Lunghe", "category": "abbigliamento", "price": 25.99},
-    {"asin": "B0BZQ7XMRK", "name": "Smalto Colorato Set 24 Pezzi Nail Art",          "category": "beauty",        "price": 11.99},
-    {"asin": "B0C3HM5P7Y", "name": "Zaino Colorato Scuola Ragazze Arcobaleno",       "category": "borse",         "price": 22.99},
-    {"asin": "B0BNYY6CZP", "name": "Lampada LED Colorata RGB Design Moderno",        "category": "casa",          "price": 29.99},
-    {"asin": "B0CF9BSLWX", "name": "Collana Colorata Perline Donna Arcobaleno",      "category": "accessori",     "price": 8.99},
-    {"asin": "B0B2WK8LNX", "name": "Gonna Colorata Midi Donna Fantasia Floreale",    "category": "abbigliamento", "price": 19.99},
-    {"asin": "B0C1QKHMFG", "name": "Rossetto Colorato Set 12 Toni Brillanti",        "category": "beauty",        "price": 14.99},
-    {"asin": "B0CN5RQF8P", "name": "Borsa Zaino Colorato Donna Glitter",             "category": "borse",         "price": 24.99},
-    {"asin": "B0CL2DKYQM", "name": "Vaso Colorato Ceramica Fantasia Fiori",          "category": "casa",          "price": 17.99},
+    # ── SCARPE ──
+    {"asin": "B0FLCS5FB2", "name": "Giacca Donna Stampata Colorata con Bottoni",          "category": "abbigliamento", "price": 6.78},
+    {"asin": "B0D48KJW57", "name": "Scarpe Mary Jane Donna Colorata Tacco Basso",         "category": "scarpe",        "price": 22.99},
+    {"asin": "B0B3WRBQB7", "name": "Sandali Tacco Donna Castamere Colorati",              "category": "scarpe",        "price": 35.99},
+    {"asin": "B0D411DMR1", "name": "Stivaletti Donna Colorati Tacco Basso Comodi",        "category": "scarpe",        "price": 28.99},
+    {"asin": "B07BFLS3KF", "name": "Sneakers Donna Multicolor Leggere Running",           "category": "scarpe",        "price": 29.99},
+    {"asin": "B09W5SGRPB", "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",   "category": "scarpe",        "price": 27.99},
+    {"asin": "B09TZFVGLH", "name": "Ballerine Donna Colorate Comfort Flat",               "category": "scarpe",        "price": 18.99},
+    {"asin": "B0CG9W3TWN", "name": "Sandali Gladiatore Donna Colorati Estivi",            "category": "scarpe",        "price": 21.99},
+    {"asin": "B0CF9LYKWQ", "name": "Sneakers Platform Donna Arcobaleno",                  "category": "scarpe",        "price": 34.99},
+    {"asin": "B09Q4GPFJD", "name": "Mules Donna Colorate Tacco Kitten",                   "category": "scarpe",        "price": 24.99},
+    # ── ABBIGLIAMENTO ──
+    {"asin": "B0DBQMZZRH", "name": "Fioriera Viso Colorata Decorazione Giardino",         "category": "casa",          "price": 19.99},
+    {"asin": "B0D3MKQX7P", "name": "Vestito Donna Floreale Colorato Maniche Lunghe",      "category": "abbigliamento", "price": 25.99},
+    {"asin": "B0B2WK8LNX", "name": "Gonna Colorata Midi Donna Fantasia Floreale",         "category": "abbigliamento", "price": 19.99},
+    {"asin": "B09YFKH7DX", "name": "Top Tie Dye Colorato Donna Crop",                     "category": "abbigliamento", "price": 12.99},
+    {"asin": "B0CLFKQQ7G", "name": "Kimono Donna Colorato Fantasia Estivo",               "category": "abbigliamento", "price": 22.99},
+    {"asin": "B0BL6SPWLR", "name": "Jumpsuit Donna Colorata Floreale",                    "category": "abbigliamento", "price": 28.99},
+    {"asin": "B0CJQG3TLN", "name": "T-Shirt Donna Arcobaleno Stampa Colorata",            "category": "abbigliamento", "price": 14.99},
+    {"asin": "B0BMXW5MQH", "name": "Cardigan Donna Multicolor Lungo Boho",                "category": "abbigliamento", "price": 31.99},
+    {"asin": "B0CF8L2V4R", "name": "Abito Estivo Donna Colorato Fantasia Tropicale",      "category": "abbigliamento", "price": 26.99},
+    {"asin": "B0CH2P4Q9F", "name": "Pantaloni Donna Colorati Fantasia Boho Larghi",       "category": "abbigliamento", "price": 19.99},
+    # ── ACCESSORI ──
+    {"asin": "B09NVD51JY", "name": "Orecchini Colorati Arcobaleno Donna Resina",          "category": "accessori",     "price": 9.99},
+    {"asin": "B0CF9BSLWX", "name": "Collana Colorata Perline Donna Arcobaleno",           "category": "accessori",     "price": 8.99},
+    {"asin": "B0BWKL7XS8", "name": "Bracciale Colorato Perle Donna Set",                  "category": "accessori",     "price": 7.99},
+    {"asin": "B0C8NQ9LVX", "name": "Fascia Capelli Colorata Floreale Donna",              "category": "accessori",     "price": 5.99},
+    {"asin": "B0BKW2QVYR", "name": "Anelli Colorati Set Donna Resina Arcobaleno",         "category": "accessori",     "price": 8.49},
+    {"asin": "B0CFPKN4QR", "name": "Cintura Colorata Donna Tessuto Boho",                 "category": "accessori",     "price": 9.49},
+    {"asin": "B0C7KXPRTV", "name": "Spilla Colorata Donna Fiore Smalto",                  "category": "accessori",     "price": 4.99},
+    {"asin": "B09PW4LMFK", "name": "Parure Bijoux Colorati Donna Collana Orecchini",      "category": "accessori",     "price": 11.99},
+    # ── BORSE ──
+    {"asin": "B0C5K7X2BL", "name": "Borsa Donna Colorata Tessuto Estate",                 "category": "borse",         "price": 18.99},
+    {"asin": "B0C3HM5P7Y", "name": "Zaino Colorato Scuola Ragazze Arcobaleno",            "category": "borse",         "price": 22.99},
+    {"asin": "B0CN5RQF8P", "name": "Borsa Zaino Colorato Donna Glitter",                  "category": "borse",         "price": 24.99},
+    {"asin": "B0BPWQK3TN", "name": "Shopper Colorata Tela Fantasia Donna",                "category": "borse",         "price": 15.99},
+    {"asin": "B0CL7KQFXR", "name": "Clutch Colorata Satin Sera Donna",                    "category": "borse",         "price": 17.99},
+    {"asin": "B09XMKLFVQ", "name": "Borsello Colorato Donna Tracolla Boho",               "category": "borse",         "price": 19.99},
+    {"asin": "B0BSGVWQCX", "name": "Mini Bag Colorata Patchwork Donna",                   "category": "borse",         "price": 16.99},
+    {"asin": "B0CRJ5K4WP", "name": "Marsupio Colorato Fantasia Donna Uomo",               "category": "borse",         "price": 13.99},
+    # ── CASA ──
+    {"asin": "B09X6RKRPW", "name": "Elefante Graffiti Colorato Decorazione Casa",         "category": "casa",          "price": 24.99},
+    {"asin": "B0B8VK3LHF", "name": "Cuscino Colorato Arcobaleno Divano Decorativo",       "category": "casa",          "price": 14.99},
+    {"asin": "B0BNYY6CZP", "name": "Lampada LED Colorata RGB Design Moderno",             "category": "casa",          "price": 29.99},
+    {"asin": "B0CL2DKYQM", "name": "Vaso Colorato Ceramica Fantasia Fiori",               "category": "casa",          "price": 17.99},
+    {"asin": "B0C9HQPLXW", "name": "Tappeto Colorato Camera Ragazzi Antiscivolo",         "category": "casa",          "price": 27.99},
+    {"asin": "B0BT6LQPXR", "name": "Portavasi Colorato Ceramica Set 3 Pezzi",             "category": "casa",          "price": 21.99},
+    {"asin": "B0CF2KLMQS", "name": "Sveglia Colorata Retrò Design Camera",                "category": "casa",          "price": 16.99},
+    {"asin": "B0CGH7WLNK", "name": "Candela Profumata Colorata Soia Arcobaleno",          "category": "casa",          "price": 12.99},
+    {"asin": "B0BXMKFPQR", "name": "Tenda Colorata Boho Macramè Camera",                  "category": "casa",          "price": 22.99},
+    {"asin": "B0CF5QWKPN", "name": "Stampa Arte Colorata Astratta Quadro Camera",         "category": "casa",          "price": 14.99},
+    # ── GADGET ──
+    {"asin": "B0BHGXK1FZ", "name": "Cover Colorata iPhone Arcobaleno Antiurto",           "category": "gadget",        "price": 8.99},
+    {"asin": "B0CKN4XQPL", "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",        "category": "gadget",        "price": 24.99},
+    {"asin": "B0BSWKQFMR", "name": "Mouse Wireless Colorato Silenzioso Arcobaleno",       "category": "gadget",        "price": 14.99},
+    {"asin": "B0CGW4LXKN", "name": "Cavo USB-C Colorato Nylon Intrecciato 3 Pack",        "category": "gadget",        "price": 9.99},
+    {"asin": "B0BQKXPLVR", "name": "Powerbank Colorato 10000mAh Compatto",                "category": "gadget",        "price": 19.99},
+    {"asin": "B0CXKLPQWN", "name": "Pop Socket Colorato Arcobaleno Glitter",              "category": "gadget",        "price": 5.99},
+    {"asin": "B0CN8QWKRP", "name": "Auricolari Colorati Wireless Waterproof Sport",       "category": "gadget",        "price": 17.99},
+    {"asin": "B0BPXQKLNR", "name": "Webcam Colorata HD 1080p Streaming",                  "category": "gadget",        "price": 29.99},
+    # ── BEAUTY ──
+    {"asin": "B0C7S2H8KN", "name": "Palette Ombretti Colorati 12 Colori Glitter",         "category": "beauty",        "price": 12.99},
+    {"asin": "B0BZQ7XMRK", "name": "Smalto Colorato Set 24 Pezzi Nail Art",               "category": "beauty",        "price": 11.99},
+    {"asin": "B0C1QKHMFG", "name": "Rossetto Colorato Set 12 Toni Brillanti",             "category": "beauty",        "price": 14.99},
+    {"asin": "B0CGX4WKQR", "name": "Matite Occhi Colorate Set 16 Colori Waterproof",      "category": "beauty",        "price": 9.99},
+    {"asin": "B0BXQK7NLR", "name": "Blush Colorato 4 Colori Shimmer Palette",             "category": "beauty",        "price": 8.99},
+    {"asin": "B0CL4XNKQP", "name": "Gel UV Colorato Set 36 Colori Nail Art",              "category": "beauty",        "price": 16.99},
+    {"asin": "B0BWKQXPNR", "name": "Glitter Viso Corpo Colorati Festival Make Up",        "category": "beauty",        "price": 7.99},
+    {"asin": "B0CF7WKLNQ", "name": "Spray Capelli Colorato Temporaneo Lavabile",          "category": "beauty",        "price": 8.49},
+    # ── IDEE REGALO ──
+    {"asin": "B0CXKQWNPL", "name": "Set Regalo Colorato Donna Cura Corpo SPA",            "category": "idee-regalo",   "price": 19.99},
+    {"asin": "B0BL4XQKWN", "name": "Puzzle Colorato 1000 Pezzi Paesaggio",               "category": "idee-regalo",   "price": 14.99},
+    {"asin": "B0CGP4WLKQ", "name": "Agenda Colorata 2025 Planner Settimanale",            "category": "idee-regalo",   "price": 11.99},
+    {"asin": "B0CN5XLKQW", "name": "Kit Pittura Acrilica Colorata 24 Colori",             "category": "idee-regalo",   "price": 17.99},
+    {"asin": "B0BXWKQPNL", "name": "Tazza Colorata Cambia Colore Termica Magica",         "category": "idee-regalo",   "price": 12.99},
+    {"asin": "B0CFWKLNQX", "name": "Portafoto Colorato Polaroid Galleria Parete",         "category": "idee-regalo",   "price": 9.99},
+    {"asin": "B0CL7XKQNP", "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",        "category": "idee-regalo",   "price": 16.99},
+    {"asin": "B0BQX4WKLP", "name": "Libro da Colorare Adulti Antistress Mandala",         "category": "idee-regalo",   "price": 8.99},
 ]
 
 USER_AGENTS = [
@@ -458,10 +516,10 @@ def main(count=5):
         random.shuffle(queries)
         print(f"\n  [{cat.upper()}] Ricerca DuckDuckGo...")
 
-        for query in queries[:2]:
+        for query in queries:
             if len(new_products) >= count:
                 break
-            results = search_duckduckgo(query, max_results=15)
+            results = search_duckduckgo(query, max_results=25)
             time.sleep(random.uniform(1.5, 2.5))
 
             for url, ddg_title in results:
@@ -475,21 +533,13 @@ def main(count=5):
                 time.sleep(random.uniform(2.0, 4.0))
                 data = scrape_amazon_product(asin)
 
-                if data and data.get("title"):
+                if data and data.get("title") and data.get("image") and "media-amazon.com" in data["image"]:
                     p = build_product(asin, data["title"], cat, data.get("price"), data.get("image"))
                     new_products.append(p)
                     existing_asins.add(asin)
                     print(f"    [OK] {p['name'][:65]}")
                 else:
-                    # Fallback: usa titolo DuckDuckGo
-                    title = re.sub(r'\s*[-|:]\s*Amazon\.it.*$', '', ddg_title, flags=re.IGNORECASE).strip()
-                    if len(title) > 10 and not any(kw in title.lower() for kw in KEYWORDS_EXCLUDED):
-                        p = build_product(asin, title, cat, None, get_affiliate_image(asin))
-                        new_products.append(p)
-                        existing_asins.add(asin)
-                        print(f"    [OK-DDG] {p['name'][:65]}")
-                    else:
-                        print(f"    [SKIP] Dati insufficienti")
+                    print(f"    [SKIP] Nessuna foto reale")
 
     # ── Fase C: seed pool verificato ──
     if len(new_products) < count:
@@ -519,8 +569,8 @@ def main(count=5):
         generate_products_js(existing)
         return
 
-    # Nuovi in cima, max 40 totali
-    all_products = (new_products + existing)[:40]
+    # Nuovi in cima, max 100 totali
+    all_products = (new_products + existing)[:100]
     save_products(all_products)
     generate_products_js(all_products)
 
