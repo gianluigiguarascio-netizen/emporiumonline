@@ -225,8 +225,9 @@
           '<h3 class="card-title">' + escapeHtml(product.name) + '</h3>' +
           '<div class="card-price">' + priceHtml + '</div>' +
           '<div class="card-cta">' +
-            '<span class="cta-btn">&#x1F6D2; Vedi offerta</span>' +
+            '<span class="cta-btn">&#x1F6D2; Confronta prezzo su Amazon</span>' +
           '</div>' +
+          '<p class="card-disclaimer">Prezzo e disponibilit&agrave; aggiornati su Amazon al momento del click</p>' +
         '</div>' +
       '</a>';
 
