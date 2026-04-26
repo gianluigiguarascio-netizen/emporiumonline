@@ -531,6 +531,13 @@
     renderColorCategories();
     renderTodayOffers();
     renderGrid("bambini-grid", (window.products || []).filter(function(p){ return p.category === "bambini"; }));
+    // Offerte Pazze: prendi i prodotti con prezzo più basso o badge "Imperdibile"
+    var pazze = (window.products || []).filter(function(p){
+      var badge = String(p.offerBadge || "");
+      return badge.indexOf("Imperdibile") > -1 || badge.indexOf("🔥") > -1 || (p.price && p.price < 10);
+    }).sort(function(a,b){ return (a.price||99)-(b.price||99); }).slice(0,12);
+    if (!pazze.length) pazze = (window.products || []).sort(function(a,b){ return (a.price||99)-(b.price||99); }).slice(0,12);
+    renderGrid("offerte-pazze-grid", pazze);
     updateSEO();
     animateCounters();
   }

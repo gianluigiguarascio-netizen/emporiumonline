@@ -901,3 +901,80 @@ img { max-width: 100%; display: block; }
   }
   .hero-content h1 { font-size: 1.35rem; }
 }
+
+/* ===== OFFERTE PAZZE ===== */
+.offerte-pazze-section {
+  background: linear-gradient(135deg, #1a0a2e 0%, #16001e 40%, #0a0a0a 100%);
+  padding: 40px 0 48px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 3px solid #ff6b6b;
+}
+.offerte-pazze-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    45deg, transparent, transparent 30px,
+    rgba(255,107,107,.04) 30px, rgba(255,107,107,.04) 60px
+  );
+  pointer-events: none;
+}
+.offerte-pazze-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.offerte-pazze-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #ff6b6b, #ff9a00, #ff6b6b);
+  background-size: 200% auto;
+  animation: gradientShift 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.pazze-fire {
+  -webkit-text-fill-color: initial;
+  font-size: 1.8rem;
+  animation: badgePulse 1s ease-in-out infinite;
+}
+.offerte-pazze-sub {
+  color: rgba(255,255,255,.7);
+  font-size: .95rem;
+  margin-top: 8px;
+}
+.offerte-pazze-cta {
+  text-align: center;
+  margin-top: 32px;
+}
+.btn-pazze {
+  background: linear-gradient(135deg, #ff6b6b, #ff9a00);
+  color: #fff !important;
+  font-weight: 800;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 24px rgba(255,107,107,.45);
+  animation: badgePulse 2.5s ease-in-out infinite;
+}
+.btn-pazze:hover {
+  box-shadow: 0 8px 32px rgba(255,107,107,.65);
+  transform: translateY(-3px) scale(1.02);
+}
+@media(max-width: 768px) {
+  .offerte-pazze-label { font-size: 1.4rem; }
+  .btn-pazze { font-size: .92rem; padding: 13px 22px; }
+}
+
+/* Nav Offerte Pazze */
+.nav-pazze {
+  background: linear-gradient(135deg, #ff6b6b, #ff9a00) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 800 !important;
+}
