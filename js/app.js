@@ -326,6 +326,8 @@
       var pct = ((oldPrice - price) / oldPrice) * 100;
       var clone = Object.assign({}, p);
       clone._dealPct = pct;
+      clone.discount = "Risparmi " + Math.round(pct) + "%";
+      clone.offerBadge = true;
       return clone;
     }).sort(function (a, b) {
       return b._dealPct - a._dealPct;
