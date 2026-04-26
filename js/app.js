@@ -299,17 +299,23 @@
     });
   }
 
-  // ---- OFFERTISSIME LAST MINUTE ----
+  // ---- IDEE REGALO PER FASCIA PREZZO ----
 
-  function renderLastMinuteOffers() {
+  function renderGiftsByPrice(maxPrice, containerId, limit) {
     var products = window.products || [];
-    var lowCost = products.filter(function (p) {
+    var gifts = products.filter(function (p) {
       var n = parseFloat(p.price);
-      return !isNaN(n) && n > 0 && n <= 15;
+      return !isNaN(n) && n > 0 && n <= maxPrice;
     }).sort(function (a, b) {
       return parseFloat(a.price) - parseFloat(b.price);
-    }).slice(0, 8);
-    renderGrid("lastminute-grid", lowCost);
+    }).slice(0, limit || 8);
+    renderGrid(containerId, gifts);
+  }
+
+  function renderGiftPriceBands() {
+    renderGiftsByPrice(5, "gift-under-5-grid", 8);
+    renderGiftsByPrice(10, "gift-under-10-grid", 8);
+    renderGiftsByPrice(15, "gift-under-15-grid", 8);
   }
 
   // ---- MIGLIORI AFFARI (sconto reale) ----
@@ -472,7 +478,7 @@
     mergeAdminProducts();
     renderTickerBar();
     renderCategoryFilters();
-    renderLastMinuteOffers();
+    renderGiftPriceBands();
     renderBestDeals();
     renderGrid("offers-grid", window.products || []);
     renderColorCategories();
