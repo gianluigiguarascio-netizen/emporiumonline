@@ -811,3 +811,93 @@ img { max-width: 100%; display: block; }
   background: rgba(167,139,250,.3);
   color: var(--text);
 }
+
+/* ===== BAMBINI CATEGORY ===== */
+.filter-btn.active[data-cat="bambini"] { background: #f59e0b; color: #000; }
+
+/* ===== MOBILE OPTIMIZATION ===== */
+@media(max-width: 768px) {
+  /* Sezioni più compatte */
+  .section { padding: 48px 0; }
+  .section-header { margin-bottom: 28px; }
+  .section-header h2 { font-size: 1.5rem; }
+  .section-header p { font-size: .9rem; }
+
+  /* Prodotti: 2 colonne su mobile */
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+
+  /* Card più compatta su mobile */
+  .card-body { padding: 10px 10px 12px; }
+  .card-title { font-size: .82rem; }
+  .card-price { font-size: 1rem; }
+  .card-btn { padding: 8px 10px; font-size: .78rem; }
+
+  /* Hero più compatto */
+  .hero { min-height: 60vh; padding: 70px 16px 40px; }
+  .hero-content h1 { font-size: 1.6rem; line-height: 1.25; }
+  .hero-content p { font-size: .9rem; }
+  .hero-cta { flex-direction: column; gap: 10px; align-items: center; }
+  .btn-lg { padding: 13px 28px; font-size: .95rem; }
+
+  /* Stats hero */
+  .hero-stats { gap: 16px; }
+  .stat-number { font-size: 1.5rem; }
+  .stat-label { font-size: .72rem; }
+
+  /* Filter bar scroll orizzontale */
+  .filter-bar {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 8px !important;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+  .filter-bar::-webkit-scrollbar { display: none; }
+  .filter-btn { white-space: nowrap; flex-shrink: 0; padding: 8px 14px; font-size: .82rem; }
+
+  /* Gift tabs scroll */
+  .gift-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+  .gift-tabs::-webkit-scrollbar { display: none; }
+
+  /* Footer */
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .footer { padding: 40px 0 20px; }
+
+  /* How grid */
+  .how-grid { grid-template-columns: 1fr; gap: 14px; }
+  .how-card { padding: 24px 20px; }
+
+  /* Trust strip */
+  .trust-strip-inner { grid-template-columns: 1fr; gap: 8px; }
+  .trust-item { font-size: .82rem; padding: 6px 10px; }
+
+  /* Promo banner */
+  .promo-banner { padding: 36px 16px; }
+  .promo-banner h2 { font-size: 1.3rem; }
+
+  /* Nav più alta per tocco facile */
+  .navbar { padding: 14px 16px; }
+  .nav-brand .brand-name { font-size: 1rem; }
+
+  /* Img price badge più piccolo */
+  .img-price-badge { font-size: .72rem; padding: 3px 8px; }
+}
+
+@media(max-width: 380px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+  .hero-content h1 { font-size: 1.35rem; }
+}

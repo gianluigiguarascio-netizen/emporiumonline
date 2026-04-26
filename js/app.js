@@ -18,6 +18,7 @@
     "idee-regalo": { label: "Idee Regalo",   icon: "🎁", color: "#34d399" },
     beauty:        { label: "Beauty",        icon: "💄", color: "#f472b6" },
     tech:          { label: "Tech",          icon: "📱", color: "#818cf8" },
+    bambini:       { label: "Bambini",       icon: "🧸", color: "#f59e0b" },
   };
 
   // ---- HELPERS ----
@@ -529,6 +530,7 @@
     renderGrid("offers-grid", window.products || []);
     renderColorCategories();
     renderTodayOffers();
+    renderGrid("bambini-grid", (window.products || []).filter(function(p){ return p.category === "bambini"; }));
     updateSEO();
     animateCounters();
   }
