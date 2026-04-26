@@ -312,6 +312,28 @@
     renderGrid("lastminute-grid", lowCost);
   }
 
+  // ---- MIGLIORI AFFARI (sconto reale) ----
+
+  function renderBestDeals() {
+    var products = window.products || [];
+    var deals = products.filter(function (p) {
+      var price = parseFloat(p.price);
+      var oldPrice = parseFloat(p.oldPrice || p.old_price);
+      return !isNaN(price) && !isNaN(oldPrice) && oldPrice > price;
+    }).map(function (p) {
+      var price = parseFloat(p.price);
+      var oldPrice = parseFloat(p.oldPrice || p.old_price);
+      var pct = ((oldPrice - price) / oldPrice) * 100;
+      var clone = Object.assign({}, p);
+      clone._dealPct = pct;
+      return clone;
+    }).sort(function (a, b) {
+      return b._dealPct - a._dealPct;
+    }).slice(0, 8);
+
+    renderGrid("best-deals-grid", deals);
+  }
+
   // ---- OFFERTE DEL GIORNO ----
 
   function renderTodayOffers() {
@@ -449,6 +471,7 @@
     renderTickerBar();
     renderCategoryFilters();
     renderLastMinuteOffers();
+    renderBestDeals();
     renderGrid("offers-grid", window.products || []);
     renderColorCategories();
     renderTodayOffers();
