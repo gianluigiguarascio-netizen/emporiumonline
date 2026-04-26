@@ -204,13 +204,18 @@
       'data-clr2="' + escapeHtml(product.clr2 || "#a78bfa") + '" ' +
       'onerror="handleImageError(this)">';
 
+    var priceBadge = product.price
+      ? '<div class="img-price-badge">€' + formatPrice(product.price) + '</div>'
+      : '';
+
     card.innerHTML =
       '<a href="' + escapeHtml(link) + '" target="_blank" ' +
          'rel="nofollow noopener sponsored" class="card-link">' +
-        '<div class="card-image" style="--clr1:' + (product.clr1 || "#ff6b9d") +
-             ';--clr2:' + (product.clr2 || "#a78bfa") + '">' +
-          todayBadge + offerBadge + dateHtml +
+        '<div class="card-image">' +
+          offerBadge +
           imgTag +
+          priceBadge +
+          '<div class="card-hover-overlay"><span>&#x1F6CD;&#xFE0F; Vedi su Amazon</span></div>' +
         '</div>' +
         '<div class="card-top-bar" style="background:' + catColor + '"></div>' +
         '<div class="card-body">' +
@@ -220,9 +225,8 @@
           '<h3 class="card-title">' + escapeHtml(product.name) + '</h3>' +
           '<div class="card-price">' + priceHtml + '</div>' +
           '<div class="card-cta">' +
-            '<span class="cta-btn">&#x1F6D2; Vedi offerta su Amazon</span>' +
+            '<span class="cta-btn">&#x1F6D2; Vedi offerta</span>' +
           '</div>' +
-          '<p class="card-disclaimer">Prezzo e disponibilit&agrave; verificare su Amazon</p>' +
         '</div>' +
       '</a>';
 
