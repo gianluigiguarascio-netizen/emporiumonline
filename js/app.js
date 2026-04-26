@@ -312,10 +312,31 @@
     renderGrid(containerId, gifts);
   }
 
+  function setActiveGiftBand(band) {
+    document.querySelectorAll(".gift-tab-btn").forEach(function (btn) {
+      btn.classList.toggle("active", btn.dataset.band === String(band));
+    });
+    document.querySelectorAll(".gift-band-panel").forEach(function (panel) {
+      panel.classList.toggle("active", panel.id === ("gift-band-" + band));
+    });
+  }
+
+  function setupGiftTabs() {
+    var tabs = document.querySelectorAll(".gift-tab-btn");
+    if (!tabs.length) return;
+    tabs.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        setActiveGiftBand(btn.dataset.band);
+      });
+    });
+    setActiveGiftBand(5);
+  }
+
   function renderGiftPriceBands() {
     renderGiftsByPrice(5, "gift-under-5-grid", 8);
     renderGiftsByPrice(10, "gift-under-10-grid", 8);
     renderGiftsByPrice(15, "gift-under-15-grid", 8);
+    setupGiftTabs();
   }
 
   // ---- MIGLIORI AFFARI (sconto reale) ----

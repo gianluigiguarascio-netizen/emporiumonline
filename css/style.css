@@ -302,6 +302,34 @@ img { max-width: 100%; display: block; }
   text-align: left;
 }
 
+.gift-tabs {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4px 0 18px;
+}
+
+.gift-tab-btn {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.18);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.gift-tab-btn:hover { background: rgba(255,255,255,.16); }
+.gift-tab-btn.active {
+  background: var(--gradient-warm);
+  border-color: transparent;
+  color: #fff;
+}
+
+.gift-band-panel { display: none; }
+.gift-band-panel.active { display: block; }
+
 .section-badge {
   display: inline-block;
   background: rgba(255,107,157,.12); color: var(--pink);

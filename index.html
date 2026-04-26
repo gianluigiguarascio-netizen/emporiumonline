@@ -115,19 +115,31 @@
         <p>Le migliori offerte Amazon divise per fascia prezzo: sotto 5€, sotto 10€, sotto 15€</p>
       </div>
 
-      <h3 class="price-band-title">Sotto 5€</h3>
-      <div class="products-grid" id="gift-under-5-grid">
-        <!-- Prodotti iniettati da JS -->
+      <div class="gift-tabs" id="gift-tabs">
+        <button class="gift-tab-btn active" data-band="5">Sotto 5€</button>
+        <button class="gift-tab-btn" data-band="10">Sotto 10€</button>
+        <button class="gift-tab-btn" data-band="15">Sotto 15€</button>
       </div>
 
-      <h3 class="price-band-title">Sotto 10€</h3>
-      <div class="products-grid" id="gift-under-10-grid">
-        <!-- Prodotti iniettati da JS -->
+      <div class="gift-band-panel active" id="gift-band-5">
+        <h3 class="price-band-title">Sotto 5€</h3>
+        <div class="products-grid" id="gift-under-5-grid">
+          <!-- Prodotti iniettati da JS -->
+        </div>
       </div>
 
-      <h3 class="price-band-title">Sotto 15€</h3>
-      <div class="products-grid" id="gift-under-15-grid">
-        <!-- Prodotti iniettati da JS -->
+      <div class="gift-band-panel" id="gift-band-10">
+        <h3 class="price-band-title">Sotto 10€</h3>
+        <div class="products-grid" id="gift-under-10-grid">
+          <!-- Prodotti iniettati da JS -->
+        </div>
+      </div>
+
+      <div class="gift-band-panel" id="gift-band-15">
+        <h3 class="price-band-title">Sotto 15€</h3>
+        <div class="products-grid" id="gift-under-15-grid">
+          <!-- Prodotti iniettati da JS -->
+        </div>
       </div>
     </div>
   </section>
