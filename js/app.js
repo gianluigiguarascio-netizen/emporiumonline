@@ -332,10 +332,30 @@
     setActiveGiftBand(5);
   }
 
+  function updateGiftTabCounts() {
+    var products = window.products || [];
+    var counts = { 5: 0, 10: 0, 15: 0 };
+
+    products.forEach(function (p) {
+      var n = parseFloat(p.price);
+      if (isNaN(n) || n <= 0) return;
+      if (n <= 5) counts[5] += 1;
+      if (n <= 10) counts[10] += 1;
+      if (n <= 15) counts[15] += 1;
+    });
+
+    document.querySelectorAll(".gift-tab-btn").forEach(function (btn) {
+      var band = parseInt(btn.dataset.band, 10);
+      if (!counts[band] && counts[band] !== 0) return;
+      btn.textContent = "Sotto " + band + "€ (" + counts[band] + ")";
+    });
+  }
+
   function renderGiftPriceBands() {
     renderGiftsByPrice(5, "gift-under-5-grid", 8);
     renderGiftsByPrice(10, "gift-under-10-grid", 8);
     renderGiftsByPrice(15, "gift-under-15-grid", 8);
+    updateGiftTabCounts();
     setupGiftTabs();
   }
 
