@@ -98,6 +98,35 @@
     <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
   </nav>
 
+  <!-- SEARCH BAR -->
+  <section class="search-bar-section" id="cerca">
+    <div class="container">
+      <div class="search-bar-inner">
+        <div class="search-bar-text">
+          <span class="search-bar-label">🔍 Cerchi un prodotto?</span>
+          <p>Scrivilo qui — troviamo quello con il <strong>prezzo più basso su Amazon</strong></p>
+        </div>
+        <form class="search-bar-form" id="searchForm" onsubmit="doSearch(event)">
+          <div class="search-input-wrap">
+            <input
+              type="text"
+              id="searchInput"
+              class="search-input"
+              placeholder="Es: scarpe uomo, vestito floreale, borsa colorata…"
+              autocomplete="off"
+              required
+            />
+            <button type="submit" class="search-btn">
+              <span class="search-btn-icon">🔎</span>
+              <span>Trova il prezzo più basso</span>
+            </button>
+          </div>
+          <div class="search-suggestions" id="searchSuggestions"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
   <!-- TICKER BAR -->
   <div class="ticker-bar" aria-hidden="true">
     <div class="ticker-track" id="ticker-content">
@@ -390,5 +419,53 @@
 
   <script src="js/products.js"></script>
   <script src="js/app.js"></script>
+  <script>
+    function doSearch(e) {
+      e.preventDefault();
+      var q = document.getElementById('searchInput').value.trim();
+      if (!q) return;
+      var url = 'https://www.amazon.it/s?k=' + encodeURIComponent(q) +
+                '&s=price-asc-rank&tag=prezzotop08-21';
+      window.open(url, '_blank');
+    }
+
+    // Suggerimenti live dal catalogo
+    (function() {
+      var input = document.getElementById('searchInput');
+      var box   = document.getElementById('searchSuggestions');
+      if (!input || !box) return;
+
+      input.addEventListener('input', function() {
+        var q = input.value.trim().toLowerCase();
+        box.innerHTML = '';
+        if (q.length < 2) return;
+
+        var prods = (window.products || []);
+        var matches = prods.filter(function(p) {
+          return p.name.toLowerCase().includes(q);
+        }).sort(function(a,b){ return (a.price||99)-(b.price||99); }).slice(0,5);
+
+        if (!matches.length) return;
+        matches.forEach(function(p) {
+          var div = document.createElement('div');
+          div.className = 'search-suggestion-item';
+          div.innerHTML =
+            '<img src="' + p.image + '" alt="" />' +
+            '<span class="ssi-name">' + p.name.substring(0,55) + '…</span>' +
+            '<span class="ssi-price">€' + (p.price||'').toString() + '</span>';
+          div.addEventListener('click', function() {
+            window.open(p.amazonLink || ('https://www.amazon.it/dp/' + p.asin + '?tag=prezzotop08-21'), '_blank');
+            box.innerHTML = '';
+            input.value = '';
+          });
+          box.appendChild(div);
+        });
+      });
+
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('#searchForm')) box.innerHTML = '';
+      });
+    })();
+  </script>
 </body>
 </html>
