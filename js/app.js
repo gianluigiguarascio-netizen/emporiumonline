@@ -547,6 +547,7 @@
   window.toggleMenu = toggleMenu;
   window.showToast = showToast;
   window.filterProducts = filterProducts;
+  window.renderGrid = renderGrid;
 
   document.addEventListener("DOMContentLoaded", init);
 })();
