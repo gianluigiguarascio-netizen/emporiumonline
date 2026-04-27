@@ -978,3 +978,81 @@ img { max-width: 100%; display: block; }
   background-clip: text !important;
   font-weight: 800 !important;
 }
+
+/* Gift Teaser Cards (homepage → /idee-regalo/) */
+.gift-teaser-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 160px;
+  padding: 28px 20px;
+  background: linear-gradient(135deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 20px;
+  text-decoration: none;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.gift-teaser-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(255,165,0,.25);
+  border-color: rgba(255,165,0,.4);
+}
+.gift-teaser-emoji { font-size: 2.4rem; line-height: 1; }
+.gift-teaser-price {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #fbbf24;
+  letter-spacing: -.5px;
+}
+.gift-teaser-label {
+  font-size: .78rem;
+  color: rgba(255,255,255,.6);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+/* Navbar dropdown — Regali per budget */
+.nav-dropdown { position: relative; }
+.nav-submenu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a2e;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 14px;
+  padding: 8px 0;
+  min-width: 160px;
+  list-style: none;
+  z-index: 200;
+  box-shadow: 0 12px 32px rgba(0,0,0,.5);
+}
+.nav-submenu li a {
+  display: block;
+  padding: 10px 20px;
+  color: rgba(255,255,255,.8);
+  font-size: .88rem;
+  white-space: nowrap;
+  transition: background .15s, color .15s;
+}
+.nav-submenu li a:hover {
+  background: rgba(255,255,255,.07);
+  color: #fbbf24;
+}
+.nav-dropdown:hover .nav-submenu { display: block; }
+@media(max-width: 768px) {
+  .nav-submenu {
+    position: static;
+    transform: none;
+    border: none;
+    background: rgba(255,255,255,.04);
+    border-radius: 8px;
+    margin: 4px 0 8px 12px;
+    padding: 4px 0;
+    box-shadow: none;
+  }
+  .nav-dropdown:hover .nav-submenu { display: block; }
+}

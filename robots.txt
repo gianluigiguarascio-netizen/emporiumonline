@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /admin.html
+Disallow: /scripts/
+Disallow: /data/
 
 Sitemap: https://emporiumonline.it/sitemap.xml

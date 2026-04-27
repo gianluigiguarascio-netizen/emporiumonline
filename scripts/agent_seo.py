@@ -45,26 +45,13 @@ def generate_sitemap(products):
     <priority>{prio}</priority>
   </url>""")
 
-    # Pagine categoria (anchor su homepage)
+    # Pagine categoria statiche (URL reali, non anchor)
     for cat in CATEGORIES:
         urls.append(f"""  <url>
-    <loc>{SITE_URL}/#cat-{cat}</loc>
+    <loc>{SITE_URL}/{cat}/</loc>
     <lastmod>{today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>""")
-
-    # Prodotti (link Amazon con tag)
-    for p in products:
-        asin = p.get("asin","")
-        if not asin: continue
-        amz  = p.get("amazonLink", f"https://www.amazon.it/dp/{asin}?tag=prezzotop08-21")
-        # Non indicizziamo link Amazon esterni — solo i tag prodotto interni
-        urls.append(f"""  <url>
-    <loc>{SITE_URL}/#prodotto-{asin}</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
   </url>""")
 
     sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
