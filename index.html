@@ -98,31 +98,51 @@
     <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
   </nav>
 
-  <!-- SEARCH BAR -->
+  <!-- RICHIESTA PRODOTTO -->
   <section class="search-bar-section" id="cerca">
     <div class="container">
       <div class="search-bar-inner">
         <div class="search-bar-text">
           <span class="search-bar-label">🔍 Cerchi un prodotto?</span>
-          <p>Scrivilo qui — troviamo quello con il <strong>prezzo più basso su Amazon</strong></p>
+          <p>Scrivici cosa stai cercando — lo troviamo noi con il <strong>prezzo più basso su Amazon</strong> e lo aggiungiamo qui per te!</p>
         </div>
-        <form class="search-bar-form" id="searchForm" onsubmit="doSearch(event)">
+        <form
+          class="search-bar-form"
+          id="searchForm"
+          action="https://formsubmit.co/gianluigi.guarascio@gmail.com"
+          method="POST"
+          onsubmit="handleSearchSubmit(event)"
+        >
+          <!-- Formsubmit config -->
+          <input type="hidden" name="_subject" value="🔍 Nuova richiesta prodotto — EmporiumOnline" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://emporiumonline.it/?richiesta=ok" />
+          <input type="hidden" name="sito" value="EmporiumOnline.it" />
+
           <div class="search-input-wrap">
             <input
               type="text"
+              name="prodotto_cercato"
               id="searchInput"
               class="search-input"
-              placeholder="Es: scarpe uomo, vestito floreale, borsa colorata…"
+              placeholder="Es: scarpe uomo bianche, vestito floreale, borsa colorata…"
               autocomplete="off"
               required
             />
             <button type="submit" class="search-btn">
-              <span class="search-btn-icon">🔎</span>
-              <span>Trova il prezzo più basso</span>
+              <span class="search-btn-icon">📩</span>
+              <span>Invia la richiesta</span>
             </button>
           </div>
-          <div class="search-suggestions" id="searchSuggestions"></div>
+          <p class="search-note">✅ Riceverai i prodotti con i migliori prezzi entro 24 ore — tutti con link affiliato Amazon</p>
         </form>
+
+        <!-- Messaggio di conferma (visibile se ?richiesta=ok) -->
+        <div class="search-success" id="searchSuccess" style="display:none;">
+          <span class="search-success-icon">🎉</span>
+          <p><strong>Richiesta inviata!</strong> Stiamo cercando il prodotto migliore per te. Torna tra 24 ore — lo troverai qui con il prezzo più basso su Amazon.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -420,51 +440,33 @@
   <script src="js/products.js"></script>
   <script src="js/app.js"></script>
   <script>
-    function doSearch(e) {
-      e.preventDefault();
+    // Mostra messaggio ok se redirect dopo invio form
+    function handleSearchSubmit(e) {
+      // Il form invia via POST a formsubmit.co — lascia il comportamento default
+      // Salva la richiesta in localStorage per la pagina admin
       var q = document.getElementById('searchInput').value.trim();
-      if (!q) return;
-      var url = 'https://www.amazon.it/s?k=' + encodeURIComponent(q) +
-                '&s=price-asc-rank&tag=prezzotop08-21';
-      window.open(url, '_blank');
+      if (q) {
+        var richieste = JSON.parse(localStorage.getItem('emporium_richieste') || '[]');
+        richieste.unshift({ prodotto: q, data: new Date().toLocaleString('it-IT'), letta: false });
+        localStorage.setItem('emporium_richieste', JSON.stringify(richieste.slice(0, 100)));
+      }
     }
 
-    // Suggerimenti live dal catalogo
+    // Mostra conferma se torniamo con ?richiesta=ok
     (function() {
-      var input = document.getElementById('searchInput');
-      var box   = document.getElementById('searchSuggestions');
-      if (!input || !box) return;
-
-      input.addEventListener('input', function() {
-        var q = input.value.trim().toLowerCase();
-        box.innerHTML = '';
-        if (q.length < 2) return;
-
-        var prods = (window.products || []);
-        var matches = prods.filter(function(p) {
-          return p.name.toLowerCase().includes(q);
-        }).sort(function(a,b){ return (a.price||99)-(b.price||99); }).slice(0,5);
-
-        if (!matches.length) return;
-        matches.forEach(function(p) {
-          var div = document.createElement('div');
-          div.className = 'search-suggestion-item';
-          div.innerHTML =
-            '<img src="' + p.image + '" alt="" />' +
-            '<span class="ssi-name">' + p.name.substring(0,55) + '…</span>' +
-            '<span class="ssi-price">€' + (p.price||'').toString() + '</span>';
-          div.addEventListener('click', function() {
-            window.open(p.amazonLink || ('https://www.amazon.it/dp/' + p.asin + '?tag=prezzotop08-21'), '_blank');
-            box.innerHTML = '';
-            input.value = '';
-          });
-          box.appendChild(div);
-        });
-      });
-
-      document.addEventListener('click', function(e) {
-        if (!e.target.closest('#searchForm')) box.innerHTML = '';
-      });
+      if (window.location.search.includes('richiesta=ok')) {
+        var form    = document.getElementById('searchForm');
+        var success = document.getElementById('searchSuccess');
+        if (form)    form.style.display    = 'none';
+        if (success) success.style.display = 'flex';
+        // Pulisci URL
+        history.replaceState({}, '', '/');
+        // Scroll alla sezione
+        setTimeout(function() {
+          var el = document.getElementById('cerca');
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }, 200);
+      }
     })();
   </script>
 </body>
