@@ -217,11 +217,9 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var all = window.products || [];
-      var camicie  = all.filter(function(p){ return p.source === "camicie-uomo"; });
-      var pantaloni = all.filter(function(p){ return p.source === "pantaloni-corti-uomo"; });
-      var tuttiUomo = all.filter(function(p){
-        return p.source === "camicie-uomo" || p.source === "pantaloni-corti-uomo";
-      });
+      var camicie   = all.filter(function(p){ return p.category === "uomo" && p.source === "camicie-uomo"; });
+      var pantaloni = all.filter(function(p){ return p.category === "uomo" && p.source === "pantaloni-corti-uomo"; });
+      var tuttiUomo = all.filter(function(p){ return p.category === "uomo"; });
       if (typeof renderGrid === "function") {
         renderGrid("camicie-grid",  camicie);
         renderGrid("pantaloni-grid", pantaloni);
