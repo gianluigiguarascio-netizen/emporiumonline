@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 28/04/2026 10:24
+// Aggiornato automaticamente il 29/04/2026 10:14
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0C5WVC6RL",
+    "asin": "B0C5WVC6RL",
+    "name": "Flapper - Fascia per capelli vintage colorata con fascia elastica da donna (verde, taglia unica)",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51XhshXa+LL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0C5WVC6RL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-04-29T10:14:01.728720",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0DLNPHRKT",
+    "asin": "B0DLNPHRKT",
+    "name": "Fasce colorate con alghe marine per uomini e donne, fasce per capelli per corsa, calcio, palestra, accessori",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/319k-CnWyfL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DLNPHRKT?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-04-29T10:14:06.691598",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0DLW55MZ6",
+    "asin": "B0DLW55MZ6",
+    "name": "Orecchini a forma di cupcake dai colori vivaci per donne, orecchini colorati in pelle a goccia per le donne alla moda, o",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41M98atc4vL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DLW55MZ6?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-04-29T10:14:13.018490",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0F5624HMZ",
+    "asin": "B0F5624HMZ",
+    "name": "Bellissimi orecchini in pelle stampata su entrambi i lati con fiori colorati int e forma di gocce d&#39;acqua, creativi,",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41cr5428BFL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0F5624HMZ?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-04-29T10:14:17.779617",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0FK2YR2CT",
+    "asin": "B0FK2YR2CT",
+    "name": "Orecchini colorati con stampa giglio da donna, orecchini in pelle a goccia alla moda per le donne alla moda, orecchini a",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51vvvq6AUTL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FK2YR2CT?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-04-29T10:14:22.603154",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0C586QLB6",
     "asin": "B0C586QLB6",
@@ -1420,81 +1490,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-04-26T17:14:48.284005",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "scarpe-B078PH6WC2",
-    "asin": "B078PH6WC2",
-    "name": "Vans Authentic Donna Sneaker Colorata Classic",
-    "category": "scarpe",
-    "price": 38.25,
-    "image": "https://m.media-amazon.com/images/I/71xsWwSdzkL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B078PH6WC2?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:14:48.284012",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "scarpe-B07BN1TYBG",
-    "asin": "B07BN1TYBG",
-    "name": "Vans Old Skool Donna Sneaker Colorata",
-    "category": "scarpe",
-    "price": 67.95,
-    "image": "https://m.media-amazon.com/images/I/51Reh8IDlRL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07BN1TYBG?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:14:48.284018",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "scarpe-B07LGBHRKJ",
-    "asin": "B07LGBHRKJ",
-    "name": "Skechers Donna Sneaker Memory Foam Colorata",
-    "category": "scarpe",
-    "price": 59.09,
-    "image": "https://m.media-amazon.com/images/I/81Rr1u-o2cL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07LGBHRKJ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:14:48.284025",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "scarpe-B0CN33NGT9",
-    "asin": "B0CN33NGT9",
-    "name": "HEYDUDE Wendy Sport Donna Leggera Colorata",
-    "category": "scarpe",
-    "price": 60.93,
-    "image": "https://m.media-amazon.com/images/I/61zV49Bv4vL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CN33NGT9?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:14:48.284031",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B0F9F4YRFD",
-    "asin": "B0F9F4YRFD",
-    "name": "SCARLET DARKNESS Abito Donna Colorato Stampa Floreale",
-    "category": "abbigliamento",
-    "price": 58.67,
-    "image": "https://m.media-amazon.com/images/I/51DByvI3-xL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0F9F4YRFD?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:14:48.284038",
     "status": "published",
     "source": "chrome-verified"
   }
