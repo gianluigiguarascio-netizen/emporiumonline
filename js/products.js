@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 30/04/2026 10:17
+// Aggiornato automaticamente il 01/05/2026 09:55
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0G93MT9FT",
+    "asin": "B0G93MT9FT",
+    "name": "Orecchini colorati in pelle stampata a forma di goccia, leggeri e morbidi.",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41782QbEdnL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0G93MT9FT?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-01T09:54:12.688190",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CN5RQF8P",
+    "asin": "B0CN5RQF8P",
+    "name": "Borsa Zaino Colorato Donna Glitter",
+    "category": "borse",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5RQF8P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN5RQF8P?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-05-01T09:55:25.605700",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0BXQ7NKLP",
+    "asin": "B0BXQ7NKLP",
+    "name": "Slip On Donna Colorate Stampa Leopardata",
+    "category": "scarpe",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-01T09:55:27.793287",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D1KQXNPL",
+    "asin": "B0D1KQXNPL",
+    "name": "Short Donna Colorati Fantasia Estivi Casual",
+    "category": "abbigliamento",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-05-01T09:55:29.446739",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CL2DKYQM",
+    "asin": "B0CL2DKYQM",
+    "name": "Vaso Colorato Ceramica Fantasia Fiori",
+    "category": "casa",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL2DKYQM&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL2DKYQM?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-01T09:55:30.949013",
+    "status": "published"
+  },
   {
     "id": "accessori-B0BP7GRMP9",
     "asin": "B0BP7GRMP9",
@@ -1410,81 +1480,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-04-26T17:18:52.398840",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B0F2H5WBQT",
-    "asin": "B0F2H5WBQT",
-    "name": "GRECERELLE Vestito Colorato Donna Boho Estate",
-    "category": "abbigliamento",
-    "price": 24.99,
-    "image": "https://m.media-amazon.com/images/I/71aGSvLuLmL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0F2H5WBQT?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398860",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "accessori-B09WQ472GB",
-    "asin": "B09WQ472GB",
-    "name": "XOCARTIGE Set Bracciali Colorati Donna Boho",
-    "category": "accessori",
-    "price": 20.55,
-    "image": "https://m.media-amazon.com/images/I/71+6+KwISCL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09WQ472GB?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398874",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "accessori-B0CWTX9TMN",
-    "asin": "B0CWTX9TMN",
-    "name": "FULU AUTUMN Bracciali Colorati Donna Set",
-    "category": "accessori",
-    "price": 19.48,
-    "image": "https://m.media-amazon.com/images/I/71uKsvdFMlL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CWTX9TMN?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398888",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "accessori-B09V6VTP3H",
-    "asin": "B09V6VTP3H",
-    "name": "Yaomiao Bracciali Colorati Estate Donna",
-    "category": "accessori",
-    "price": 22.97,
-    "image": "https://m.media-amazon.com/images/I/81S+UV3Qz8L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09V6VTP3H?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398902",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "accessori-B07J2MK8R6",
-    "asin": "B07J2MK8R6",
-    "name": "ThurColas Bracciali Colorati Elastici Set",
-    "category": "accessori",
-    "price": 16.9,
-    "image": "https://m.media-amazon.com/images/I/512tocoIi3L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07J2MK8R6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398916",
     "status": "published",
     "source": "chrome-verified"
   }
