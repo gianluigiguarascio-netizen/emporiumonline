@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 04/05/2026 10:22
+// Aggiornato automaticamente il 05/05/2026 10:10
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0DYK3X4H3",
+    "asin": "B0DYK3X4H3",
+    "name": "Sneakers donna - Sneakers multicolore con soletta rimovibile - suola dentata antiscivolo",
+    "category": "scarpe",
+    "price": 68.71,
+    "image": "https://m.media-amazon.com/images/I/31FYJk9uL8L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DYK3X4H3?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-05T10:09:41.170702",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0F1DMT528",
+    "asin": "B0F1DMT528",
+    "name": "Colmar Scarpa Sportiva Verde Multicolore,Modello Donna Garner Flashy 142 Suola Chunky,Design Retro in Scamosciato",
+    "category": "scarpe",
+    "price": 146.06,
+    "image": "https://m.media-amazon.com/images/I/41LfJKP9-qL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0F1DMT528?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-05T10:09:46.670900",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CB9GZLLL",
+    "asin": "B0CB9GZLLL",
+    "name": "Sneakers Multicolori con Zeppa INTERIORE da Donna LAROSA",
+    "category": "scarpe",
+    "price": 53.38,
+    "image": "https://m.media-amazon.com/images/I/41vbtRMFIcL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CB9GZLLL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-05T10:09:50.333459",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CXQ5NKLP",
+    "asin": "B0CXQ5NKLP",
+    "name": "Lampada Neon Colorata LED Personalizzabile",
+    "category": "idee-regalo",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ5NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ5NKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-05T10:10:57.142561",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0C3HM5P7Y",
+    "asin": "B0C3HM5P7Y",
+    "name": "Zaino Colorato Scuola Ragazze Arcobaleno",
+    "category": "borse",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C3HM5P7Y&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C3HM5P7Y?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-05-05T10:10:59.379003",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0FLCS5FB2",
     "asin": "B0FLCS5FB2",
@@ -1390,81 +1460,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-04-26T17:18:52.398540",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "gadget-B0GH22FCVM",
-    "asin": "B0GH22FCVM",
-    "name": "Cuffie Bluetooth In Ear HiFi Stereo con ENC HD",
-    "category": "gadget",
-    "price": 21.99,
-    "image": "https://m.media-amazon.com/images/I/71Er8XX0TeL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GH22FCVM?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398560",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "gadget-B0GWCC434Q",
-    "asin": "B0GWCC434Q",
-    "name": "Cuffie Bluetooth Stereo HiFi Wireless 2026",
-    "category": "gadget",
-    "price": 24.99,
-    "image": "https://m.media-amazon.com/images/I/61whR9qFriL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GWCC434Q?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398575",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "gadget-B0CNK13ZLV",
-    "asin": "B0CNK13ZLV",
-    "name": "AXF Cuffie Wireless Colorate Bluetooth Sport",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://m.media-amazon.com/images/I/71Er8XX0TeL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CNK13ZLV?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398589",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "beauty-B0DK78S6WS",
-    "asin": "B0DK78S6WS",
-    "name": "Essie Nail Art Set Frozen Berry Smalto Colorato",
-    "category": "beauty",
-    "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/815OSurCuNL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DK78S6WS?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398602",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "beauty-B0FHW5ZVPW",
-    "asin": "B0FHW5ZVPW",
-    "name": "Alice in Wonderland Set 10 Smalti Colorati Peelable",
-    "category": "beauty",
-    "price": 13.99,
-    "image": "https://m.media-amazon.com/images/I/81LF2qAbcgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FHW5ZVPW?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T17:18:52.398617",
     "status": "published",
     "source": "chrome-verified"
   }
