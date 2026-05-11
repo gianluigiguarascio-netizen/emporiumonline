@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 10/05/2026 09:45
+// Aggiornato automaticamente il 11/05/2026 11:33
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0CST9GCX4",
+    "asin": "B0CST9GCX4",
+    "name": "Arcobaleno divertente con cuore grafica - Uomo Donna Bambini PopSockets PopGrip Intercambiabile",
+    "category": "idee-regalo",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31zNWxtpkVL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CST9GCX4?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-11T11:32:28.436020",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CW8XNKQL",
+    "asin": "B0CW8XNKQL",
+    "name": "Mascara Colorato Blu Verde Viola Waterproof",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW8XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW8XNKQL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-05-11T11:33:37.704593",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CF4XWKNQ",
+    "asin": "B0CF4XWKNQ",
+    "name": "Espadrillas Donna Colorate Corda Estate",
+    "category": "scarpe",
+    "price": 23.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF4XWKNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF4XWKNQ?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-11T11:33:39.316993",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D48KJW57",
+    "asin": "B0D48KJW57",
+    "name": "NobleOnly Mary Jane Scarpe Donna Chunky Blocco Tacco Heel Cinturino alla Caviglia Dress Chiusa Quadrata Punta Pumps Diam",
+    "category": "scarpe",
+    "price": 75.24,
+    "image": "https://m.media-amazon.com/images/I/41BiYCGbRqL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D48KJW57?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-11T11:33:42.433690",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D3NQXKPL",
+    "asin": "B0D3NQXKPL",
+    "name": "Maxi Dress Donna Colorato Fantasia Tropicale",
+    "category": "abbigliamento",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NQXKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NQXKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-05-11T11:33:44.446561",
+    "status": "published"
+  },
   {
     "id": "borse-B09WH13C1R",
     "asin": "B09WH13C1R",
@@ -1357,81 +1427,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-04-26T20:43:39.828787",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B0G9135LJD",
-    "asin": "B0G9135LJD",
-    "name": "Wikoan Vestito Donna Colorato Casual Estivo",
-    "category": "abbigliamento",
-    "price": 17.99,
-    "image": "https://m.media-amazon.com/images/I/71atAXEPBxL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0G9135LJD?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828797",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B0C4Z4DCRV",
-    "asin": "B0C4Z4DCRV",
-    "name": "CityComfort Pigiama Donna Colorato Morbido",
-    "category": "abbigliamento",
-    "price": 18.35,
-    "image": "https://m.media-amazon.com/images/I/71-hP23SWML._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C4Z4DCRV?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828806",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B09DD642JP",
-    "asin": "B09DD642JP",
-    "name": "CityComfort Felpa Donna Colorata Comfort",
-    "category": "abbigliamento",
-    "price": 19.12,
-    "image": "https://m.media-amazon.com/images/I/81cXnBwf67L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09DD642JP?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828815",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B0BZ8WBTKM",
-    "asin": "B0BZ8WBTKM",
-    "name": "ACCFOD Top Donna Colorato Casual Estivo",
-    "category": "abbigliamento",
-    "price": 10.0,
-    "image": "https://m.media-amazon.com/images/I/7173Bt83ywL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BZ8WBTKM?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828825",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "scarpe-B0DWS1MH7P",
-    "asin": "B0DWS1MH7P",
-    "name": "DREAM PAIRS Scarpe Donna Colorate Comfort Basse",
-    "category": "scarpe",
-    "price": 16.99,
-    "image": "https://m.media-amazon.com/images/I/61xKbfnAYnL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DWS1MH7P?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828839",
     "status": "published",
     "source": "chrome-verified"
   }
