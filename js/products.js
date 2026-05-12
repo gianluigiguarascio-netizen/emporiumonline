@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 11/05/2026 11:33
+// Aggiornato automaticamente il 12/05/2026 10:40
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0CQ5WXNKP",
+    "asin": "B0CQ5WXNKP",
+    "name": "Mules Colorati Donna Tacco Basso Comfort",
+    "category": "scarpe",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-12T10:40:42.986941",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09Q4GPFJD",
+    "asin": "B09Q4GPFJD",
+    "name": "Mules Donna Colorate Tacco Kitten",
+    "category": "scarpe",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09Q4GPFJD&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09Q4GPFJD?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-12T10:40:45.032405",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CF9BSLWX",
+    "asin": "B0CF9BSLWX",
+    "name": "Collana Colorata Perline Donna Arcobaleno",
+    "category": "accessori",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9BSLWX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF9BSLWX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-12T10:40:46.674260",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0B8VK3LHF",
+    "asin": "B0B8VK3LHF",
+    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-12T10:40:48.658499",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CQX7NKPL",
+    "asin": "B0CQX7NKPL",
+    "name": "Canotta Donna Colorata Tie Dye Arcobaleno",
+    "category": "abbigliamento",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQX7NKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQX7NKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-05-12T10:40:51.501852",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0CST9GCX4",
     "asin": "B0CST9GCX4",
@@ -1352,81 +1422,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-04-26T20:43:39.828717",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "casa-B083SR9BVC",
-    "asin": "B083SR9BVC",
-    "name": "Statue Animali Ceramica Colorata Decorazione Casa",
-    "category": "casa",
-    "price": 18.63,
-    "image": "https://m.media-amazon.com/images/I/41FaonsgFgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B083SR9BVC?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828737",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "casa-B0FM9VQPVM",
-    "asin": "B0FM9VQPVM",
-    "name": "Villeroy & Boch Campana Natale Colorata Collezione",
-    "category": "casa",
-    "price": 18.73,
-    "image": "https://m.media-amazon.com/images/I/31HQJA-cpkL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FM9VQPVM?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828748",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "casa-B07D7CHSML",
-    "asin": "B07D7CHSML",
-    "name": "Räder Design Scultura Decorativa Luminosa Colorata",
-    "category": "casa",
-    "price": 19.95,
-    "image": "https://m.media-amazon.com/images/I/41aAhMJ1KaL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07D7CHSML?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828767",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B09BJXSXG6",
-    "asin": "B09BJXSXG6",
-    "name": "LEELA LAB Abbigliamento Donna Colorato Fashion",
-    "category": "abbigliamento",
-    "price": 18.99,
-    "image": "https://m.media-amazon.com/images/I/61abCEqBtkL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09BJXSXG6?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828778",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "abbigliamento-B0G63RFTHN",
-    "asin": "B0G63RFTHN",
-    "name": "Gyabnw Gonna Colorata Donna Fantasia Estiva",
-    "category": "abbigliamento",
-    "price": 14.99,
-    "image": "https://m.media-amazon.com/images/I/71bkJinLaFL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0G63RFTHN?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828787",
     "status": "published",
     "source": "chrome-verified"
   }
