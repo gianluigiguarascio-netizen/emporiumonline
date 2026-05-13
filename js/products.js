@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 12/05/2026 10:40
+// Aggiornato automaticamente il 13/05/2026 10:38
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0C7S2H8KN",
+    "asin": "B0C7S2H8KN",
+    "name": "Palette Ombretti Colorati 12 Colori Glitter",
+    "category": "beauty",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7S2H8KN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C7S2H8KN?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-05-13T10:38:48.958618",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BPWQK3TN",
+    "asin": "B0BPWQK3TN",
+    "name": "Shopper Colorata Tela Fantasia Donna",
+    "category": "borse",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPWQK3TN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPWQK3TN?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-05-13T10:38:50.499245",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BL4XQKWN",
+    "asin": "B0BL4XQKWN",
+    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
+    "category": "idee-regalo",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-13T10:38:52.811051",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CW5XNKPL",
+    "asin": "B0CW5XNKPL",
+    "name": "41 - Matt Macdonald from The Classic Crime and Don’t Feed The Trolls!",
+    "category": "idee-regalo",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW5XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-13T10:38:55.853396",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CWQ4NKLX",
+    "asin": "B0CWQ4NKLX",
+    "name": "Orecchini a Cerchio Colorati Resina Grande",
+    "category": "accessori",
+    "price": 7.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-13T10:38:57.817039",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0CQ5WXNKP",
     "asin": "B0CQ5WXNKP",
@@ -1347,81 +1417,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-04-26T20:43:39.828665",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "gadget-B0DKFQSP79",
-    "asin": "B0DKFQSP79",
-    "name": "Matite Arcobaleno 24 Pezzi 7-in-1 Colorate Multicolore",
-    "category": "gadget",
-    "price": 10.99,
-    "image": "https://m.media-amazon.com/images/I/714F+nux1YL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DKFQSP79?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828679",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "gadget-B0BV2KMKVY",
-    "asin": "B0BV2KMKVY",
-    "name": "Lancoon Sfera Disco LED Luce Stroboscopica Colorata",
-    "category": "gadget",
-    "price": 11.99,
-    "image": "https://m.media-amazon.com/images/I/711mJXCClZL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BV2KMKVY?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828689",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "gadget-B0CZP5HWNB",
-    "asin": "B0CZP5HWNB",
-    "name": "Braccialetto Cabala Corda Colorato Regolabile Donna Uomo",
-    "category": "gadget",
-    "price": 14.19,
-    "image": "https://m.media-amazon.com/images/I/81a5nVbAAKL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CZP5HWNB?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828699",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "gadget-B08SLCCQYS",
-    "asin": "B08SLCCQYS",
-    "name": "PopSockets Divertente Gadget Colorato Regalo",
-    "category": "gadget",
-    "price": 14.99,
-    "image": "https://m.media-amazon.com/images/I/51juUvI8rkL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B08SLCCQYS?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828708",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "casa-B0CMPPYV84",
-    "asin": "B0CMPPYV84",
-    "name": "Fiori Artificiali Uncinetto Vaso Mini Set Colorati",
-    "category": "casa",
-    "price": 13.99,
-    "image": "https://m.media-amazon.com/images/I/610B2t0Sj-L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CMPPYV84?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828717",
     "status": "published",
     "source": "chrome-verified"
   }
