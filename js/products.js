@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 13/05/2026 10:38
+// Aggiornato automaticamente il 14/05/2026 10:28
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0CGP4WLKQ",
+    "asin": "B0CGP4WLKQ",
+    "name": "Agenda Colorata 2025 Planner Settimanale",
+    "category": "idee-regalo",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-14T10:28:52.498566",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BHGXK1FZ",
+    "asin": "B0BHGXK1FZ",
+    "name": "Cover Colorata iPhone Arcobaleno Antiurto",
+    "category": "gadget",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BHGXK1FZ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BHGXK1FZ?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-05-14T10:28:54.147059",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BXWKQPNL",
+    "asin": "B0BXWKQPNL",
+    "name": "Tazza Colorata Cambia Colore Termica Magica",
+    "category": "idee-regalo",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXWKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXWKQPNL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-14T10:28:56.119065",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BWKQXPNR",
+    "asin": "B0BWKQXPNR",
+    "name": "Glitter Viso Corpo Colorati Festival Make Up",
+    "category": "beauty",
+    "price": 7.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKQXPNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BWKQXPNR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-05-14T10:28:57.850438",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CFPKN4QR",
+    "asin": "B0CFPKN4QR",
+    "name": "Cintura Colorata Donna Tessuto Boho",
+    "category": "accessori",
+    "price": 9.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFPKN4QR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CFPKN4QR?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-14T10:28:59.550893",
+    "status": "published"
+  },
   {
     "id": "beauty-B0C7S2H8KN",
     "asin": "B0C7S2H8KN",
@@ -1342,81 +1412,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-04-26T20:43:39.828619",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "beauty-B0DSPKJB7Z",
-    "asin": "B0DSPKJB7Z",
-    "name": "Aucuu Beauty Case Trucchi Colorato Toiletry Borsa Cosmetica",
-    "category": "beauty",
-    "price": 8.99,
-    "image": "https://m.media-amazon.com/images/I/61vYpdV4myL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DSPKJB7Z?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828628",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "beauty-B09HXZ1TDZ",
-    "asin": "B09HXZ1TDZ",
-    "name": "Revlon ColorStay Matte Lite Rossetto Colorato Crayon",
-    "category": "beauty",
-    "price": 7.2,
-    "image": "https://m.media-amazon.com/images/I/61Ii2d8aMgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09HXZ1TDZ?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828637",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "beauty-B0FPX83W4Z",
-    "asin": "B0FPX83W4Z",
-    "name": "Set 12 Matite Contorno Labbra Colorate Morbide Opache",
-    "category": "beauty",
-    "price": 7.99,
-    "image": "https://m.media-amazon.com/images/I/71vFwP+NIYL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FPX83W4Z?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828646",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "beauty-B0BN2886TD",
-    "asin": "B0BN2886TD",
-    "name": "Glam'Up Paris Smalto Ultra Lucido Lunga Durata Colorato",
-    "category": "beauty",
-    "price": 13.05,
-    "image": "https://m.media-amazon.com/images/I/51-tGaEmKnL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BN2886TD?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828655",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "beauty-B0DRD4K4LK",
-    "asin": "B0DRD4K4LK",
-    "name": "Lip Liner Set 12 Colori Opachi Impermeabili Lunga Durata",
-    "category": "beauty",
-    "price": 12.99,
-    "image": "https://m.media-amazon.com/images/I/71qeovCCyXL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DRD4K4LK?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828665",
     "status": "published",
     "source": "chrome-verified"
   }
