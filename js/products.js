@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 15/05/2026 10:35
+// Aggiornato automaticamente il 16/05/2026 09:49
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0CXNK4QPL",
+    "asin": "B0CXNK4QPL",
+    "name": "Ombrello Colorato Arcobaleno Antivento Donna",
+    "category": "casa",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNK4QPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-16T09:48:52.956335",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0D8XKNQPL",
+    "asin": "B0D8XKNQPL",
+    "name": "Set Matite Acquerellabili Colorate 48 Pz Artisti",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D8XKNQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-16T09:48:54.996729",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0BL6SPWLR",
+    "asin": "B0BL6SPWLR",
+    "name": "Jumpsuit Donna Colorata Floreale",
+    "category": "abbigliamento",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL6SPWLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL6SPWLR?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-05-16T09:48:56.519244",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0D5QXNKLP",
+    "asin": "B0D5QXNKLP",
+    "name": "Cornice Foto Colorata Arcobaleno Design",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5QXNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D5QXNKLP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-16T09:48:58.564235",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CL7XKQNP",
+    "asin": "B0CL7XKQNP",
+    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-05-16T09:49:00.718403",
+    "status": "published"
+  },
   {
     "id": "beauty-B00CMFQVAE",
     "asin": "B00CMFQVAE",
@@ -1334,80 +1404,5 @@ window.products = [
     "offerBadge": true,
     "importedAt": "2026-04-27T10:26:21.213687",
     "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CH1J1PDJ",
-    "asin": "B0CH1J1PDJ",
-    "name": "SCHLEICH Gatto British Shorthair Figurina Animali",
-    "category": "idee-regalo",
-    "price": 4.99,
-    "image": "https://m.media-amazon.com/images/I/61Ry3pZytwL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CH1J1PDJ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828504",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "idee-regalo-B0DZH6KYX6",
-    "asin": "B0DZH6KYX6",
-    "name": "Portachiavi Festa della Mamma Idee Regalo Originali",
-    "category": "idee-regalo",
-    "price": 4.99,
-    "image": "https://m.media-amazon.com/images/I/71fHEs0G6WL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DZH6KYX6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828538",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "idee-regalo-B08RZCDQS8",
-    "asin": "B08RZCDQS8",
-    "name": "Funko Portachiavi Uomo Regalo Divertente",
-    "category": "idee-regalo",
-    "price": 5.0,
-    "image": "https://m.media-amazon.com/images/I/51seJBUEOqL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B08RZCDQS8?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828550",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "idee-regalo-B0DNMYHC75",
-    "asin": "B0DNMYHC75",
-    "name": "Hasbro Play-Doh 4 Colori Vivaci Arti e Mestieri Bambini",
-    "category": "idee-regalo",
-    "price": 4.99,
-    "image": "https://m.media-amazon.com/images/I/71d6KDS7keL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DNMYHC75?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828560",
-    "status": "published",
-    "source": "chrome-verified"
-  },
-  {
-    "id": "idee-regalo-B0FM2NBK27",
-    "asin": "B0FM2NBK27",
-    "name": "Calzini Mamma Donna Divertenti Colorati Fantasia Regalo",
-    "category": "idee-regalo",
-    "price": 11.99,
-    "image": "https://m.media-amazon.com/images/I/61-XxEcYzbL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FM2NBK27?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-26T20:43:39.828571",
-    "status": "published",
-    "source": "chrome-verified"
   }
 ];
