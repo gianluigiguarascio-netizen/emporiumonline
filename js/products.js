@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 17/05/2026 09:55
+// Aggiornato automaticamente il 18/05/2026 11:51
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0FK2YTTLC",
+    "asin": "B0FK2YTTLC",
+    "name": "Orecchini da donna con stampa di teschi rosa, orecchini alla moda in pelle a goccia per le donne alla moda, orecchini a ",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51SxUwFSp+L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FK2YTTLC?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-18T11:51:11.797466",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0FK2Z74LD",
+    "asin": "B0FK2Z74LD",
+    "name": "Orecchini da donna con stampa a righe verticali a forma di cactus, orecchini in pelle a goccia alla moda per le donne al",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/418xcvhb7EL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FK2Z74LD?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-18T11:51:16.037999",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0H1QH4QWW",
+    "asin": "B0H1QH4QWW",
+    "name": "POPETPOP Orecchini Boho Donna 1 Paio Cerchio Rotondo Colorati in Metallo e Plastico, Comodi da Indossare per Party e Uso",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41qJ-EUJI8L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0H1QH4QWW?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-18T11:51:23.609680",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CHMZNBCV",
+    "asin": "B0CHMZNBCV",
+    "name": "MAISON GIOIELLI FIRENZE NORA PFEIFFER Bracciale in Tessuto Colorato Charm Stella, Bracciale Amicizia Donna con Charm in ",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51E6iXaaQ0L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CHMZNBCV?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-18T11:51:29.952052",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09MSJJJ6R",
+    "asin": "B09MSJJJ6R",
+    "name": "Bracciale linea FIORI E COLORI mod. Rododendro fatto a mano in argento 925 e bronzo colorato con resine epossidiche",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41suyhcbr1L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B09MSJJJ6R?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-18T11:51:33.614669",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0DWLVT91D",
     "asin": "B0DWLVT91D",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-04-29T10:14:22.603154",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0C586QLB6",
-    "asin": "B0C586QLB6",
-    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
-    "category": "idee-regalo",
-    "price": 10.6,
-    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-28T10:23:10.062056",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B07Z83JK7K",
-    "asin": "B07Z83JK7K",
-    "name": "Shuttle Art 149 Pz Kit Disegno Professionale, Valigetta Colori per Bambini Set Pittura e Disegno Completo Kit Colori Set",
-    "category": "idee-regalo",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/61rxSAvDrPL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07Z83JK7K?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-28T10:23:19.365874",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B00CI6J5JQ",
-    "asin": "B00CI6J5JQ",
-    "name": "CRAYOLA Valigetta Colori Arcobaleno - Kit Creativo con 140 Pezzi Assortiti, Pennarelli, Matite Colorate e Pastelli a cer",
-    "category": "idee-regalo",
-    "price": 24.58,
-    "image": "https://m.media-amazon.com/images/I/51tkALUmYCL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B00CI6J5JQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-28T10:23:24.343258",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CXQ3NKLP",
-    "asin": "B0CXQ3NKLP",
-    "name": "Highlighter Colorato Illuminante Glitter Viso",
-    "category": "beauty",
-    "price": 10.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ3NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ3NKLP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-28T10:24:34.042668",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B9XKQPNL",
-    "asin": "B0B9XKQPNL",
-    "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",
-    "category": "abbigliamento",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9XKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B9XKQPNL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-28T10:24:35.551239",
     "status": "published"
   }
 ];
