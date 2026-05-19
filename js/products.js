@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 18/05/2026 11:51
+// Aggiornato automaticamente il 19/05/2026 11:29
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0FW2LF7N4",
+    "asin": "B0FW2LF7N4",
+    "name": "GOBY Sneakers Donna in Pelle vegana – Stampe Multicolore Resistenti – Scarpe Casual Fatte a Mano – Comode con Soletta Im",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/21xiVkxN-SL._AC_.gif",
+    "amazonLink": "https://www.amazon.it/dp/B0FW2LF7N4?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-19T11:28:34.163419",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B091BBXTJD",
+    "asin": "B091BBXTJD",
+    "name": "SUPERGA - Sneaker Donna 2790 con Zeppa Multicolor",
+    "category": "scarpe",
+    "price": 39.07,
+    "image": "https://m.media-amazon.com/images/I/41MwA2l4GLS._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B091BBXTJD?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-19T11:28:38.098675",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0GWV7RG93",
+    "asin": "B0GWV7RG93",
+    "name": "FLOWER MOUNTAIN - Yamabushi Women. Sneaker Donna Outdoor Lifestyle. Desing Multicolor, Suola Grip Antiscivolo.",
+    "category": "scarpe",
+    "price": 17.6,
+    "image": "https://m.media-amazon.com/images/I/31m7MZA7lRL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GWV7RG93?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-19T11:28:43.127104",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0F8JJLCFC",
+    "asin": "B0F8JJLCFC",
+    "name": "Sneakers Donna - Multicolore 2138 0558 Ecopelle",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/21bVyXU4zGL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0F8JJLCFC?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-19T11:28:47.000584",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BXQK7NLR",
+    "asin": "B0BXQK7NLR",
+    "name": "Blush Colorato 4 Colori Shimmer Palette",
+    "category": "beauty",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQK7NLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQK7NLR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-05-19T11:29:56.621227",
+    "status": "published"
+  },
   {
     "id": "accessori-B0FK2YTTLC",
     "asin": "B0FK2YTTLC",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-04-30T10:17:00.582758",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C5WVC6RL",
-    "asin": "B0C5WVC6RL",
-    "name": "Flapper - Fascia per capelli vintage colorata con fascia elastica da donna (verde, taglia unica)",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51XhshXa+LL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C5WVC6RL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-29T10:14:01.728720",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DLNPHRKT",
-    "asin": "B0DLNPHRKT",
-    "name": "Fasce colorate con alghe marine per uomini e donne, fasce per capelli per corsa, calcio, palestra, accessori",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/319k-CnWyfL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DLNPHRKT?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-29T10:14:06.691598",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DLW55MZ6",
-    "asin": "B0DLW55MZ6",
-    "name": "Orecchini a forma di cupcake dai colori vivaci per donne, orecchini colorati in pelle a goccia per le donne alla moda, o",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41M98atc4vL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DLW55MZ6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-29T10:14:13.018490",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0F5624HMZ",
-    "asin": "B0F5624HMZ",
-    "name": "Bellissimi orecchini in pelle stampata su entrambi i lati con fiori colorati int e forma di gocce d&#39;acqua, creativi,",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41cr5428BFL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0F5624HMZ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-29T10:14:17.779617",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0FK2YR2CT",
-    "asin": "B0FK2YR2CT",
-    "name": "Orecchini colorati con stampa giglio da donna, orecchini in pelle a goccia alla moda per le donne alla moda, orecchini a",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51vvvq6AUTL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FK2YR2CT?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-29T10:14:22.603154",
     "status": "published"
   }
 ];
