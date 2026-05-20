@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 19/05/2026 11:29
+// Aggiornato automaticamente il 20/05/2026 11:15
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B09TZFVGLH",
+    "asin": "B09TZFVGLH",
+    "name": "Ballerine Donna Colorate Comfort Flat",
+    "category": "scarpe",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09TZFVGLH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09TZFVGLH?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-20T11:15:34.686642",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CGH7WLNK",
+    "asin": "B0CGH7WLNK",
+    "name": "Candela Profumata Colorata Soia Arcobaleno",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-20T11:15:36.103870",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CQ4XNKPL",
+    "asin": "B0CQ4XNKPL",
+    "name": "Tovagliette Colorate Set 6 Fantasia Cotone",
+    "category": "casa",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ4XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ4XNKPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-20T11:15:37.711343",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0BNYY6CZP",
+    "asin": "B0BNYY6CZP",
+    "name": "Lampada LED Colorata RGB Design Moderno",
+    "category": "casa",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNYY6CZP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BNYY6CZP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-20T11:15:39.107811",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09NVD51JY",
+    "asin": "B09NVD51JY",
+    "name": "Orecchini Colorati Arcobaleno Donna Resina",
+    "category": "accessori",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09NVD51JY&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09NVD51JY?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-20T11:15:41.360279",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0FW2LF7N4",
     "asin": "B0FW2LF7N4",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-05-01T09:55:30.949013",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BP7GRMP9",
-    "asin": "B0BP7GRMP9",
-    "name": "7 fasce colorate per capelli luminose, brillanti ed elastiche, per capelli luminosi al neon, adatte per l&#39;uso quotid",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51ZdMC8+l2L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BP7GRMP9?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-04-30T10:15:40.640148",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CVXK8PLN",
-    "asin": "B0CVXK8PLN",
-    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
-    "category": "scarpe",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-04-30T10:16:54.972721",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BQX4WKLP",
-    "asin": "B0BQX4WKLP",
-    "name": "Libro da Colorare Adulti Antistress Mandala",
-    "category": "idee-regalo",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQX4WKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BQX4WKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-04-30T10:16:56.857153",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CN6XQKPL",
-    "asin": "B0CN6XQKPL",
-    "name": "Eyeliner Colorato Glitter Set 8 Colori",
-    "category": "beauty",
-    "price": 8.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN6XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN6XQKPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-04-30T10:16:58.868713",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B09YFKH7DX",
-    "asin": "B09YFKH7DX",
-    "name": "Top Tie Dye Colorato Donna Crop",
-    "category": "abbigliamento",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09YFKH7DX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09YFKH7DX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-04-30T10:17:00.582758",
     "status": "published"
   }
 ];
