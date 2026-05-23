@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 22/05/2026 10:58
+// Aggiornato automaticamente il 23/05/2026 10:02
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0CL2DKYQM",
+    "asin": "B0CL2DKYQM",
+    "name": "Vaso Colorato Ceramica Fantasia Fiori",
+    "category": "casa",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL2DKYQM&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL2DKYQM?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-05-23T10:02:27.921596",
+    "status": "published"
+  },
+  {
+    "id": "borse-B09XMKLFVQ",
+    "asin": "B09XMKLFVQ",
+    "name": "Borsello Colorato Donna Tracolla Boho",
+    "category": "borse",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09XMKLFVQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09XMKLFVQ?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-05-23T10:02:29.543886",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CW7XNKQL",
+    "asin": "B0CW7XNKQL",
+    "name": "Altoparlante Bluetooth Colorato Waterproof",
+    "category": "gadget",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW7XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW7XNKQL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-05-23T10:02:31.250469",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BSGVWQCX",
+    "asin": "B0BSGVWQCX",
+    "name": "527 Sandali sportivi donna Scarpe da donna, sandali piatti traspiranti, sandali morbidi alla moda per le scarpe da spiag",
+    "category": "borse",
+    "price": 16.99,
+    "image": "https://m.media-amazon.com/images/I/41fL7hJrWOL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0BSGVWQCX?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-05-23T10:02:34.412451",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09PW4LMFK",
+    "asin": "B09PW4LMFK",
+    "name": "Parure Bijoux Colorati Donna Collana Orecchini",
+    "category": "accessori",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09PW4LMFK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09PW4LMFK?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-05-23T10:02:36.284619",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0BMXW5MQH",
     "asin": "B0BMXW5MQH",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-05-04T10:22:28.501873",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DBQMZZRH",
-    "asin": "B0DBQMZZRH",
-    "name": "Fioriere Colorate E Astratte, Vasi di Fioriera Testa Astratta, Fioriera Astratta in Resina, Vaso da Fiori con Viso Astra",
-    "category": "casa",
-    "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/41zBuZ2dgzL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-05-03T09:27:44.974692",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D5XKNQPL",
-    "asin": "B0D5XKNQPL",
-    "name": "Stivaletti Donna Colorati Chelsea Elastici",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-05-03T09:27:46.381933",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CLFKQQ7G",
-    "asin": "B0CLFKQQ7G",
-    "name": "Kimono Donna Colorato Fantasia Estivo",
-    "category": "abbigliamento",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CLFKQQ7G&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CLFKQQ7G?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-05-03T09:27:48.450956",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CGX4WKQR",
-    "asin": "B0CGX4WKQR",
-    "name": "Matite Occhi Colorate Set 16 Colori Waterproof",
-    "category": "beauty",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGX4WKQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGX4WKQR?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-03T09:27:49.763739",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CX7QNKLP",
-    "asin": "B0CX7QNKLP",
-    "name": "Occhiali da Sole Colorati Donna Cat Eye",
-    "category": "accessori",
-    "price": 10.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CX7QNKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-03T09:27:51.317941",
     "status": "published"
   }
 ];
