@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 30/05/2026 10:09
+// Aggiornato automaticamente il 31/05/2026 10:23
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0DYK3X4H3",
+    "asin": "B0DYK3X4H3",
+    "name": "Sneakers donna - Sneakers multicolore con soletta rimovibile - suola dentata antiscivolo",
+    "category": "scarpe",
+    "price": 15.29,
+    "image": "https://m.media-amazon.com/images/I/31FYJk9uL8L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DYK3X4H3?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-31T10:21:58.436689",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0GP7YCG22",
+    "asin": "B0GP7YCG22",
+    "name": "inblu Sneakers Donna con Lacci E Cerniera Laterale, Traforo Laterale, Colori Vivaci Scarpe da ginnasticaDonna",
+    "category": "scarpe",
+    "price": 10.89,
+    "image": "https://m.media-amazon.com/images/I/31ZQDsRd90L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GP7YCG22?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-31T10:22:02.686927",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B07BFLS3KF",
+    "asin": "B07BFLS3KF",
+    "name": "Sneakers Donna Multicolor Leggere Running",
+    "category": "scarpe",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BFLS3KF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B07BFLS3KF?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-31T10:23:09.359207",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CXKLPQWN",
+    "asin": "B0CXKLPQWN",
+    "name": "Pop Socket Colorato Arcobaleno Glitter",
+    "category": "gadget",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKLPQWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXKLPQWN?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-05-31T10:23:11.526579",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CVXK8PLN",
+    "asin": "B0CVXK8PLN",
+    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
+    "category": "scarpe",
+    "price": 39.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-05-31T10:23:12.973966",
+    "status": "published"
+  },
   {
     "id": "borse-B0D4XKNQPL",
     "asin": "B0D4XKNQPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-05-10T09:45:58.536028",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0GXDXNZFX",
-    "asin": "B0GXDXNZFX",
-    "name": "Fascia per capelli colorata e graziosa con motivo a patate, leggera, sportiva, per uomo e donna, ideale per corsa, allen",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31dtPHntpTL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GXDXNZFX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-09T09:26:42.972201",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0GZKR94XG",
-    "asin": "B0GZKR94XG",
-    "name": "Fascia per capelli stereo colorata a forma di elica, per adolescenti, da donna, spa, trucco, per scattare foto, carneval",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/21L0XNPM6fL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GZKR94XG?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-09T09:26:46.363313",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0G4SB9DX3",
-    "asin": "B0G4SB9DX3",
-    "name": "Bracciale Rigido colorato in Resina acrilica per Donna, Grosso Braccialetto Traslucido Tartaruga Geometrica",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31Mq0pNqT2L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0G4SB9DX3?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-09T09:26:53.902312",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0F7R2TZ73",
-    "asin": "B0F7R2TZ73",
-    "name": "Braccialetto rigido in resina colorata, ampio, geometrico, irregolare, vintage, accessorio artistico alla moda per le do",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41l62B02RgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0F7R2TZ73?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-09T09:26:57.353306",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0FDVHHN18",
-    "asin": "B0FDVHHN18",
-    "name": "UNICRAFTALE 3 bracciali in Resina acrilica, Stile retrò, Largo, Stile Geometrico, alla Moda, Irregolare, Cinturino Quadr",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31rEgzfhi1L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FDVHHN18?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-09T09:27:01.640725",
     "status": "published"
   }
 ];
