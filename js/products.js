@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 04/06/2026 11:23
+// Aggiornato automaticamente il 05/06/2026 11:35
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0CST9GCX4",
+    "asin": "B0CST9GCX4",
+    "name": "Arcobaleno divertente con cuore grafica - Uomo Donna Bambini PopSockets PopGrip Intercambiabile",
+    "category": "idee-regalo",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31zNWxtpkVL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CST9GCX4?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-06-05T11:34:25.716642",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CKN4XQPL",
+    "asin": "B0CKN4XQPL",
+    "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",
+    "category": "gadget",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKN4XQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CKN4XQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-05T11:35:37.135414",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CFWKLNQX",
+    "asin": "B0CFWKLNQX",
+    "name": "Portafoto Colorato Polaroid Galleria Parete",
+    "category": "idee-regalo",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-06-05T11:35:39.384067",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BZQ7XMRK",
+    "asin": "B0BZQ7XMRK",
+    "name": "Smalto Colorato Set 24 Pezzi Nail Art",
+    "category": "beauty",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZQ7XMRK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BZQ7XMRK?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-05T11:35:41.309246",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0B8VK3LHF",
+    "asin": "B0B8VK3LHF",
+    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-06-05T11:35:42.685166",
+    "status": "published"
+  },
   {
     "id": "gadget-B0BPXQKLNR",
     "asin": "B0BPXQKLNR",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-05-15T10:35:16.270168",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CGP4WLKQ",
-    "asin": "B0CGP4WLKQ",
-    "name": "Agenda Colorata 2025 Planner Settimanale",
-    "category": "idee-regalo",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-05-14T10:28:52.498566",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BHGXK1FZ",
-    "asin": "B0BHGXK1FZ",
-    "name": "Cover Colorata iPhone Arcobaleno Antiurto",
-    "category": "gadget",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BHGXK1FZ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BHGXK1FZ?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-14T10:28:54.147059",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BXWKQPNL",
-    "asin": "B0BXWKQPNL",
-    "name": "Tazza Colorata Cambia Colore Termica Magica",
-    "category": "idee-regalo",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXWKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXWKQPNL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-05-14T10:28:56.119065",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BWKQXPNR",
-    "asin": "B0BWKQXPNR",
-    "name": "Glitter Viso Corpo Colorati Festival Make Up",
-    "category": "beauty",
-    "price": 7.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKQXPNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BWKQXPNR?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-14T10:28:57.850438",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CFPKN4QR",
-    "asin": "B0CFPKN4QR",
-    "name": "Cintura Colorata Donna Tessuto Boho",
-    "category": "accessori",
-    "price": 9.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFPKN4QR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CFPKN4QR?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-14T10:28:59.550893",
     "status": "published"
   }
 ];
