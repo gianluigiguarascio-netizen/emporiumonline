@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 05/06/2026 11:35
+// Aggiornato automaticamente il 06/06/2026 10:14
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0CXQ8NKLP",
+    "asin": "B0CXQ8NKLP",
+    "name": "Pochette Trasparente Colorata Donna",
+    "category": "borse",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-06-06T10:14:49.746307",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0FLCS5FB2",
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
+    "category": "abbigliamento",
+    "price": 15.8,
+    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-06-06T10:14:52.942414",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CX7QNKLP",
+    "asin": "B0CX7QNKLP",
+    "name": "Occhiali da Sole Colorati Donna Cat Eye",
+    "category": "accessori",
+    "price": 10.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX7QNKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-06T10:14:54.876152",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CL7KQFXR",
+    "asin": "B0CL7KQFXR",
+    "name": "Clutch Colorata Satin Sera Donna",
+    "category": "borse",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7KQFXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7KQFXR?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-06-06T10:14:56.569739",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CN6XQKPL",
+    "asin": "B0CN6XQKPL",
+    "name": "Eyeliner Colorato Glitter Set 8 Colori",
+    "category": "beauty",
+    "price": 8.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN6XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN6XQKPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-06T10:14:58.401553",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0CST9GCX4",
     "asin": "B0CST9GCX4",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-05-16T09:49:00.718403",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B00CMFQVAE",
-    "asin": "B00CMFQVAE",
-    "name": "Revlon Rossetto super brillante, formula cremosa per labbra morbide e dall&#39;aspetto pieno, sensazione idratata, vellu",
-    "category": "beauty",
-    "price": 11.09,
-    "image": "https://m.media-amazon.com/images/I/315vTg-N9CL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B00CMFQVAE?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-15T10:33:59.866500",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B01NBZ6C5T",
-    "asin": "B01NBZ6C5T",
-    "name": "Moon Glow Rossetto Neon UV - Rossetto colorato al neon brillante - Si illumina sotto i raggi UV, Verde, 4,5 g (confezion",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41-4BhEXJKL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B01NBZ6C5T?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-15T10:34:04.931395",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D2NXKQPL",
-    "asin": "B0D2NXKQPL",
-    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
-    "category": "gadget",
-    "price": 32.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-15T10:35:12.531984",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CL4XNKQP",
-    "asin": "B0CL4XNKQP",
-    "name": "Gel UV Colorato Set 36 Colori Nail Art",
-    "category": "beauty",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-15T10:35:14.607360",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C7KXPRTV",
-    "asin": "B0C7KXPRTV",
-    "name": "Spilla Colorata Donna Fiore Smalto",
-    "category": "accessori",
-    "price": 4.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7KXPRTV&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C7KXPRTV?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-05-15T10:35:16.270168",
     "status": "published"
   }
 ];
