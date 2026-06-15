@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 14/06/2026 10:54
+// Aggiornato automaticamente il 15/06/2026 14:32
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0FFZ9Q7CH",
+    "asin": "B0FFZ9Q7CH",
+    "name": "ZMANYIJEW Bracciale rigido in resina acrilica grosso acrilico colorato irregolare geometrico acetato ampio braccialetto ",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31JvUu+AZuL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FFZ9Q7CH?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-15T14:30:53.799389",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0C8NQ9LVX",
+    "asin": "B0C8NQ9LVX",
+    "name": "Fascia Capelli Colorata Floreale Donna",
+    "category": "accessori",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-15T14:32:04.259964",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CL2DKYQM",
+    "asin": "B0CL2DKYQM",
+    "name": "Vaso Colorato Ceramica Fantasia Fiori",
+    "category": "casa",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL2DKYQM&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL2DKYQM?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-06-15T14:32:06.435467",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D48KJW57",
+    "asin": "B0D48KJW57",
+    "name": "NobleOnly Mary Jane Scarpe Donna Chunky Blocco Tacco Heel Cinturino alla Caviglia Dress Chiusa Quadrata Punta Pumps Diam",
+    "category": "scarpe",
+    "price": 63.99,
+    "image": "https://m.media-amazon.com/images/I/41BiYCGbRqL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D48KJW57?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-06-15T14:32:08.443655",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0D3NXKQPL",
+    "asin": "B0D3NXKQPL",
+    "name": "Borsa a Mano Donna Colorata Intreccio",
+    "category": "borse",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NXKQPL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-06-15T14:32:09.895617",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0BZLS9F9D",
     "asin": "B0BZLS9F9D",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-05-25T11:59:34.304999",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BN7XKQPL",
-    "asin": "B0BN7XKQPL",
-    "name": "Detergente Viso Colorato Arcobaleno Vitamina C",
-    "category": "beauty",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN7XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BN7XKQPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-24T10:03:08.608503",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D4KXNQPL",
-    "asin": "B0D4KXNQPL",
-    "name": "Supporto Telefono Colorato Scrivania Flessibile",
-    "category": "gadget",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D4KXNQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-24T10:03:10.282328",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BSWKQFMR",
-    "asin": "B0BSWKQFMR",
-    "name": "Mouse Wireless Colorato Silenzioso Arcobaleno",
-    "category": "gadget",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BSWKQFMR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BSWKQFMR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-24T10:03:11.644588",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0C1QKHMFG",
-    "asin": "B0C1QKHMFG",
-    "name": "Rossetto Colorato Set 12 Toni Brillanti",
-    "category": "beauty",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C1QKHMFG&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C1QKHMFG?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-24T10:03:13.268925",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CN8XQKPL",
-    "asin": "B0CN8XQKPL",
-    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
-    "category": "casa",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-05-24T10:03:15.101052",
     "status": "published"
   }
 ];
