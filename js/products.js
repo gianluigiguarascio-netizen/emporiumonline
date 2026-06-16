@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 15/06/2026 14:32
+// Aggiornato automaticamente il 16/06/2026 13:02
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0FN7G6T4D",
+    "asin": "B0FN7G6T4D",
+    "name": "Rosa smalto – 12 ML a base d&#39;acqua atossico e ad asciugatura rapida, lucidante ad aria secca, per nail art regolare,",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41Cmbz81C8L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FN7G6T4D?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-16T13:01:41.080434",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B09TFHJ7K2",
+    "asin": "B09TFHJ7K2",
+    "name": "Set Smalto Per Unghie Gel Liner Kit Per Nail Art Per Nail Design Smalto Gel Art Paint Per Unghie 12 Colori Smalto Per Ge",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51HL5iviFcL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B09TFHJ7K2?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-16T13:01:45.760711",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B00CMFQVAE",
+    "asin": "B00CMFQVAE",
+    "name": "Revlon Rossetto super brillante, formula cremosa per labbra morbide e dall&#39;aspetto pieno, sensazione idratata, vellu",
+    "category": "beauty",
+    "price": 10.99,
+    "image": "https://m.media-amazon.com/images/I/315vTg-N9CL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B00CMFQVAE?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-16T13:01:53.456557",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CVLGGP7W",
+    "asin": "B0CVLGGP7W",
+    "name": "Maybelline New York Rossetto Liquido, Effetto Vinilico, Fino a 16H di Tenuta, Colore Brillante Senza Sbavature, Super St",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31Ah10A10+L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CVLGGP7W?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-16T13:01:56.281982",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B01N38NQ19",
+    "asin": "B01N38NQ19",
+    "name": "Moon Glow Rossetto Neon UV - Rossetto colorato al neon brillante - Si illumina sotto i raggi UV, Bianco, 1 conteggio (co",
+    "category": "beauty",
+    "price": 7.17,
+    "image": "https://m.media-amazon.com/images/I/31-MmWFNafL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B01N38NQ19?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-16T13:02:01.084105",
+    "status": "published"
+  },
   {
     "id": "accessori-B0FFZ9Q7CH",
     "asin": "B0FFZ9Q7CH",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-05-28T11:46:20.673429",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C5K7X2BL",
-    "asin": "B0C5K7X2BL",
-    "name": "Borsa Donna Colorata Tessuto Estate",
-    "category": "borse",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-05-25T11:59:27.720755",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D3MKQX7P",
-    "asin": "B0D3MKQX7P",
-    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
-    "category": "abbigliamento",
-    "price": 25.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-05-25T11:59:29.334579",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CN8QWKRP",
-    "asin": "B0CN8QWKRP",
-    "name": "Auricolari Colorati Wireless Waterproof Sport",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QWKRP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8QWKRP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-25T11:59:31.337048",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BXMKFPQR",
-    "asin": "B0BXMKFPQR",
-    "name": "Tenda Colorata Boho Macramè Camera",
-    "category": "casa",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXMKFPQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXMKFPQR?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-05-25T11:59:32.921157",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CN5XQKPL",
-    "asin": "B0CN5XQKPL",
-    "name": "Hub USB Colorato 7 Porte Arcobaleno",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5XQKPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-25T11:59:34.304999",
     "status": "published"
   }
 ];
