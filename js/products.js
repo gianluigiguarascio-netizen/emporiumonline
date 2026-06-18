@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 17/06/2026 12:24
+// Aggiornato automaticamente il 18/06/2026 11:55
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B099N3HLYF",
+    "asin": "B099N3HLYF",
+    "name": "Set tastiera e mouse da gioco wireless compatti al 60%, 3800mAh Type-c Ricaricabile RGB Arcobaleno Tastiera illuminata S",
+    "category": "gadget",
+    "price": 42.51,
+    "image": "https://m.media-amazon.com/images/I/51cfNBCF7EL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B099N3HLYF?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-18T11:55:25.476209",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B085TLJMSM",
+    "asin": "B085TLJMSM",
+    "name": "Gaming Mouse Tastiera Combo Cablato Arcobaleno LED Retroilluminato 104 Tasti 12 tasti multimediali Tastiera da gioco 240",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51Akh7lniFL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B085TLJMSM?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-18T11:55:30.505834",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B08KG8FX9M",
+    "asin": "B08KG8FX9M",
+    "name": "Tastiera e Mouse da Gioco, Gaming Tastiera Retroilluminato a LED Colore Arcobaleno, Mouse 6 Tasti 2400 DPI e Tappetino p",
+    "category": "gadget",
+    "price": 69.9,
+    "image": "https://m.media-amazon.com/images/I/51I0DQghkJL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B08KG8FX9M?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-18T11:55:35.599241",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B079FSMJ58",
+    "asin": "B079FSMJ58",
+    "name": "BAKTH Tastiera e Mouse da Gioco, Arcobaleno LED Retroilluminato USB per Videogiochi o Lavoro, Paragonabile a Una Meccani",
+    "category": "gadget",
+    "price": 38.69,
+    "image": "https://m.media-amazon.com/images/I/51T8aRsc5cL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B079FSMJ58?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-18T11:55:41.137965",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0B66HR128",
+    "asin": "B0B66HR128",
+    "name": "Mouse PC e tastiera USB Colorato Gaming Arcobaleno Wired Retroilluminato con LED Gaming Gamer Mouse Tastiera e Mouse Mou",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51LPQScV+LL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0B66HR128?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-18T11:55:44.872236",
+    "status": "published"
+  },
   {
     "id": "borse-B09XMKLFVQ",
     "asin": "B09XMKLFVQ",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-05-30T10:09:04.255661",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D1QF6J5N",
-    "asin": "B0D1QF6J5N",
-    "name": "Anti-Stress Colorato Fidget Giocattolo, 4 Pezzi Blocco Anti Stress per Bambini e Adulto, PU Morbido Giocattolo Anti Stre",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41+Lr2Yh+pL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0D1QF6J5N?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-29T11:36:06.491316",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0GVGYL2W7",
-    "asin": "B0GVGYL2W7",
-    "name": "Fidget Toy - Gadget sensoriale clicker con tastiera, dispositivo colorato per premere le dita illuminato con feedback ta",
-    "category": "gadget",
-    "price": 10.81,
-    "image": "https://m.media-amazon.com/images/I/413RG3Ff5ZL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GVGYL2W7?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-29T11:36:10.137468",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0FLKF3T38",
-    "asin": "B0FLKF3T38",
-    "name": "OSDUE Fidget Toys Sensory Sticks,6 Pack Morphing Stress Relief Toys,Colorato Relaxation Stick,Stress Relief Sensory Toy,",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/510EeQBFcIL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FLKF3T38?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-29T11:36:15.643849",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0DQQBRN7W",
-    "asin": "B0DQQBRN7W",
-    "name": "Calm Down Fidget Toy - Giocattolo colorato per l&#39;apprendimento precoce e lo sviluppo &#39;immaginazione, per complea",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41lmTRVx68L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DQQBRN7W?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-29T11:36:26.350534",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CXQ3NKLP",
-    "asin": "B0CXQ3NKLP",
-    "name": "Highlighter Colorato Illuminante Glitter Viso",
-    "category": "beauty",
-    "price": 10.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ3NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ3NKLP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-05-29T11:37:42.611930",
     "status": "published"
   }
 ];
