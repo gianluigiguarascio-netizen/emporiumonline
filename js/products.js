@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 19/06/2026 12:15
+// Aggiornato automaticamente il 20/06/2026 10:38
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B07XVTF1QT",
+    "asin": "B07XVTF1QT",
+    "name": "Revlon Super Lustrous Glass Shine Lipstick Glazed Mauve, Rossetto Labbra Dal Colore Brillante, Formula Cremosa e Idratan",
+    "category": "beauty",
+    "price": 9.93,
+    "image": "https://m.media-amazon.com/images/I/317T-QIL3kL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B07XVTF1QT?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-20T10:37:32.265627",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B07XVTT1NG",
+    "asin": "B07XVTT1NG",
+    "name": "Revlon Super Lustrous Glass Shine Lipstick Love Is On, Rossetto Labbra Dal Colore Brillante, Formula Cremosa e Idratante",
+    "category": "beauty",
+    "price": 8.63,
+    "image": "https://m.media-amazon.com/images/I/31ZT7YetFaL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B07XVTT1NG?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-20T10:37:36.952846",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0F2FMR4YH",
+    "asin": "B0F2FMR4YH",
+    "name": "JMEOWIO Unghie Gel Adesive UV Rosa Chiaro Glitterato Smalto Adesivo per Unghie Gel Nail Stickers Decorazioni Unghie Nail",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41PCFbBA3BL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0F2FMR4YH?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-20T10:37:43.227801",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0FP2NL8RT",
+    "asin": "B0FP2NL8RT",
+    "name": "Semipermanente Smalto Unghie Macaron 6 Colori Soak-off Uv Gel Nail Art Smalto Professionale Kit Tendenza Colori Macaron ",
+    "category": "beauty",
+    "price": 20.64,
+    "image": "https://m.media-amazon.com/images/I/41y32ktpU6L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FP2NL8RT?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-20T10:37:47.782513",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D3NQXKPL",
+    "asin": "B0D3NQXKPL",
+    "name": "Maxi Dress Donna Colorato Fantasia Tropicale",
+    "category": "abbigliamento",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NQXKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NQXKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-06-20T10:38:58.709934",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0GHXZW2K6",
     "asin": "B0GHXZW2K6",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-06-01T13:46:27.742969",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0DYK3X4H3",
-    "asin": "B0DYK3X4H3",
-    "name": "Sneakers donna - Sneakers multicolore con soletta rimovibile - suola dentata antiscivolo",
-    "category": "scarpe",
-    "price": 15.29,
-    "image": "https://m.media-amazon.com/images/I/31FYJk9uL8L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DYK3X4H3?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-05-31T10:21:58.436689",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0GP7YCG22",
-    "asin": "B0GP7YCG22",
-    "name": "inblu Sneakers Donna con Lacci E Cerniera Laterale, Traforo Laterale, Colori Vivaci Scarpe da ginnasticaDonna",
-    "category": "scarpe",
-    "price": 10.89,
-    "image": "https://m.media-amazon.com/images/I/31ZQDsRd90L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GP7YCG22?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-05-31T10:22:02.686927",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B07BFLS3KF",
-    "asin": "B07BFLS3KF",
-    "name": "Sneakers Donna Multicolor Leggere Running",
-    "category": "scarpe",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BFLS3KF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B07BFLS3KF?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-05-31T10:23:09.359207",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CXKLPQWN",
-    "asin": "B0CXKLPQWN",
-    "name": "Pop Socket Colorato Arcobaleno Glitter",
-    "category": "gadget",
-    "price": 5.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKLPQWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXKLPQWN?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-05-31T10:23:11.526579",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CVXK8PLN",
-    "asin": "B0CVXK8PLN",
-    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
-    "category": "scarpe",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-05-31T10:23:12.973966",
     "status": "published"
   }
 ];
