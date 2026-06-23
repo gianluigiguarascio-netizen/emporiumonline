@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 22/06/2026 13:42
+// Aggiornato automaticamente il 23/06/2026 11:26
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0CF7WKLNQ",
+    "asin": "B0CF7WKLNQ",
+    "name": "Spray Capelli Colorato Temporaneo Lavabile",
+    "category": "beauty",
+    "price": 8.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF7WKLNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF7WKLNQ?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-23T11:25:53.844408",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CF9BSLWX",
+    "asin": "B0CF9BSLWX",
+    "name": "Collana Colorata Perline Donna Arcobaleno",
+    "category": "accessori",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9BSLWX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF9BSLWX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-23T11:25:55.715754",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CF2KLMQS",
+    "asin": "B0CF2KLMQS",
+    "name": "Sveglia Colorata Retrò Design Camera",
+    "category": "casa",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF2KLMQS&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF2KLMQS?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-06-23T11:25:57.816722",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0D4KXNQPL",
+    "asin": "B0D4KXNQPL",
+    "name": "Supporto Telefono Colorato Scrivania Flessibile",
+    "category": "gadget",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4KXNQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-23T11:25:59.985450",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CN7XQKPL",
+    "asin": "B0CN7XQKPL",
+    "name": "Sandali Donna Colorati Fiocco Estate Flat",
+    "category": "scarpe",
+    "price": 20.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN7XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN7XQKPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-06-23T11:26:01.482293",
+    "status": "published"
+  },
   {
     "id": "accessori-B0D5KQXNLP",
     "asin": "B0D5KQXNLP",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-06-04T11:23:40.870849",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DLW55MZ6",
-    "asin": "B0DLW55MZ6",
-    "name": "Orecchini a forma di cupcake dai colori vivaci per donne, orecchini colorati in pelle a goccia per le donne alla moda, o",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41M98atc4vL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DLW55MZ6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-03T12:48:01.776649",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0FK2YR2CT",
-    "asin": "B0FK2YR2CT",
-    "name": "Orecchini colorati con stampa giglio da donna, orecchini in pelle a goccia alla moda per le donne alla moda, orecchini a",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51vvvq6AUTL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FK2YR2CT?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-03T12:48:06.549711",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C5WVC6RL",
-    "asin": "B0C5WVC6RL",
-    "name": "Flapper - Fascia per capelli vintage colorata con fascia elastica da donna (verde, taglia unica)",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51XhshXa+LL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C5WVC6RL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-03T12:48:13.225998",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DBQMZZRH",
-    "asin": "B0DBQMZZRH",
-    "name": "Fioriere Colorate E Astratte, Vasi di Fioriera Testa Astratta, Fioriera Astratta in Resina, Vaso da Fiori con Viso Astra",
-    "category": "casa",
-    "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/41zBuZ2dgzL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-03T12:49:20.497132",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B9XKQPNL",
-    "asin": "B0B9XKQPNL",
-    "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",
-    "category": "abbigliamento",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9XKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B9XKQPNL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-03T12:49:22.075829",
     "status": "published"
   }
 ];
