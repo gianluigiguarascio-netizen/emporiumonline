@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 24/06/2026 11:12
+// Aggiornato automaticamente il 25/06/2026 10:50
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0GSZ5NWSF",
+    "asin": "B0GSZ5NWSF",
+    "name": "ZHSHYS Bracciale Rigido colorato in Resina acrilica per Donna Bracciale Robusto in Resina traslucida Bracciale Geometric",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/3164njOrtfL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GSZ5NWSF?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-25T10:49:19.098392",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0FPR2B8JQ",
+    "asin": "B0FPR2B8JQ",
+    "name": "Bracciale ritratto di fiori in resina incrostata con diamanti Bracciale colorato in rilievo e accessorio di moda adatto ",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51JeE5xdzrL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FPR2B8JQ?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-25T10:49:23.509780",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09TZFVGLH",
+    "asin": "B09TZFVGLH",
+    "name": "Ballerine Donna Colorate Comfort Flat",
+    "category": "scarpe",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09TZFVGLH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09TZFVGLH?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-06-25T10:50:36.403819",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CWQ4NKLX",
+    "asin": "B0CWQ4NKLX",
+    "name": "Orecchini a Cerchio Colorati Resina Grande",
+    "category": "accessori",
+    "price": 7.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-25T10:50:38.242842",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0C1QKHMFG",
+    "asin": "B0C1QKHMFG",
+    "name": "Rossetto Colorato Set 12 Toni Brillanti",
+    "category": "beauty",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C1QKHMFG&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C1QKHMFG?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-25T10:50:40.134372",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0C586QLB6",
     "asin": "B0C586QLB6",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-06-06T10:14:58.401553",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CST9GCX4",
-    "asin": "B0CST9GCX4",
-    "name": "Arcobaleno divertente con cuore grafica - Uomo Donna Bambini PopSockets PopGrip Intercambiabile",
-    "category": "idee-regalo",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31zNWxtpkVL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CST9GCX4?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-05T11:34:25.716642",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CKN4XQPL",
-    "asin": "B0CKN4XQPL",
-    "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",
-    "category": "gadget",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKN4XQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CKN4XQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-05T11:35:37.135414",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CFWKLNQX",
-    "asin": "B0CFWKLNQX",
-    "name": "Portafoto Colorato Polaroid Galleria Parete",
-    "category": "idee-regalo",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-05T11:35:39.384067",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BZQ7XMRK",
-    "asin": "B0BZQ7XMRK",
-    "name": "Smalto Colorato Set 24 Pezzi Nail Art",
-    "category": "beauty",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZQ7XMRK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BZQ7XMRK?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-05T11:35:41.309246",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0B8VK3LHF",
-    "asin": "B0B8VK3LHF",
-    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-05T11:35:42.685166",
     "status": "published"
   }
 ];
