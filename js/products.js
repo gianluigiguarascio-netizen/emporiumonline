@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 26/06/2026 11:10
+// Aggiornato automaticamente il 27/06/2026 10:19
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0B2WK8LNX",
+    "asin": "B0B2WK8LNX",
+    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
+    "category": "abbigliamento",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-06-27T10:19:00.530592",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CL7XKQNP",
+    "asin": "B0CL7XKQNP",
+    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-06-27T10:19:02.091479",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D3MKQX7P",
+    "asin": "B0D3MKQX7P",
+    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
+    "category": "abbigliamento",
+    "price": 25.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-06-27T10:19:03.492895",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0B8VK3LHF",
+    "asin": "B0B8VK3LHF",
+    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-06-27T10:19:05.587486",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CW5XNKPL",
+    "asin": "B0CW5XNKPL",
+    "name": "41 - Matt Macdonald from The Classic Crime and Don’t Feed The Trolls!",
+    "category": "idee-regalo",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW5XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-06-27T10:19:08.511648",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0BZLV1C4L",
     "asin": "B0BZLV1C4L",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-06-08T12:41:25.979497",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09W5SGRPB",
-    "asin": "B09W5SGRPB",
-    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
-    "category": "scarpe",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-07T10:35:07.991561",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CFPKN4QR",
-    "asin": "B0CFPKN4QR",
-    "name": "Cintura Colorata Donna Tessuto Boho",
-    "category": "accessori",
-    "price": 9.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFPKN4QR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CFPKN4QR?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-07T10:35:09.412665",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C7KXPRTV",
-    "asin": "B0C7KXPRTV",
-    "name": "Spilla Colorata Donna Fiore Smalto",
-    "category": "accessori",
-    "price": 4.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7KXPRTV&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C7KXPRTV?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-07T10:35:11.305344",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BQKXPLVR",
-    "asin": "B0BQKXPLVR",
-    "name": "Powerbank Colorato 10000mAh Compatto",
-    "category": "gadget",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQKXPLVR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BQKXPLVR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-07T10:35:13.488827",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BWKL7XS8",
-    "asin": "B0BWKL7XS8",
-    "name": "Bracciale Colorato Perle Donna Set",
-    "category": "accessori",
-    "price": 7.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKL7XS8&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BWKL7XS8?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-07T10:35:15.661443",
     "status": "published"
   }
 ];
