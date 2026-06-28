@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 27/06/2026 10:19
+// Aggiornato automaticamente il 28/06/2026 10:33
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0CN6XQKPL",
+    "asin": "B0CN6XQKPL",
+    "name": "Eyeliner Colorato Glitter Set 8 Colori",
+    "category": "beauty",
+    "price": 8.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN6XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN6XQKPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-06-28T10:33:02.977292",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CXNQ7KPL",
+    "asin": "B0CXNQ7KPL",
+    "name": "Mocassini Donna Colorati Comfort Loafer",
+    "category": "scarpe",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-06-28T10:33:04.892573",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0FLCS5FB2",
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
+    "category": "abbigliamento",
+    "price": 6.39,
+    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-06-28T10:33:07.839746",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CN8QWKRP",
+    "asin": "B0CN8QWKRP",
+    "name": "Auricolari Colorati Wireless Waterproof Sport",
+    "category": "gadget",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QWKRP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8QWKRP?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-28T10:33:09.488723",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CN8XQKPL",
+    "asin": "B0CN8XQKPL",
+    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
+    "category": "casa",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-06-28T10:33:11.799364",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0B2WK8LNX",
     "asin": "B0B2WK8LNX",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-06-09T11:26:03.702317",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CX3QNKLP",
-    "asin": "B0CX3QNKLP",
-    "name": "Penna Stilografica Colorata Set Scrittura",
-    "category": "gadget",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX3QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CX3QNKLP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-08T12:41:18.891676",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D8NXKQPL",
-    "asin": "B0D8NXKQPL",
-    "name": "Maglione Donna Colorato Strisce Oversize",
-    "category": "abbigliamento",
-    "price": 32.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D8NXKQPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-08T12:41:20.339617",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BT6LQPXR",
-    "asin": "B0BT6LQPXR",
-    "name": "Portavasi Colorato Ceramica Set 3 Pezzi",
-    "category": "casa",
-    "price": 21.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BT6LQPXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BT6LQPXR?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-08T12:41:22.400187",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D2NXKQPL",
-    "asin": "B0D2NXKQPL",
-    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
-    "category": "gadget",
-    "price": 32.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-08T12:41:23.748096",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0D3KXNQPL",
-    "asin": "B0D3KXNQPL",
-    "name": "Foundation Colorata BB Cream SPF30 Vari Toni",
-    "category": "beauty",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3KXNQPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-08T12:41:25.979497",
     "status": "published"
   }
 ];
