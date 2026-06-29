@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 28/06/2026 10:33
+// Aggiornato automaticamente il 29/06/2026 12:41
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0DQQBRN7W",
+    "asin": "B0DQQBRN7W",
+    "name": "Calm Down Fidget Toy - Giocattolo colorato per l&#39;apprendimento precoce e lo sviluppo &#39;immaginazione, per complea",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41lmTRVx68L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DQQBRN7W?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-29T12:40:21.116619",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BR5FBJ81",
+    "asin": "B0BR5FBJ81",
+    "name": "Ainiv Puzzle di Legno, 30pz Tangram in Legno Colorato Blocchi Geometrici | Set di puzzle Tangram, Regali Educativi, Inte",
+    "category": "gadget",
+    "price": 18.66,
+    "image": "https://m.media-amazon.com/images/I/41k5i4Js9bL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0BR5FBJ81?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-29T12:40:26.435677",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CKN4XQPL",
+    "asin": "B0CKN4XQPL",
+    "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",
+    "category": "gadget",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKN4XQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CKN4XQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-06-29T12:41:40.120227",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BN5XKQPL",
+    "asin": "B0BN5XKQPL",
+    "name": "Kit Macramè Colorato Principianti Decorazione",
+    "category": "idee-regalo",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN5XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BN5XKQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-06-29T12:41:41.945457",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CF8L2V4R",
+    "asin": "B0CF8L2V4R",
+    "name": "Abito Estivo Donna Colorato Fantasia Tropicale",
+    "category": "abbigliamento",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF8L2V4R&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF8L2V4R?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-06-29T12:41:44.052351",
+    "status": "published"
+  },
   {
     "id": "beauty-B0CN6XQKPL",
     "asin": "B0CN6XQKPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-06-10T11:45:02.301446",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CN5XLKQW",
-    "asin": "B0CN5XLKQW",
-    "name": "Kit Pittura Acrilica Colorata 24 Colori",
-    "category": "idee-regalo",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XLKQW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5XLKQW?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-09T11:25:56.465391",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CRJ5K4WP",
-    "asin": "B0CRJ5K4WP",
-    "name": "Marsupio Colorato Fantasia Donna Uomo",
-    "category": "borse",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRJ5K4WP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CRJ5K4WP?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-06-09T11:25:58.465420",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0C9HQPLXW",
-    "asin": "B0C9HQPLXW",
-    "name": "Tappeto Colorato Camera Ragazzi Antiscivolo",
-    "category": "casa",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C9HQPLXW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C9HQPLXW?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-09T11:26:00.256996",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D5XKNQPL",
-    "asin": "B0D5XKNQPL",
-    "name": "Stivaletti Donna Colorati Chelsea Elastici",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-09T11:26:01.817241",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D1KQXNPL",
-    "asin": "B0D1KQXNPL",
-    "name": "Short Donna Colorati Fantasia Estivi Casual",
-    "category": "abbigliamento",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-09T11:26:03.702317",
     "status": "published"
   }
 ];
