@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 29/06/2026 12:41
+// Aggiornato automaticamente il 30/06/2026 11:17
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0CH3KQSM1",
+    "asin": "B0CH3KQSM1",
+    "name": "Colourbook Zaino scuola Americano – SSC Napoli 42x30x13 cm (Rosa)",
+    "category": "borse",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/319g+4u8rhL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CH3KQSM1?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-06-30T11:16:22.739809",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0BWKL7XS8",
+    "asin": "B0BWKL7XS8",
+    "name": "Bracciale Colorato Perle Donna Set",
+    "category": "accessori",
+    "price": 7.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKL7XS8&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BWKL7XS8?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-06-30T11:17:33.461865",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN5XLKQW",
+    "asin": "B0CN5XLKQW",
+    "name": "Kit Pittura Acrilica Colorata 24 Colori",
+    "category": "idee-regalo",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XLKQW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN5XLKQW?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-06-30T11:17:35.566670",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0C9HQPLXW",
+    "asin": "B0C9HQPLXW",
+    "name": "Tappeto Colorato Camera Ragazzi Antiscivolo",
+    "category": "casa",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C9HQPLXW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C9HQPLXW?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-06-30T11:17:37.895022",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BL4XQKWN",
+    "asin": "B0BL4XQKWN",
+    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
+    "category": "idee-regalo",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-06-30T11:17:39.695829",
+    "status": "published"
+  },
   {
     "id": "gadget-B0DQQBRN7W",
     "asin": "B0DQQBRN7W",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-06-11T12:15:48.520155",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0H27RHGJK",
-    "asin": "B0H27RHGJK",
-    "name": "Set di braccialetti e collane di perle che cambiano colore, realizzate in resina colori , collane e bracciali con effett",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31pmJ3vN1vL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0H27RHGJK?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-10T11:44:44.764966",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0H27PW3M8",
-    "asin": "B0H27PW3M8",
-    "name": "Set di braccialetti e collane di perle che cambiano colore, in resina colorata nei colori &#39; , colorate, collane &#39",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31SwqNvzGCL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0H27PW3M8?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-10T11:44:48.925483",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0G4SB9DX3",
-    "asin": "B0G4SB9DX3",
-    "name": "Bracciale Rigido colorato in Resina acrilica per Donna, Grosso Braccialetto Traslucido Tartaruga Geometrica",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31Mq0pNqT2L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0G4SB9DX3?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-10T11:44:53.082917",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0FBWZKGF6",
-    "asin": "B0FBWZKGF6",
-    "name": "Bracciali rigidi in resina colorata, larghi, geometrici, irregolari, vintage, gioielli artistici, accessori alla moda pe",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31DJa4sqQxL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FBWZKGF6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-10T11:44:57.642687",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DMFW3TT1",
-    "asin": "B0DMFW3TT1",
-    "name": "10:10 Bracciale Donna Acciaio Inox e Resina Biocompatibile Colorata, Braccialetto Fashion Regolabile, Made In Italy",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31hdD-FycBL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DMFW3TT1?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-10T11:45:02.301446",
     "status": "published"
   }
 ];
