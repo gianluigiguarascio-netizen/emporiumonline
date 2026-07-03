@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 02/07/2026 10:50
+// Aggiornato automaticamente il 03/07/2026 10:47
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0GVW2NTKZ",
+    "asin": "B0GVW2NTKZ",
+    "name": "Tshirt da donna Tie Dye, maglietta colorata, con scollo rotondo, a maniche corte, camicetta da donna, alla moda, colore ",
+    "category": "abbigliamento",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41Y-ZeNNYwL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GVW2NTKZ?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-03T10:45:57.920686",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0GTZXFYRX",
+    "asin": "B0GTZXFYRX",
+    "name": "Maglietta da uomo Batik Shirt Colorata Tie-Dye, maglietta a maniche corte, girocollo, oversize, maglietta estiva comoda,",
+    "category": "abbigliamento",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/516hVMQSdsL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GTZXFYRX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-03T10:46:02.199991",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0GSW4TJ58",
+    "asin": "B0GSW4TJ58",
+    "name": "Generico Maglietta Unisex Batik – Tie-Dye – Magliette Colorate per Uomo e Donna – Abbigliamento Hippie – Maglietta Neon ",
+    "category": "abbigliamento",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51FDHDTQeCL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GSW4TJ58?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-03T10:46:07.258089",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0DFMGVYHX",
+    "asin": "B0DFMGVYHX",
+    "name": "Maglietta unisex Batik, stile hippie, stile hippie anni &#39;70, in cotone, multicolore, taglie S, M, L, XL, XXL, 3XL, 4",
+    "category": "abbigliamento",
+    "price": 110.86,
+    "image": "https://m.media-amazon.com/images/I/31gRMC0O4TL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DFMGVYHX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-03T10:46:14.375162",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BPWQK3TN",
+    "asin": "B0BPWQK3TN",
+    "name": "Shopper Colorata Tela Fantasia Donna",
+    "category": "borse",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPWQK3TN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPWQK3TN?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-07-03T10:47:22.911832",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0F48Y9VJS",
     "asin": "B0F48Y9VJS",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-06-14T10:54:19.994531",
-    "status": "published"
-  },
-  {
-    "id": "borse-B09CZKXTJK",
-    "asin": "B09CZKXTJK",
-    "name": "LUPIN Zaini Colorato Vernice Zaino viaggio scuola media liceo",
-    "category": "borse",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/518AQL75RML._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09CZKXTJK?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-06-13T10:35:16.625958",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CF5QWKPN",
-    "asin": "B0CF5QWKPN",
-    "name": "Stampa Arte Colorata Astratta Quadro Camera",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF5QWKPN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF5QWKPN?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-13T10:36:28.284722",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CXQ5NKLP",
-    "asin": "B0CXQ5NKLP",
-    "name": "Lampada Neon Colorata LED Personalizzabile",
-    "category": "idee-regalo",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ5NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ5NKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-13T10:36:30.166397",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CN3XQKPL",
-    "asin": "B0CN3XQKPL",
-    "name": "Gioco da Tavolo Colorato Famiglia Divertente",
-    "category": "idee-regalo",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN3XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN3XQKPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-13T10:36:31.658096",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CN8QXKLP",
-    "asin": "B0CN8QXKLP",
-    "name": "Set Bracciali Colorati Bohemian Donna 12 Pz",
-    "category": "accessori",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QXKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8QXKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-13T10:36:33.348461",
     "status": "published"
   }
 ];
