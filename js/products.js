@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 03/07/2026 10:47
+// Aggiornato automaticamente il 04/07/2026 10:21
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0FGQ3PQ31",
+    "asin": "B0FGQ3PQ31",
+    "name": "inblu Sneakers Donna Multicolore con Lacci, Tomaia in Ecopelle, Plantare Imbottito, Suola Sintetica, Tacco 3,5 Cm, Scarp",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/418SwEpQYvL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FGQ3PQ31?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-04T10:19:57.091728",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0GCCN8NGZ",
+    "asin": "B0GCCN8NGZ",
+    "name": "Scarpe da ginnastica spesse da donna con lacci, suola colorata arcobaleno, scarpe da tennis in rete traspirante, scarpe ",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41d-CcSGy6L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GCCN8NGZ?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-04T10:20:04.216943",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CQ5WXNKP",
+    "asin": "B0CQ5WXNKP",
+    "name": "Mules Colorati Donna Tacco Basso Comfort",
+    "category": "scarpe",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-04T10:21:12.714978",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0BNXK4QPL",
+    "asin": "B0BNXK4QPL",
+    "name": "Sciarpa Colorata Donna Fantasia Floreale Seta",
+    "category": "accessori",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNXK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BNXK4QPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-04T10:21:18.039751",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CJQG3TLN",
+    "asin": "B0CJQG3TLN",
+    "name": "T-Shirt Donna Arcobaleno Stampa Colorata",
+    "category": "abbigliamento",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CJQG3TLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CJQG3TLN?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-04T10:21:19.683349",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0GVW2NTKZ",
     "asin": "B0GVW2NTKZ",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-06-15T14:32:09.895617",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0BZLS9F9D",
-    "asin": "B0BZLS9F9D",
-    "name": "Scarpe da Ginnastica Arcobaleno for Donna, Scarpe Sportive da Esterno Colorate e Leggere Sneakers da Corsa con Suola Spe",
-    "category": "scarpe",
-    "price": 35.0,
-    "image": "https://m.media-amazon.com/images/I/41tgYVY0SuL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BZLS9F9D?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-14T10:53:01.123085",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF9LYKWQ",
-    "asin": "B0CF9LYKWQ",
-    "name": "Sneakers Platform Donna Arcobaleno",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9LYKWQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF9LYKWQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-14T10:54:14.610073",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CGP4WLKQ",
-    "asin": "B0CGP4WLKQ",
-    "name": "Agenda Colorata 2025 Planner Settimanale",
-    "category": "idee-regalo",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-14T10:54:16.397287",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BXWKQPNL",
-    "asin": "B0BXWKQPNL",
-    "name": "Tazza Colorata Cambia Colore Termica Magica",
-    "category": "idee-regalo",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXWKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXWKQPNL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-14T10:54:18.239534",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BQX4WKLP",
-    "asin": "B0BQX4WKLP",
-    "name": "Libro da Colorare Adulti Antistress Mandala",
-    "category": "idee-regalo",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQX4WKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BQX4WKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-14T10:54:19.994531",
     "status": "published"
   }
 ];
