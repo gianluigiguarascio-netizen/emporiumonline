@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 04/07/2026 10:21
+// Aggiornato automaticamente il 05/07/2026 10:25
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0BNYY6CZP",
+    "asin": "B0BNYY6CZP",
+    "name": "Lampada LED Colorata RGB Design Moderno",
+    "category": "casa",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNYY6CZP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BNYY6CZP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-05T10:25:16.055909",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0D2NXKQPL",
+    "asin": "B0D2NXKQPL",
+    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
+    "category": "gadget",
+    "price": 32.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-05T10:25:17.823387",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CF5QWKPN",
+    "asin": "B0CF5QWKPN",
+    "name": "Stampa Arte Colorata Astratta Quadro Camera",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF5QWKPN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF5QWKPN?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-05T10:25:20.180328",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09Q4GPFJD",
+    "asin": "B09Q4GPFJD",
+    "name": "Mules Donna Colorate Tacco Kitten",
+    "category": "scarpe",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09Q4GPFJD&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09Q4GPFJD?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-05T10:25:22.286111",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0BX7QNKLP",
+    "asin": "B0BX7QNKLP",
+    "name": "Piatto Piano Colorato Ceramica Set 4 Pezzi",
+    "category": "casa",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BX7QNKLP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-05T10:25:24.514408",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0FGQ3PQ31",
     "asin": "B0FGQ3PQ31",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-06-16T13:02:01.084105",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0FFZ9Q7CH",
-    "asin": "B0FFZ9Q7CH",
-    "name": "ZMANYIJEW Bracciale rigido in resina acrilica grosso acrilico colorato irregolare geometrico acetato ampio braccialetto ",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31JvUu+AZuL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FFZ9Q7CH?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-15T14:30:53.799389",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C8NQ9LVX",
-    "asin": "B0C8NQ9LVX",
-    "name": "Fascia Capelli Colorata Floreale Donna",
-    "category": "accessori",
-    "price": 5.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-15T14:32:04.259964",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CL2DKYQM",
-    "asin": "B0CL2DKYQM",
-    "name": "Vaso Colorato Ceramica Fantasia Fiori",
-    "category": "casa",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL2DKYQM&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL2DKYQM?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-15T14:32:06.435467",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D48KJW57",
-    "asin": "B0D48KJW57",
-    "name": "NobleOnly Mary Jane Scarpe Donna Chunky Blocco Tacco Heel Cinturino alla Caviglia Dress Chiusa Quadrata Punta Pumps Diam",
-    "category": "scarpe",
-    "price": 63.99,
-    "image": "https://m.media-amazon.com/images/I/41BiYCGbRqL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0D48KJW57?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-15T14:32:08.443655",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0D3NXKQPL",
-    "asin": "B0D3NXKQPL",
-    "name": "Borsa a Mano Donna Colorata Intreccio",
-    "category": "borse",
-    "price": 21.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3NXKQPL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-06-15T14:32:09.895617",
     "status": "published"
   }
 ];
