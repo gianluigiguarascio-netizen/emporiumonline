@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 05/07/2026 10:25
+// Aggiornato automaticamente il 06/07/2026 12:12
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0BWKQXPNR",
+    "asin": "B0BWKQXPNR",
+    "name": "Glitter Viso Corpo Colorati Festival Make Up",
+    "category": "beauty",
+    "price": 7.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKQXPNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BWKQXPNR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-06T12:12:20.497403",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CGP4WLKQ",
+    "asin": "B0CGP4WLKQ",
+    "name": "Agenda Colorata 2025 Planner Settimanale",
+    "category": "idee-regalo",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-06T12:12:22.678611",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CX4QNKLP",
+    "asin": "B0CX4QNKLP",
+    "name": "Blazer Donna Colorato Fantasia Primavera",
+    "category": "abbigliamento",
+    "price": 39.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX4QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX4QNKLP?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-06T12:12:24.030578",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D48KJW57",
+    "asin": "B0D48KJW57",
+    "name": "NobleOnly Mary Jane Scarpe Donna Chunky Blocco Tacco Heel Cinturino alla Caviglia Dress Chiusa Quadrata Punta Pumps Diam",
+    "category": "scarpe",
+    "price": 73.16,
+    "image": "https://m.media-amazon.com/images/I/41BiYCGbRqL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D48KJW57?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-06T12:12:27.227256",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BQKXPLVR",
+    "asin": "B0BQKXPLVR",
+    "name": "Powerbank Colorato 10000mAh Compatto",
+    "category": "gadget",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQKXPLVR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BQKXPLVR?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-06T12:12:28.630668",
+    "status": "published"
+  },
   {
     "id": "casa-B0BNYY6CZP",
     "asin": "B0BNYY6CZP",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-06-17T12:24:16.607111",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0FN7G6T4D",
-    "asin": "B0FN7G6T4D",
-    "name": "Rosa smalto – 12 ML a base d&#39;acqua atossico e ad asciugatura rapida, lucidante ad aria secca, per nail art regolare,",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41Cmbz81C8L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FN7G6T4D?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-16T13:01:41.080434",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B09TFHJ7K2",
-    "asin": "B09TFHJ7K2",
-    "name": "Set Smalto Per Unghie Gel Liner Kit Per Nail Art Per Nail Design Smalto Gel Art Paint Per Unghie 12 Colori Smalto Per Ge",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51HL5iviFcL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09TFHJ7K2?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-16T13:01:45.760711",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B00CMFQVAE",
-    "asin": "B00CMFQVAE",
-    "name": "Revlon Rossetto super brillante, formula cremosa per labbra morbide e dall&#39;aspetto pieno, sensazione idratata, vellu",
-    "category": "beauty",
-    "price": 10.99,
-    "image": "https://m.media-amazon.com/images/I/315vTg-N9CL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B00CMFQVAE?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-16T13:01:53.456557",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CVLGGP7W",
-    "asin": "B0CVLGGP7W",
-    "name": "Maybelline New York Rossetto Liquido, Effetto Vinilico, Fino a 16H di Tenuta, Colore Brillante Senza Sbavature, Super St",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31Ah10A10+L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CVLGGP7W?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-16T13:01:56.281982",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B01N38NQ19",
-    "asin": "B01N38NQ19",
-    "name": "Moon Glow Rossetto Neon UV - Rossetto colorato al neon brillante - Si illumina sotto i raggi UV, Bianco, 1 conteggio (co",
-    "category": "beauty",
-    "price": 7.17,
-    "image": "https://m.media-amazon.com/images/I/31-MmWFNafL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B01N38NQ19?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-16T13:02:01.084105",
     "status": "published"
   }
 ];
