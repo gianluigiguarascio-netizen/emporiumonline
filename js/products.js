@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 06/07/2026 12:12
+// Aggiornato automaticamente il 07/07/2026 11:16
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0DDGSW16D",
+    "asin": "B0DDGSW16D",
+    "name": "Statuetta colorata di gatto, scultura colorata di gatto, statuetta colorata in resina, statuetta di animali in resina, a",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51TUy65AzkL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DDGSW16D?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-07T11:15:57.298105",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0DBHYBK7S",
+    "asin": "B0DBHYBK7S",
+    "name": "Statuetta colorata di gatto, statuetta di coppia di gatti, statua colorata di gatto | Espositore colorato con design dip",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51TUy65AzkL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DBHYBK7S?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-07T11:16:01.675215",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0FQ54382X",
+    "asin": "B0FQ54382X",
+    "name": "Statua a forma di animale – Statuetta colorata a forma di gatto, decorazione per la casa, ricordo decorativo in resina |",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41xSBM4szPL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FQ54382X?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-07T11:16:05.480996",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0FWWT6CZH",
+    "asin": "B0FWWT6CZH",
+    "name": "Statuetta artistica colorata in vetro a forma di polpi, ornamento da scrivania, regalo perfetto per feste di inaugurazio",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31P53h8+8dL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FWWT6CZH?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-07T11:16:09.002827",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0DNDWGMZC",
+    "asin": "B0DNDWGMZC",
+    "name": "Statua da giardino di nano colorata con statuetta a fungo | Decorazione nana da giardino in resina – Statue per l&#39;ar",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51LM9EoePCL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DNDWGMZC?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-07T11:16:12.671198",
+    "status": "published"
+  },
   {
     "id": "beauty-B0BWKQXPNR",
     "asin": "B0BWKQXPNR",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-06-18T11:55:44.872236",
-    "status": "published"
-  },
-  {
-    "id": "borse-B09XMKLFVQ",
-    "asin": "B09XMKLFVQ",
-    "name": "Borsello Colorato Donna Tracolla Boho",
-    "category": "borse",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09XMKLFVQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09XMKLFVQ?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-06-17T12:24:10.159566",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CL4XNKQP",
-    "asin": "B0CL4XNKQP",
-    "name": "Gel UV Colorato Set 36 Colori Nail Art",
-    "category": "beauty",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-17T12:24:11.737723",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CW8XNKQL",
-    "asin": "B0CW8XNKQL",
-    "name": "Mascara Colorato Blu Verde Viola Waterproof",
-    "category": "beauty",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW8XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CW8XNKQL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-17T12:24:13.391655",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C3HM5P7Y",
-    "asin": "B0C3HM5P7Y",
-    "name": "Zaino Colorato Scuola Ragazze Arcobaleno",
-    "category": "borse",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C3HM5P7Y&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C3HM5P7Y?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-06-17T12:24:15.401077",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B09NVD51JY",
-    "asin": "B09NVD51JY",
-    "name": "Orecchini Colorati Arcobaleno Donna Resina",
-    "category": "accessori",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09NVD51JY&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09NVD51JY?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-17T12:24:16.607111",
     "status": "published"
   }
 ];
