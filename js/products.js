@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 07/07/2026 11:16
+// Aggiornato automaticamente il 08/07/2026 10:28
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B01FFVN1BI",
+    "asin": "B01FFVN1BI",
+    "name": "Vasi per fiori decorativi ceramica centrotavola design | Multicolore 31x7x11 cm | 10 vasetti",
+    "category": "casa",
+    "price": 33.17,
+    "image": "https://m.media-amazon.com/images/I/41OB6xBC5pL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B01FFVN1BI?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-08T10:27:09.480848",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN3XQKPL",
+    "asin": "B0CN3XQKPL",
+    "name": "Gioco da Tavolo Colorato Famiglia Divertente",
+    "category": "idee-regalo",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN3XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN3XQKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-08T10:28:17.241593",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0D8XKNQPL",
+    "asin": "B0D8XKNQPL",
+    "name": "Set Matite Acquerellabili Colorate 48 Pz Artisti",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D8XKNQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-08T10:28:18.539358",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BSGVWQCX",
+    "asin": "B0BSGVWQCX",
+    "name": "527 Sandali sportivi donna Scarpe da donna, sandali piatti traspiranti, sandali morbidi alla moda per le scarpe da spiag",
+    "category": "borse",
+    "price": 16.99,
+    "image": "https://m.media-amazon.com/images/I/41fL7hJrWOL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0BSGVWQCX?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-07-08T10:28:20.834593",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CW8XNKQL",
+    "asin": "B0CW8XNKQL",
+    "name": "Mascara Colorato Blu Verde Viola Waterproof",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW8XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW8XNKQL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-08T10:28:23.058122",
+    "status": "published"
+  },
   {
     "id": "casa-B0DDGSW16D",
     "asin": "B0DDGSW16D",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-06-19T12:15:57.260629",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B099N3HLYF",
-    "asin": "B099N3HLYF",
-    "name": "Set tastiera e mouse da gioco wireless compatti al 60%, 3800mAh Type-c Ricaricabile RGB Arcobaleno Tastiera illuminata S",
-    "category": "gadget",
-    "price": 42.51,
-    "image": "https://m.media-amazon.com/images/I/51cfNBCF7EL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B099N3HLYF?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-18T11:55:25.476209",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B085TLJMSM",
-    "asin": "B085TLJMSM",
-    "name": "Gaming Mouse Tastiera Combo Cablato Arcobaleno LED Retroilluminato 104 Tasti 12 tasti multimediali Tastiera da gioco 240",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51Akh7lniFL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B085TLJMSM?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-18T11:55:30.505834",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B08KG8FX9M",
-    "asin": "B08KG8FX9M",
-    "name": "Tastiera e Mouse da Gioco, Gaming Tastiera Retroilluminato a LED Colore Arcobaleno, Mouse 6 Tasti 2400 DPI e Tappetino p",
-    "category": "gadget",
-    "price": 69.9,
-    "image": "https://m.media-amazon.com/images/I/51I0DQghkJL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B08KG8FX9M?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-18T11:55:35.599241",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B079FSMJ58",
-    "asin": "B079FSMJ58",
-    "name": "BAKTH Tastiera e Mouse da Gioco, Arcobaleno LED Retroilluminato USB per Videogiochi o Lavoro, Paragonabile a Una Meccani",
-    "category": "gadget",
-    "price": 38.69,
-    "image": "https://m.media-amazon.com/images/I/51T8aRsc5cL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B079FSMJ58?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-18T11:55:41.137965",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0B66HR128",
-    "asin": "B0B66HR128",
-    "name": "Mouse PC e tastiera USB Colorato Gaming Arcobaleno Wired Retroilluminato con LED Gaming Gamer Mouse Tastiera e Mouse Mou",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51LPQScV+LL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0B66HR128?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-18T11:55:44.872236",
     "status": "published"
   }
 ];
