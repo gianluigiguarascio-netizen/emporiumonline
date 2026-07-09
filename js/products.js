@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 08/07/2026 10:28
+// Aggiornato automaticamente il 09/07/2026 11:15
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0CST9GCX4",
+    "asin": "B0CST9GCX4",
+    "name": "Arcobaleno divertente con cuore grafica - Uomo Donna Bambini PopSockets PopGrip Intercambiabile",
+    "category": "idee-regalo",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31zNWxtpkVL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CST9GCX4?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-09T11:13:58.555849",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CG9W3TWN",
+    "asin": "B0CG9W3TWN",
+    "name": "Sandali Gladiatore Donna Colorati Estivi",
+    "category": "scarpe",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CG9W3TWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CG9W3TWN?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-09T11:15:06.618217",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0C8NQ9LVX",
+    "asin": "B0C8NQ9LVX",
+    "name": "Fascia Capelli Colorata Floreale Donna",
+    "category": "accessori",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-09T11:15:08.710026",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CL4XNKQP",
+    "asin": "B0CL4XNKQP",
+    "name": "Gel UV Colorato Set 36 Colori Nail Art",
+    "category": "beauty",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-09T11:15:09.936656",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0B3WRBQB7",
+    "asin": "B0B3WRBQB7",
+    "name": "Castamere Donna Basso Gattini Tacco Heel a Punta Cinturino alla Caviglia Pumps Cute Dress Two-Piece Fibbia Sandali 3.5 C",
+    "category": "scarpe",
+    "price": 69.9,
+    "image": "https://m.media-amazon.com/images/I/41QMuevOEtL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-09T11:15:11.827070",
+    "status": "published"
+  },
   {
     "id": "casa-B01FFVN1BI",
     "asin": "B01FFVN1BI",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-06-20T10:38:58.709934",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0GHXZW2K6",
-    "asin": "B0GHXZW2K6",
-    "name": "Abito estivo da donna a maniche lunghe, versatile, stile vacanza, stampa floreale, con spalline sottili",
-    "category": "abbigliamento",
-    "price": 3.06,
-    "image": "https://m.media-amazon.com/images/I/51C57uzvbnL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GHXZW2K6?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-19T12:14:41.165403",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CN5XQKPL",
-    "asin": "B0CN5XQKPL",
-    "name": "Hub USB Colorato 7 Porte Arcobaleno",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5XQKPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-19T12:15:52.485034",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CGH7WLNK",
-    "asin": "B0CGH7WLNK",
-    "name": "Candela Profumata Colorata Soia Arcobaleno",
-    "category": "casa",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-19T12:15:53.791468",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BN7XKQPL",
-    "asin": "B0BN7XKQPL",
-    "name": "Detergente Viso Colorato Arcobaleno Vitamina C",
-    "category": "beauty",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN7XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BN7XKQPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-19T12:15:55.652614",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BSWKQFMR",
-    "asin": "B0BSWKQFMR",
-    "name": "Mouse Wireless Colorato Silenzioso Arcobaleno",
-    "category": "gadget",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BSWKQFMR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BSWKQFMR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-19T12:15:57.260629",
     "status": "published"
   }
 ];
