@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 09/07/2026 11:15
+// Aggiornato automaticamente il 10/07/2026 11:14
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0CF9LYKWQ",
+    "asin": "B0CF9LYKWQ",
+    "name": "Sneakers Platform Donna Arcobaleno",
+    "category": "scarpe",
+    "price": 34.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9LYKWQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF9LYKWQ?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-10T11:14:02.342118",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0BT6LQPXR",
+    "asin": "B0BT6LQPXR",
+    "name": "Portavasi Colorato Ceramica Set 3 Pezzi",
+    "category": "casa",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BT6LQPXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BT6LQPXR?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-10T11:14:03.773585",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CFWKLNQX",
+    "asin": "B0CFWKLNQX",
+    "name": "Portafoto Colorato Polaroid Galleria Parete",
+    "category": "idee-regalo",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-10T11:14:05.048138",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0D3KXNQPL",
+    "asin": "B0D3KXNQPL",
+    "name": "Foundation Colorata BB Cream SPF30 Vari Toni",
+    "category": "beauty",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3KXNQPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-10T11:14:06.765618",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D1KQXNPL",
+    "asin": "B0D1KQXNPL",
+    "name": "Short Donna Colorati Fantasia Estivi Casual",
+    "category": "abbigliamento",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-10T11:14:08.979100",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0CST9GCX4",
     "asin": "B0CST9GCX4",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-06-21T11:22:53.848454",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B07XVTF1QT",
-    "asin": "B07XVTF1QT",
-    "name": "Revlon Super Lustrous Glass Shine Lipstick Glazed Mauve, Rossetto Labbra Dal Colore Brillante, Formula Cremosa e Idratan",
-    "category": "beauty",
-    "price": 9.93,
-    "image": "https://m.media-amazon.com/images/I/317T-QIL3kL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07XVTF1QT?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-20T10:37:32.265627",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B07XVTT1NG",
-    "asin": "B07XVTT1NG",
-    "name": "Revlon Super Lustrous Glass Shine Lipstick Love Is On, Rossetto Labbra Dal Colore Brillante, Formula Cremosa e Idratante",
-    "category": "beauty",
-    "price": 8.63,
-    "image": "https://m.media-amazon.com/images/I/31ZT7YetFaL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07XVTT1NG?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-20T10:37:36.952846",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0F2FMR4YH",
-    "asin": "B0F2FMR4YH",
-    "name": "JMEOWIO Unghie Gel Adesive UV Rosa Chiaro Glitterato Smalto Adesivo per Unghie Gel Nail Stickers Decorazioni Unghie Nail",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41PCFbBA3BL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0F2FMR4YH?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-20T10:37:43.227801",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0FP2NL8RT",
-    "asin": "B0FP2NL8RT",
-    "name": "Semipermanente Smalto Unghie Macaron 6 Colori Soak-off Uv Gel Nail Art Smalto Professionale Kit Tendenza Colori Macaron ",
-    "category": "beauty",
-    "price": 20.64,
-    "image": "https://m.media-amazon.com/images/I/41y32ktpU6L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FP2NL8RT?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-20T10:37:47.782513",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D3NQXKPL",
-    "asin": "B0D3NQXKPL",
-    "name": "Maxi Dress Donna Colorato Fantasia Tropicale",
-    "category": "abbigliamento",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NQXKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3NQXKPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-20T10:38:58.709934",
     "status": "published"
   }
 ];
