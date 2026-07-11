@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 10/07/2026 11:14
+// Aggiornato automaticamente il 11/07/2026 09:45
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0BZQ7XMRK",
+    "asin": "B0BZQ7XMRK",
+    "name": "Smalto Colorato Set 24 Pezzi Nail Art",
+    "category": "beauty",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZQ7XMRK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BZQ7XMRK?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-11T09:45:21.480327",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CQX7NKPL",
+    "asin": "B0CQX7NKPL",
+    "name": "Canotta Donna Colorata Tie Dye Arcobaleno",
+    "category": "abbigliamento",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQX7NKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQX7NKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-11T09:45:24.613193",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0BXMKFPQR",
+    "asin": "B0BXMKFPQR",
+    "name": "Tenda Colorata Boho Macramè Camera",
+    "category": "casa",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXMKFPQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXMKFPQR?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-11T09:45:26.341402",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D8NXKQPL",
+    "asin": "B0D8NXKQPL",
+    "name": "Maglione Donna Colorato Strisce Oversize",
+    "category": "abbigliamento",
+    "price": 32.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D8NXKQPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-11T09:45:28.558548",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CN4XKQPW",
+    "asin": "B0CN4XKQPW",
+    "name": "Tuta Donna Colorata Floreale Jumpsuit Estiva",
+    "category": "abbigliamento",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN4XKQPW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN4XKQPW?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-11T09:45:30.673825",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0CF9LYKWQ",
     "asin": "B0CF9LYKWQ",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-06-22T13:42:36.431947",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CXNK4QPL",
-    "asin": "B0CXNK4QPL",
-    "name": "Ombrello Colorato Arcobaleno Antivento Donna",
-    "category": "casa",
-    "price": 15.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXNK4QPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-21T11:22:44.675208",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D411DMR1",
-    "asin": "B0D411DMR1",
-    "name": "NobleOnly Donna Medio Gattini Tacco Heel Chiusa a Punta Stivaletti Fibbia Cerniera Casual Ufficio Stivali 6.5 CM Heels",
-    "category": "scarpe",
-    "price": 80.31,
-    "image": "https://m.media-amazon.com/images/I/51NVVjHjHML._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-21T11:22:47.619077",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CGW4LXKN",
-    "asin": "B0CGW4LXKN",
-    "name": "Cavo USB-C Colorato Nylon Intrecciato 3 Pack",
-    "category": "gadget",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGW4LXKN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGW4LXKN?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-21T11:22:49.850249",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B09YFKH7DX",
-    "asin": "B09YFKH7DX",
-    "name": "Top Tie Dye Colorato Donna Crop",
-    "category": "abbigliamento",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09YFKH7DX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09YFKH7DX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-21T11:22:52.135942",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C5K7X2BL",
-    "asin": "B0C5K7X2BL",
-    "name": "Borsa Donna Colorata Tessuto Estate",
-    "category": "borse",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-06-21T11:22:53.848454",
     "status": "published"
   }
 ];
