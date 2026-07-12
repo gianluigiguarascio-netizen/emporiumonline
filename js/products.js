@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 11/07/2026 09:45
+// Aggiornato automaticamente il 12/07/2026 09:59
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0CXKLPQWN",
+    "asin": "B0CXKLPQWN",
+    "name": "Pop Socket Colorato Arcobaleno Glitter",
+    "category": "gadget",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKLPQWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXKLPQWN?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-12T09:59:11.773757",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CGX4WKQR",
+    "asin": "B0CGX4WKQR",
+    "name": "Matite Occhi Colorate Set 16 Colori Waterproof",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGX4WKQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGX4WKQR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-12T09:59:13.532291",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09PW4LMFK",
+    "asin": "B09PW4LMFK",
+    "name": "Parure Bijoux Colorati Donna Collana Orecchini",
+    "category": "accessori",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09PW4LMFK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09PW4LMFK?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-12T09:59:14.894070",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0C7S2H8KN",
+    "asin": "B0C7S2H8KN",
+    "name": "Palette Ombretti Colorati 12 Colori Glitter",
+    "category": "beauty",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7S2H8KN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C7S2H8KN?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-12T09:59:17.071391",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BXWKQPNL",
+    "asin": "B0BXWKQPNL",
+    "name": "Tazza Colorata Cambia Colore Termica Magica",
+    "category": "idee-regalo",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXWKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXWKQPNL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-12T09:59:18.884890",
+    "status": "published"
+  },
   {
     "id": "beauty-B0BZQ7XMRK",
     "asin": "B0BZQ7XMRK",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-06-23T11:26:01.482293",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0D5KQXNLP",
-    "asin": "B0D5KQXNLP",
-    "name": "Cappello Colorato Estivo Paglia Fiori",
-    "category": "accessori",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5KQXNLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5KQXNLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-22T13:42:28.557339",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CXQ3NKLP",
-    "asin": "B0CXQ3NKLP",
-    "name": "Highlighter Colorato Illuminante Glitter Viso",
-    "category": "beauty",
-    "price": 10.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ3NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ3NKLP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-22T13:42:30.370280",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CH2P4Q9F",
-    "asin": "B0CH2P4Q9F",
-    "name": "Pantaloni Donna Colorati Fantasia Boho Larghi",
-    "category": "abbigliamento",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CH2P4Q9F&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CH2P4Q9F?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-22T13:42:32.683011",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0BL6SPWLR",
-    "asin": "B0BL6SPWLR",
-    "name": "Jumpsuit Donna Colorata Floreale",
-    "category": "abbigliamento",
-    "price": 28.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL6SPWLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BL6SPWLR?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-22T13:42:34.215012",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0D7XKNQPL",
-    "asin": "B0D7XKNQPL",
-    "name": "Set Bicchieri Colorati Vetro Borosilicato 6 Pz",
-    "category": "casa",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D7XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D7XKNQPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-22T13:42:36.431947",
     "status": "published"
   }
 ];
