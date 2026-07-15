@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 14/07/2026 10:06
+// Aggiornato automaticamente il 15/07/2026 10:10
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0CF7WKLNQ",
+    "asin": "B0CF7WKLNQ",
+    "name": "Spray Capelli Colorato Temporaneo Lavabile",
+    "category": "beauty",
+    "price": 8.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF7WKLNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF7WKLNQ?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-15T10:10:30.035335",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0BL6SPWLR",
+    "asin": "B0BL6SPWLR",
+    "name": "Jumpsuit Donna Colorata Floreale",
+    "category": "abbigliamento",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL6SPWLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL6SPWLR?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-15T10:10:31.267160",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BQX4WKLP",
+    "asin": "B0BQX4WKLP",
+    "name": "Libro da Colorare Adulti Antistress Mandala",
+    "category": "idee-regalo",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQX4WKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BQX4WKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-15T10:10:32.578816",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CXNK4QPL",
+    "asin": "B0CXNK4QPL",
+    "name": "Ombrello Colorato Arcobaleno Antivento Donna",
+    "category": "casa",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNK4QPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-15T10:10:34.773630",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B07BFLS3KF",
+    "asin": "B07BFLS3KF",
+    "name": "Sneakers Donna Multicolor Leggere Running",
+    "category": "scarpe",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BFLS3KF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B07BFLS3KF?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-15T10:10:36.298896",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0CXKQWNPL",
     "asin": "B0CXKQWNPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-06-26T11:10:50.852137",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0GSZ5NWSF",
-    "asin": "B0GSZ5NWSF",
-    "name": "ZHSHYS Bracciale Rigido colorato in Resina acrilica per Donna Bracciale Robusto in Resina traslucida Bracciale Geometric",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/3164njOrtfL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GSZ5NWSF?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-25T10:49:19.098392",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0FPR2B8JQ",
-    "asin": "B0FPR2B8JQ",
-    "name": "Bracciale ritratto di fiori in resina incrostata con diamanti Bracciale colorato in rilievo e accessorio di moda adatto ",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51JeE5xdzrL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FPR2B8JQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-25T10:49:23.509780",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09TZFVGLH",
-    "asin": "B09TZFVGLH",
-    "name": "Ballerine Donna Colorate Comfort Flat",
-    "category": "scarpe",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09TZFVGLH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09TZFVGLH?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-25T10:50:36.403819",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CWQ4NKLX",
-    "asin": "B0CWQ4NKLX",
-    "name": "Orecchini a Cerchio Colorati Resina Grande",
-    "category": "accessori",
-    "price": 7.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-06-25T10:50:38.242842",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0C1QKHMFG",
-    "asin": "B0C1QKHMFG",
-    "name": "Rossetto Colorato Set 12 Toni Brillanti",
-    "category": "beauty",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C1QKHMFG&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C1QKHMFG?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-06-25T10:50:40.134372",
     "status": "published"
   }
 ];
