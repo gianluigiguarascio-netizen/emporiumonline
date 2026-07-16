@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 15/07/2026 10:10
+// Aggiornato automaticamente il 16/07/2026 10:19
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0BZLS9F9D",
+    "asin": "B0BZLS9F9D",
+    "name": "Scarpe da Ginnastica Arcobaleno for Donna, Scarpe Sportive da Esterno Colorate e Leggere Sneakers da Corsa con Suola Spe",
+    "category": "scarpe",
+    "price": 33.75,
+    "image": "https://m.media-amazon.com/images/I/41tgYVY0SuL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0BZLS9F9D?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-16T10:18:00.207601",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CWQ4NKLX",
+    "asin": "B0CWQ4NKLX",
+    "name": "Orecchini a Cerchio Colorati Resina Grande",
+    "category": "accessori",
+    "price": 7.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-16T10:19:11.722016",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CH2P4Q9F",
+    "asin": "B0CH2P4Q9F",
+    "name": "Pantaloni Donna Colorati Fantasia Boho Larghi",
+    "category": "abbigliamento",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CH2P4Q9F&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CH2P4Q9F?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-16T10:19:13.730148",
+    "status": "published"
+  },
+  {
+    "id": "borse-B09XMKLFVQ",
+    "asin": "B09XMKLFVQ",
+    "name": "Borsello Colorato Donna Tracolla Boho",
+    "category": "borse",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09XMKLFVQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09XMKLFVQ?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-07-16T10:19:15.558244",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0D2XNKQPL",
+    "asin": "B0D2XNKQPL",
+    "name": "Box Regalo Donna Colorato Wellness SPA Premium",
+    "category": "idee-regalo",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2XNKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D2XNKQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-16T10:19:17.071651",
+    "status": "published"
+  },
   {
     "id": "beauty-B0CF7WKLNQ",
     "asin": "B0CF7WKLNQ",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-06-27T10:19:08.511648",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0BZLV1C4L",
-    "asin": "B0BZLV1C4L",
-    "name": "Scarpe Arcobaleno, Sneakers Arcobaleno da Esterno Scarpe da Ginnastica da Donna modalità Leggera Scarpe Sportive Colorat",
-    "category": "scarpe",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41tgYVY0SuL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BZLV1C4L?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-26T11:10:29.935242",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0H1BLTB3H",
-    "asin": "B0H1BLTB3H",
-    "name": "Scarpe da ginnastica da donna con zeppa spessa e suola arcobaleno colorata, scarpe da ginnastica casual traspiranti per ",
-    "category": "scarpe",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41tMGnB-wTL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0H1BLTB3H?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-26T11:10:34.044839",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0GH2SBPGS",
-    "asin": "B0GH2SBPGS",
-    "name": "Scarpe arcobaleno, da uomo e da donna, con plateau colorato, per il tempo libero, alla moda, traspiranti, comode, scarpe",
-    "category": "scarpe",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31xAj71UlXL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GH2SBPGS?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-26T11:10:39.309016",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0DS62WRJ8",
-    "asin": "B0DS62WRJ8",
-    "name": "GOBY Sneakers Donna in Pelle vegana – Stampe Multicolore Resistenti – Scarpe Casual Fatte a Mano – Comode con Soletta Im",
-    "category": "scarpe",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/311eiJ38oqL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DS62WRJ8?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-26T11:10:46.530474",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0GP7YCG22",
-    "asin": "B0GP7YCG22",
-    "name": "inblu Sneakers Donna con Lacci E Cerniera Laterale, Traforo Laterale, Colori Vivaci Scarpe da ginnasticaDonna",
-    "category": "scarpe",
-    "price": 204.68,
-    "image": "https://m.media-amazon.com/images/I/31ZQDsRd90L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GP7YCG22?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-06-26T11:10:50.852137",
     "status": "published"
   }
 ];
