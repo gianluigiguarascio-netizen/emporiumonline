@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 16/07/2026 10:19
+// Aggiornato automaticamente il 17/07/2026 10:07
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0C7KXPRTV",
+    "asin": "B0C7KXPRTV",
+    "name": "Spilla Colorata Donna Fiore Smalto",
+    "category": "accessori",
+    "price": 4.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7KXPRTV&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C7KXPRTV?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-17T10:07:13.691190",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0BXQ7NKLP",
+    "asin": "B0BXQ7NKLP",
+    "name": "Slip On Donna Colorate Stampa Leopardata",
+    "category": "scarpe",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-17T10:07:15.414266",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CXQ8NKLP",
+    "asin": "B0CXQ8NKLP",
+    "name": "Pochette Trasparente Colorata Donna",
+    "category": "borse",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-07-17T10:07:17.279881",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09W5SGRPB",
+    "asin": "B09W5SGRPB",
+    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
+    "category": "scarpe",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-17T10:07:18.850197",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CVXK8PLN",
+    "asin": "B0CVXK8PLN",
+    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
+    "category": "scarpe",
+    "price": 39.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-17T10:07:20.549986",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0BZLS9F9D",
     "asin": "B0BZLS9F9D",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-06-28T10:33:11.799364",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B2WK8LNX",
-    "asin": "B0B2WK8LNX",
-    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
-    "category": "abbigliamento",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-27T10:19:00.530592",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CL7XKQNP",
-    "asin": "B0CL7XKQNP",
-    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
-    "category": "idee-regalo",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-27T10:19:02.091479",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D3MKQX7P",
-    "asin": "B0D3MKQX7P",
-    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
-    "category": "abbigliamento",
-    "price": 25.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-27T10:19:03.492895",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0B8VK3LHF",
-    "asin": "B0B8VK3LHF",
-    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-06-27T10:19:05.587486",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CW5XNKPL",
-    "asin": "B0CW5XNKPL",
-    "name": "41 - Matt Macdonald from The Classic Crime and Don’t Feed The Trolls!",
-    "category": "idee-regalo",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW5XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-27T10:19:08.511648",
     "status": "published"
   }
 ];
