@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 18/07/2026 09:42
+// Aggiornato automaticamente il 19/07/2026 09:59
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B07YC98BF8",
+    "asin": "B07YC98BF8",
+    "name": "UCANBE Palette Ombretti Colorati 40 Colori Glitter Opaco - Ombretto Occhi Impermeabile, A Lunga Durata, Palette Occhi Se",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51uRsxxAlBL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B07YC98BF8?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-19T09:58:13.614958",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B08NDYQ1PC",
+    "asin": "B08NDYQ1PC",
+    "name": "UCANBE Palette Ombretti Colorati 48 Colori Glitter Opaco - Ombretto Occhi Impermeabile, A Lunga Durata, Palette Occhi Se",
+    "category": "beauty",
+    "price": 37.31,
+    "image": "https://m.media-amazon.com/images/I/51wc7w3WsML._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B08NDYQ1PC?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-19T09:58:17.685092",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BXQK7NLR",
+    "asin": "B0BXQK7NLR",
+    "name": "Blush Colorato 4 Colori Shimmer Palette",
+    "category": "beauty",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQK7NLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQK7NLR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-19T09:59:27.223426",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D411DMR1",
+    "asin": "B0D411DMR1",
+    "name": "NobleOnly Donna Medio Gattini Tacco Heel Chiusa a Punta Stivaletti Fibbia Cerniera Casual Ufficio Stivali 6.5 CM Heels",
+    "category": "scarpe",
+    "price": 80.07,
+    "image": "https://m.media-amazon.com/images/I/51NVVjHjHML._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-19T09:59:30.369668",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D3MKQX7P",
+    "asin": "B0D3MKQX7P",
+    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
+    "category": "abbigliamento",
+    "price": 25.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-19T09:59:32.626331",
+    "status": "published"
+  },
   {
     "id": "accessori-B0CX7QNKLP",
     "asin": "B0CX7QNKLP",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-06-30T11:17:39.695829",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0DQQBRN7W",
-    "asin": "B0DQQBRN7W",
-    "name": "Calm Down Fidget Toy - Giocattolo colorato per l&#39;apprendimento precoce e lo sviluppo &#39;immaginazione, per complea",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41lmTRVx68L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DQQBRN7W?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-29T12:40:21.116619",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BR5FBJ81",
-    "asin": "B0BR5FBJ81",
-    "name": "Ainiv Puzzle di Legno, 30pz Tangram in Legno Colorato Blocchi Geometrici | Set di puzzle Tangram, Regali Educativi, Inte",
-    "category": "gadget",
-    "price": 18.66,
-    "image": "https://m.media-amazon.com/images/I/41k5i4Js9bL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BR5FBJ81?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-29T12:40:26.435677",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CKN4XQPL",
-    "asin": "B0CKN4XQPL",
-    "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",
-    "category": "gadget",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKN4XQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CKN4XQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-06-29T12:41:40.120227",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BN5XKQPL",
-    "asin": "B0BN5XKQPL",
-    "name": "Kit Macramè Colorato Principianti Decorazione",
-    "category": "idee-regalo",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN5XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BN5XKQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-06-29T12:41:41.945457",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CF8L2V4R",
-    "asin": "B0CF8L2V4R",
-    "name": "Abito Estivo Donna Colorato Fantasia Tropicale",
-    "category": "abbigliamento",
-    "price": 26.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF8L2V4R&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF8L2V4R?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-06-29T12:41:44.052351",
     "status": "published"
   }
 ];
