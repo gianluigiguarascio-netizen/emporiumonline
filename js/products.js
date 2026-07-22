@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 21/07/2026 10:31
+// Aggiornato automaticamente il 22/07/2026 10:32
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0C586QLB6",
+    "asin": "B0C586QLB6",
+    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
+    "category": "idee-regalo",
+    "price": 31.6,
+    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-22T10:31:36.941942",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CXNQ7KPL",
+    "asin": "B0CXNQ7KPL",
+    "name": "Mocassini Donna Colorati Comfort Loafer",
+    "category": "scarpe",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-22T10:32:51.181098",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CW5XNKQL",
+    "asin": "B0CW5XNKQL",
+    "name": "Coprisedili per Jaguar per XF per F-Pace per E-Pace per I-Pace per X-Type XE XJ XK Coprisedile Auto Tutti I Modelli di A",
+    "category": "borse",
+    "price": 26.99,
+    "image": "https://m.media-amazon.com/images/I/41bjr+dR+yL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKQL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-07-22T10:32:54.363260",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0FLCS5FB2",
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
+    "category": "abbigliamento",
+    "price": 8.74,
+    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-22T10:32:57.922357",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CGW4LXKN",
+    "asin": "B0CGW4LXKN",
+    "name": "Cavo USB-C Colorato Nylon Intrecciato 3 Pack",
+    "category": "gadget",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGW4LXKN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGW4LXKN?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-22T10:32:59.854928",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0BZLV1C4L",
     "asin": "B0BZLV1C4L",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-07-03T10:47:22.911832",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0F48Y9VJS",
-    "asin": "B0F48Y9VJS",
-    "name": "Gonne tutù da donna gonna da ballo in tulle a rete colorata con elastico in vita gonne corte fantasia per donna UK I mie",
-    "category": "abbigliamento",
-    "price": 1.55,
-    "image": "https://m.media-amazon.com/images/I/31CAUcgPFsL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0F48Y9VJS?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-02T10:48:32.897998",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0DWLVT91D",
-    "asin": "B0DWLVT91D",
-    "name": "Gonna colorata da donna in raso a vita alta, maxi partito matrimonio a linea lunga gonne colorate da donna",
-    "category": "abbigliamento",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31AvWgUO+wL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DWLVT91D?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-02T10:48:40.851131",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CRJ5K4WP",
-    "asin": "B0CRJ5K4WP",
-    "name": "Marsupio Colorato Fantasia Donna Uomo",
-    "category": "borse",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRJ5K4WP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CRJ5K4WP?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-02T10:49:57.922257",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CW7XNKQL",
-    "asin": "B0CW7XNKQL",
-    "name": "Altoparlante Bluetooth Colorato Waterproof",
-    "category": "gadget",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW7XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CW7XNKQL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-07-02T10:49:59.373352",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BPXQKLNR",
-    "asin": "B0BPXQKLNR",
-    "name": "Webcam Colorata HD 1080p Streaming",
-    "category": "gadget",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPXQKLNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BPXQKLNR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-07-02T10:50:00.625421",
     "status": "published"
   }
 ];
