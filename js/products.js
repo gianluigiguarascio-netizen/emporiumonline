@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 22/07/2026 10:32
+// Aggiornato automaticamente il 23/07/2026 10:32
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0DLW55MZ6",
+    "asin": "B0DLW55MZ6",
+    "name": "Orecchini a forma di cupcake dai colori vivaci per donne, orecchini colorati in pelle a goccia per le donne alla moda, o",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41M98atc4vL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DLW55MZ6?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-23T10:31:17.536959",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0FK2YR2CT",
+    "asin": "B0FK2YR2CT",
+    "name": "Orecchini colorati con stampa giglio da donna, orecchini in pelle a goccia alla moda per le donne alla moda, orecchini a",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51vvvq6AUTL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FK2YR2CT?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-23T10:31:21.276953",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0G93MT9FT",
+    "asin": "B0G93MT9FT",
+    "name": "Orecchini colorati in pelle stampata a forma di goccia, leggeri e morbidi.",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41782QbEdnL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0G93MT9FT?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-07-23T10:31:25.570649",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CGH7WLNK",
+    "asin": "B0CGH7WLNK",
+    "name": "Candela Profumata Colorata Soia Arcobaleno",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-23T10:32:37.269623",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CW7XNKQL",
+    "asin": "B0CW7XNKQL",
+    "name": "Altoparlante Bluetooth Colorato Waterproof",
+    "category": "gadget",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW7XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW7XNKQL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-23T10:32:39.444833",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0C586QLB6",
     "asin": "B0C586QLB6",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-07-04T10:21:19.683349",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0GVW2NTKZ",
-    "asin": "B0GVW2NTKZ",
-    "name": "Tshirt da donna Tie Dye, maglietta colorata, con scollo rotondo, a maniche corte, camicetta da donna, alla moda, colore ",
-    "category": "abbigliamento",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41Y-ZeNNYwL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GVW2NTKZ?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-03T10:45:57.920686",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0GTZXFYRX",
-    "asin": "B0GTZXFYRX",
-    "name": "Maglietta da uomo Batik Shirt Colorata Tie-Dye, maglietta a maniche corte, girocollo, oversize, maglietta estiva comoda,",
-    "category": "abbigliamento",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/516hVMQSdsL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GTZXFYRX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-03T10:46:02.199991",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0GSW4TJ58",
-    "asin": "B0GSW4TJ58",
-    "name": "Generico Maglietta Unisex Batik – Tie-Dye – Magliette Colorate per Uomo e Donna – Abbigliamento Hippie – Maglietta Neon ",
-    "category": "abbigliamento",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51FDHDTQeCL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GSW4TJ58?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-03T10:46:07.258089",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0DFMGVYHX",
-    "asin": "B0DFMGVYHX",
-    "name": "Maglietta unisex Batik, stile hippie, stile hippie anni &#39;70, in cotone, multicolore, taglie S, M, L, XL, XXL, 3XL, 4",
-    "category": "abbigliamento",
-    "price": 110.86,
-    "image": "https://m.media-amazon.com/images/I/31gRMC0O4TL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DFMGVYHX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-03T10:46:14.375162",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0BPWQK3TN",
-    "asin": "B0BPWQK3TN",
-    "name": "Shopper Colorata Tela Fantasia Donna",
-    "category": "borse",
-    "price": 15.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPWQK3TN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BPWQK3TN?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-03T10:47:22.911832",
     "status": "published"
   }
 ];
