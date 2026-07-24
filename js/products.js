@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 23/07/2026 10:32
+// Aggiornato automaticamente il 24/07/2026 10:27
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0CKN4XQPL",
+    "asin": "B0CKN4XQPL",
+    "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",
+    "category": "gadget",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKN4XQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CKN4XQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-24T10:26:55.862588",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN5XLKQW",
+    "asin": "B0CN5XLKQW",
+    "name": "Kit Pittura Acrilica Colorata 24 Colori",
+    "category": "idee-regalo",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XLKQW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN5XLKQW?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-24T10:26:57.287756",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CN8XQKPL",
+    "asin": "B0CN8XQKPL",
+    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
+    "category": "casa",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-24T10:26:58.808533",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0B2WK8LNX",
+    "asin": "B0B2WK8LNX",
+    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
+    "category": "abbigliamento",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-07-24T10:27:00.788185",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CF4XWKNQ",
+    "asin": "B0CF4XWKNQ",
+    "name": "Espadrillas Donna Colorate Corda Estate",
+    "category": "scarpe",
+    "price": 23.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF4XWKNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF4XWKNQ?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-24T10:27:03.018202",
+    "status": "published"
+  },
   {
     "id": "accessori-B0DLW55MZ6",
     "asin": "B0DLW55MZ6",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-07-05T10:25:24.514408",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0FGQ3PQ31",
-    "asin": "B0FGQ3PQ31",
-    "name": "inblu Sneakers Donna Multicolore con Lacci, Tomaia in Ecopelle, Plantare Imbottito, Suola Sintetica, Tacco 3,5 Cm, Scarp",
-    "category": "scarpe",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/418SwEpQYvL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FGQ3PQ31?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-04T10:19:57.091728",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0GCCN8NGZ",
-    "asin": "B0GCCN8NGZ",
-    "name": "Scarpe da ginnastica spesse da donna con lacci, suola colorata arcobaleno, scarpe da tennis in rete traspirante, scarpe ",
-    "category": "scarpe",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41d-CcSGy6L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GCCN8NGZ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-04T10:20:04.216943",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CQ5WXNKP",
-    "asin": "B0CQ5WXNKP",
-    "name": "Mules Colorati Donna Tacco Basso Comfort",
-    "category": "scarpe",
-    "price": 26.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-04T10:21:12.714978",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BNXK4QPL",
-    "asin": "B0BNXK4QPL",
-    "name": "Sciarpa Colorata Donna Fantasia Floreale Seta",
-    "category": "accessori",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNXK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BNXK4QPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-07-04T10:21:18.039751",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CJQG3TLN",
-    "asin": "B0CJQG3TLN",
-    "name": "T-Shirt Donna Arcobaleno Stampa Colorata",
-    "category": "abbigliamento",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CJQG3TLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CJQG3TLN?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-04T10:21:19.683349",
     "status": "published"
   }
 ];
