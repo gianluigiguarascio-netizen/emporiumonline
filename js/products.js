@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 28/07/2026 10:43
+// Aggiornato automaticamente il 29/07/2026 10:47
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0CW5XNKPL",
+    "asin": "B0CW5XNKPL",
+    "name": "Calendario Avvento Colorato Adulti Beauty",
+    "category": "idee-regalo",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW5XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-29T10:47:01.382837",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BPWQK3TN",
+    "asin": "B0BPWQK3TN",
+    "name": "Shopper Colorata Tela Fantasia Donna",
+    "category": "borse",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPWQK3TN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPWQK3TN?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-07-29T10:47:03.190094",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CL7XKQNP",
+    "asin": "B0CL7XKQNP",
+    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-07-29T10:47:04.838085",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BWKQXPNR",
+    "asin": "B0BWKQXPNR",
+    "name": "Glitter Viso Corpo Colorati Festival Make Up",
+    "category": "beauty",
+    "price": 7.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKQXPNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BWKQXPNR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-07-29T10:47:06.697867",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BQKXPLVR",
+    "asin": "B0BQKXPLVR",
+    "name": "Powerbank Colorato 10000mAh Compatto",
+    "category": "gadget",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQKXPLVR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BQKXPLVR?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-29T10:47:08.253457",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0GP7YCG22",
     "asin": "B0GP7YCG22",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-07-10T11:14:08.979100",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CST9GCX4",
-    "asin": "B0CST9GCX4",
-    "name": "Arcobaleno divertente con cuore grafica - Uomo Donna Bambini PopSockets PopGrip Intercambiabile",
-    "category": "idee-regalo",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31zNWxtpkVL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CST9GCX4?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-07-09T11:13:58.555849",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CG9W3TWN",
-    "asin": "B0CG9W3TWN",
-    "name": "Sandali Gladiatore Donna Colorati Estivi",
-    "category": "scarpe",
-    "price": 21.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CG9W3TWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CG9W3TWN?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-09T11:15:06.618217",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C8NQ9LVX",
-    "asin": "B0C8NQ9LVX",
-    "name": "Fascia Capelli Colorata Floreale Donna",
-    "category": "accessori",
-    "price": 5.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-07-09T11:15:08.710026",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CL4XNKQP",
-    "asin": "B0CL4XNKQP",
-    "name": "Gel UV Colorato Set 36 Colori Nail Art",
-    "category": "beauty",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-07-09T11:15:09.936656",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0B3WRBQB7",
-    "asin": "B0B3WRBQB7",
-    "name": "Castamere Donna Basso Gattini Tacco Heel a Punta Cinturino alla Caviglia Pumps Cute Dress Two-Piece Fibbia Sandali 3.5 C",
-    "category": "scarpe",
-    "price": 69.9,
-    "image": "https://m.media-amazon.com/images/I/41QMuevOEtL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-09T11:15:11.827070",
     "status": "published"
   }
 ];
