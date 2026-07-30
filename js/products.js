@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 29/07/2026 10:47
+// Aggiornato automaticamente il 30/07/2026 10:32
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0GVWQ2C41",
+    "asin": "B0GVWQ2C41",
+    "name": "Omyzo Cover con Cordino per iPhone 13 6.1&#39;&#39;, Custodia per Telefono con Laccio a Tracolla, Stampa Leopardata Arco",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41376OJuO8L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GVWQ2C41?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-07-30T10:31:23.451076",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CQ5WXNKP",
+    "asin": "B0CQ5WXNKP",
+    "name": "Mules Colorati Donna Tacco Basso Comfort",
+    "category": "scarpe",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-30T10:32:33.309547",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09Q4GPFJD",
+    "asin": "B09Q4GPFJD",
+    "name": "Mules Donna Colorate Tacco Kitten",
+    "category": "scarpe",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09Q4GPFJD&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09Q4GPFJD?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-30T10:32:35.125506",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0B3WRBQB7",
+    "asin": "B0B3WRBQB7",
+    "name": "Sandali Tacco Donna Castamere Colorati",
+    "category": "scarpe",
+    "price": 35.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B3WRBQB7&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-07-30T10:32:37.014539",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CF5QWKPN",
+    "asin": "B0CF5QWKPN",
+    "name": "Stampa Arte Colorata Astratta Quadro Camera",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF5QWKPN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF5QWKPN?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-07-30T10:32:38.778031",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0CW5XNKPL",
     "asin": "B0CW5XNKPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-07-11T09:45:30.673825",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF9LYKWQ",
-    "asin": "B0CF9LYKWQ",
-    "name": "Sneakers Platform Donna Arcobaleno",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9LYKWQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF9LYKWQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-10T11:14:02.342118",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BT6LQPXR",
-    "asin": "B0BT6LQPXR",
-    "name": "Portavasi Colorato Ceramica Set 3 Pezzi",
-    "category": "casa",
-    "price": 21.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BT6LQPXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BT6LQPXR?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-10T11:14:03.773585",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CFWKLNQX",
-    "asin": "B0CFWKLNQX",
-    "name": "Portafoto Colorato Polaroid Galleria Parete",
-    "category": "idee-regalo",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-07-10T11:14:05.048138",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0D3KXNQPL",
-    "asin": "B0D3KXNQPL",
-    "name": "Foundation Colorata BB Cream SPF30 Vari Toni",
-    "category": "beauty",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3KXNQPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-07-10T11:14:06.765618",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D1KQXNPL",
-    "asin": "B0D1KQXNPL",
-    "name": "Short Donna Colorati Fantasia Estivi Casual",
-    "category": "abbigliamento",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-10T11:14:08.979100",
     "status": "published"
   }
 ];
