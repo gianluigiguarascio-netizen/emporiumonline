@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 01/08/2026 10:07
+// Aggiornato automaticamente il 02/08/2026 10:05
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0H2JXD58P",
+    "asin": "B0H2JXD58P",
+    "name": "Tie Dye - Maglietta da donna colorata, con scollo rotondo, estiva, a maniche corte, casual, morbida, basic, leggera, sot",
+    "category": "abbigliamento",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41hCXy2qGwL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0H2JXD58P?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-02T10:04:12.735514",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B08QFGW88R",
+    "asin": "B08QFGW88R",
+    "name": "Tie Dye Kit 18 Colori - Tintura Tessuti, Coloranti Stoffe Vivaci per Shirt, DIY Pittura di Vestiti - Polveri All-in-1 pe",
+    "category": "abbigliamento",
+    "price": 6.14,
+    "image": "https://m.media-amazon.com/images/I/61cVZyFbJ+L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B08QFGW88R?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-02T10:04:17.913006",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0C1QKHMFG",
+    "asin": "B0C1QKHMFG",
+    "name": "Rossetto Colorato Set 12 Toni Brillanti",
+    "category": "beauty",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C1QKHMFG&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C1QKHMFG?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-08-02T10:05:30.581378",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09PW4LMFK",
+    "asin": "B09PW4LMFK",
+    "name": "Parure Bijoux Colorati Donna Collana Orecchini",
+    "category": "accessori",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09PW4LMFK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09PW4LMFK?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-08-02T10:05:32.705133",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0D3KXNQPL",
+    "asin": "B0D3KXNQPL",
+    "name": "Foundation Colorata BB Cream SPF30 Vari Toni",
+    "category": "beauty",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3KXNQPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-08-02T10:05:34.740252",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0D8NXKQPL",
     "asin": "B0D8NXKQPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-07-14T10:06:52.265877",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0D7XKNQPL",
-    "asin": "B0D7XKNQPL",
-    "name": "Set Bicchieri Colorati Vetro Borosilicato 6 Pz",
-    "category": "casa",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D7XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D7XKNQPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-13T11:22:58.842212",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0D5QXNKLP",
-    "asin": "B0D5QXNKLP",
-    "name": "Cornice Foto Colorata Arcobaleno Design",
-    "category": "casa",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5QXNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5QXNKLP?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-13T11:23:00.286512",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C5K7X2BL",
-    "asin": "B0C5K7X2BL",
-    "name": "Borsa Donna Colorata Tessuto Estate",
-    "category": "borse",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-13T11:23:01.845569",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D2KXQPFN",
-    "asin": "B0D2KXQPFN",
-    "name": "Maglietta da donna a maniche corte, in cotone, casual, girocollo",
-    "category": "scarpe",
-    "price": 31.99,
-    "image": "https://m.media-amazon.com/images/I/4172E0pJH2L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0D2KXQPFN?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-13T11:23:04.311887",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BHGXK1FZ",
-    "asin": "B0BHGXK1FZ",
-    "name": "Cover Colorata iPhone Arcobaleno Antiurto",
-    "category": "gadget",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BHGXK1FZ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BHGXK1FZ?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-07-13T11:23:06.137830",
     "status": "published"
   }
 ];
