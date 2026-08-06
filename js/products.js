@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 05/08/2026 10:45
+// Aggiornato automaticamente il 06/08/2026 10:47
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0CJQG3TLN",
+    "asin": "B0CJQG3TLN",
+    "name": "T-Shirt Donna Arcobaleno Stampa Colorata",
+    "category": "abbigliamento",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CJQG3TLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CJQG3TLN?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-06T10:47:15.796909",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BHGXK1FZ",
+    "asin": "B0BHGXK1FZ",
+    "name": "Cover Colorata iPhone Arcobaleno Antiurto",
+    "category": "gadget",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BHGXK1FZ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BHGXK1FZ?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-08-06T10:47:17.285281",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0D7XKNQPL",
+    "asin": "B0D7XKNQPL",
+    "name": "Set Bicchieri Colorati Vetro Borosilicato 6 Pz",
+    "category": "casa",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D7XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D7XKNQPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-06T10:47:19.485464",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BSGVWQCX",
+    "asin": "B0BSGVWQCX",
+    "name": "Mini Bag Colorata Patchwork Donna",
+    "category": "borse",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BSGVWQCX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BSGVWQCX?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-08-06T10:47:21.328382",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0D5QXNKLP",
+    "asin": "B0D5QXNKLP",
+    "name": "Cornice Foto Colorata Arcobaleno Design",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5QXNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D5QXNKLP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-06T10:47:23.553638",
+    "status": "published"
+  },
   {
     "id": "beauty-B0CF7WKLNQ",
     "asin": "B0CF7WKLNQ",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-07-18T09:42:35.853842",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C7KXPRTV",
-    "asin": "B0C7KXPRTV",
-    "name": "Spilla Colorata Donna Fiore Smalto",
-    "category": "accessori",
-    "price": 4.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7KXPRTV&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C7KXPRTV?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-07-17T10:07:13.691190",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0BXQ7NKLP",
-    "asin": "B0BXQ7NKLP",
-    "name": "Slip On Donna Colorate Stampa Leopardata",
-    "category": "scarpe",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-17T10:07:15.414266",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CXQ8NKLP",
-    "asin": "B0CXQ8NKLP",
-    "name": "Pochette Trasparente Colorata Donna",
-    "category": "borse",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-17T10:07:17.279881",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09W5SGRPB",
-    "asin": "B09W5SGRPB",
-    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
-    "category": "scarpe",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-17T10:07:18.850197",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CVXK8PLN",
-    "asin": "B0CVXK8PLN",
-    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
-    "category": "scarpe",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-17T10:07:20.549986",
     "status": "published"
   }
 ];
