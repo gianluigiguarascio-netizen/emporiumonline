@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 07/08/2026 09:09
+// Aggiornato automaticamente il 08/08/2026 08:52
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0CH2P4Q9F",
+    "asin": "B0CH2P4Q9F",
+    "name": "Pantaloni Donna Colorati Fantasia Boho Larghi",
+    "category": "abbigliamento",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CH2P4Q9F&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CH2P4Q9F?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-08T08:52:43.220752",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CXQ3NKLP",
+    "asin": "B0CXQ3NKLP",
+    "name": "Highlighter Colorato Illuminante Glitter Viso",
+    "category": "beauty",
+    "price": 10.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ3NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ3NKLP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-08-08T08:52:45.279420",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CXKLPQWN",
+    "asin": "B0CXKLPQWN",
+    "name": "Pop Socket Colorato Arcobaleno Glitter",
+    "category": "gadget",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKLPQWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXKLPQWN?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-08-08T08:52:47.582420",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CL4XNKQP",
+    "asin": "B0CL4XNKQP",
+    "name": "Gel UV Colorato Set 36 Colori Nail Art",
+    "category": "beauty",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-08-08T08:52:49.787036",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CVXK8PLN",
+    "asin": "B0CVXK8PLN",
+    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
+    "category": "scarpe",
+    "price": 39.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-08-08T08:52:52.107627",
+    "status": "published"
+  },
   {
     "id": "accessori-B0BWKL7XS8",
     "asin": "B0BWKL7XS8",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-07-20T11:10:01.711163",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B07YC98BF8",
-    "asin": "B07YC98BF8",
-    "name": "UCANBE Palette Ombretti Colorati 40 Colori Glitter Opaco - Ombretto Occhi Impermeabile, A Lunga Durata, Palette Occhi Se",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51uRsxxAlBL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07YC98BF8?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-07-19T09:58:13.614958",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B08NDYQ1PC",
-    "asin": "B08NDYQ1PC",
-    "name": "UCANBE Palette Ombretti Colorati 48 Colori Glitter Opaco - Ombretto Occhi Impermeabile, A Lunga Durata, Palette Occhi Se",
-    "category": "beauty",
-    "price": 37.31,
-    "image": "https://m.media-amazon.com/images/I/51wc7w3WsML._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B08NDYQ1PC?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-07-19T09:58:17.685092",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BXQK7NLR",
-    "asin": "B0BXQK7NLR",
-    "name": "Blush Colorato 4 Colori Shimmer Palette",
-    "category": "beauty",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQK7NLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXQK7NLR?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-07-19T09:59:27.223426",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D411DMR1",
-    "asin": "B0D411DMR1",
-    "name": "NobleOnly Donna Medio Gattini Tacco Heel Chiusa a Punta Stivaletti Fibbia Cerniera Casual Ufficio Stivali 6.5 CM Heels",
-    "category": "scarpe",
-    "price": 80.07,
-    "image": "https://m.media-amazon.com/images/I/51NVVjHjHML._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-19T09:59:30.369668",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D3MKQX7P",
-    "asin": "B0D3MKQX7P",
-    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
-    "category": "abbigliamento",
-    "price": 25.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-19T09:59:32.626331",
     "status": "published"
   }
 ];
