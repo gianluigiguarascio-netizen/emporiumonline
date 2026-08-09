@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 08/08/2026 08:52
+// Aggiornato automaticamente il 09/08/2026 08:54
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0BQX4WKLP",
+    "asin": "B0BQX4WKLP",
+    "name": "Libro da Colorare Adulti Antistress Mandala",
+    "category": "idee-regalo",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQX4WKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BQX4WKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-08-09T08:54:13.442177",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BXQK7NLR",
+    "asin": "B0BXQK7NLR",
+    "name": "Blush Colorato 4 Colori Shimmer Palette",
+    "category": "beauty",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQK7NLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQK7NLR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-08-09T08:54:15.400565",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BPXQKLNR",
+    "asin": "B0BPXQKLNR",
+    "name": "Webcam Colorata HD 1080p Streaming",
+    "category": "gadget",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPXQKLNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPXQKLNR?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-08-09T08:54:17.580925",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0BL6SPWLR",
+    "asin": "B0BL6SPWLR",
+    "name": "Jumpsuit Donna Colorata Floreale",
+    "category": "abbigliamento",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL6SPWLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL6SPWLR?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-09T08:54:18.995466",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CWX8NKQP",
+    "asin": "B0CWX8NKQP",
+    "name": "Camicia Donna Colorata Fantasia Boho Stampa",
+    "category": "abbigliamento",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWX8NKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWX8NKQP?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-09T08:54:21.011864",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0CH2P4Q9F",
     "asin": "B0CH2P4Q9F",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-07-21T10:31:29.291271",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BN5XKQPL",
-    "asin": "B0BN5XKQPL",
-    "name": "Kit Macramè Colorato Principianti Decorazione",
-    "category": "idee-regalo",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN5XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BN5XKQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-07-20T11:09:53.109800",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CXQ5NKLP",
-    "asin": "B0CXQ5NKLP",
-    "name": "Lampada Neon Colorata LED Personalizzabile",
-    "category": "idee-regalo",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ5NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ5NKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-07-20T11:09:55.358364",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B09NVD51JY",
-    "asin": "B09NVD51JY",
-    "name": "Orecchini Colorati Arcobaleno Donna Resina",
-    "category": "accessori",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09NVD51JY&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09NVD51JY?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-07-20T11:09:57.753490",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CN8QWKRP",
-    "asin": "B0CN8QWKRP",
-    "name": "Auricolari Colorati Wireless Waterproof Sport",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QWKRP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8QWKRP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-07-20T11:09:59.786447",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0B8VK3LHF",
-    "asin": "B0B8VK3LHF",
-    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-20T11:10:01.711163",
     "status": "published"
   }
 ];
