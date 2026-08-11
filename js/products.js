@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 10/08/2026 09:42
+// Aggiornato automaticamente il 11/08/2026 09:09
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0FHHJJSQJ",
+    "asin": "B0FHHJJSQJ",
+    "name": "Colourbook - Zaino Scuola Asilo Coccolotti, Contiene Coccolotto Love&amp;Tell, Dimensioni 33x25x12, 9 Litri, Official Li",
+    "category": "borse",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/415iGsY71hL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FHHJJSQJ?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-08-11T09:07:35.474380",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0FHHFHGZS",
+    "asin": "B0FHHFHGZS",
+    "name": "Colourbook Zaino Trolley Scuola Elementare Bambina Coccolotti Rosa 33 Litri Con Gadget Love Tell 3 Scomparti Schienale E",
+    "category": "borse",
+    "price": 14.66,
+    "image": "https://m.media-amazon.com/images/I/41xmv0Ga80L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FHHFHGZS?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-08-11T09:07:40.891384",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0DNKFDVCK",
+    "asin": "B0DNKFDVCK",
+    "name": "ANGELO Pochette da Donna Glitterata, Borsa a Mano e Spalla con Strass, Clutch Brillantinata da Sera Elegante, Borsa Glit",
+    "category": "borse",
+    "price": 92.72,
+    "image": "https://m.media-amazon.com/images/I/41dHKcEYFgL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DNKFDVCK?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-08-11T09:07:49.870515",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09W5SGRPB",
+    "asin": "B09W5SGRPB",
+    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
+    "category": "scarpe",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-08-11T09:08:58.450554",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BXWKQPNL",
+    "asin": "B0BXWKQPNL",
+    "name": "Tazza Colorata Cambia Colore Termica Magica",
+    "category": "idee-regalo",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXWKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXWKQPNL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-08-11T09:09:00.554639",
+    "status": "published"
+  },
   {
     "id": "borse-B0CRJ5K4WP",
     "asin": "B0CRJ5K4WP",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-07-23T10:32:39.444833",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0C586QLB6",
-    "asin": "B0C586QLB6",
-    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
-    "category": "idee-regalo",
-    "price": 31.6,
-    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-07-22T10:31:36.941942",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CXNQ7KPL",
-    "asin": "B0CXNQ7KPL",
-    "name": "Mocassini Donna Colorati Comfort Loafer",
-    "category": "scarpe",
-    "price": 28.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-22T10:32:51.181098",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CW5XNKQL",
-    "asin": "B0CW5XNKQL",
-    "name": "Coprisedili per Jaguar per XF per F-Pace per E-Pace per I-Pace per X-Type XE XJ XK Coprisedile Auto Tutti I Modelli di A",
-    "category": "borse",
-    "price": 26.99,
-    "image": "https://m.media-amazon.com/images/I/41bjr+dR+yL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKQL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-22T10:32:54.363260",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0FLCS5FB2",
-    "asin": "B0FLCS5FB2",
-    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
-    "category": "abbigliamento",
-    "price": 8.74,
-    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-22T10:32:57.922357",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CGW4LXKN",
-    "asin": "B0CGW4LXKN",
-    "name": "Cavo USB-C Colorato Nylon Intrecciato 3 Pack",
-    "category": "gadget",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGW4LXKN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGW4LXKN?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-07-22T10:32:59.854928",
     "status": "published"
   }
 ];
