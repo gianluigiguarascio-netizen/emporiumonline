@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 12/08/2026 09:19
+// Aggiornato automaticamente il 13/08/2026 09:20
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0746CT8TG",
+    "asin": "B0746CT8TG",
+    "name": "Scarpe Arcobaleno da Ginnastica Sportive Colorate Eleganti per Donna Uomo Passeggio Corsa Allenamento",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41xkd0EQInL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0746CT8TG?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-08-13T09:19:17.750099",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CGW4LXKN",
+    "asin": "B0CGW4LXKN",
+    "name": "Cavo USB-C Colorato Nylon Intrecciato 3 Pack",
+    "category": "gadget",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGW4LXKN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGW4LXKN?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-08-13T09:20:29.235740",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BN5XKQPL",
+    "asin": "B0BN5XKQPL",
+    "name": "Kit Macramè Colorato Principianti Decorazione",
+    "category": "idee-regalo",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN5XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BN5XKQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-08-13T09:20:30.534519",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D1KQXNPL",
+    "asin": "B0D1KQXNPL",
+    "name": "Short Donna Colorati Fantasia Estivi Casual",
+    "category": "abbigliamento",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-13T09:20:32.045536",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B07BFLS3KF",
+    "asin": "B07BFLS3KF",
+    "name": "Sneakers Donna Multicolor Leggere Running",
+    "category": "scarpe",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BFLS3KF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B07BFLS3KF?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-08-13T09:20:34.100938",
+    "status": "published"
+  },
   {
     "id": "borse-B0C6K8ZFLM",
     "asin": "B0C6K8ZFLM",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-07-25T09:57:13.954836",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CKN4XQPL",
-    "asin": "B0CKN4XQPL",
-    "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",
-    "category": "gadget",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKN4XQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CKN4XQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-07-24T10:26:55.862588",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CN5XLKQW",
-    "asin": "B0CN5XLKQW",
-    "name": "Kit Pittura Acrilica Colorata 24 Colori",
-    "category": "idee-regalo",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XLKQW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5XLKQW?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-07-24T10:26:57.287756",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CN8XQKPL",
-    "asin": "B0CN8XQKPL",
-    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
-    "category": "casa",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-24T10:26:58.808533",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B2WK8LNX",
-    "asin": "B0B2WK8LNX",
-    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
-    "category": "abbigliamento",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-24T10:27:00.788185",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF4XWKNQ",
-    "asin": "B0CF4XWKNQ",
-    "name": "Espadrillas Donna Colorate Corda Estate",
-    "category": "scarpe",
-    "price": 23.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF4XWKNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF4XWKNQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-24T10:27:03.018202",
     "status": "published"
   }
 ];
