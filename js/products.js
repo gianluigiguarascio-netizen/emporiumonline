@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 13/08/2026 09:20
+// Aggiornato automaticamente il 14/08/2026 09:15
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B09KHCJXCW",
+    "asin": "B09KHCJXCW",
+    "name": "ZAVANA Collana Colorata per Donna, Grande Collana di Bigiotteria, Collana Donna Fatta a Mano, Stile Bohémien",
+    "category": "accessori",
+    "price": 15.2,
+    "image": "https://m.media-amazon.com/images/I/41IlXsh2RcL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B09KHCJXCW?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-08-14T09:13:49.198009",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CW5XNKQL",
+    "asin": "B0CW5XNKQL",
+    "name": "Coprisedili per Jaguar per XF per F-Pace per E-Pace per I-Pace per X-Type XE XJ XK Coprisedile Auto Tutti I Modelli di A",
+    "category": "borse",
+    "price": 26.99,
+    "image": "https://m.media-amazon.com/images/I/41bjr+dR+yL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKQL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-08-14T09:15:03.736803",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0FLCS5FB2",
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
+    "category": "abbigliamento",
+    "price": 17.79,
+    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-14T09:15:07.738228",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CKN4XQPL",
+    "asin": "B0CKN4XQPL",
+    "name": "Cuffie Wireless Colorate Over Ear Pieghevoli",
+    "category": "gadget",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKN4XQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CKN4XQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-08-14T09:15:09.750407",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CWQ4NKLX",
+    "asin": "B0CWQ4NKLX",
+    "name": "Orecchini a Cerchio Colorati Resina Grande",
+    "category": "accessori",
+    "price": 7.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-08-14T09:15:11.511220",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0746CT8TG",
     "asin": "B0746CT8TG",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-07-26T10:09:17.429357",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0FLVVRYNQ",
-    "asin": "B0FLVVRYNQ",
-    "name": "Pochette Donna Glitter, Glitterata Borsa da Sera Elegante, Paillettes Borsetta Borse a Spalla, per Balli Feste Matrimoni",
-    "category": "borse",
-    "price": 10.22,
-    "image": "https://m.media-amazon.com/images/I/41MANKYj9WL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FLVVRYNQ?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-25T09:56:00.193794",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0D4XKNQPL",
-    "asin": "B0D4XKNQPL",
-    "name": "Borsa Paglia Colorata Estate Donna Spiaggia",
-    "category": "borse",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D4XKNQPL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-25T09:57:08.234683",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B9XKQPNL",
-    "asin": "B0B9XKQPNL",
-    "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",
-    "category": "abbigliamento",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9XKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B9XKQPNL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-25T09:57:10.187379",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CLFKQQ7G",
-    "asin": "B0CLFKQQ7G",
-    "name": "Kimono Donna Colorato Fantasia Estivo",
-    "category": "abbigliamento",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CLFKQQ7G&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CLFKQQ7G?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-25T09:57:12.282070",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CL7KQFXR",
-    "asin": "B0CL7KQFXR",
-    "name": "Clutch Colorata Satin Sera Donna",
-    "category": "borse",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7KQFXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL7KQFXR?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-25T09:57:13.954836",
     "status": "published"
   }
 ];
