@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 14/08/2026 09:15
+// Aggiornato automaticamente il 15/08/2026 08:38
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0BXQ7NKLP",
+    "asin": "B0BXQ7NKLP",
+    "name": "Slip On Donna Colorate Stampa Leopardata",
+    "category": "scarpe",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-08-15T08:38:31.541291",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CN8QWKRP",
+    "asin": "B0CN8QWKRP",
+    "name": "Auricolari Colorati Wireless Waterproof Sport",
+    "category": "gadget",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QWKRP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8QWKRP?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-08-15T08:38:33.751604",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CF9BSLWX",
+    "asin": "B0CF9BSLWX",
+    "name": "Collana Colorata Perline Donna Arcobaleno",
+    "category": "accessori",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9BSLWX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF9BSLWX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-08-15T08:38:35.396617",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CN6XQKPL",
+    "asin": "B0CN6XQKPL",
+    "name": "Eyeliner Colorato Glitter Set 8 Colori",
+    "category": "beauty",
+    "price": 8.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN6XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN6XQKPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-08-15T08:38:36.673933",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CN8XQKPL",
+    "asin": "B0CN8XQKPL",
+    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
+    "category": "casa",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-15T08:38:38.962611",
+    "status": "published"
+  },
   {
     "id": "accessori-B09KHCJXCW",
     "asin": "B09KHCJXCW",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-07-27T11:34:04.727946",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BL4XQKWN",
-    "asin": "B0BL4XQKWN",
-    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
-    "category": "idee-regalo",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-07-26T10:09:10.353436",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BX7QNKLP",
-    "asin": "B0BX7QNKLP",
-    "name": "Piatto Piano Colorato Ceramica Set 4 Pezzi",
-    "category": "casa",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BX7QNKLP?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-26T10:09:11.710536",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BNXK4QPL",
-    "asin": "B0BNXK4QPL",
-    "name": "Sciarpa Colorata Donna Fantasia Floreale Seta",
-    "category": "accessori",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNXK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BNXK4QPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-07-26T10:09:13.839430",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CF8L2V4R",
-    "asin": "B0CF8L2V4R",
-    "name": "Abito Estivo Donna Colorato Fantasia Tropicale",
-    "category": "abbigliamento",
-    "price": 26.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF8L2V4R&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF8L2V4R?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-26T10:09:15.520552",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0C9HQPLXW",
-    "asin": "B0C9HQPLXW",
-    "name": "Tappeto Colorato Camera Ragazzi Antiscivolo",
-    "category": "casa",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C9HQPLXW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C9HQPLXW?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-26T10:09:17.429357",
     "status": "published"
   }
 ];
