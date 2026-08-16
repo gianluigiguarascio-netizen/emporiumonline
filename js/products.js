@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 15/08/2026 08:38
+// Aggiornato automaticamente il 16/08/2026 08:38
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0DD5FMVZF",
+    "asin": "B0DD5FMVZF",
+    "name": "Fascia per capelli elastica in cotone a righe colorate, per yoga e meditazione, stile hippie e bohémien, bandana fatta a",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41cTLHvDsNL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DD5FMVZF?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-08-16T08:37:26.967972",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0D4XKNQPL",
+    "asin": "B0D4XKNQPL",
+    "name": "Borsa Paglia Colorata Estate Donna Spiaggia",
+    "category": "borse",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4XKNQPL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-08-16T08:38:38.936763",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0BXMKFPQR",
+    "asin": "B0BXMKFPQR",
+    "name": "Tenda Colorata Boho Macramè Camera",
+    "category": "casa",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXMKFPQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXMKFPQR?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-16T08:38:40.449356",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0B2WK8LNX",
+    "asin": "B0B2WK8LNX",
+    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
+    "category": "abbigliamento",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-16T08:38:42.026261",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0C3HM5P7Y",
+    "asin": "B0C3HM5P7Y",
+    "name": "Zaino Colorato Scuola Ragazze Arcobaleno",
+    "category": "borse",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C3HM5P7Y&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C3HM5P7Y?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-08-16T08:38:44.023914",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0BXQ7NKLP",
     "asin": "B0BXQ7NKLP",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-07-28T10:43:14.369850",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D5XKNQPL",
-    "asin": "B0D5XKNQPL",
-    "name": "Stivaletti Donna Colorati Chelsea Elastici",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-27T11:33:57.219124",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0BMXW5MQH",
-    "asin": "B0BMXW5MQH",
-    "name": "Cardigan Donna Multicolor Lungo Boho",
-    "category": "abbigliamento",
-    "price": 31.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BMXW5MQH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BMXW5MQH?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-27T11:33:58.813892",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CN8QXKLP",
-    "asin": "B0CN8QXKLP",
-    "name": "Set Bracciali Colorati Bohemian Donna 12 Pz",
-    "category": "accessori",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QXKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8QXKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-07-27T11:34:00.758969",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DBQMZZRH",
-    "asin": "B0DBQMZZRH",
-    "name": "Fioriere Colorate E Astratte, Vasi di Fioriera Testa Astratta, Fioriera Astratta in Resina, Vaso da Fiori con Viso Astra",
-    "category": "casa",
-    "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/41zBuZ2dgzL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-27T11:34:02.976361",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09TZFVGLH",
-    "asin": "B09TZFVGLH",
-    "name": "Ballerine Donna Colorate Comfort Flat",
-    "category": "scarpe",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09TZFVGLH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09TZFVGLH?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-27T11:34:04.727946",
     "status": "published"
   }
 ];
