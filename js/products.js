@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 16/08/2026 08:38
+// Aggiornato automaticamente il 17/08/2026 08:53
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0D3NQXKPL",
+    "asin": "B0D3NQXKPL",
+    "name": "Maxi Dress Donna Colorato Fantasia Tropicale",
+    "category": "abbigliamento",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NQXKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NQXKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-08-17T08:53:29.677968",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09NVD51JY",
+    "asin": "B09NVD51JY",
+    "name": "Orecchini Colorati Arcobaleno Donna Resina",
+    "category": "accessori",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09NVD51JY&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09NVD51JY?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-08-17T08:53:31.526636",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CGH7WLNK",
+    "asin": "B0CGH7WLNK",
+    "name": "Candela Profumata Colorata Soia Arcobaleno",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-17T08:53:33.314189",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CX7QNKLP",
+    "asin": "B0CX7QNKLP",
+    "name": "Occhiali da Sole Colorati Donna Cat Eye",
+    "category": "accessori",
+    "price": 10.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX7QNKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-08-17T08:53:34.799523",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CXNQ7KPL",
+    "asin": "B0CXNQ7KPL",
+    "name": "Mocassini Donna Colorati Comfort Loafer",
+    "category": "scarpe",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-08-17T08:53:36.652192",
+    "status": "published"
+  },
   {
     "id": "accessori-B0DD5FMVZF",
     "asin": "B0DD5FMVZF",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-07-29T10:47:08.253457",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0GP7YCG22",
-    "asin": "B0GP7YCG22",
-    "name": "inblu Sneakers Donna con Lacci E Cerniera Laterale, Traforo Laterale, Colori Vivaci Scarpe da ginnasticaDonna",
-    "category": "scarpe",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31tVh8KobgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GP7YCG22?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-07-28T10:41:58.634624",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D2NXKQPL",
-    "asin": "B0D2NXKQPL",
-    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
-    "category": "gadget",
-    "price": 32.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-07-28T10:43:08.702196",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CX4QNKLP",
-    "asin": "B0CX4QNKLP",
-    "name": "Blazer Donna Colorato Fantasia Primavera",
-    "category": "abbigliamento",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX4QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CX4QNKLP?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-07-28T10:43:10.937224",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BNYY6CZP",
-    "asin": "B0BNYY6CZP",
-    "name": "Lampada LED Colorata RGB Design Moderno",
-    "category": "casa",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNYY6CZP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BNYY6CZP?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-07-28T10:43:12.923969",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0D3NXKQPL",
-    "asin": "B0D3NXKQPL",
-    "name": "Borsa a Mano Donna Colorata Intreccio",
-    "category": "borse",
-    "price": 21.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3NXKQPL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-07-28T10:43:14.369850",
     "status": "published"
   }
 ];
