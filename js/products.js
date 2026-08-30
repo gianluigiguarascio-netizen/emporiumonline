@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 29/08/2026 13:48
+// Aggiornato automaticamente il 30/08/2026 13:45
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0DDGSW16D",
+    "asin": "B0DDGSW16D",
+    "name": "Statuetta colorata di gatto, scultura colorata di gatto, statuetta",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51TUy65AzkL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DDGSW16D?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-30T13:45:01.574612",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0DBHYBK7S",
+    "asin": "B0DBHYBK7S",
+    "name": "Statuetta colorata di gatto, statuetta di coppia di gatti, statua colorata",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51TUy65AzkL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DBHYBK7S?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-30T13:45:06.435396",
+    "status": "published"
+  },
+  {
+    "id": "casa-B09PJX7MJM",
+    "asin": "B09PJX7MJM",
+    "name": "HOME DECO FACTORY Statuetta Gorilla in Ceramica Colorata 24 cm Multicolore",
+    "category": "casa",
+    "price": 19.19,
+    "image": "https://m.media-amazon.com/images/I/41Fyfgexp7L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B09PJX7MJM?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-30T13:45:09.964129",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0GZH8WX3Y",
+    "asin": "B0GZH8WX3Y",
+    "name": "Statuetta colorata di gatto, figura da tavolo di gatto Statuette colorate",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51424dPpdgL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GZH8WX3Y?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-30T13:45:14.434585",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0DNDWGMZC",
+    "asin": "B0DNDWGMZC",
+    "name": "Statua da giardino di nano colorata con statuetta a fungo | Decorazione nana da giardino in resina – Statue per l&#39;ar",
+    "category": "casa",
+    "price": 38.8,
+    "image": "https://m.media-amazon.com/images/I/51LM9EoePCL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DNDWGMZC?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-08-30T13:45:18.313108",
+    "status": "published"
+  },
   {
     "id": "beauty-B09K7Z9NSQ",
     "asin": "B09K7Z9NSQ",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-08-11T09:09:00.554639",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CRJ5K4WP",
-    "asin": "B0CRJ5K4WP",
-    "name": "Marsupio Colorato Fantasia Donna Uomo",
-    "category": "borse",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRJ5K4WP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CRJ5K4WP?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-10T09:41:54.438745",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0D2XNKQPL",
-    "asin": "B0D2XNKQPL",
-    "name": "Box Regalo Donna Colorato Wellness SPA Premium",
-    "category": "idee-regalo",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2XNKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D2XNKQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-10T09:41:55.933985",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CN5RQF8P",
-    "asin": "B0CN5RQF8P",
-    "name": "Borsa Zaino Colorato Donna Glitter",
-    "category": "borse",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5RQF8P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5RQF8P?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-10T09:41:58.043071",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CXQ5NKLP",
-    "asin": "B0CXQ5NKLP",
-    "name": "Lampada Neon Colorata LED Personalizzabile",
-    "category": "idee-regalo",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ5NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ5NKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-10T09:41:59.297477",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0D8XKNQPL",
-    "asin": "B0D8XKNQPL",
-    "name": "Set Matite Acquerellabili Colorate 48 Pz Artisti",
-    "category": "idee-regalo",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D8XKNQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-10T09:42:00.743130",
     "status": "published"
   }
 ];
