@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 03/09/2026 12:46
+// Aggiornato automaticamente il 04/09/2026 12:40
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0C8NQ9LVX",
+    "asin": "B0C8NQ9LVX",
+    "name": "Fascia Capelli Colorata Floreale Donna",
+    "category": "accessori",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-04T12:40:40.372695",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BHGXK1FZ",
+    "asin": "B0BHGXK1FZ",
+    "name": "Cover Colorata iPhone Arcobaleno Antiurto",
+    "category": "gadget",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BHGXK1FZ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BHGXK1FZ?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-04T12:40:42.306752",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CN5XQKPL",
+    "asin": "B0CN5XQKPL",
+    "name": "Hub USB Colorato 7 Porte Arcobaleno",
+    "category": "gadget",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN5XQKPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-04T12:40:44.234107",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CXKLPQWN",
+    "asin": "B0CXKLPQWN",
+    "name": "Pop Socket Colorato Arcobaleno Glitter",
+    "category": "gadget",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKLPQWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXKLPQWN?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-04T12:40:45.479744",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BXQK7NLR",
+    "asin": "B0BXQK7NLR",
+    "name": "Blush Colorato 4 Colori Shimmer Palette",
+    "category": "beauty",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQK7NLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQK7NLR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-04T12:40:46.869352",
+    "status": "published"
+  },
   {
     "id": "accessori-B0GXPSP56Z",
     "asin": "B0GXPSP56Z",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-08-16T08:38:44.023914",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0BXQ7NKLP",
-    "asin": "B0BXQ7NKLP",
-    "name": "Slip On Donna Colorate Stampa Leopardata",
-    "category": "scarpe",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-08-15T08:38:31.541291",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CN8QWKRP",
-    "asin": "B0CN8QWKRP",
-    "name": "Auricolari Colorati Wireless Waterproof Sport",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QWKRP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8QWKRP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-15T08:38:33.751604",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CF9BSLWX",
-    "asin": "B0CF9BSLWX",
-    "name": "Collana Colorata Perline Donna Arcobaleno",
-    "category": "accessori",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9BSLWX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF9BSLWX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-08-15T08:38:35.396617",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CN6XQKPL",
-    "asin": "B0CN6XQKPL",
-    "name": "Eyeliner Colorato Glitter Set 8 Colori",
-    "category": "beauty",
-    "price": 8.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN6XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN6XQKPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-15T08:38:36.673933",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CN8XQKPL",
-    "asin": "B0CN8XQKPL",
-    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
-    "category": "casa",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-08-15T08:38:38.962611",
     "status": "published"
   }
 ];
