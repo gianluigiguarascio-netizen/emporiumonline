@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 04/09/2026 12:40
+// Aggiornato automaticamente il 05/09/2026 11:49
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0GGHBMDRJ",
+    "asin": "B0GGHBMDRJ",
+    "name": "Bracciale Rigido Donna In Resina Acrilica, Design Geometrico Moderno E Colorato, Gioielli Moda Leggeri Stile Chunky Per ",
+    "category": "accessori",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31c7eRgP9SL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GGHBMDRJ?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-05T11:47:54.028411",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CL4XNKQP",
+    "asin": "B0CL4XNKQP",
+    "name": "Gel UV Colorato Set 36 Colori Nail Art",
+    "category": "beauty",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-05T11:49:08.162988",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0BT6LQPXR",
+    "asin": "B0BT6LQPXR",
+    "name": "Portavasi Colorato Ceramica Set 3 Pezzi",
+    "category": "casa",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BT6LQPXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BT6LQPXR?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-09-05T11:49:10.170749",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B09YFKH7DX",
+    "asin": "B09YFKH7DX",
+    "name": "Top Tie Dye Colorato Donna Crop",
+    "category": "abbigliamento",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09YFKH7DX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09YFKH7DX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-09-05T11:49:11.770011",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0D4KXNQPL",
+    "asin": "B0D4KXNQPL",
+    "name": "Supporto Telefono Colorato Scrivania Flessibile",
+    "category": "gadget",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4KXNQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-05T11:49:13.624061",
+    "status": "published"
+  },
   {
     "id": "accessori-B0C8NQ9LVX",
     "asin": "B0C8NQ9LVX",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-08-17T08:53:36.652192",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DD5FMVZF",
-    "asin": "B0DD5FMVZF",
-    "name": "Fascia per capelli elastica in cotone a righe colorate, per yoga e meditazione, stile hippie e bohémien, bandana fatta a",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41cTLHvDsNL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DD5FMVZF?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-08-16T08:37:26.967972",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0D4XKNQPL",
-    "asin": "B0D4XKNQPL",
-    "name": "Borsa Paglia Colorata Estate Donna Spiaggia",
-    "category": "borse",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D4XKNQPL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-16T08:38:38.936763",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BXMKFPQR",
-    "asin": "B0BXMKFPQR",
-    "name": "Tenda Colorata Boho Macramè Camera",
-    "category": "casa",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXMKFPQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXMKFPQR?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-08-16T08:38:40.449356",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B2WK8LNX",
-    "asin": "B0B2WK8LNX",
-    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
-    "category": "abbigliamento",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-08-16T08:38:42.026261",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C3HM5P7Y",
-    "asin": "B0C3HM5P7Y",
-    "name": "Zaino Colorato Scuola Ragazze Arcobaleno",
-    "category": "borse",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C3HM5P7Y&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C3HM5P7Y?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-16T08:38:44.023914",
     "status": "published"
   }
 ];
