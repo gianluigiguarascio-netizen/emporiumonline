@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 07/09/2026 14:11
+// Aggiornato automaticamente il 08/09/2026 12:49
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0BNYY6CZP",
+    "asin": "B0BNYY6CZP",
+    "name": "Lampada LED Colorata RGB Design Moderno",
+    "category": "casa",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNYY6CZP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BNYY6CZP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-09-08T12:49:48.136009",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0D4XKNQPL",
+    "asin": "B0D4XKNQPL",
+    "name": "Borsa Paglia Colorata Estate Donna Spiaggia",
+    "category": "borse",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4XKNQPL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-08T12:49:50.093831",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CX7QNKLP",
+    "asin": "B0CX7QNKLP",
+    "name": "Occhiali da Sole Colorati Donna Cat Eye",
+    "category": "accessori",
+    "price": 10.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX7QNKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-08T12:49:51.955148",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CWQ4NKLX",
+    "asin": "B0CWQ4NKLX",
+    "name": "Orecchini a Cerchio Colorati Resina Grande",
+    "category": "accessori",
+    "price": 7.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-08T12:49:54.014963",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D411DMR1",
+    "asin": "B0D411DMR1",
+    "name": "NobleOnly Donna Medio Gattini Tacco Heel Chiusa a Punta Stivaletti Fibbia Cerniera Casual Ufficio Stivali 6.5 CM Heels",
+    "category": "scarpe",
+    "price": 69.99,
+    "image": "https://m.media-amazon.com/images/I/51NVVjHjHML._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-08T12:49:56.399122",
+    "status": "published"
+  },
   {
     "id": "scarpe-B07BFLS3KF",
     "asin": "B07BFLS3KF",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-08-20T08:49:45.749038",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CF8L2V4R",
-    "asin": "B0CF8L2V4R",
-    "name": "Abito Estivo Donna Colorato Fantasia Tropicale",
-    "category": "abbigliamento",
-    "price": 26.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF8L2V4R&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF8L2V4R?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-08-19T08:47:45.296386",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CL7KQFXR",
-    "asin": "B0CL7KQFXR",
-    "name": "Clutch Colorata Satin Sera Donna",
-    "category": "borse",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7KQFXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL7KQFXR?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-19T08:47:46.658453",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CXQ8NKLP",
-    "asin": "B0CXQ8NKLP",
-    "name": "Pochette Trasparente Colorata Donna",
-    "category": "borse",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-19T08:47:47.982128",
-    "status": "published"
-  },
-  {
-    "id": "borse-B09XMKLFVQ",
-    "asin": "B09XMKLFVQ",
-    "name": "Borsello Colorato Donna Tracolla Boho",
-    "category": "borse",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09XMKLFVQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09XMKLFVQ?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-19T08:47:49.652323",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CW5XNKPL",
-    "asin": "B0CW5XNKPL",
-    "name": "Calendario Avvento Colorato Adulti Beauty",
-    "category": "idee-regalo",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW5XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-19T08:47:51.408802",
     "status": "published"
   }
 ];
