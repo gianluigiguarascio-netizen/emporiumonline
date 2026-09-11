@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 10/09/2026 12:52
+// Aggiornato automaticamente il 11/09/2026 12:47
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0CGH7WLNK",
+    "asin": "B0CGH7WLNK",
+    "name": "Candela Profumata Colorata Soia Arcobaleno",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-09-11T12:47:20.005633",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0BL6SPWLR",
+    "asin": "B0BL6SPWLR",
+    "name": "Jumpsuit Donna Colorata Floreale",
+    "category": "abbigliamento",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL6SPWLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL6SPWLR?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-09-11T12:47:21.249168",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CF7WKLNQ",
+    "asin": "B0CF7WKLNQ",
+    "name": "Spray Capelli Colorato Temporaneo Lavabile",
+    "category": "beauty",
+    "price": 8.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF7WKLNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF7WKLNQ?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-11T12:47:23.380608",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09Q4GPFJD",
+    "asin": "B09Q4GPFJD",
+    "name": "Mules Donna Colorate Tacco Kitten",
+    "category": "scarpe",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09Q4GPFJD&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09Q4GPFJD?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-11T12:47:24.620072",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BN5XKQPL",
+    "asin": "B0BN5XKQPL",
+    "name": "Kit Macramè Colorato Principianti Decorazione",
+    "category": "idee-regalo",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN5XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BN5XKQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-09-11T12:47:26.146148",
+    "status": "published"
+  },
   {
     "id": "casa-B0CN8XQKPL",
     "asin": "B0CN8XQKPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-08-23T08:39:56.733883",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B07BYLGVR7",
-    "asin": "B07BYLGVR7",
-    "name": "THE TWIDDLERS Set da 2 Molle Magiche Giganti Arcobaleno - Gioco Sensoriale e Antistress per Bambini, Ideale Come Regalin",
-    "category": "idee-regalo",
-    "price": 5.98,
-    "image": "https://m.media-amazon.com/images/I/51V+czQssUL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B07BYLGVR7?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-22T08:38:27.450217",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0C586QLB6",
-    "asin": "B0C586QLB6",
-    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
-    "category": "idee-regalo",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-22T08:38:33.642745",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0B8VK3LHF",
-    "asin": "B0B8VK3LHF",
-    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-08-22T08:39:42.778830",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CF5QWKPN",
-    "asin": "B0CF5QWKPN",
-    "name": "Stampa Arte Colorata Astratta Quadro Camera",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF5QWKPN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF5QWKPN?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-08-22T08:39:44.633204",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BN7XKQPL",
-    "asin": "B0BN7XKQPL",
-    "name": "Detergente Viso Colorato Arcobaleno Vitamina C",
-    "category": "beauty",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN7XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BN7XKQPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-22T08:39:46.283328",
     "status": "published"
   }
 ];
