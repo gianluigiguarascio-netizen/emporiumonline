@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 11/09/2026 12:47
+// Aggiornato automaticamente il 12/09/2026 12:07
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0C586QLB6",
+    "asin": "B0C586QLB6",
+    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
+    "category": "idee-regalo",
+    "price": 26.15,
+    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-09-12T12:06:17.998540",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CXNQ7KPL",
+    "asin": "B0CXNQ7KPL",
+    "name": "Mocassini Donna Colorati Comfort Loafer",
+    "category": "scarpe",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-12T12:07:26.212861",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09W5SGRPB",
+    "asin": "B09W5SGRPB",
+    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
+    "category": "scarpe",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-12T12:07:27.469135",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BL4XQKWN",
+    "asin": "B0BL4XQKWN",
+    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
+    "category": "idee-regalo",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-09-12T12:07:29.359183",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CF5QWKPN",
+    "asin": "B0CF5QWKPN",
+    "name": "Stampa Arte Colorata Astratta Quadro Camera",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF5QWKPN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF5QWKPN?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-09-12T12:07:31.212682",
+    "status": "published"
+  },
   {
     "id": "casa-B0CGH7WLNK",
     "asin": "B0CGH7WLNK",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-08-24T08:57:43.920833",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DBQMZZRH",
-    "asin": "B0DBQMZZRH",
-    "name": "Fioriera Viso Colorata Decorazione Giardino",
-    "category": "casa",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DBQMZZRH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-08-23T08:39:49.786090",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B09PW4LMFK",
-    "asin": "B09PW4LMFK",
-    "name": "Parure Bijoux Colorati Donna Collana Orecchini",
-    "category": "accessori",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09PW4LMFK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09PW4LMFK?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-08-23T08:39:51.444325",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF4XWKNQ",
-    "asin": "B0CF4XWKNQ",
-    "name": "Espadrillas Donna Colorate Corda Estate",
-    "category": "scarpe",
-    "price": 23.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF4XWKNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF4XWKNQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-08-23T08:39:52.648939",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B9XKQPNL",
-    "asin": "B0B9XKQPNL",
-    "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",
-    "category": "abbigliamento",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9XKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B9XKQPNL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-08-23T08:39:54.722215",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CQ5WXNKP",
-    "asin": "B0CQ5WXNKP",
-    "name": "Mules Colorati Donna Tacco Basso Comfort",
-    "category": "scarpe",
-    "price": 26.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-08-23T08:39:56.733883",
     "status": "published"
   }
 ];
