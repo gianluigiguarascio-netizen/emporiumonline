@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 13/09/2026 13:17
+// Aggiornato automaticamente il 14/09/2026 14:58
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0CRJ5K4WP",
+    "asin": "B0CRJ5K4WP",
+    "name": "Marsupio Colorato Fantasia Donna Uomo",
+    "category": "borse",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRJ5K4WP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CRJ5K4WP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-14T14:58:12.468890",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0BWKL7XS8",
+    "asin": "B0BWKL7XS8",
+    "name": "Bracciale Colorato Perle Donna Set",
+    "category": "accessori",
+    "price": 7.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKL7XS8&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BWKL7XS8?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-14T14:58:14.259224",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0B8VK3LHF",
+    "asin": "B0B8VK3LHF",
+    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-09-14T14:58:15.820345",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CXQ8NKLP",
+    "asin": "B0CXQ8NKLP",
+    "name": "Pochette Trasparente Colorata Donna",
+    "category": "borse",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-14T14:58:17.323094",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CN8QXKLP",
+    "asin": "B0CN8QXKLP",
+    "name": "Set Bracciali Colorati Bohemian Donna 12 Pz",
+    "category": "accessori",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QXKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8QXKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-14T14:58:18.895268",
+    "status": "published"
+  },
   {
     "id": "accessori-B0HJ6XT7T5",
     "asin": "B0HJ6XT7T5",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-08-26T08:54:10.577269",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BWKQXPNR",
-    "asin": "B0BWKQXPNR",
-    "name": "Glitter Viso Corpo Colorati Festival Make Up",
-    "category": "beauty",
-    "price": 7.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKQXPNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BWKQXPNR?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-25T08:52:36.383900",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BKW2QVYR",
-    "asin": "B0BKW2QVYR",
-    "name": "Anelli Colorati Set Donna Resina Arcobaleno",
-    "category": "accessori",
-    "price": 8.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BKW2QVYR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BKW2QVYR?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-08-25T08:52:37.953838",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0C7S2H8KN",
-    "asin": "B0C7S2H8KN",
-    "name": "Palette Ombretti Colorati 12 Colori Glitter",
-    "category": "beauty",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7S2H8KN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C7S2H8KN?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-25T08:52:39.368790",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D8NXKQPL",
-    "asin": "B0D8NXKQPL",
-    "name": "Maglione Donna Colorato Strisce Oversize",
-    "category": "abbigliamento",
-    "price": 32.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D8NXKQPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-08-25T08:52:40.909522",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CFWKLNQX",
-    "asin": "B0CFWKLNQX",
-    "name": "Portafoto Colorato Polaroid Galleria Parete",
-    "category": "idee-regalo",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-25T08:52:42.993125",
     "status": "published"
   }
 ];
