@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 15/09/2026 13:25
+// Aggiornato automaticamente il 16/09/2026 13:24
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0FQHY9GTP",
+    "asin": "B0FQHY9GTP",
+    "name": "AIMEILI Kit Semipermanente Unghie Rosa 12 Colori Smalto Semipermanente Unghie UV LED Soak Off Smalti Gel Colorati Nail A",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51r3t8QnomL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FQHY9GTP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-16T13:23:30.722863",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0H2Z2XZ71",
+    "asin": "B0H2Z2XZ71",
+    "name": "Smalto colorato per unghie UV/LED, strumento per manicure",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41yoh3J8lDL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0H2Z2XZ71?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-16T13:23:34.867326",
+    "status": "published"
+  },
+  {
+    "id": "casa-B09X6RKRPW",
+    "asin": "B09X6RKRPW",
+    "name": "Elefante Graffiti Colorato Decorazione Casa",
+    "category": "casa",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09X6RKRPW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09X6RKRPW?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-09-16T13:24:51.587041",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0B9XKQPNL",
+    "asin": "B0B9XKQPNL",
+    "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",
+    "category": "abbigliamento",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9XKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B9XKQPNL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-09-16T13:24:53.502553",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN5XLKQW",
+    "asin": "B0CN5XLKQW",
+    "name": "Kit Pittura Acrilica Colorata 24 Colori",
+    "category": "idee-regalo",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XLKQW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN5XLKQW?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-09-16T13:24:55.446102",
+    "status": "published"
+  },
   {
     "id": "casa-B0BXMKFPQR",
     "asin": "B0BXMKFPQR",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-08-28T20:09:28.989285",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C5K7X2BL",
-    "asin": "B0C5K7X2BL",
-    "name": "Borsa Donna Colorata Tessuto Estate",
-    "category": "borse",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-27T19:02:21.626954",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CGX4WKQR",
-    "asin": "B0CGX4WKQR",
-    "name": "Matite Occhi Colorate Set 16 Colori Waterproof",
-    "category": "beauty",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGX4WKQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGX4WKQR?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-27T19:02:23.032631",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF9LYKWQ",
-    "asin": "B0CF9LYKWQ",
-    "name": "Sneakers Platform Donna Arcobaleno",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9LYKWQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF9LYKWQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-08-27T19:02:24.875651",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CQX7NKPL",
-    "asin": "B0CQX7NKPL",
-    "name": "Canotta Donna Colorata Tie Dye Arcobaleno",
-    "category": "abbigliamento",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQX7NKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CQX7NKPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-08-27T19:02:27.037455",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0BSGVWQCX",
-    "asin": "B0BSGVWQCX",
-    "name": "Mini Bag Colorata Patchwork Donna",
-    "category": "borse",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BSGVWQCX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BSGVWQCX?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-08-27T19:02:28.783122",
     "status": "published"
   }
 ];
