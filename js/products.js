@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 16/09/2026 13:24
+// Aggiornato automaticamente il 17/09/2026 13:20
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0CGX4WKQR",
+    "asin": "B0CGX4WKQR",
+    "name": "Matite Occhi Colorate Set 16 Colori Waterproof",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGX4WKQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGX4WKQR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-17T13:20:40.181538",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CQ5WXNKP",
+    "asin": "B0CQ5WXNKP",
+    "name": "Mules Colorati Donna Tacco Basso Comfort",
+    "category": "scarpe",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-17T13:20:41.808147",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BPWQK3TN",
+    "asin": "B0BPWQK3TN",
+    "name": "Shopper Colorata Tela Fantasia Donna",
+    "category": "borse",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPWQK3TN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPWQK3TN?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-17T13:20:44.009355",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CF9LYKWQ",
+    "asin": "B0CF9LYKWQ",
+    "name": "Sneakers Platform Donna Arcobaleno",
+    "category": "scarpe",
+    "price": 34.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9LYKWQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF9LYKWQ?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-17T13:20:45.927090",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0BNXK4QPL",
+    "asin": "B0BNXK4QPL",
+    "name": "Sciarpa Colorata Donna Fantasia Floreale Seta",
+    "category": "accessori",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNXK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BNXK4QPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-17T13:20:47.761286",
+    "status": "published"
+  },
   {
     "id": "beauty-B0FQHY9GTP",
     "asin": "B0FQHY9GTP",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-08-29T13:48:19.497666",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0GX5HHYXB",
-    "asin": "B0GX5HHYXB",
-    "name": "Tastiera e mouse RGB cablata, retroilluminazione arcobaleno regolabile, 104 tasti full-size con tastierino numerico, mou",
-    "category": "gadget",
-    "price": 19.75,
-    "image": "https://m.media-amazon.com/images/I/41YEg8YwwNL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GX5HHYXB?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-28T20:09:10.132082",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0HCLTXRKP",
-    "asin": "B0HCLTXRKP",
-    "name": "Mouse da gioco cablato di seconda generazione con 8 DPI effetto arcobaleno LIGHTSYNC RGB tasti programmabili mappatura d",
-    "category": "gadget",
-    "price": 13.96,
-    "image": "https://m.media-amazon.com/images/I/31ZdGu6zf9L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0HCLTXRKP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-28T20:09:15.379276",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B08RHGT44T",
-    "asin": "B08RHGT44T",
-    "name": "Set Tastiera e Mouse da Gioco RGB Retroilluminato USB Con 6 Colori Arcobaleno - Mouse Ottico a 6 Tasti + Cuscinetti Grat",
-    "category": "gadget",
-    "price": 37.14,
-    "image": "https://m.media-amazon.com/images/I/51p-raQMuuL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B08RHGT44T?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-28T20:09:19.967702",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B099MYRRF3",
-    "asin": "B099MYRRF3",
-    "name": "Set Tastiera E Mouse Da Gioco Wireless Compatti Al 60%, 3800mAh Type-c Ricaricabile RGB Arcobaleno Tastiera Illuminata S",
-    "category": "gadget",
-    "price": 28.55,
-    "image": "https://m.media-amazon.com/images/I/517xWAJ7NHL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B099MYRRF3?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-28T20:09:24.710632",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B079FSMJ58",
-    "asin": "B079FSMJ58",
-    "name": "BAKTH Tastiera e Mouse da Gioco, Arcobaleno LED Retroilluminato USB per Videogiochi o Lavoro, Paragonabile a Una Meccani",
-    "category": "gadget",
-    "price": 49.27,
-    "image": "https://m.media-amazon.com/images/I/51T8aRsc5cL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B079FSMJ58?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-28T20:09:28.989285",
     "status": "published"
   }
 ];
