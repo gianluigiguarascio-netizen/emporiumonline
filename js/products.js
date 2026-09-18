@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 17/09/2026 13:20
+// Aggiornato automaticamente il 18/09/2026 12:55
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0FJJ1Z89T",
+    "asin": "B0FJJ1Z89T",
+    "name": "Penna Fidget Multicolore Giocattolo Colorato Anti-Stress per Top",
+    "category": "gadget",
+    "price": 17.59,
+    "image": "https://m.media-amazon.com/images/I/41g7AP9qffL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FJJ1Z89T?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-18T12:54:06.119859",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CFWKLNQX",
+    "asin": "B0CFWKLNQX",
+    "name": "Portafoto Colorato Polaroid Galleria Parete",
+    "category": "idee-regalo",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-09-18T12:55:14.224762",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0B3WRBQB7",
+    "asin": "B0B3WRBQB7",
+    "name": "Castamere Donna Basso Gattini Tacco Heel a Punta Cinturino alla Caviglia Pumps Cute Dress Two-Piece Fibbia Sandali 3.5 C",
+    "category": "scarpe",
+    "price": 69.9,
+    "image": "https://m.media-amazon.com/images/I/41QMuevOEtL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-18T12:55:17.344760",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0BXQ7NKLP",
+    "asin": "B0BXQ7NKLP",
+    "name": "Slip On Donna Colorate Stampa Leopardata",
+    "category": "scarpe",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-18T12:55:19.365088",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CN7XQKPL",
+    "asin": "B0CN7XQKPL",
+    "name": "Tracolla Colorata Donna Fantasia Tapestry",
+    "category": "borse",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN7XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN7XQKPL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-18T12:55:21.453311",
+    "status": "published"
+  },
   {
     "id": "beauty-B0CGX4WKQR",
     "asin": "B0CGX4WKQR",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-08-30T13:45:18.313108",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B09K7Z9NSQ",
-    "asin": "B09K7Z9NSQ",
-    "name": "Sephora Matita colorata per contorno occhi a pastello, impermeabile, 01, 12 H, in pizzo nero, 1,3 g",
-    "category": "beauty",
-    "price": 10.33,
-    "image": "https://m.media-amazon.com/images/I/21ga4p8KboL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09K7Z9NSQ?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-29T13:47:00.226520",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CGP4WLKQ",
-    "asin": "B0CGP4WLKQ",
-    "name": "Agenda Colorata 2025 Planner Settimanale",
-    "category": "idee-regalo",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-29T13:48:13.925868",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CN3XQKPL",
-    "asin": "B0CN3XQKPL",
-    "name": "Gioco da Tavolo Colorato Famiglia Divertente",
-    "category": "idee-regalo",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN3XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN3XQKPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-08-29T13:48:16.013874",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CX3QNKLP",
-    "asin": "B0CX3QNKLP",
-    "name": "Penna Stilografica Colorata Set Scrittura",
-    "category": "gadget",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX3QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CX3QNKLP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-29T13:48:18.228513",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D3MKQX7P",
-    "asin": "B0D3MKQX7P",
-    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
-    "category": "abbigliamento",
-    "price": 25.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-08-29T13:48:19.497666",
     "status": "published"
   }
 ];
