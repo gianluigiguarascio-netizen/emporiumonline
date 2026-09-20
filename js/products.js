@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 19/09/2026 12:27
+// Aggiornato automaticamente il 20/09/2026 13:01
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0GP7YCG22",
+    "asin": "B0GP7YCG22",
+    "name": "inblu Sneakers Donna con Lacci E Cerniera Laterale, Traforo Laterale, Colori Vivaci Scarpe da ginnasticaDonna",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31tVh8KobgL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GP7YCG22?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-20T12:59:53.088597",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CX3QNKLP",
+    "asin": "B0CX3QNKLP",
+    "name": "Penna Stilografica Colorata Set Scrittura",
+    "category": "gadget",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX3QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX3QNKLP?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-20T13:01:03.764192",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0C7S2H8KN",
+    "asin": "B0C7S2H8KN",
+    "name": "Palette Ombretti Colorati 12 Colori Glitter",
+    "category": "beauty",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7S2H8KN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C7S2H8KN?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-20T13:01:05.883755",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN3XQKPL",
+    "asin": "B0CN3XQKPL",
+    "name": "Gioco da Tavolo Colorato Famiglia Divertente",
+    "category": "idee-regalo",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN3XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN3XQKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-09-20T13:01:07.216256",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0C3HM5P7Y",
+    "asin": "B0C3HM5P7Y",
+    "name": "Zaino Colorato Scuola Ragazze Arcobaleno",
+    "category": "borse",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C3HM5P7Y&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C3HM5P7Y?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-20T13:01:08.996969",
+    "status": "published"
+  },
   {
     "id": "accessori-B0HHKRMQP8",
     "asin": "B0HHKRMQP8",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-09-01T13:26:33.891678",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B08NDYQ1PC",
-    "asin": "B08NDYQ1PC",
-    "name": "UCANBE Palette Ombretti Colorati 48 Colori Glitter Opaco - Ombretto Occhi Impermeabile, A Lunga Durata, Palette Occhi Se",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51wc7w3WsML._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B08NDYQ1PC?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-31T16:05:16.885870",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BTBJFH19",
-    "asin": "B0BTBJFH19",
-    "name": "AIMEILI Smalto Gel Semipermanente Kit per Unghie Colorati, UV LED Soak Off Manicure Set Numero 26, 4 x 10 ml",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41GGOEWPRHL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BTBJFH19?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-31T16:05:22.562698",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0FN6TYQ93",
-    "asin": "B0FN6TYQ93",
-    "name": "MIZHSE - Smalto glitter per unghie 15ml, asciugatura rapida, smalto glitter brillante con effetto luminoso duraturo, sma",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41KRx-+hlaL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FN6TYQ93?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-08-31T16:05:26.518067",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0D7XKNQPL",
-    "asin": "B0D7XKNQPL",
-    "name": "Set Bicchieri Colorati Vetro Borosilicato 6 Pz",
-    "category": "casa",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D7XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D7XKNQPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-08-31T16:06:36.135292",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BSWKQFMR",
-    "asin": "B0BSWKQFMR",
-    "name": "Mouse Wireless Colorato Silenzioso Arcobaleno",
-    "category": "gadget",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BSWKQFMR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BSWKQFMR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-08-31T16:06:37.699042",
     "status": "published"
   }
 ];
