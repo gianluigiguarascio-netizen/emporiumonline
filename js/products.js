@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 25/09/2026 13:36
+// Aggiornato automaticamente il 26/09/2026 12:58
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0G4S28F49",
+    "asin": "B0G4S28F49",
+    "name": "Logitech G 203 Mouse da gioco cablato, 8.000 DPI, effetto ottico arcobaleno LIGHTSYNC RGB, 6 pulsanti programmabili, mem",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31Q4oU1le-L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0G4S28F49?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-26T12:56:57.317035",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B08RHGT44T",
+    "asin": "B08RHGT44T",
+    "name": "Set Tastiera e Mouse da Gioco RGB Retroilluminato USB Con 6 Colori Arcobaleno - Mouse Ottico a 6 Tasti + Cuscinetti Grat",
+    "category": "gadget",
+    "price": 36.34,
+    "image": "https://m.media-amazon.com/images/I/51p-raQMuuL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B08RHGT44T?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-26T12:57:02.839133",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0HK5WF6D9",
+    "asin": "B0HK5WF6D9",
+    "name": "Palla Fidget Giocattolo Gadget Rilassante Colorato con Stampa 3D e con le",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41nB25DcoKL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0HK5WF6D9?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-26T12:57:15.138697",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BPXQKLNR",
+    "asin": "B0BPXQKLNR",
+    "name": "Webcam Colorata HD 1080p Streaming",
+    "category": "gadget",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPXQKLNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPXQKLNR?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-26T12:58:22.041098",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CL4XNKQP",
+    "asin": "B0CL4XNKQP",
+    "name": "Gel UV Colorato Set 36 Colori Nail Art",
+    "category": "beauty",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-09-26T12:58:23.739832",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0CVXK8PLN",
     "asin": "B0CVXK8PLN",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-09-07T14:11:57.908829",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BXWKQPNL",
-    "asin": "B0BXWKQPNL",
-    "name": "Tazza Colorata Cambia Colore Termica Magica",
-    "category": "idee-regalo",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXWKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXWKQPNL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-09-06T12:06:07.861792",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0C1QKHMFG",
-    "asin": "B0C1QKHMFG",
-    "name": "Rossetto Colorato Set 12 Toni Brillanti",
-    "category": "beauty",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C1QKHMFG&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C1QKHMFG?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-09-06T12:06:09.341161",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0FLCS5FB2",
-    "asin": "B0FLCS5FB2",
-    "name": "Giacca Donna Stampata Colorata con Bottoni",
-    "category": "abbigliamento",
-    "price": 6.78,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0FLCS5FB2&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-09-06T12:06:11.032834",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B2WK8LNX",
-    "asin": "B0B2WK8LNX",
-    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
-    "category": "abbigliamento",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-09-06T12:06:12.455147",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BQKXPLVR",
-    "asin": "B0BQKXPLVR",
-    "name": "Powerbank Colorato 10000mAh Compatto",
-    "category": "gadget",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQKXPLVR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BQKXPLVR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-06T12:06:14.568780",
     "status": "published"
   }
 ];
