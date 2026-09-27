@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 26/09/2026 12:58
+// Aggiornato automaticamente il 27/09/2026 13:49
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0C5K7X2BL",
+    "asin": "B0C5K7X2BL",
+    "name": "Borsa Donna Colorata Tessuto Estate",
+    "category": "borse",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-27T13:49:24.824817",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0D2XNKQPL",
+    "asin": "B0D2XNKQPL",
+    "name": "Collana Choker Colorata Perle Arcobaleno",
+    "category": "accessori",
+    "price": 6.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2XNKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D2XNKQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-27T13:49:26.728057",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CQ4XNKPL",
+    "asin": "B0CQ4XNKPL",
+    "name": "Tovagliette Colorate Set 6 Fantasia Cotone",
+    "category": "casa",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ4XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ4XNKPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-09-27T13:49:28.073903",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0D2NXKQPL",
+    "asin": "B0D2NXKQPL",
+    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
+    "category": "gadget",
+    "price": 32.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-27T13:49:30.278114",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CL7KQFXR",
+    "asin": "B0CL7KQFXR",
+    "name": "Clutch Colorata Satin Sera Donna",
+    "category": "borse",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7KQFXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7KQFXR?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-09-27T13:49:32.379060",
+    "status": "published"
+  },
   {
     "id": "gadget-B0G4S28F49",
     "asin": "B0G4S28F49",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-09-08T12:49:56.399122",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B07BFLS3KF",
-    "asin": "B07BFLS3KF",
-    "name": "Sneakers Donna Multicolor Leggere Running",
-    "category": "scarpe",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BFLS3KF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B07BFLS3KF?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-09-07T14:11:51.142815",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CN6XQKPL",
-    "asin": "B0CN6XQKPL",
-    "name": "Eyeliner Colorato Glitter Set 8 Colori",
-    "category": "beauty",
-    "price": 8.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN6XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN6XQKPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-09-07T14:11:52.493267",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CW5XNKQL",
-    "asin": "B0CW5XNKQL",
-    "name": "Coprisedili per Jaguar per XF per F-Pace per E-Pace per I-Pace per X-Type XE XJ XK Coprisedile Auto Tutti I Modelli di A",
-    "category": "borse",
-    "price": 26.99,
-    "image": "https://m.media-amazon.com/images/I/41bjr+dR+yL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKQL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-07T14:11:54.677461",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0C9HQPLXW",
-    "asin": "B0C9HQPLXW",
-    "name": "Tappeto Colorato Camera Ragazzi Antiscivolo",
-    "category": "casa",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C9HQPLXW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C9HQPLXW?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-07T14:11:56.281490",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BZQ7XMRK",
-    "asin": "B0BZQ7XMRK",
-    "name": "Smalto Colorato Set 24 Pezzi Nail Art",
-    "category": "beauty",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZQ7XMRK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BZQ7XMRK?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-09-07T14:11:57.908829",
     "status": "published"
   }
 ];
