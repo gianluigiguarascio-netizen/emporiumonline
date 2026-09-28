@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 27/09/2026 13:49
+// Aggiornato automaticamente il 28/09/2026 16:42
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0CXKLPQWN",
+    "asin": "B0CXKLPQWN",
+    "name": "Pop Socket Colorato Arcobaleno Glitter",
+    "category": "gadget",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKLPQWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXKLPQWN?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-28T16:42:40.878362",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D2KXQPFN",
+    "asin": "B0D2KXQPFN",
+    "name": "Maglietta da donna a maniche corte, in cotone, casual, girocollo",
+    "category": "scarpe",
+    "price": 31.99,
+    "image": "https://m.media-amazon.com/images/I/4172E0pJH2L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D2KXQPFN?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-09-28T16:42:43.677568",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0D4KXNQPL",
+    "asin": "B0D4KXNQPL",
+    "name": "Supporto Telefono Colorato Scrivania Flessibile",
+    "category": "gadget",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4KXNQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-28T16:42:45.635640",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CW7XNKQL",
+    "asin": "B0CW7XNKQL",
+    "name": "Altoparlante Bluetooth Colorato Waterproof",
+    "category": "gadget",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW7XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW7XNKQL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-09-28T16:42:46.923027",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0BKW2QVYR",
+    "asin": "B0BKW2QVYR",
+    "name": "Anelli Colorati Set Donna Resina Arcobaleno",
+    "category": "accessori",
+    "price": 8.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BKW2QVYR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BKW2QVYR?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-09-28T16:42:48.439049",
+    "status": "published"
+  },
   {
     "id": "borse-B0C5K7X2BL",
     "asin": "B0C5K7X2BL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-09-09T12:55:19.169602",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BNYY6CZP",
-    "asin": "B0BNYY6CZP",
-    "name": "Lampada LED Colorata RGB Design Moderno",
-    "category": "casa",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNYY6CZP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BNYY6CZP?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-08T12:49:48.136009",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0D4XKNQPL",
-    "asin": "B0D4XKNQPL",
-    "name": "Borsa Paglia Colorata Estate Donna Spiaggia",
-    "category": "borse",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D4XKNQPL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-08T12:49:50.093831",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CX7QNKLP",
-    "asin": "B0CX7QNKLP",
-    "name": "Occhiali da Sole Colorati Donna Cat Eye",
-    "category": "accessori",
-    "price": 10.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CX7QNKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-08T12:49:51.955148",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CWQ4NKLX",
-    "asin": "B0CWQ4NKLX",
-    "name": "Orecchini a Cerchio Colorati Resina Grande",
-    "category": "accessori",
-    "price": 7.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-08T12:49:54.014963",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D411DMR1",
-    "asin": "B0D411DMR1",
-    "name": "NobleOnly Donna Medio Gattini Tacco Heel Chiusa a Punta Stivaletti Fibbia Cerniera Casual Ufficio Stivali 6.5 CM Heels",
-    "category": "scarpe",
-    "price": 69.99,
-    "image": "https://m.media-amazon.com/images/I/51NVVjHjHML._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-09-08T12:49:56.399122",
     "status": "published"
   }
 ];
