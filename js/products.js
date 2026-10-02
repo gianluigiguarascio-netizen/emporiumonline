@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 01/10/2026 15:22
+// Aggiornato automaticamente il 02/10/2026 14:40
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0CXNK4QPL",
+    "asin": "B0CXNK4QPL",
+    "name": "Ombrello Colorato Arcobaleno Antivento Donna",
+    "category": "casa",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNK4QPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-02T14:40:44.103859",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CWQ4NKLX",
+    "asin": "B0CWQ4NKLX",
+    "name": "Orecchini a Cerchio Colorati Resina Grande",
+    "category": "accessori",
+    "price": 7.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-10-02T14:40:45.396623",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0D3KXNQPL",
+    "asin": "B0D3KXNQPL",
+    "name": "Foundation Colorata BB Cream SPF30 Vari Toni",
+    "category": "beauty",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3KXNQPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-02T14:40:47.636708",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CL2DKYQM",
+    "asin": "B0CL2DKYQM",
+    "name": "Vaso Colorato Ceramica Fantasia Fiori",
+    "category": "casa",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL2DKYQM&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL2DKYQM?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-02T14:40:49.031179",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CGH7WLNK",
+    "asin": "B0CGH7WLNK",
+    "name": "Candela Profumata Colorata Soia Arcobaleno",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-02T14:40:51.235763",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0CST9GCX4",
     "asin": "B0CST9GCX4",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-09-13T13:17:03.522736",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0C586QLB6",
-    "asin": "B0C586QLB6",
-    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
-    "category": "idee-regalo",
-    "price": 26.15,
-    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-09-12T12:06:17.998540",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CXNQ7KPL",
-    "asin": "B0CXNQ7KPL",
-    "name": "Mocassini Donna Colorati Comfort Loafer",
-    "category": "scarpe",
-    "price": 28.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-09-12T12:07:26.212861",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09W5SGRPB",
-    "asin": "B09W5SGRPB",
-    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
-    "category": "scarpe",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-09-12T12:07:27.469135",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BL4XQKWN",
-    "asin": "B0BL4XQKWN",
-    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
-    "category": "idee-regalo",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-09-12T12:07:29.359183",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CF5QWKPN",
-    "asin": "B0CF5QWKPN",
-    "name": "Stampa Arte Colorata Astratta Quadro Camera",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF5QWKPN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF5QWKPN?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-12T12:07:31.212682",
     "status": "published"
   }
 ];
