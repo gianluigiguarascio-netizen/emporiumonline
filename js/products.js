@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 02/10/2026 14:40
+// Aggiornato automaticamente il 03/10/2026 13:17
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0DNKFDVCK",
+    "asin": "B0DNKFDVCK",
+    "name": "ANGELO Pochette da Donna Glitterata, Borsa a Mano e Spalla con Strass, Clutch Brillantinata da Sera Elegante, Borsa Glit",
+    "category": "borse",
+    "price": 51.7,
+    "image": "https://m.media-amazon.com/images/I/41dHKcEYFgL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DNKFDVCK?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-10-03T13:15:58.390047",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CN5XQKPL",
+    "asin": "B0CN5XQKPL",
+    "name": "Hub USB Colorato 7 Porte Arcobaleno",
+    "category": "gadget",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN5XQKPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-03T13:17:11.300295",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0D8XKNQPL",
+    "asin": "B0D8XKNQPL",
+    "name": "Set Matite Acquerellabili Colorate 48 Pz Artisti",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D8XKNQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-03T13:17:13.220521",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BL4XQKWN",
+    "asin": "B0BL4XQKWN",
+    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
+    "category": "idee-regalo",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-03T13:17:15.304311",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CL7XKQNP",
+    "asin": "B0CL7XKQNP",
+    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-03T13:17:17.494491",
+    "status": "published"
+  },
   {
     "id": "casa-B0CXNK4QPL",
     "asin": "B0CXNK4QPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-09-14T14:58:18.895268",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0HJ6XT7T5",
-    "asin": "B0HJ6XT7T5",
-    "name": "Orecchini colorati da indossare tutti i giorni, 10 paia, leggeri e comodi",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41WCC3x1hXL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0HJ6XT7T5?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-13T13:15:35.248924",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DLW55MZ6",
-    "asin": "B0DLW55MZ6",
-    "name": "Orecchini a forma di cupcake dai colori vivaci per donne, orecchini colorati in pelle a goccia per le donne alla moda, o",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41M98atc4vL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DLW55MZ6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-13T13:15:38.785267",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DJY4BQ9Q",
-    "asin": "B0DJY4BQ9Q",
-    "name": "Orecchini Pendenti Floreali Colorati In Tessuto Leggero Per Donna Set Di 2 Orecchini Con Fiori Multicolori Accessori Mod",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31J6O7dBPPL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DJY4BQ9Q?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-13T13:15:42.294828",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0H46K9K1T",
-    "asin": "B0H46K9K1T",
-    "name": "Eleganti orecchini rotondi in acrilico con colori vivaci e design alla moda, adatti per uscite casual, eventi e feste",
-    "category": "accessori",
-    "price": 11.19,
-    "image": "https://m.media-amazon.com/images/I/31Lkdj4x-DL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0H46K9K1T?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-13T13:15:49.348236",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DBQMZZRH",
-    "asin": "B0DBQMZZRH",
-    "name": "Fioriera Viso Colorata Decorazione Giardino",
-    "category": "casa",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DBQMZZRH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-13T13:17:03.522736",
     "status": "published"
   }
 ];
