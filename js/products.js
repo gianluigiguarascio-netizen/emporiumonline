@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 03/10/2026 13:17
+// Aggiornato automaticamente il 04/10/2026 13:53
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B07XVTF1QT",
+    "asin": "B07XVTF1QT",
+    "name": "Revlon Super Lustrous Glass Shine Lipstick Glazed Mauve, Rossetto Labbra Dal Colore Brillante, Formula Cremosa e Idratan",
+    "category": "beauty",
+    "price": 15.68,
+    "image": "https://m.media-amazon.com/images/I/317T-QIL3kL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B07XVTF1QT?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-04T13:52:45.333778",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BXWKQPNL",
+    "asin": "B0BXWKQPNL",
+    "name": "Tazza Colorata Cambia Colore Termica Magica",
+    "category": "idee-regalo",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXWKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXWKQPNL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-04T13:53:53.503260",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0D3NXKQPL",
+    "asin": "B0D3NXKQPL",
+    "name": "Borsa a Mano Donna Colorata Intreccio",
+    "category": "borse",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NXKQPL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-10-04T13:53:55.579021",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0C7KXPRTV",
+    "asin": "B0C7KXPRTV",
+    "name": "Spilla Colorata Donna Fiore Smalto",
+    "category": "accessori",
+    "price": 4.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7KXPRTV&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C7KXPRTV?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-10-04T13:53:57.222296",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CW8XNKQL",
+    "asin": "B0CW8XNKQL",
+    "name": "Mascara Colorato Blu Verde Viola Waterproof",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW8XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW8XNKQL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-04T13:53:58.591352",
+    "status": "published"
+  },
   {
     "id": "borse-B0DNKFDVCK",
     "asin": "B0DNKFDVCK",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-09-15T13:25:51.269892",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CRJ5K4WP",
-    "asin": "B0CRJ5K4WP",
-    "name": "Marsupio Colorato Fantasia Donna Uomo",
-    "category": "borse",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRJ5K4WP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CRJ5K4WP?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-14T14:58:12.468890",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BWKL7XS8",
-    "asin": "B0BWKL7XS8",
-    "name": "Bracciale Colorato Perle Donna Set",
-    "category": "accessori",
-    "price": 7.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKL7XS8&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BWKL7XS8?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-14T14:58:14.259224",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0B8VK3LHF",
-    "asin": "B0B8VK3LHF",
-    "name": "Cuscino Colorato Arcobaleno Divano Decorativo",
-    "category": "casa",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B8VK3LHF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B8VK3LHF?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-14T14:58:15.820345",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CXQ8NKLP",
-    "asin": "B0CXQ8NKLP",
-    "name": "Pochette Trasparente Colorata Donna",
-    "category": "borse",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-14T14:58:17.323094",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CN8QXKLP",
-    "asin": "B0CN8QXKLP",
-    "name": "Set Bracciali Colorati Bohemian Donna 12 Pz",
-    "category": "accessori",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8QXKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8QXKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-14T14:58:18.895268",
     "status": "published"
   }
 ];
