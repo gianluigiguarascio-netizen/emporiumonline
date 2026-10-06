@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 05/10/2026 17:04
+// Aggiornato automaticamente il 06/10/2026 15:00
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0BWKL7XS8",
+    "asin": "B0BWKL7XS8",
+    "name": "Bracciale Colorato Perle Donna Set",
+    "category": "accessori",
+    "price": 7.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKL7XS8&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BWKL7XS8?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-10-06T15:00:29.558010",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CN8XQKPL",
+    "asin": "B0CN8XQKPL",
+    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
+    "category": "casa",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-06T15:00:31.888275",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CW5XNKPL",
+    "asin": "B0CW5XNKPL",
+    "name": "Calendario Avvento Colorato Adulti Beauty",
+    "category": "idee-regalo",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW5XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-06T15:00:33.766626",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0D5QXNKLP",
+    "asin": "B0D5QXNKLP",
+    "name": "Cornice Foto Colorata Arcobaleno Design",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5QXNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D5QXNKLP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-06T15:00:35.271090",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0C1QKHMFG",
+    "asin": "B0C1QKHMFG",
+    "name": "Rossetto Colorato Set 12 Toni Brillanti",
+    "category": "beauty",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C1QKHMFG&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C1QKHMFG?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-06T15:00:37.378724",
+    "status": "published"
+  },
   {
     "id": "casa-B0GZH8WX3Y",
     "asin": "B0GZH8WX3Y",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-09-17T13:20:47.761286",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0FQHY9GTP",
-    "asin": "B0FQHY9GTP",
-    "name": "AIMEILI Kit Semipermanente Unghie Rosa 12 Colori Smalto Semipermanente Unghie UV LED Soak Off Smalti Gel Colorati Nail A",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51r3t8QnomL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FQHY9GTP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-09-16T13:23:30.722863",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0H2Z2XZ71",
-    "asin": "B0H2Z2XZ71",
-    "name": "Smalto colorato per unghie UV/LED, strumento per manicure",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41yoh3J8lDL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0H2Z2XZ71?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-09-16T13:23:34.867326",
-    "status": "published"
-  },
-  {
-    "id": "casa-B09X6RKRPW",
-    "asin": "B09X6RKRPW",
-    "name": "Elefante Graffiti Colorato Decorazione Casa",
-    "category": "casa",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09X6RKRPW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09X6RKRPW?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-16T13:24:51.587041",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0B9XKQPNL",
-    "asin": "B0B9XKQPNL",
-    "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",
-    "category": "abbigliamento",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9XKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0B9XKQPNL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-09-16T13:24:53.502553",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CN5XLKQW",
-    "asin": "B0CN5XLKQW",
-    "name": "Kit Pittura Acrilica Colorata 24 Colori",
-    "category": "idee-regalo",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XLKQW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5XLKQW?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-09-16T13:24:55.446102",
     "status": "published"
   }
 ];
