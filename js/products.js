@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 08/10/2026 15:30
+// Aggiornato automaticamente il 09/10/2026 15:12
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0GLHLZP7B",
+    "asin": "B0GLHLZP7B",
+    "name": "Scarpe da ginnastica da donna arcobaleno con strass, scarpe da ginnastica da donna scintillanti e colorate, senza lacci,",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51DC+rupbqL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GLHLZP7B?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-09T15:11:29.420555",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0G7FSCW14",
+    "asin": "B0G7FSCW14",
+    "name": "Generisch Scarpe glitterate da donna, costume di carnevale, arcobaleno, rockabilly, scarpe da discoteca, colorate e lumi",
+    "category": "scarpe",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/319Dyg2d2vL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0G7FSCW14?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-09T15:11:34.501173",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CRJ5K4WP",
+    "asin": "B0CRJ5K4WP",
+    "name": "Marsupio Colorato Fantasia Donna Uomo",
+    "category": "borse",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRJ5K4WP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CRJ5K4WP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-10-09T15:12:45.858529",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CJQG3TLN",
+    "asin": "B0CJQG3TLN",
+    "name": "T-Shirt Donna Arcobaleno Stampa Colorata",
+    "category": "abbigliamento",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CJQG3TLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CJQG3TLN?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-09T15:12:47.718026",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D3NQXKPL",
+    "asin": "B0D3NQXKPL",
+    "name": "Maxi Dress Donna Colorato Fantasia Tropicale",
+    "category": "abbigliamento",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NQXKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NQXKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-09T15:12:49.865238",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0BN5XKQPL",
     "asin": "B0BN5XKQPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-09-20T13:01:08.996969",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0HHKRMQP8",
-    "asin": "B0HHKRMQP8",
-    "name": "Orecchini colorati da indossare tutti i giorni, 10 paia, leggeri e comodi",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51yhac+sLPL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0HHKRMQP8?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-19T12:25:55.960738",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0F5624HMZ",
-    "asin": "B0F5624HMZ",
-    "name": "Bellissimi orecchini in pelle stampata su entrambi i lati con fiori colorati int e forma di gocce d&#39;acqua, creativi,",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41cr5428BFL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0F5624HMZ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-19T12:26:02.436553",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0HK4GWFFD",
-    "asin": "B0HK4GWFFD",
-    "name": "36 Paia Orecchini per stud Cartone Animato Resina 36 Paia Orecchini",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/4124bxY5KnL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0HK4GWFFD?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-19T12:26:06.164486",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0DD5FMVZF",
-    "asin": "B0DD5FMVZF",
-    "name": "Fascia per capelli elastica in cotone a righe colorate, per yoga e meditazione, stile hippie e bohémien, bandana fatta a",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51avkY9X9tL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DD5FMVZF?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-19T12:26:15.970499",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CX4QNKLP",
-    "asin": "B0CX4QNKLP",
-    "name": "Blazer Donna Colorato Fantasia Primavera",
-    "category": "abbigliamento",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX4QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CX4QNKLP?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-09-19T12:27:25.497960",
     "status": "published"
   }
 ];
