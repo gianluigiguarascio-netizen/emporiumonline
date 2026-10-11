@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 10/10/2026 14:25
+// Aggiornato automaticamente il 11/10/2026 14:52
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0FN8656MV",
+    "asin": "B0FN8656MV",
+    "name": "Tappeto 3D Trama Colorata Astratta Tappeti Camera Da Letto - Antiscivolo Lavabile Flanella Tappeto - Tappeto Soggiorno M",
+    "category": "casa",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51LQmKCO6IL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FN8656MV?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-11T14:51:07.933054",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CW5XNKQL",
+    "asin": "B0CW5XNKQL",
+    "name": "Coprisedili per Jaguar per XF per F-Pace per E-Pace per I-Pace per X-Type XE XJ XK Coprisedile Auto Tutti I Modelli di A",
+    "category": "borse",
+    "price": 26.99,
+    "image": "https://m.media-amazon.com/images/I/41bjr+dR+yL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKQL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-10-11T14:52:19.154253",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CXQ8NKLP",
+    "asin": "B0CXQ8NKLP",
+    "name": "Pochette Trasparente Colorata Donna",
+    "category": "borse",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-10-11T14:52:21.452809",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D8NXKQPL",
+    "asin": "B0D8NXKQPL",
+    "name": "Maglione Donna Colorato Strisce Oversize",
+    "category": "abbigliamento",
+    "price": 32.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D8NXKQPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-11T14:52:23.753081",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN5XLKQW",
+    "asin": "B0CN5XLKQW",
+    "name": "Kit Pittura Acrilica Colorata 24 Colori",
+    "category": "idee-regalo",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XLKQW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN5XLKQW?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-11T14:52:25.420397",
+    "status": "published"
+  },
   {
     "id": "gadget-B07S765TXC",
     "asin": "B07S765TXC",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-09-22T13:20:51.411223",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0HCLTXRKP",
-    "asin": "B0HCLTXRKP",
-    "name": "Mouse da gioco cablato di seconda generazione con 8 DPI effetto arcobaleno LIGHTSYNC RGB tasti programmabili mappatura d",
-    "category": "gadget",
-    "price": 11.99,
-    "image": "https://m.media-amazon.com/images/I/31ZdGu6zf9L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0HCLTXRKP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-21T15:01:58.652760",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0B66HR128",
-    "asin": "B0B66HR128",
-    "name": "Mouse PC e tastiera USB Colorato Gaming Arcobaleno Wired Retroilluminato con LED Gaming Gamer Mouse Tastiera e Mouse Mou",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51LPQScV+LL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0B66HR128?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-21T15:02:02.275193",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B099N3HLYF",
-    "asin": "B099N3HLYF",
-    "name": "Set tastiera e mouse da gioco wireless compatti al 60%, 3800mAh Type-c Ricaricabile RGB Arcobaleno Tastiera illuminata S",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51cfNBCF7EL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B099N3HLYF?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-21T15:02:06.149907",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B079FSMJ58",
-    "asin": "B079FSMJ58",
-    "name": "BAKTH Tastiera e Mouse da Gioco, Arcobaleno LED Retroilluminato USB per Videogiochi o Lavoro, Paragonabile a Una Meccani",
-    "category": "gadget",
-    "price": 43.57,
-    "image": "https://m.media-amazon.com/images/I/51T8aRsc5cL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B079FSMJ58?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-21T15:02:14.877626",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0B4WC8JMM",
-    "asin": "B0B4WC8JMM",
-    "name": "Gamer USB con mouse arcobaleno cablato a LED e tastiera per PC retroilluminata Gaming Colorato Mouse Tastiera e Mouse Mo",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51LPQScV+LL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0B4WC8JMM?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-21T15:02:19.503247",
     "status": "published"
   }
 ];
