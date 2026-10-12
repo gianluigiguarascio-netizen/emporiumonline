@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 11/10/2026 14:52
+// Aggiornato automaticamente il 12/10/2026 17:43
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B0BXQ7NKLP",
+    "asin": "B0BXQ7NKLP",
+    "name": "Slip On Donna Colorate Stampa Leopardata",
+    "category": "scarpe",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-12T17:43:20.788137",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CXNQ7KPL",
+    "asin": "B0CXNQ7KPL",
+    "name": "Mocassini Donna Colorati Comfort Loafer",
+    "category": "scarpe",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-12T17:43:22.548414",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0B3WRBQB7",
+    "asin": "B0B3WRBQB7",
+    "name": "Castamere Donna Basso Gattini Tacco Heel a Punta Cinturino alla Caviglia Pumps Cute Dress Two-Piece Fibbia Sandali 3.5 C",
+    "category": "scarpe",
+    "price": 78.36,
+    "image": "https://m.media-amazon.com/images/I/41QMuevOEtL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-12T17:43:26.022675",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0FLCS5FB2",
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
+    "category": "abbigliamento",
+    "price": 6.76,
+    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-12T17:43:29.986468",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CF9LYKWQ",
+    "asin": "B0CF9LYKWQ",
+    "name": "Sneakers Platform Donna Arcobaleno",
+    "category": "scarpe",
+    "price": 34.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9LYKWQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF9LYKWQ?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-12T17:43:31.656052",
+    "status": "published"
+  },
   {
     "id": "casa-B0FN8656MV",
     "asin": "B0FN8656MV",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-09-23T13:34:33.183877",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CGP4WLKQ",
-    "asin": "B0CGP4WLKQ",
-    "name": "Agenda Colorata 2025 Planner Settimanale",
-    "category": "idee-regalo",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-09-22T13:20:46.016639",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BN7XKQPL",
-    "asin": "B0BN7XKQPL",
-    "name": "Detergente Viso Colorato Arcobaleno Vitamina C",
-    "category": "beauty",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN7XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BN7XKQPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-09-22T13:20:47.435961",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0BMXW5MQH",
-    "asin": "B0BMXW5MQH",
-    "name": "Cardigan Donna Multicolor Lungo Boho",
-    "category": "abbigliamento",
-    "price": 31.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BMXW5MQH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BMXW5MQH?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-09-22T13:20:48.828178",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0D5XKNQPL",
-    "asin": "B0D5XKNQPL",
-    "name": "Balsamo Labbra Colorato SPF Set 12 Colori",
-    "category": "beauty",
-    "price": 7.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-09-22T13:20:50.019084",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D1KQXNPL",
-    "asin": "B0D1KQXNPL",
-    "name": "Short Donna Colorati Fantasia Estivi Casual",
-    "category": "abbigliamento",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-09-22T13:20:51.411223",
     "status": "published"
   }
 ];
