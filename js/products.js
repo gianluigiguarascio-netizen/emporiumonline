@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 13/10/2026 15:51
+// Aggiornato automaticamente il 14/10/2026 13:36
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0C586QLB6",
+    "asin": "B0C586QLB6",
+    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
+    "category": "idee-regalo",
+    "price": 28.39,
+    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-14T13:34:42.368607",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0H4VD2KYS",
+    "asin": "B0H4VD2KYS",
+    "name": "Colourbook Scatola Cancelleria 1 Kg, Lilla",
+    "category": "idee-regalo",
+    "price": 19.63,
+    "image": "https://m.media-amazon.com/images/I/41oxRMQEQIL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0H4VD2KYS?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-14T13:34:46.410317",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CN7XQKPL",
+    "asin": "B0CN7XQKPL",
+    "name": "Sandali Donna Colorati Fiocco Estate Flat",
+    "category": "scarpe",
+    "price": 20.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN7XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN7XQKPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-14T13:35:59.357129",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0BL6SPWLR",
+    "asin": "B0BL6SPWLR",
+    "name": "Jumpsuit Donna Colorata Floreale",
+    "category": "abbigliamento",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL6SPWLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL6SPWLR?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-14T13:36:01.210228",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D5XKNQPL",
+    "asin": "B0D5XKNQPL",
+    "name": "Stivaletti Donna Colorati Chelsea Elastici",
+    "category": "scarpe",
+    "price": 34.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-14T13:36:02.923132",
+    "status": "published"
+  },
   {
     "id": "casa-B07FYFQRMY",
     "asin": "B07FYFQRMY",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-09-25T13:36:00.841093",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B09QW44CTZ",
-    "asin": "B09QW44CTZ",
-    "name": "4 in 1 Cablata RGB Gioco Set Compatible with UK Layout Radiosa Membrana Tastiera Luce Arcobaleno Honey Cell Mouse Dinami",
-    "category": "gadget",
-    "price": 33.45,
-    "image": "https://m.media-amazon.com/images/I/51GqtcvrnFL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B09QW44CTZ?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-24T13:28:57.475845",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CM8Y9L33",
-    "asin": "B0CM8Y9L33",
-    "name": "Tastiera e mouse da gioco LED con cavo Combo con 3600 DPI 2 pulsanti laterali Mouse USB retroilluminato arcobaleno pulsa",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51wArrU+JKL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CM8Y9L33?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-24T13:29:07.700566",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B09PW4LMFK",
-    "asin": "B09PW4LMFK",
-    "name": "Parure Bijoux Colorati Donna Collana Orecchini",
-    "category": "accessori",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09PW4LMFK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09PW4LMFK?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-24T13:30:19.012008",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF4XWKNQ",
-    "asin": "B0CF4XWKNQ",
-    "name": "Espadrillas Donna Colorate Corda Estate",
-    "category": "scarpe",
-    "price": 23.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF4XWKNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF4XWKNQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-09-24T13:30:20.462586",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CXQ5NKLP",
-    "asin": "B0CXQ5NKLP",
-    "name": "Lampada Neon Colorata LED Personalizzabile",
-    "category": "idee-regalo",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ5NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ5NKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-09-24T13:30:21.731620",
     "status": "published"
   }
 ];
