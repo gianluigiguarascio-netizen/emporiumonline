@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 14/10/2026 13:36
+// Aggiornato automaticamente il 15/10/2026 13:19
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B0H6CYB6XW",
+    "asin": "B0H6CYB6XW",
+    "name": "Palette di Ombretti Glitter, 40 Colori Tavolozza di Trucco Glitter",
+    "category": "beauty",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51zmumFxCcL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0H6CYB6XW?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-15T13:17:56.682777",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CFWKLNQX",
+    "asin": "B0CFWKLNQX",
+    "name": "Portafoto Colorato Polaroid Galleria Parete",
+    "category": "idee-regalo",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-15T13:19:05.764113",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CN4XKQPW",
+    "asin": "B0CN4XKQPW",
+    "name": "Tuta Donna Colorata Floreale Jumpsuit Estiva",
+    "category": "abbigliamento",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN4XKQPW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN4XKQPW?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-15T13:19:07.567373",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CQ5WXNKP",
+    "asin": "B0CQ5WXNKP",
+    "name": "Mules Colorati Donna Tacco Basso Comfort",
+    "category": "scarpe",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-10-15T13:19:09.046775",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CX4QNKLP",
+    "asin": "B0CX4QNKLP",
+    "name": "Blazer Donna Colorato Fantasia Primavera",
+    "category": "abbigliamento",
+    "price": 39.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX4QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX4QNKLP?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-15T13:19:11.413348",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0C586QLB6",
     "asin": "B0C586QLB6",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-09-26T12:58:23.739832",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CVXK8PLN",
-    "asin": "B0CVXK8PLN",
-    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
-    "category": "scarpe",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-09-25T13:35:53.582311",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0BSGVWQCX",
-    "asin": "B0BSGVWQCX",
-    "name": "527 Sandali sportivi donna Scarpe da donna, sandali piatti traspiranti, sandali morbidi alla moda per le scarpe da spiag",
-    "category": "borse",
-    "price": 16.99,
-    "image": "https://m.media-amazon.com/images/I/41fL7hJrWOL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BSGVWQCX?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-25T13:35:55.519275",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CF2KLMQS",
-    "asin": "B0CF2KLMQS",
-    "name": "Sveglia Colorata Retrò Design Camera",
-    "category": "casa",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF2KLMQS&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF2KLMQS?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-25T13:35:57.394814",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BQX4WKLP",
-    "asin": "B0BQX4WKLP",
-    "name": "Libro da Colorare Adulti Antistress Mandala",
-    "category": "idee-regalo",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQX4WKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BQX4WKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-09-25T13:35:58.716854",
-    "status": "published"
-  },
-  {
-    "id": "borse-B09XMKLFVQ",
-    "asin": "B09XMKLFVQ",
-    "name": "Borsello Colorato Donna Tracolla Boho",
-    "category": "borse",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09XMKLFVQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09XMKLFVQ?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-25T13:36:00.841093",
     "status": "published"
   }
 ];
