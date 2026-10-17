@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 16/10/2026 13:10
+// Aggiornato automaticamente il 17/10/2026 12:05
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0CFWLP8K3",
+    "asin": "B0CFWLP8K3",
+    "name": "Custodia per telefono colorata boho arcobaleno compatibile con iPhone 15 Plus, custodia artistica moderna con arcobaleni",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/410iBytzU9L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CFWLP8K3?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-17T12:05:40.722669",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0GTQYW3MP",
+    "asin": "B0GTQYW3MP",
+    "name": "Cover per Samsung Galaxy S25 Ultra Arcobaleno Tolleranza Colorato",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31ri8hvFnSL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0GTQYW3MP?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-17T12:05:44.517899",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0C4GW5K4V",
+    "asin": "B0C4GW5K4V",
+    "name": "Miagon Colorato Laser Custodia per iPhone 13,Cover Arcobaleno Iridescente Glitter Gradiente Olografici Duro PC Antiurto ",
+    "category": "gadget",
+    "price": 12.21,
+    "image": "https://m.media-amazon.com/images/I/41Lx5B8MNkL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0C4GW5K4V?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-17T12:05:50.217881",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0B1PMDQH5",
+    "asin": "B0B1PMDQH5",
+    "name": "Cover per Apple iPhone 5C con matite colorate arcobaleno",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/41LMLDfTwhL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0B1PMDQH5?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-17T12:05:55.483309",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0B5DK6K1N",
+    "asin": "B0B5DK6K1N",
+    "name": "Custodia cover nera morbida in tpu compatibile per iPhone 13 colorata fantasia vortice marmo arcobaleno gialla verde blu",
+    "category": "gadget",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/51daBQB2zrL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0B5DK6K1N?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-17T12:05:59.969901",
+    "status": "published"
+  },
   {
     "id": "beauty-B08NDYQ1PC",
     "asin": "B08NDYQ1PC",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-09-28T16:42:48.439049",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C5K7X2BL",
-    "asin": "B0C5K7X2BL",
-    "name": "Borsa Donna Colorata Tessuto Estate",
-    "category": "borse",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-27T13:49:24.824817",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0D2XNKQPL",
-    "asin": "B0D2XNKQPL",
-    "name": "Collana Choker Colorata Perle Arcobaleno",
-    "category": "accessori",
-    "price": 6.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2XNKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D2XNKQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-09-27T13:49:26.728057",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CQ4XNKPL",
-    "asin": "B0CQ4XNKPL",
-    "name": "Tovagliette Colorate Set 6 Fantasia Cotone",
-    "category": "casa",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ4XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CQ4XNKPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-09-27T13:49:28.073903",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D2NXKQPL",
-    "asin": "B0D2NXKQPL",
-    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
-    "category": "gadget",
-    "price": 32.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-09-27T13:49:30.278114",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CL7KQFXR",
-    "asin": "B0CL7KQFXR",
-    "name": "Clutch Colorata Satin Sera Donna",
-    "category": "borse",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7KQFXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL7KQFXR?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-09-27T13:49:32.379060",
     "status": "published"
   }
 ];
