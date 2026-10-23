@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 22/10/2026 13:42
+// Aggiornato automaticamente il 23/10/2026 13:18
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0D3MKQX7P",
+    "asin": "B0D3MKQX7P",
+    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
+    "category": "abbigliamento",
+    "price": 25.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-23T13:18:41.510518",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BPXQKLNR",
+    "asin": "B0BPXQKLNR",
+    "name": "Webcam Colorata HD 1080p Streaming",
+    "category": "gadget",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPXQKLNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPXQKLNR?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-23T13:18:43.451535",
+    "status": "published"
+  },
+  {
+    "id": "borse-B09XMKLFVQ",
+    "asin": "B09XMKLFVQ",
+    "name": "Borsello Colorato Donna Tracolla Boho",
+    "category": "borse",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09XMKLFVQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09XMKLFVQ?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-10-23T13:18:45.323178",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CGX4WKQR",
+    "asin": "B0CGX4WKQR",
+    "name": "Matite Occhi Colorate Set 16 Colori Waterproof",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGX4WKQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGX4WKQR?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-23T13:18:46.713922",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CL4XNKQP",
+    "asin": "B0CL4XNKQP",
+    "name": "Gel UV Colorato Set 36 Colori Nail Art",
+    "category": "beauty",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-23T13:18:48.896733",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B08QFGW88R",
     "asin": "B08QFGW88R",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-10-04T13:53:58.591352",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0DNKFDVCK",
-    "asin": "B0DNKFDVCK",
-    "name": "ANGELO Pochette da Donna Glitterata, Borsa a Mano e Spalla con Strass, Clutch Brillantinata da Sera Elegante, Borsa Glit",
-    "category": "borse",
-    "price": 51.7,
-    "image": "https://m.media-amazon.com/images/I/41dHKcEYFgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DNKFDVCK?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-10-03T13:15:58.390047",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CN5XQKPL",
-    "asin": "B0CN5XQKPL",
-    "name": "Hub USB Colorato 7 Porte Arcobaleno",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5XQKPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-03T13:17:11.300295",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0D8XKNQPL",
-    "asin": "B0D8XKNQPL",
-    "name": "Set Matite Acquerellabili Colorate 48 Pz Artisti",
-    "category": "idee-regalo",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D8XKNQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-03T13:17:13.220521",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BL4XQKWN",
-    "asin": "B0BL4XQKWN",
-    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
-    "category": "idee-regalo",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-03T13:17:15.304311",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CL7XKQNP",
-    "asin": "B0CL7XKQNP",
-    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
-    "category": "idee-regalo",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-03T13:17:17.494491",
     "status": "published"
   }
 ];
