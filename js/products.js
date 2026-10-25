@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 24/10/2026 12:37
+// Aggiornato automaticamente il 25/10/2026 13:20
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0CW7XNKQL",
+    "asin": "B0CW7XNKQL",
+    "name": "Altoparlante Bluetooth Colorato Waterproof",
+    "category": "gadget",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW7XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW7XNKQL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-25T13:20:05.559093",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CF5QWKPN",
+    "asin": "B0CF5QWKPN",
+    "name": "Stampa Arte Colorata Astratta Quadro Camera",
+    "category": "casa",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF5QWKPN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF5QWKPN?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-25T13:20:07.780981",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CWQ4NKLX",
+    "asin": "B0CWQ4NKLX",
+    "name": "Orecchini a Cerchio Colorati Resina Grande",
+    "category": "accessori",
+    "price": 7.49,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWQ4NKLX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CWQ4NKLX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-10-25T13:20:09.585705",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0C7KXPRTV",
+    "asin": "B0C7KXPRTV",
+    "name": "Spilla Colorata Donna Fiore Smalto",
+    "category": "accessori",
+    "price": 4.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7KXPRTV&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C7KXPRTV?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-10-25T13:20:11.680303",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0BT6LQPXR",
+    "asin": "B0BT6LQPXR",
+    "name": "Portavasi Colorato Ceramica Set 3 Pezzi",
+    "category": "casa",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BT6LQPXR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BT6LQPXR?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-10-25T13:20:13.719348",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0HD6M48GG",
     "asin": "B0HD6M48GG",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-10-06T15:00:37.378724",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0GZH8WX3Y",
-    "asin": "B0GZH8WX3Y",
-    "name": "Statuetta colorata di gatto, figura da tavolo di gatto Statuette colorate",
-    "category": "casa",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51424dPpdgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GZH8WX3Y?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-05T17:03:52.891375",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DDGSW16D",
-    "asin": "B0DDGSW16D",
-    "name": "Statuetta colorata di gatto, scultura colorata di gatto, statuetta",
-    "category": "casa",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51TUy65AzkL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DDGSW16D?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-05T17:03:56.889184",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DBHYBK7S",
-    "asin": "B0DBHYBK7S",
-    "name": "Statuetta colorata di gatto, statuetta di coppia di gatti, statua colorata",
-    "category": "casa",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51TUy65AzkL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DBHYBK7S?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-05T17:04:02.087963",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0GD5175K7",
-    "asin": "B0GD5175K7",
-    "name": "Statua Raffigurante Un Cavallo Statuetta Animale Astratta Colorata",
-    "category": "casa",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41jk+JXHCpL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GD5175K7?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-05T17:04:07.339345",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DNDWGMZC",
-    "asin": "B0DNDWGMZC",
-    "name": "Statua da giardino di nano colorata con statuetta a fungo | Decorazione nana da giardino in resina – Statue per l&#39;ar",
-    "category": "casa",
-    "price": 43.33,
-    "image": "https://m.media-amazon.com/images/I/51LM9EoePCL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DNDWGMZC?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-05T17:04:11.891163",
     "status": "published"
   }
 ];
