@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 25/10/2026 13:20
+// Aggiornato automaticamente il 26/10/2026 15:06
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0DNKFDVCK",
+    "asin": "B0DNKFDVCK",
+    "name": "ANGELO Pochette da Donna Glitterata, Borsa a Mano e Spalla con Strass, Clutch Brillantinata da Sera Elegante, Borsa Glit",
+    "category": "borse",
+    "price": 42.27,
+    "image": "https://m.media-amazon.com/images/I/41dHKcEYFgL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0DNKFDVCK?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-10-26T15:05:20.372896",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN3XQKPL",
+    "asin": "B0CN3XQKPL",
+    "name": "Gioco da Tavolo Colorato Famiglia Divertente",
+    "category": "idee-regalo",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN3XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN3XQKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-26T15:06:31.868071",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0D4KXNQPL",
+    "asin": "B0D4KXNQPL",
+    "name": "Supporto Telefono Colorato Scrivania Flessibile",
+    "category": "gadget",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4KXNQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-10-26T15:06:33.185740",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0BMXW5MQH",
+    "asin": "B0BMXW5MQH",
+    "name": "Cardigan Donna Multicolor Lungo Boho",
+    "category": "abbigliamento",
+    "price": 31.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BMXW5MQH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BMXW5MQH?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-10-26T15:06:34.840957",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0C7S2H8KN",
+    "asin": "B0C7S2H8KN",
+    "name": "Palette Ombretti Colorati 12 Colori Glitter",
+    "category": "beauty",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7S2H8KN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C7S2H8KN?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-26T15:06:36.584104",
+    "status": "published"
+  },
   {
     "id": "gadget-B0CW7XNKQL",
     "asin": "B0CW7XNKQL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-10-07T15:29:00.675300",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BWKL7XS8",
-    "asin": "B0BWKL7XS8",
-    "name": "Bracciale Colorato Perle Donna Set",
-    "category": "accessori",
-    "price": 7.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKL7XS8&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BWKL7XS8?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-06T15:00:29.558010",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CN8XQKPL",
-    "asin": "B0CN8XQKPL",
-    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
-    "category": "casa",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-06T15:00:31.888275",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CW5XNKPL",
-    "asin": "B0CW5XNKPL",
-    "name": "Calendario Avvento Colorato Adulti Beauty",
-    "category": "idee-regalo",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW5XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-06T15:00:33.766626",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0D5QXNKLP",
-    "asin": "B0D5QXNKLP",
-    "name": "Cornice Foto Colorata Arcobaleno Design",
-    "category": "casa",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5QXNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5QXNKLP?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-06T15:00:35.271090",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0C1QKHMFG",
-    "asin": "B0C1QKHMFG",
-    "name": "Rossetto Colorato Set 12 Toni Brillanti",
-    "category": "beauty",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C1QKHMFG&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C1QKHMFG?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-06T15:00:37.378724",
     "status": "published"
   }
 ];
