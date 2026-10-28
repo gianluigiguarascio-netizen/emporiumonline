@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 27/10/2026 14:19
+// Aggiornato automaticamente il 28/10/2026 15:01
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B01N2747TL",
+    "asin": "B01N2747TL",
+    "name": "Moon Glow Rossetto Neon UV - Rossetto colorato al neon brillante - Si illumina sotto i raggi UV, Bianco, 1 conteggio (co",
+    "category": "beauty",
+    "price": 7.02,
+    "image": "https://m.media-amazon.com/images/I/31-MmWFNafL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B01N2747TL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-28T15:00:33.087774",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BZQ7XMRK",
+    "asin": "B0BZQ7XMRK",
+    "name": "Smalto Colorato Set 24 Pezzi Nail Art",
+    "category": "beauty",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZQ7XMRK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BZQ7XMRK?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-10-28T15:01:42.243332",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0BL4XQKWN",
+    "asin": "B0BL4XQKWN",
+    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
+    "category": "idee-regalo",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-28T15:01:44.221753",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CL7XKQNP",
+    "asin": "B0CL7XKQNP",
+    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-10-28T15:01:46.336562",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0C8NQ9LVX",
+    "asin": "B0C8NQ9LVX",
+    "name": "Fascia Capelli Colorata Floreale Donna",
+    "category": "accessori",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-10-28T15:01:48.235259",
+    "status": "published"
+  },
   {
     "id": "casa-B0D7XKNQPL",
     "asin": "B0D7XKNQPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-10-09T15:12:49.865238",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BN5XKQPL",
-    "asin": "B0BN5XKQPL",
-    "name": "Kit Macramè Colorato Principianti Decorazione",
-    "category": "idee-regalo",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN5XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BN5XKQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-08T15:29:57.738870",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09W5SGRPB",
-    "asin": "B09W5SGRPB",
-    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
-    "category": "scarpe",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-08T15:29:59.782513",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0DBQMZZRH",
-    "asin": "B0DBQMZZRH",
-    "name": "Fioriere Colorate E Astratte, Vasi di Fioriera Testa Astratta, Fioriera Astratta in Resina, Vaso da Fiori con Viso Astra",
-    "category": "casa",
-    "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/41zBuZ2dgzL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-08T15:30:02.871589",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CF7WKLNQ",
-    "asin": "B0CF7WKLNQ",
-    "name": "Spray Capelli Colorato Temporaneo Lavabile",
-    "category": "beauty",
-    "price": 8.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF7WKLNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF7WKLNQ?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-08T15:30:04.285142",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09Q4GPFJD",
-    "asin": "B09Q4GPFJD",
-    "name": "Mules Donna Colorate Tacco Kitten",
-    "category": "scarpe",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09Q4GPFJD&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09Q4GPFJD?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-08T15:30:06.306219",
     "status": "published"
   }
 ];
