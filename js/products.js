@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 31/10/2026 14:28
+// Aggiornato automaticamente il 01/11/2026 14:56
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "casa-B0CL2DKYQM",
+    "asin": "B0CL2DKYQM",
+    "name": "Vaso Colorato Ceramica Fantasia Fiori",
+    "category": "casa",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL2DKYQM&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL2DKYQM?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-11-01T14:56:42.877195",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0DBQMZZRH",
+    "asin": "B0DBQMZZRH",
+    "name": "Fioriera Viso Colorata Decorazione Giardino",
+    "category": "casa",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DBQMZZRH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0DBQMZZRH?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-11-01T14:56:44.409668",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CG9W3TWN",
+    "asin": "B0CG9W3TWN",
+    "name": "Sandali Gladiatore Donna Colorati Estivi",
+    "category": "scarpe",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CG9W3TWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CG9W3TWN?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-01T14:56:45.966370",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CXNK4QPL",
+    "asin": "B0CXNK4QPL",
+    "name": "Ombrello Colorato Arcobaleno Antivento Donna",
+    "category": "casa",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXNK4QPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-11-01T14:56:47.556885",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CF2KLMQS",
+    "asin": "B0CF2KLMQS",
+    "name": "Sveglia Colorata Retrò Design Camera",
+    "category": "casa",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF2KLMQS&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF2KLMQS?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-11-01T14:56:49.696795",
+    "status": "published"
+  },
   {
     "id": "scarpe-B0D411DMR1",
     "asin": "B0D411DMR1",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-10-13T15:51:19.456216",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0BXQ7NKLP",
-    "asin": "B0BXQ7NKLP",
-    "name": "Slip On Donna Colorate Stampa Leopardata",
-    "category": "scarpe",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-12T17:43:20.788137",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CXNQ7KPL",
-    "asin": "B0CXNQ7KPL",
-    "name": "Mocassini Donna Colorati Comfort Loafer",
-    "category": "scarpe",
-    "price": 28.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXNQ7KPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXNQ7KPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-12T17:43:22.548414",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0B3WRBQB7",
-    "asin": "B0B3WRBQB7",
-    "name": "Castamere Donna Basso Gattini Tacco Heel a Punta Cinturino alla Caviglia Pumps Cute Dress Two-Piece Fibbia Sandali 3.5 C",
-    "category": "scarpe",
-    "price": 78.36,
-    "image": "https://m.media-amazon.com/images/I/41QMuevOEtL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-12T17:43:26.022675",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0FLCS5FB2",
-    "asin": "B0FLCS5FB2",
-    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
-    "category": "abbigliamento",
-    "price": 6.76,
-    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-12T17:43:29.986468",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF9LYKWQ",
-    "asin": "B0CF9LYKWQ",
-    "name": "Sneakers Platform Donna Arcobaleno",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF9LYKWQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF9LYKWQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-12T17:43:31.656052",
     "status": "published"
   }
 ];
