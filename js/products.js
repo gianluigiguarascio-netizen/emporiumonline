@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 02/11/2026 18:09
+// Aggiornato automaticamente il 03/11/2026 16:03
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0CW5XNKQL",
+    "asin": "B0CW5XNKQL",
+    "name": "Coprisedili per Jaguar per XF per F-Pace per E-Pace per I-Pace per X-Type XE XJ XK Coprisedile Auto Tutti I Modelli di A",
+    "category": "borse",
+    "price": 26.99,
+    "image": "https://m.media-amazon.com/images/I/41bjr+dR+yL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CW5XNKQL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-03T16:03:47.105418",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0BXQ7NKLP",
+    "asin": "B0BXQ7NKLP",
+    "name": "Slip On Donna Colorate Stampa Leopardata",
+    "category": "scarpe",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQ7NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BXQ7NKLP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-03T16:03:49.038682",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BHGXK1FZ",
+    "asin": "B0BHGXK1FZ",
+    "name": "Cover Colorata iPhone Arcobaleno Antiurto",
+    "category": "gadget",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BHGXK1FZ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BHGXK1FZ?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-11-03T16:03:50.600539",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0D4XKNQPL",
+    "asin": "B0D4XKNQPL",
+    "name": "Borsa Paglia Colorata Estate Donna Spiaggia",
+    "category": "borse",
+    "price": 17.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4XKNQPL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-03T16:03:52.956268",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D48KJW57",
+    "asin": "B0D48KJW57",
+    "name": "NobleOnly Mary Jane Scarpe Donna Chunky Blocco Tacco Heel Cinturino alla Caviglia Dress Chiusa Quadrata Punta Pumps Diam",
+    "category": "scarpe",
+    "price": 71.77,
+    "image": "https://m.media-amazon.com/images/I/41BiYCGbRqL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D48KJW57?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-03T16:03:56.017627",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0CN5XLKQW",
     "asin": "B0CN5XLKQW",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-10-15T13:19:11.413348",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0C586QLB6",
-    "asin": "B0C586QLB6",
-    "name": "HappyGoLucky 208 Kit Colori per Bambini, Matite Colorate Pastelli a Cera Acquerelli Pastelli a Olio, Regalo Bambina 3-10",
-    "category": "idee-regalo",
-    "price": 28.39,
-    "image": "https://m.media-amazon.com/images/I/61Cj+iiY0TL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C586QLB6?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-14T13:34:42.368607",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0H4VD2KYS",
-    "asin": "B0H4VD2KYS",
-    "name": "Colourbook Scatola Cancelleria 1 Kg, Lilla",
-    "category": "idee-regalo",
-    "price": 19.63,
-    "image": "https://m.media-amazon.com/images/I/41oxRMQEQIL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0H4VD2KYS?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-14T13:34:46.410317",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CN7XQKPL",
-    "asin": "B0CN7XQKPL",
-    "name": "Sandali Donna Colorati Fiocco Estate Flat",
-    "category": "scarpe",
-    "price": 20.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN7XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN7XQKPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-14T13:35:59.357129",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0BL6SPWLR",
-    "asin": "B0BL6SPWLR",
-    "name": "Jumpsuit Donna Colorata Floreale",
-    "category": "abbigliamento",
-    "price": 28.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL6SPWLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BL6SPWLR?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-14T13:36:01.210228",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D5XKNQPL",
-    "asin": "B0D5XKNQPL",
-    "name": "Stivaletti Donna Colorati Chelsea Elastici",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-14T13:36:02.923132",
     "status": "published"
   }
 ];
