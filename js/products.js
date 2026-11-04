@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 03/11/2026 16:03
+// Aggiornato automaticamente il 04/11/2026 16:09
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "beauty-B00CMFQVAE",
+    "asin": "B00CMFQVAE",
+    "name": "Revlon Rossetto super brillante, formula cremosa per labbra morbide e dall&#39;aspetto pieno, sensazione idratata, vellu",
+    "category": "beauty",
+    "price": 3.96,
+    "image": "https://m.media-amazon.com/images/I/315vTg-N9CL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B00CMFQVAE?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-04T16:07:41.020761",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CVLGGP7W",
+    "asin": "B0CVLGGP7W",
+    "name": "Maybelline New York Rossetto Liquido, Effetto Vinilico, Fino a 16H di Tenuta, Colore Brillante Senza Sbavature, Super St",
+    "category": "beauty",
+    "price": 11.97,
+    "image": "https://m.media-amazon.com/images/I/31Ah10A10+L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0CVLGGP7W?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-04T16:07:45.875753",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CRJ5K4WP",
+    "asin": "B0CRJ5K4WP",
+    "name": "Marsupio Colorato Fantasia Donna Uomo",
+    "category": "borse",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRJ5K4WP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CRJ5K4WP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-04T16:08:58.027145",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CN7XQKPL",
+    "asin": "B0CN7XQKPL",
+    "name": "Sandali Donna Colorati Fiocco Estate Flat",
+    "category": "scarpe",
+    "price": 20.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN7XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN7XQKPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-04T16:09:00.186178",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0D5QXNKLP",
+    "asin": "B0D5QXNKLP",
+    "name": "Cornice Foto Colorata Arcobaleno Design",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5QXNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D5QXNKLP?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-11-04T16:09:02.375816",
+    "status": "published"
+  },
   {
     "id": "borse-B0CW5XNKQL",
     "asin": "B0CW5XNKQL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f472b6",
     "offerBadge": true,
     "importedAt": "2026-10-16T13:10:48.860857",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0H6CYB6XW",
-    "asin": "B0H6CYB6XW",
-    "name": "Palette di Ombretti Glitter, 40 Colori Tavolozza di Trucco Glitter",
-    "category": "beauty",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51zmumFxCcL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0H6CYB6XW?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-15T13:17:56.682777",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CFWKLNQX",
-    "asin": "B0CFWKLNQX",
-    "name": "Portafoto Colorato Polaroid Galleria Parete",
-    "category": "idee-regalo",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFWKLNQX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CFWKLNQX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-15T13:19:05.764113",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CN4XKQPW",
-    "asin": "B0CN4XKQPW",
-    "name": "Tuta Donna Colorata Floreale Jumpsuit Estiva",
-    "category": "abbigliamento",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN4XKQPW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN4XKQPW?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-15T13:19:07.567373",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CQ5WXNKP",
-    "asin": "B0CQ5WXNKP",
-    "name": "Mules Colorati Donna Tacco Basso Comfort",
-    "category": "scarpe",
-    "price": 26.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-15T13:19:09.046775",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CX4QNKLP",
-    "asin": "B0CX4QNKLP",
-    "name": "Blazer Donna Colorato Fantasia Primavera",
-    "category": "abbigliamento",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX4QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CX4QNKLP?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-15T13:19:11.413348",
     "status": "published"
   }
 ];
