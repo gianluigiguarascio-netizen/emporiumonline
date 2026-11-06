@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 05/11/2026 16:23
+// Aggiornato automaticamente il 06/11/2026 15:51
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "borse-B0C3HM5P7Y",
+    "asin": "B0C3HM5P7Y",
+    "name": "Zaino Colorato Scuola Ragazze Arcobaleno",
+    "category": "borse",
+    "price": 22.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C3HM5P7Y&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C3HM5P7Y?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-06T15:51:46.589402",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CGH7WLNK",
+    "asin": "B0CGH7WLNK",
+    "name": "Candela Profumata Colorata Soia Arcobaleno",
+    "category": "casa",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-11-06T15:51:48.672826",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BSGVWQCX",
+    "asin": "B0BSGVWQCX",
+    "name": "527 Sandali sportivi donna Scarpe da donna, sandali piatti traspiranti, sandali morbidi alla moda per le scarpe da spiag",
+    "category": "borse",
+    "price": 16.99,
+    "image": "https://m.media-amazon.com/images/I/41fL7hJrWOL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0BSGVWQCX?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-06T15:51:51.778227",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0BPWQK3TN",
+    "asin": "B0BPWQK3TN",
+    "name": "Shopper Colorata Tela Fantasia Donna",
+    "category": "borse",
+    "price": 15.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPWQK3TN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPWQK3TN?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-06T15:51:53.162966",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D5XKNQPL",
+    "asin": "B0D5XKNQPL",
+    "name": "Stivaletti Donna Colorati Chelsea Elastici",
+    "category": "scarpe",
+    "price": 34.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-06T15:51:54.550903",
+    "status": "published"
+  },
   {
     "id": "beauty-B0H2Z2XZ71",
     "asin": "B0H2Z2XZ71",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#818cf8",
     "offerBadge": true,
     "importedAt": "2026-10-18T12:34:21.909433",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CFWLP8K3",
-    "asin": "B0CFWLP8K3",
-    "name": "Custodia per telefono colorata boho arcobaleno compatibile con iPhone 15 Plus, custodia artistica moderna con arcobaleni",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/410iBytzU9L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0CFWLP8K3?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-17T12:05:40.722669",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0GTQYW3MP",
-    "asin": "B0GTQYW3MP",
-    "name": "Cover per Samsung Galaxy S25 Ultra Arcobaleno Tolleranza Colorato",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/31ri8hvFnSL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GTQYW3MP?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-17T12:05:44.517899",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0C4GW5K4V",
-    "asin": "B0C4GW5K4V",
-    "name": "Miagon Colorato Laser Custodia per iPhone 13,Cover Arcobaleno Iridescente Glitter Gradiente Olografici Duro PC Antiurto ",
-    "category": "gadget",
-    "price": 12.21,
-    "image": "https://m.media-amazon.com/images/I/41Lx5B8MNkL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0C4GW5K4V?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-17T12:05:50.217881",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0B1PMDQH5",
-    "asin": "B0B1PMDQH5",
-    "name": "Cover per Apple iPhone 5C con matite colorate arcobaleno",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41LMLDfTwhL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0B1PMDQH5?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-17T12:05:55.483309",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0B5DK6K1N",
-    "asin": "B0B5DK6K1N",
-    "name": "Custodia cover nera morbida in tpu compatibile per iPhone 13 colorata fantasia vortice marmo arcobaleno gialla verde blu",
-    "category": "gadget",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51daBQB2zrL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0B5DK6K1N?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-17T12:05:59.969901",
     "status": "published"
   }
 ];
