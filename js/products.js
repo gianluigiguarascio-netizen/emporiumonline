@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 08/11/2026 14:59
+// Aggiornato automaticamente il 09/11/2026 18:40
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0H36M2FCZ",
+    "asin": "B0H36M2FCZ",
+    "name": "Generico Abito da Donna Estivo a Pois Floreale Multicolore Scollatura a V Senza Maniche Elegante Casual Leggero Fresco T",
+    "category": "abbigliamento",
+    "price": null,
+    "image": "https://m.media-amazon.com/images/I/31YUpf3qvOL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0H36M2FCZ?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-09T18:38:52.334547",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B07BFLS3KF",
+    "asin": "B07BFLS3KF",
+    "name": "Sneakers Donna Multicolor Leggere Running",
+    "category": "scarpe",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BFLS3KF&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B07BFLS3KF?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-09T18:39:59.020769",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0D3KXNQPL",
+    "asin": "B0D3KXNQPL",
+    "name": "Foundation Colorata BB Cream SPF30 Vari Toni",
+    "category": "beauty",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3KXNQPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-09T18:40:00.845302",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B09W5SGRPB",
+    "asin": "B09W5SGRPB",
+    "name": "Scarpe Ginnastica Donna Colorate Mesh Traspiranti",
+    "category": "scarpe",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W5SGRPB&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09W5SGRPB?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-09T18:40:02.084684",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BN7XKQPL",
+    "asin": "B0BN7XKQPL",
+    "name": "Detergente Viso Colorato Arcobaleno Vitamina C",
+    "category": "beauty",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BN7XKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BN7XKQPL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-09T18:40:03.318443",
+    "status": "published"
+  },
   {
     "id": "accessori-B0HC65LFSY",
     "asin": "B0HC65LFSY",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#2dd4bf",
     "offerBadge": true,
     "importedAt": "2026-10-21T13:40:53.791071",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0FNRPJVG7",
-    "asin": "B0FNRPJVG7",
-    "name": "Mazovia Tappeti Colorato Infantile Strade - Camera dei bambini - Pile Corto Rettangolo Certificato OEKO-TEX® Colorato - ",
-    "category": "casa",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51Ez30r8fcL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0FNRPJVG7?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-20T13:29:46.267955",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0C9HQPLXW",
-    "asin": "B0C9HQPLXW",
-    "name": "Tappeto Colorato Camera Ragazzi Antiscivolo",
-    "category": "casa",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C9HQPLXW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C9HQPLXW?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-20T13:30:53.421188",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CGP4WLKQ",
-    "asin": "B0CGP4WLKQ",
-    "name": "Agenda Colorata 2025 Planner Settimanale",
-    "category": "idee-regalo",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-20T13:30:54.737470",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CF4XWKNQ",
-    "asin": "B0CF4XWKNQ",
-    "name": "Espadrillas Donna Colorate Corda Estate",
-    "category": "scarpe",
-    "price": 23.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF4XWKNQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CF4XWKNQ?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-20T13:30:56.225275",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0CVXK8PLN",
-    "asin": "B0CVXK8PLN",
-    "name": "Sneakers Donna Chunky Colorata Platform Rainbow",
-    "category": "scarpe",
-    "price": 39.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CVXK8PLN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CVXK8PLN?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-20T13:30:58.132905",
     "status": "published"
   }
 ];
