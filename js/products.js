@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 09/11/2026 18:40
+// Aggiornato automaticamente il 10/11/2026 16:21
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0BSWKQFMR",
+    "asin": "B0BSWKQFMR",
+    "name": "Mouse Wireless Colorato Silenzioso Arcobaleno",
+    "category": "gadget",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BSWKQFMR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BSWKQFMR?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-11-10T16:21:40.701944",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09NVD51JY",
+    "asin": "B09NVD51JY",
+    "name": "Orecchini Colorati Arcobaleno Donna Resina",
+    "category": "accessori",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09NVD51JY&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09NVD51JY?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-10T16:21:42.961795",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CX4QNKLP",
+    "asin": "B0CX4QNKLP",
+    "name": "Blazer Donna Colorato Fantasia Primavera",
+    "category": "abbigliamento",
+    "price": 39.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX4QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX4QNKLP?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-10T16:21:44.642353",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0B9XKQPNL",
+    "asin": "B0B9XKQPNL",
+    "name": "Leggings Donna Colorati Fantasia Floreale Sportivi",
+    "category": "abbigliamento",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9XKQPNL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B9XKQPNL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-10T16:21:46.306026",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CQ5WXNKP",
+    "asin": "B0CQ5WXNKP",
+    "name": "Mules Colorati Donna Tacco Basso Comfort",
+    "category": "scarpe",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ5WXNKP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQ5WXNKP?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-10T16:21:47.792754",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0H36M2FCZ",
     "asin": "B0H36M2FCZ",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#fb923c",
     "offerBadge": true,
     "importedAt": "2026-10-22T13:42:32.533903",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B09TZFVGLH",
-    "asin": "B09TZFVGLH",
-    "name": "Ballerine Donna Colorate Comfort Flat",
-    "category": "scarpe",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09TZFVGLH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09TZFVGLH?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-10-21T13:40:45.907448",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0CFPKN4QR",
-    "asin": "B0CFPKN4QR",
-    "name": "Cintura Colorata Donna Tessuto Boho",
-    "category": "accessori",
-    "price": 9.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFPKN4QR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CFPKN4QR?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-21T13:40:47.366616",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0CWX8NKQP",
-    "asin": "B0CWX8NKQP",
-    "name": "Camicia Donna Colorata Fantasia Boho Stampa",
-    "category": "abbigliamento",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CWX8NKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CWX8NKQP?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-21T13:40:49.498474",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CXQ5NKLP",
-    "asin": "B0CXQ5NKLP",
-    "name": "Lampada Neon Colorata LED Personalizzabile",
-    "category": "idee-regalo",
-    "price": 27.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ5NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXQ5NKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-21T13:40:51.749878",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0D5KQXNLP",
-    "asin": "B0D5KQXNLP",
-    "name": "Cappello Colorato Estivo Paglia Fiori",
-    "category": "accessori",
-    "price": 13.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5KQXNLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5KQXNLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-21T13:40:53.791071",
     "status": "published"
   }
 ];
