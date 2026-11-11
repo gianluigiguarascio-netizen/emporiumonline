@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 10/11/2026 16:21
+// Aggiornato automaticamente il 11/11/2026 16:02
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0D2XNKQPL",
+    "asin": "B0D2XNKQPL",
+    "name": "Collana Choker Colorata Perle Arcobaleno",
+    "category": "accessori",
+    "price": 6.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2XNKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D2XNKQPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-11T16:02:16.231544",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0BWKL7XS8",
+    "asin": "B0BWKL7XS8",
+    "name": "Bracciale Colorato Perle Donna Set",
+    "category": "accessori",
+    "price": 7.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKL7XS8&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BWKL7XS8?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-11T16:02:18.309482",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CGP4WLKQ",
+    "asin": "B0CGP4WLKQ",
+    "name": "Agenda Colorata 2025 Planner Settimanale",
+    "category": "idee-regalo",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGP4WLKQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CGP4WLKQ?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-11-11T16:02:19.646771",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CXQ3NKLP",
+    "asin": "B0CXQ3NKLP",
+    "name": "Highlighter Colorato Illuminante Glitter Viso",
+    "category": "beauty",
+    "price": 10.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ3NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ3NKLP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-11T16:02:21.389587",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D8NXKQPL",
+    "asin": "B0D8NXKQPL",
+    "name": "Maglione Donna Colorato Strisce Oversize",
+    "category": "abbigliamento",
+    "price": 32.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D8NXKQPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-11T16:02:23.658044",
+    "status": "published"
+  },
   {
     "id": "gadget-B0BSWKQFMR",
     "asin": "B0BSWKQFMR",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-10-23T13:18:48.896733",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B08QFGW88R",
-    "asin": "B08QFGW88R",
-    "name": "Tie Dye Kit 18 Colori - Tintura Tessuti, Coloranti Stoffe Vivaci per Shirt, DIY Pittura di Vestiti - Polveri All-in-1 pe",
-    "category": "abbigliamento",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/61cVZyFbJ+L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B08QFGW88R?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-22T13:41:18.228968",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0GLGLDBP1",
-    "asin": "B0GLGLDBP1",
-    "name": "Maglietta Divertente con Motivo Tie-Dye e Spirale Colorata",
-    "category": "abbigliamento",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/51FzWo3ty8L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0GLGLDBP1?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-22T13:41:22.323940",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D1KQXNPL",
-    "asin": "B0D1KQXNPL",
-    "name": "Short Donna Colorati Fantasia Estivi Casual",
-    "category": "abbigliamento",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-22T13:42:29.020951",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0CN5RQF8P",
-    "asin": "B0CN5RQF8P",
-    "name": "Borsa Zaino Colorato Donna Glitter",
-    "category": "borse",
-    "price": 24.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5RQF8P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5RQF8P?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-10-22T13:42:30.571982",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C5K7X2BL",
-    "asin": "B0C5K7X2BL",
-    "name": "Borsa Donna Colorata Tessuto Estate",
-    "category": "borse",
-    "price": 18.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-10-22T13:42:32.533903",
     "status": "published"
   }
 ];
