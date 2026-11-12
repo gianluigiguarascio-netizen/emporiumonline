@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 11/11/2026 16:02
+// Aggiornato automaticamente il 12/11/2026 16:45
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0CF8L2V4R",
+    "asin": "B0CF8L2V4R",
+    "name": "Abito Estivo Donna Colorato Fantasia Tropicale",
+    "category": "abbigliamento",
+    "price": 26.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CF8L2V4R&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CF8L2V4R?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-12T16:45:03.025905",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CXQ5NKLP",
+    "asin": "B0CXQ5NKLP",
+    "name": "Lampada Neon Colorata LED Personalizzabile",
+    "category": "idee-regalo",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ5NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ5NKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-11-12T16:45:04.812519",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CW8XNKQL",
+    "asin": "B0CW8XNKQL",
+    "name": "Mascara Colorato Blu Verde Viola Waterproof",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW8XNKQL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CW8XNKQL?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-12T16:45:06.151338",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0C5K7X2BL",
+    "asin": "B0C5K7X2BL",
+    "name": "Borsa Donna Colorata Tessuto Estate",
+    "category": "borse",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C5K7X2BL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C5K7X2BL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-12T16:45:08.108743",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0D1KQXNPL",
+    "asin": "B0D1KQXNPL",
+    "name": "Short Donna Colorati Fantasia Estivi Casual",
+    "category": "abbigliamento",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D1KQXNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D1KQXNPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-12T16:45:09.940218",
+    "status": "published"
+  },
   {
     "id": "accessori-B0D2XNKQPL",
     "asin": "B0D2XNKQPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#a78bfa",
     "offerBadge": true,
     "importedAt": "2026-10-24T12:37:09.249787",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0D3MKQX7P",
-    "asin": "B0D3MKQX7P",
-    "name": "Vestito Donna Floreale Colorato Maniche Lunghe",
-    "category": "abbigliamento",
-    "price": 25.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3MKQX7P&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D3MKQX7P?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-23T13:18:41.510518",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BPXQKLNR",
-    "asin": "B0BPXQKLNR",
-    "name": "Webcam Colorata HD 1080p Streaming",
-    "category": "gadget",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPXQKLNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BPXQKLNR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-23T13:18:43.451535",
-    "status": "published"
-  },
-  {
-    "id": "borse-B09XMKLFVQ",
-    "asin": "B09XMKLFVQ",
-    "name": "Borsello Colorato Donna Tracolla Boho",
-    "category": "borse",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09XMKLFVQ&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09XMKLFVQ?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-10-23T13:18:45.323178",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CGX4WKQR",
-    "asin": "B0CGX4WKQR",
-    "name": "Matite Occhi Colorate Set 16 Colori Waterproof",
-    "category": "beauty",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGX4WKQR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGX4WKQR?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-23T13:18:46.713922",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0CL4XNKQP",
-    "asin": "B0CL4XNKQP",
-    "name": "Gel UV Colorato Set 36 Colori Nail Art",
-    "category": "beauty",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-23T13:18:48.896733",
     "status": "published"
   }
 ];
