@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 12/11/2026 16:45
+// Aggiornato automaticamente il 13/11/2026 16:06
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "abbigliamento-B0D3NQXKPL",
+    "asin": "B0D3NQXKPL",
+    "name": "Maxi Dress Donna Colorato Fantasia Tropicale",
+    "category": "abbigliamento",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NQXKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NQXKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-13T16:06:13.266820",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CN4XKQPW",
+    "asin": "B0CN4XKQPW",
+    "name": "Tuta Donna Colorata Floreale Jumpsuit Estiva",
+    "category": "abbigliamento",
+    "price": 27.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN4XKQPW&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN4XKQPW?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-13T16:06:15.134633",
+    "status": "published"
+  },
+  {
+    "id": "casa-B0CN8XQKPL",
+    "asin": "B0CN8XQKPL",
+    "name": "Organizer Scrivania Colorato Acrilico Arcobaleno",
+    "category": "casa",
+    "price": 18.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN8XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN8XQKPL?tag=prezzotop08-21",
+    "clr1": "#38bdf8",
+    "clr2": "#06b6d4",
+    "offerBadge": true,
+    "importedAt": "2026-11-13T16:06:17.085702",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0BPXQKLNR",
+    "asin": "B0BPXQKLNR",
+    "name": "Webcam Colorata HD 1080p Streaming",
+    "category": "gadget",
+    "price": 29.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPXQKLNR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BPXQKLNR?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-11-13T16:06:19.275540",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B09YFKH7DX",
+    "asin": "B09YFKH7DX",
+    "name": "Top Tie Dye Colorato Donna Crop",
+    "category": "abbigliamento",
+    "price": 12.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09YFKH7DX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09YFKH7DX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-13T16:06:21.259148",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0CF8L2V4R",
     "asin": "B0CF8L2V4R",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-10-25T13:20:13.719348",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0HD6M48GG",
-    "asin": "B0HD6M48GG",
-    "name": "Maglietta da ragazzo con stampa tie dye, scollo rotondo, effetto stampa colorata",
-    "category": "abbigliamento",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41atZWNTiNL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0HD6M48GG?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-24T12:35:47.438933",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0D8XKNQPL",
-    "asin": "B0D8XKNQPL",
-    "name": "Set Matite Acquerellabili Colorate 48 Pz Artisti",
-    "category": "idee-regalo",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D8XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D8XKNQPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-24T12:37:02.886500",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BNXK4QPL",
-    "asin": "B0BNXK4QPL",
-    "name": "Sciarpa Colorata Donna Fantasia Floreale Seta",
-    "category": "accessori",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNXK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BNXK4QPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-24T12:37:05.072394",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CN5XQKPL",
-    "asin": "B0CN5XQKPL",
-    "name": "Hub USB Colorato 7 Porte Arcobaleno",
-    "category": "gadget",
-    "price": 17.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN5XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN5XQKPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-24T12:37:06.893895",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BQX4WKLP",
-    "asin": "B0BQX4WKLP",
-    "name": "Libro da Colorare Adulti Antistress Mandala",
-    "category": "idee-regalo",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQX4WKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BQX4WKLP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-24T12:37:09.249787",
     "status": "published"
   }
 ];
