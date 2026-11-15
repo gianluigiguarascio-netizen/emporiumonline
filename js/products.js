@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 14/11/2026 14:57
+// Aggiornato automaticamente il 15/11/2026 15:34
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0CXKQWNPL",
+    "asin": "B0CXKQWNPL",
+    "name": "Set Regalo Colorato Donna Cura Corpo SPA",
+    "category": "idee-regalo",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKQWNPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXKQWNPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-11-15T15:34:34.099364",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CQX7NKPL",
+    "asin": "B0CQX7NKPL",
+    "name": "Canotta Donna Colorata Tie Dye Arcobaleno",
+    "category": "abbigliamento",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQX7NKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CQX7NKPL?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-15T15:34:37.397361",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0B3WRBQB7",
+    "asin": "B0B3WRBQB7",
+    "name": "Castamere Donna Basso Gattini Tacco Heel a Punta Cinturino alla Caviglia Pumps Cute Dress Two-Piece Fibbia Sandali 3.5 C",
+    "category": "scarpe",
+    "price": 77.41,
+    "image": "https://m.media-amazon.com/images/I/41QMuevOEtL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0B3WRBQB7?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-15T15:34:40.926930",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0CH2P4Q9F",
+    "asin": "B0CH2P4Q9F",
+    "name": "Pantaloni Donna Colorati Fantasia Boho Larghi",
+    "category": "abbigliamento",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CH2P4Q9F&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CH2P4Q9F?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-15T15:34:43.138501",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0CL4XNKQP",
+    "asin": "B0CL4XNKQP",
+    "name": "Gel UV Colorato Set 36 Colori Nail Art",
+    "category": "beauty",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL4XNKQP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL4XNKQP?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-15T15:34:45.236799",
+    "status": "published"
+  },
   {
     "id": "abbigliamento-B0CLFKQQ7G",
     "asin": "B0CLFKQQ7G",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-10-27T14:19:49.030266",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0DNKFDVCK",
-    "asin": "B0DNKFDVCK",
-    "name": "ANGELO Pochette da Donna Glitterata, Borsa a Mano e Spalla con Strass, Clutch Brillantinata da Sera Elegante, Borsa Glit",
-    "category": "borse",
-    "price": 42.27,
-    "image": "https://m.media-amazon.com/images/I/41dHKcEYFgL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0DNKFDVCK?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-10-26T15:05:20.372896",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CN3XQKPL",
-    "asin": "B0CN3XQKPL",
-    "name": "Gioco da Tavolo Colorato Famiglia Divertente",
-    "category": "idee-regalo",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN3XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CN3XQKPL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-26T15:06:31.868071",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D4KXNQPL",
-    "asin": "B0D4KXNQPL",
-    "name": "Supporto Telefono Colorato Scrivania Flessibile",
-    "category": "gadget",
-    "price": 9.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D4KXNQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-26T15:06:33.185740",
-    "status": "published"
-  },
-  {
-    "id": "abbigliamento-B0BMXW5MQH",
-    "asin": "B0BMXW5MQH",
-    "name": "Cardigan Donna Multicolor Lungo Boho",
-    "category": "abbigliamento",
-    "price": 31.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BMXW5MQH&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BMXW5MQH?tag=prezzotop08-21",
-    "clr1": "#a78bfa",
-    "clr2": "#818cf8",
-    "offerBadge": true,
-    "importedAt": "2026-10-26T15:06:34.840957",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0C7S2H8KN",
-    "asin": "B0C7S2H8KN",
-    "name": "Palette Ombretti Colorati 12 Colori Glitter",
-    "category": "beauty",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C7S2H8KN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C7S2H8KN?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-26T15:06:36.584104",
     "status": "published"
   }
 ];
