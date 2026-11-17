@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 16/11/2026 18:19
+// Aggiornato automaticamente il 17/11/2026 17:32
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "idee-regalo-B0BQX4WKLP",
+    "asin": "B0BQX4WKLP",
+    "name": "Libro da Colorare Adulti Antistress Mandala",
+    "category": "idee-regalo",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQX4WKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BQX4WKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-11-17T17:32:34.901598",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0CX7QNKLP",
+    "asin": "B0CX7QNKLP",
+    "name": "Occhiali da Sole Colorati Donna Cat Eye",
+    "category": "accessori",
+    "price": 10.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX7QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX7QNKLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-17T17:32:36.782595",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0D4KXNQPL",
+    "asin": "B0D4KXNQPL",
+    "name": "Supporto Telefono Colorato Scrivania Flessibile",
+    "category": "gadget",
+    "price": 9.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D4KXNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D4KXNQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-11-17T17:32:38.252817",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CN3XQKPL",
+    "asin": "B0CN3XQKPL",
+    "name": "Gioco da Tavolo Colorato Famiglia Divertente",
+    "category": "idee-regalo",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN3XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN3XQKPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-11-17T17:32:40.358768",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0B2WK8LNX",
+    "asin": "B0B2WK8LNX",
+    "name": "Gonna Colorata Midi Donna Fantasia Floreale",
+    "category": "abbigliamento",
+    "price": 19.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2WK8LNX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0B2WK8LNX?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-17T17:32:42.043688",
+    "status": "published"
+  },
   {
     "id": "beauty-B0C7S2H8KN",
     "asin": "B0C7S2H8KN",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#ec4899",
     "offerBadge": true,
     "importedAt": "2026-10-29T15:08:59.447582",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B01N2747TL",
-    "asin": "B01N2747TL",
-    "name": "Moon Glow Rossetto Neon UV - Rossetto colorato al neon brillante - Si illumina sotto i raggi UV, Bianco, 1 conteggio (co",
-    "category": "beauty",
-    "price": 7.02,
-    "image": "https://m.media-amazon.com/images/I/31-MmWFNafL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B01N2747TL?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-28T15:00:33.087774",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BZQ7XMRK",
-    "asin": "B0BZQ7XMRK",
-    "name": "Smalto Colorato Set 24 Pezzi Nail Art",
-    "category": "beauty",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZQ7XMRK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BZQ7XMRK?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-28T15:01:42.243332",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0BL4XQKWN",
-    "asin": "B0BL4XQKWN",
-    "name": "Puzzle Colorato 1000 Pezzi Paesaggio",
-    "category": "idee-regalo",
-    "price": 14.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BL4XQKWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BL4XQKWN?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-28T15:01:44.221753",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B0CL7XKQNP",
-    "asin": "B0CL7XKQNP",
-    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
-    "category": "idee-regalo",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-28T15:01:46.336562",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0C8NQ9LVX",
-    "asin": "B0C8NQ9LVX",
-    "name": "Fascia Capelli Colorata Floreale Donna",
-    "category": "accessori",
-    "price": 5.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-28T15:01:48.235259",
     "status": "published"
   }
 ];
