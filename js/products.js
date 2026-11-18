@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 17/11/2026 17:32
+// Aggiornato automaticamente il 18/11/2026 17:09
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "accessori-B0BNXK4QPL",
+    "asin": "B0BNXK4QPL",
+    "name": "Sciarpa Colorata Donna Fantasia Floreale Seta",
+    "category": "accessori",
+    "price": 8.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNXK4QPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BNXK4QPL?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-18T17:09:08.873675",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D2KXQPFN",
+    "asin": "B0D2KXQPFN",
+    "name": "Maglietta da donna a maniche corte, in cotone, casual, girocollo",
+    "category": "scarpe",
+    "price": 31.99,
+    "image": "https://m.media-amazon.com/images/I/4172E0pJH2L._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0D2KXQPFN?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-18T17:09:11.723811",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0CXQ8NKLP",
+    "asin": "B0CXQ8NKLP",
+    "name": "Pochette Trasparente Colorata Donna",
+    "category": "borse",
+    "price": 14.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXQ8NKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CXQ8NKLP?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-18T17:09:13.385671",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0C8NQ9LVX",
+    "asin": "B0C8NQ9LVX",
+    "name": "Fascia Capelli Colorata Floreale Donna",
+    "category": "accessori",
+    "price": 5.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C8NQ9LVX&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0C8NQ9LVX?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-18T17:09:15.921630",
+    "status": "published"
+  },
+  {
+    "id": "abbigliamento-B0FLCS5FB2",
+    "asin": "B0FLCS5FB2",
+    "name": "Giacca da donna stampata con volant e maniche a 3/4 sul davanti aperto",
+    "category": "abbigliamento",
+    "price": 6.78,
+    "image": "https://m.media-amazon.com/images/I/417uouxPKYL._AC_SX500_.jpg",
+    "amazonLink": "https://www.amazon.it/dp/B0FLCS5FB2?tag=prezzotop08-21",
+    "clr1": "#a78bfa",
+    "clr2": "#818cf8",
+    "offerBadge": true,
+    "importedAt": "2026-11-18T17:09:19.421918",
+    "status": "published"
+  },
   {
     "id": "idee-regalo-B0BQX4WKLP",
     "asin": "B0BQX4WKLP",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#06b6d4",
     "offerBadge": true,
     "importedAt": "2026-10-30T14:59:57.864618",
-    "status": "published"
-  },
-  {
-    "id": "idee-regalo-B00CI6J5JQ",
-    "asin": "B00CI6J5JQ",
-    "name": "CRAYOLA Valigetta Colori Arcobaleno - Kit Creativo con 140 Pezzi Assortiti, Pennarelli, Matite Colorate e Pastelli a cer",
-    "category": "idee-regalo",
-    "price": 27.26,
-    "image": "https://m.media-amazon.com/images/I/51tkALUmYCL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B00CI6J5JQ?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#a78bfa",
-    "offerBadge": true,
-    "importedAt": "2026-10-29T15:07:46.530827",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0BQKXPLVR",
-    "asin": "B0BQKXPLVR",
-    "name": "Powerbank Colorato 10000mAh Compatto",
-    "category": "gadget",
-    "price": 19.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQKXPLVR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BQKXPLVR?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-29T15:08:55.051470",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0D2NXKQPL",
-    "asin": "B0D2NXKQPL",
-    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
-    "category": "gadget",
-    "price": 32.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-29T15:08:56.797021",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B09PW4LMFK",
-    "asin": "B09PW4LMFK",
-    "name": "Parure Bijoux Colorati Donna Collana Orecchini",
-    "category": "accessori",
-    "price": 11.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09PW4LMFK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B09PW4LMFK?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-29T15:08:58.039852",
-    "status": "published"
-  },
-  {
-    "id": "beauty-B0BXQK7NLR",
-    "asin": "B0BXQK7NLR",
-    "name": "Blush Colorato 4 Colori Shimmer Palette",
-    "category": "beauty",
-    "price": 8.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BXQK7NLR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BXQK7NLR?tag=prezzotop08-21",
-    "clr1": "#f472b6",
-    "clr2": "#ec4899",
-    "offerBadge": true,
-    "importedAt": "2026-10-29T15:08:59.447582",
     "status": "published"
   }
 ];
