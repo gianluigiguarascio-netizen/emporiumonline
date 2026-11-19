@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 18/11/2026 17:09
+// Aggiornato automaticamente il 19/11/2026 17:16
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "gadget-B0D2NXKQPL",
+    "asin": "B0D2NXKQPL",
+    "name": "Tastiera Wireless Colorata Rainbow Retroilluminata",
+    "category": "gadget",
+    "price": 32.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D2NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D2NXKQPL?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-11-19T17:16:11.299216",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B09PW4LMFK",
+    "asin": "B09PW4LMFK",
+    "name": "Parure Bijoux Colorati Donna Collana Orecchini",
+    "category": "accessori",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09PW4LMFK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09PW4LMFK?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-19T17:16:12.854604",
+    "status": "published"
+  },
+  {
+    "id": "idee-regalo-B0CL7XKQNP",
+    "asin": "B0CL7XKQNP",
+    "name": "Candele Colorate Aromatiche Set Regalo 6 Pz",
+    "category": "idee-regalo",
+    "price": 16.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CL7XKQNP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CL7XKQNP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#a78bfa",
+    "offerBadge": true,
+    "importedAt": "2026-11-19T17:16:15.117119",
+    "status": "published"
+  },
+  {
+    "id": "beauty-B0BZQ7XMRK",
+    "asin": "B0BZQ7XMRK",
+    "name": "Smalto Colorato Set 24 Pezzi Nail Art",
+    "category": "beauty",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZQ7XMRK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0BZQ7XMRK?tag=prezzotop08-21",
+    "clr1": "#f472b6",
+    "clr2": "#ec4899",
+    "offerBadge": true,
+    "importedAt": "2026-11-19T17:16:17.400865",
+    "status": "published"
+  },
+  {
+    "id": "gadget-B0CX3QNKLP",
+    "asin": "B0CX3QNKLP",
+    "name": "Penna Stilografica Colorata Set Scrittura",
+    "category": "gadget",
+    "price": 11.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CX3QNKLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CX3QNKLP?tag=prezzotop08-21",
+    "clr1": "#fb923c",
+    "clr2": "#f97316",
+    "offerBadge": true,
+    "importedAt": "2026-11-19T17:16:18.813016",
+    "status": "published"
+  },
   {
     "id": "accessori-B0BNXK4QPL",
     "asin": "B0BNXK4QPL",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-10-31T14:28:45.127222",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BVM1WHNL",
-    "asin": "B0BVM1WHNL",
-    "name": "DERAYEE Fascia Elastica Capelli,12 Pezzi Fasce Capelli Yoga Donne in Cotone",
-    "category": "accessori",
-    "price": null,
-    "image": "https://m.media-amazon.com/images/I/41VfMy78H0L._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BVM1WHNL?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-30T14:58:43.193599",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0BNYY6CZP",
-    "asin": "B0BNYY6CZP",
-    "name": "Lampada LED Colorata RGB Design Moderno",
-    "category": "casa",
-    "price": 29.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BNYY6CZP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BNYY6CZP?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-30T14:59:51.889794",
-    "status": "published"
-  },
-  {
-    "id": "gadget-B0CXKLPQWN",
-    "asin": "B0CXKLPQWN",
-    "name": "Pop Socket Colorato Arcobaleno Glitter",
-    "category": "gadget",
-    "price": 5.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CXKLPQWN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CXKLPQWN?tag=prezzotop08-21",
-    "clr1": "#fb923c",
-    "clr2": "#f97316",
-    "offerBadge": true,
-    "importedAt": "2026-10-30T14:59:54.179558",
-    "status": "published"
-  },
-  {
-    "id": "accessori-B0BKW2QVYR",
-    "asin": "B0BKW2QVYR",
-    "name": "Anelli Colorati Set Donna Resina Arcobaleno",
-    "category": "accessori",
-    "price": 8.49,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BKW2QVYR&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BKW2QVYR?tag=prezzotop08-21",
-    "clr1": "#34d399",
-    "clr2": "#2dd4bf",
-    "offerBadge": true,
-    "importedAt": "2026-10-30T14:59:56.250593",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CQ4XNKPL",
-    "asin": "B0CQ4XNKPL",
-    "name": "Tovagliette Colorate Set 6 Fantasia Cotone",
-    "category": "casa",
-    "price": 16.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CQ4XNKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CQ4XNKPL?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-10-30T14:59:57.864618",
     "status": "published"
   }
 ];
