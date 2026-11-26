@@ -1,10 +1,80 @@
 // EmporiumOnline - Catalogo Prodotti
-// Aggiornato automaticamente il 25/11/2026 18:36
+// Aggiornato automaticamente il 26/11/2026 18:20
 // NON modificare manualmente - generato da agent_products.py
 
 window.AMAZON_TAG = "prezzotop08-21";
 
 window.products = [
+  {
+    "id": "scarpe-B09Q4GPFJD",
+    "asin": "B09Q4GPFJD",
+    "name": "Mules Donna Colorate Tacco Kitten",
+    "category": "scarpe",
+    "price": 24.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09Q4GPFJD&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B09Q4GPFJD?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-26T18:20:17.695213",
+    "status": "published"
+  },
+  {
+    "id": "borse-B0D3NXKQPL",
+    "asin": "B0D3NXKQPL",
+    "name": "Borsa a Mano Donna Colorata Intreccio",
+    "category": "borse",
+    "price": 21.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D3NXKQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D3NXKQPL?tag=prezzotop08-21",
+    "clr1": "#fbbf24",
+    "clr2": "#fb923c",
+    "offerBadge": true,
+    "importedAt": "2026-11-26T18:20:19.067128",
+    "status": "published"
+  },
+  {
+    "id": "accessori-B0D5KQXNLP",
+    "asin": "B0D5KQXNLP",
+    "name": "Cappello Colorato Estivo Paglia Fiori",
+    "category": "accessori",
+    "price": 13.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5KQXNLP&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D5KQXNLP?tag=prezzotop08-21",
+    "clr1": "#34d399",
+    "clr2": "#2dd4bf",
+    "offerBadge": true,
+    "importedAt": "2026-11-26T18:20:20.528413",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0D411DMR1",
+    "asin": "B0D411DMR1",
+    "name": "Stivaletti Donna Colorati Tacco Basso Comodi",
+    "category": "scarpe",
+    "price": 28.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D411DMR1&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0D411DMR1?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-26T18:20:22.178439",
+    "status": "published"
+  },
+  {
+    "id": "scarpe-B0CN7XQKPL",
+    "asin": "B0CN7XQKPL",
+    "name": "Sandali Donna Colorati Fiocco Estate Flat",
+    "category": "scarpe",
+    "price": 20.99,
+    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CN7XQKPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
+    "amazonLink": "https://www.amazon.it/dp/B0CN7XQKPL?tag=prezzotop08-21",
+    "clr1": "#ff6b9d",
+    "clr2": "#f472b6",
+    "offerBadge": true,
+    "importedAt": "2026-11-26T18:20:23.615356",
+    "status": "published"
+  },
   {
     "id": "gadget-B0CXKLPQWN",
     "asin": "B0CXKLPQWN",
@@ -1333,76 +1403,6 @@ window.products = [
     "clr2": "#f97316",
     "offerBadge": true,
     "importedAt": "2026-11-07T14:51:38.584780",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0C3HM5P7Y",
-    "asin": "B0C3HM5P7Y",
-    "name": "Zaino Colorato Scuola Ragazze Arcobaleno",
-    "category": "borse",
-    "price": 22.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C3HM5P7Y&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0C3HM5P7Y?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-11-06T15:51:46.589402",
-    "status": "published"
-  },
-  {
-    "id": "casa-B0CGH7WLNK",
-    "asin": "B0CGH7WLNK",
-    "name": "Candela Profumata Colorata Soia Arcobaleno",
-    "category": "casa",
-    "price": 12.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CGH7WLNK&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0CGH7WLNK?tag=prezzotop08-21",
-    "clr1": "#38bdf8",
-    "clr2": "#06b6d4",
-    "offerBadge": true,
-    "importedAt": "2026-11-06T15:51:48.672826",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0BSGVWQCX",
-    "asin": "B0BSGVWQCX",
-    "name": "527 Sandali sportivi donna Scarpe da donna, sandali piatti traspiranti, sandali morbidi alla moda per le scarpe da spiag",
-    "category": "borse",
-    "price": 16.99,
-    "image": "https://m.media-amazon.com/images/I/41fL7hJrWOL._AC_SX500_.jpg",
-    "amazonLink": "https://www.amazon.it/dp/B0BSGVWQCX?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-11-06T15:51:51.778227",
-    "status": "published"
-  },
-  {
-    "id": "borse-B0BPWQK3TN",
-    "asin": "B0BPWQK3TN",
-    "name": "Shopper Colorata Tela Fantasia Donna",
-    "category": "borse",
-    "price": 15.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BPWQK3TN&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0BPWQK3TN?tag=prezzotop08-21",
-    "clr1": "#fbbf24",
-    "clr2": "#fb923c",
-    "offerBadge": true,
-    "importedAt": "2026-11-06T15:51:53.162966",
-    "status": "published"
-  },
-  {
-    "id": "scarpe-B0D5XKNQPL",
-    "asin": "B0D5XKNQPL",
-    "name": "Stivaletti Donna Colorati Chelsea Elastici",
-    "category": "scarpe",
-    "price": 34.99,
-    "image": "https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D5XKNQPL&Format=_SL300_&ID=AsinImage&MarketPlace=IT&ServiceVersion=20070822&WS=1&tag=prezzotop08-21",
-    "amazonLink": "https://www.amazon.it/dp/B0D5XKNQPL?tag=prezzotop08-21",
-    "clr1": "#ff6b9d",
-    "clr2": "#f472b6",
-    "offerBadge": true,
-    "importedAt": "2026-11-06T15:51:54.550903",
     "status": "published"
   }
 ];
